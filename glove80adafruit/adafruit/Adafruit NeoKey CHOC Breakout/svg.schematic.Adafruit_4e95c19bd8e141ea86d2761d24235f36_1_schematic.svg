@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE svg>
+<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg"  gorn="0" xmlns:xml="http://www.w3.org/XML/1998/namespace" enable-background="new 0 0 100.8 72" xml:space="preserve" version="1.1" y="0px" width="1.4in" height="1in" viewBox="0 0 100.8 72" x="0px" id="Layer_1">
+    <desc>
+        <referenceFile>NeoKey CHOC Breakout_flipped_schematic.svg</referenceFile>
+    </desc>
+    <metadata >
+        <sfw >
+            <slices />
+            <sliceSourceBounds  y="0" bottomLeftOrigin="true" width="100.8" height="72" x="0"/>
+        </sfw>
+    </metadata>
+    <g  gorn="0.1" id="schematic">
+        <rect  stroke-linejoin="round" stroke-width="0.9" stroke-linecap="round" stroke="#000000" y="14.4" fill="none" width="71.55" height="43.2" x="14.4"/>
+        <g  transform="matrix(1 0 0 1 44.5772 34.3214)">
+            <text  gorn="0.1.1.0" font-family="'DroidSans'" font-size="2.8" id="label">NeoKey</text>
+        </g>
+        <g  transform="matrix(1 0 0 1 45.9683 37.8214)">
+            <text  gorn="0.1.2.0" font-family="'DroidSans'" font-size="2.8" id="label_00000139254943121336974230000008139754305714155938_">CHOC</text>
+        </g>
+        <g  transform="matrix(1 0 0 1 43.4535 41.1738)">
+            <text  gorn="0.1.3.0" font-family="'DroidSans'" font-size="2.8" id="label_00000066509871182604969460000016525144666708453283_">Breakout</text>
+        </g>
+        <line  stroke-linejoin="round" stroke-width="0.7" stroke-linecap="round" stroke="#787878" x2="14.4" y2="28.8" fill="none" x1="0.35" y1="28.8"/>
+        <rect  gorn="0.1.5" y="28.45" fill="none" width="14.4" height="0.7" id="connector10pin"/>
+        <rect  gorn="0.1.6" y="28.45" fill="none" width="0" height="0.7" id="connector10terminal"/>
+        <g  transform="matrix(1 0 0 1 15.8 29.5)">
+            <text  gorn="0.1.7.0" font-family="'DroidSans'" font-size="2.8" fill="#8C8C8C" id="label10">NEO_IN</text>
+        </g>
+        <line  stroke-linejoin="round" stroke-width="0.7" stroke-linecap="round" stroke="#787878" x2="14.4" y2="36" fill="none" x1="0.35" y1="36"/>
+        <rect  gorn="0.1.9" y="35.65" fill="none" width="14.4" height="0.7" id="connector7pin"/>
+        <rect  gorn="0.1.10" y="35.65" fill="none" width="0" height="0.7" id="connector7terminal"/>
+        <g  transform="matrix(1 0 0 1 15.8 36.7)">
+            <text  gorn="0.1.11.0" font-family="'DroidSans'" font-size="2.8" fill="#8C8C8C" id="label7">NEO_OUT</text>
+        </g>
+        <line  stroke-linejoin="round" stroke-width="0.7" stroke-linecap="round" stroke="#787878" x2="100.45" y2="28.8" fill="none" x1="86.0501" y1="28.8"/>
+        <rect  gorn="0.1.13" y="28.45" fill="none" width="14.4" height="0.7" x="86.4" id="connector8pin"/>
+        <rect  gorn="0.1.14" y="28.45" fill="none" width="0" height="0.7" x="100.8" id="connector8terminal"/>
+        <g  transform="matrix(1 0 0 1 70.4996 29.5)">
+            <text  gorn="0.1.15.0" font-family="'DroidSans'" font-size="2.8" fill="#8C8C8C" id="label8">SWITCHA</text>
+        </g>
+        <line  stroke-linejoin="round" stroke-width="0.7" stroke-linecap="round" stroke="#787878" x2="100.45" y2="36" fill="none" x1="86.0501" y1="36"/>
+        <rect  gorn="0.1.17" y="35.65" fill="none" width="14.4" height="0.7" x="86.4" id="connector9pin"/>
+        <rect  gorn="0.1.18" y="35.65" fill="none" width="0" height="0.7" x="100.8" id="connector9terminal"/>
+        <g  transform="matrix(1 0 0 1 70.5167 36.7)">
+            <text  gorn="0.1.19.0" font-family="'DroidSans'" font-size="2.8" fill="#8C8C8C" id="label9">SWITCHC</text>
+        </g>
+        <line  stroke-linejoin="round" stroke-width="0.7" stroke-linecap="round" stroke="#787878" x2="50.4" y2="14.4" fill="none" x1="50.4" y1="0.35"/>
+        <rect  gorn="0.1.21" y="0" fill="none" width="0.7" height="14.4" x="50.05" id="connector5pin"/>
+        <polygon  gorn="0.1.22" fill="none" points="50.05,0 50.75,0 50.75,0 " id="connector5terminal"/>
+        <g  transform="matrix(1, 0, 0, 1, 51.8, 16)">
+            <g >
+                <g  transform="rotate(270)">
+                    <g >
+                        <g  transform="matrix(1 0 0 1 -6.7764 0)">
+                            <text  gorn="0.1.23.0.0.0.0.0" font-family="'DroidSans'" font-size="2.8" fill="#8C8C8C" id="label5">VDD</text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <line  stroke-linejoin="round" stroke-width="0.7" stroke-linecap="round" stroke="#787878" x2="50.4" y2="71.65" fill="none" x1="50.4" y1="57.6"/>
+        <rect  gorn="0.1.25" y="57.6" fill="none" width="0.7" height="14.4" x="50.05" id="connector6pin"/>
+        <polygon  gorn="0.1.26" fill="none" points="50.05,72 50.75,72 50.75,72 " id="connector6terminal"/>
+        <g  transform="matrix(1, 0, 0, 1, 51.8, 56)">
+            <g >
+                <g  transform="rotate(270)">
+                    <g >
+                        <text  gorn="0.1.27.0.0.0.0" font-family="'DroidSans'" font-size="2.8" fill="#8C8C8C" id="label6">GND</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <rect  gorn="0.1.28" y="0" fill="none" width="0.7" height="14.4" x="50.05" id="connector12pin"/>
+        <polygon  gorn="0.1.29" fill="none" points="50.05,0 50.75,0 50.75,0 " id="connector12terminal"/>
+        <rect  gorn="0.1.30" y="57.6" fill="none" width="0.7" height="14.4" x="50.05" id="connector13pin"/>
+        <polygon  gorn="0.1.31" fill="none" points="50.05,72 50.75,72 50.75,72 " id="connector13terminal"/>
+        <rect  gorn="0.1.32" y="28.45" fill="none" width="14.4" height="0.7" id="connector14pin"/>
+        <rect  gorn="0.1.33" y="28.45" fill="none" width="0" height="0.7" id="connector14terminal"/>
+        <rect  gorn="0.1.34" y="35.65" fill="none" width="14.4" height="0.7" id="connector17pin"/>
+        <rect  gorn="0.1.35" y="35.65" fill="none" width="0" height="0.7" id="connector17terminal"/>
+        <rect  gorn="0.1.36" y="28.45" fill="none" width="14.4" height="0.7" x="86.4" id="connector15pin"/>
+        <rect  gorn="0.1.37" y="28.45" fill="none" width="0" height="0.7" x="100.8" id="connector15terminal"/>
+        <rect  gorn="0.1.38" y="35.65" fill="none" width="14.4" height="0.7" x="86.4" id="connector18pin"/>
+        <rect  gorn="0.1.39" y="35.65" fill="none" width="0" height="0.7" x="100.8" id="connector18terminal"/>
+        <rect  gorn="0.1.40" y="35.65" fill="none" width="14.4" height="0.7" x="86.4" id="connector11pin"/>
+        <rect  gorn="0.1.41" y="35.65" fill="none" width="0" height="0.7" x="100.8" id="connector11terminal"/>
+        <rect  gorn="0.1.42" y="35.65" fill="none" width="14.4" height="0.7" x="86.4" id="connector16pin"/>
+        <rect  gorn="0.1.43" y="35.65" fill="none" width="0" height="0.7" x="100.8" id="connector16terminal"/>
+    </g>
+    <g  transform="matrix(1 0 0 1 44.4628 30.8261)">
+        <text  gorn="0.2.0" font-family="'DroidSans'" font-size="2.8" id="label_00000120520715038685935710000004592435104520395449_">Adafruit</text>
+    </g>
+</svg>
