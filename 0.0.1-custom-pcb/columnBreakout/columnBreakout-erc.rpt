@@ -1,0 +1,27 @@
+ERC report (2026-09-30T19:48:29-0600, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol 'HC-FPC-0.5-6P-FH20' doesn't match copy in library 'EasyEDA'
+    ; warning
+    @(77.47 mm, 48.26 mm): Symbol J3 [HC-FPC-0.5-6P-FH20]
+[lib_symbol_mismatch]: Symbol 'HC-FPC-0.5-6P-FH20' doesn't match copy in library 'EasyEDA'
+    ; warning
+    @(48.26 mm, 105.41 mm): Symbol J2 [HC-FPC-0.5-6P-FH20]
+[lib_symbol_mismatch]: Symbol 'HC-FPC-0.5-6P-FH20' doesn't match copy in library 'EasyEDA'
+    ; warning
+    @(132.08 mm, 46.99 mm): Symbol J5 [HC-FPC-0.5-6P-FH20]
+[lib_symbol_mismatch]: Symbol 'HC-FPC-0.5-6P-FH20' doesn't match copy in library 'EasyEDA'
+    ; warning
+    @(106.68 mm, 106.68 mm): Symbol J4 [HC-FPC-0.5-6P-FH20]
+[lib_symbol_mismatch]: Symbol 'HC-FPC-0.5-6P-FH20' doesn't match copy in library 'EasyEDA'
+    ; warning
+    @(181.61 mm, 45.72 mm): Symbol J7 [HC-FPC-0.5-6P-FH20]
+[lib_symbol_mismatch]: Symbol 'HC-FPC-0.5-6P-FH20' doesn't match copy in library 'EasyEDA'
+    ; warning
+    @(162.56 mm, 106.68 mm): Symbol J6 [HC-FPC-0.5-6P-FH20]
+[lib_symbol_mismatch]: Symbol 'HC-FPC-0.5-12P-FH20' doesn't match copy in library 'EasyEDA'
+    ; warning
+    @(232.41 mm, 80.01 mm): Symbol J1 [HC-FPC-0.5-12P-FH20]
+
+ ** ERC messages: 7  Errors 0  Warnings 7
