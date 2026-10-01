@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "AdafruitNeoKeyChocSocketBreakout-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/AdafruitNeoKeyChocSocketBreakout-eagle-import.kicad_sym")(options "")(descr ""))
+)
