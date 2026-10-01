@@ -2,7 +2,7 @@
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
-	(layer "F.Cu")
+	(layer "B.Cu")
 	(property "Reference" "REF**"
 		(at 1.6225 2.7075 0)
 		(unlocked yes)
@@ -468,4 +468,9 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/LED_SK6812MINI-E.step"
+		(offset (xyz 0 5.08 -1.75))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 180 0 180))
+	)
 )

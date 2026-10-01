@@ -108,4 +108,9 @@
 		(uuid "a416c8fd-2f59-4878-8ca4-d329440aa7b1")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/PinHeader_1x02_P2.54mm_Vertical.step"
+		(offset (xyz -1.27 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 270))
+	)
 )

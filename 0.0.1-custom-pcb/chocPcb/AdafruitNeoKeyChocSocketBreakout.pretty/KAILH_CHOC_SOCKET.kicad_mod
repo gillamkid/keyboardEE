@@ -2,7 +2,7 @@
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
-	(layer "F.Cu")
+	(layer "B.Cu")
 	(property "Reference" "REF**"
 		(at -2.54 -10.16 0)
 		(unlocked yes)
@@ -31657,4 +31657,9 @@
 		(uuid "b6acc2ef-5520-4bdb-9771-46f8bb7ffa36")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/HS_CPG135001S30_Choc.step"
+		(offset (xyz -5 -3.8 0.12))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
 )
