@@ -1,0 +1,45 @@
+FPC layout revision, 2026-10-01
+
+Removed JP1-JP4 (14 edge through-hole contacts), FID3/FID4 bare copper pads,
+UNK_HOLE_0/1 screw holes, and obsolete header pin-label graphics. Retained the
+five non-plated holes needed by the Choc switch and socket, and the reverse-LED
+window. Routing vias are functional inter-layer connections, not test pads.
+
+J1: HC-FPC-0.5-6P-FH20, copied from ../columnBreakout, mounted on F.Cu.
+Origin: (143.35, 110.85) mm; rotation 180 degrees. Latch faces the switch;
+six signal solder pads face the lower edge. Pin assignments:
+  1 SWITCHA (column / S+)
+  2 NEO_IN  (IN)
+  3 NEO_OUT (OUT)
+  4 GND
+  5 VDD
+  6 SWITCHC (row / S-)
+  7, 8: mechanical solder anchors, no electrical connection.
+
+LED1 origin (151.05,109.70) mm, rotation 0 degrees: rotated 180 degrees from
+its former placement, shifted approximately 2.55 mm right. C1 is at
+(155.05,109.70) mm, on the right of the LED.
+
+Outline extents in mm:
+  left:   138.9761 (unchanged)
+  right:  156.1500 (formerly 158.0261)
+  top:     97.2500 (formerly 92.9386)
+  bottom: 114.6500 (formerly 117.0686)
+  size: 17.1739 x 17.4000 mm (formerly 19.05 x 24.13 mm)
+  upper corner radius: 1.27 mm (formerly 2.54)
+  lower corner radius: 1.61894 mm (half the former measured radius)
+
+The four original electrical components and their switch/diode function are
+retained. All nets were rerouted, GND pours refilled on both copper layers, and
+the schematic updated and linked to the PCB. Connector fanout is 0.127 mm wide;
+other traces are 0.2032 mm wide. Routing vias are 0.64 mm with 0.35 mm drills.
+
+Validation: zero ERC issues; zero unconnected PCB items; zero schematic parity
+issues. Five ORIGINAL clearance errors remain: each LED pad is 0.123 mm from
+its aperture (project requires 0.254 mm), and SW1 pad 2 reaches the unchanged
+left edge. These were neither suppressed nor hidden by changing design rules.
+The board therefore does not pass full fabrication DRC. See FPC-drc.rpt.
+
+The entire project was backed up before editing:
+../chocPcb-before-fpc-20261001-082549.zip
+The columnBreakout reference project and original Eagle files were not modified.
