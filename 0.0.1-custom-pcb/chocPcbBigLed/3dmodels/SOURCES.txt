@@ -1,0 +1,81 @@
+Project-local component models for AdafruitNeoKeyChocSocketBreakout
+
+Model assignments
+  C1: 0603 (1608 metric) capacitor package, value 1uF; generic package model.
+  D1: SOD-323 diode package, value 1N4148; generic package model.
+  LED1: SK6812MINI-E reverse-mount LED package, corresponding to the Eagle
+        WS2812B_SK6812E / NEO3535_REVERSE part. Emitting face points through
+        the PCB cutout toward the opposite side.
+  SW1: Kailh CPG135001S30 Choc hotswap socket, corresponding to the Eagle
+       KAILH_CHOC_SOCKET package. This models the soldered socket only.
+  J1: HC-FPC-0.5-6P-FH20, the same six-signal-contact connector used in
+      ../columnBreakout. Its footprint, symbol, WRL and STEP files were copied
+      from that local project into EasyEDA.pretty, EasyEDA.kicad_sym and
+      EasyEDA.3dshapes. LCSC part C19273925; original model files unchanged.
+      Mechanical pad 7 is unconnected; pad 8 is a GND routing waypoint.
+
+The capacitor and diode models represent packages, not newly selected procurement
+part numbers. Removed JP1–JP4 headers are no longer part of this board. Their
+previous generic model files remain available but are not referenced on the PCB.
+All active model paths are project-relative and require no system 3D library.
+
+Assembly-side import correction and subsequent layout changes
+  LED1 and SW1 are on F.Cu, matching their actual solder pads. The socket's
+  project footprint has been normalized to F.Cu to make future library updates
+  preserve the placed geometry. Imported component graphics that intersected
+  copper or cutouts have been moved to fabrication layers.
+  LED1 is rotated 180 degrees from its original placement and moved 2.5489 mm
+  right. C1 is on its right, while J1 occupies the lower left on F.Cu, latch
+  toward SW1 and signal pads toward the lower board edge.
+
+KiCad package models (unmodified)
+  Repository: https://github.com/KiCad/kicad-packages3D
+  Commit: b8b3cfdfad88ba66f21002b3de51dc6f7d55ba5a
+  Paths:
+    Capacitor_SMD.3dshapes/C_0603_1608Metric.step
+    Diode_SMD.3dshapes/D_SOD-323.step
+    Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step
+    Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.step
+  License: see kicad-models-LICENSE.txt and the notices inside each STEP file.
+
+Keyboard-specific package models (unmodified)
+  Repository: https://github.com/ebastler/marbastlib
+  Commit: 6b0a9a73f579e377816d60b58eac2b3252de7868
+  Paths:
+    3dmodels/HS_CPG135001S30_Choc.step
+    3dmodels/LED_SK6812MINI-E.step
+  License: see marbastlib-LICENSE.txt and upstream model attribution:
+    https://github.com/ebastler/marbastlib/blob/6b0a9a73f579e377816d60b58eac2b3252de7868/readme.md
+  Placement references:
+    footprints/marbastlib-choc.pretty/SW_choc_v1_HS_CPG135001S30_1u.kicad_mod
+    footprints/marbastlib-various.pretty/LED_6028R.kicad_mod
+  The socket model offset uses 3.8 mm to match this Eagle footprint's pin spacing.
+
+Original files and import information
+  Original PCB: glove80adafruit/adafruit/Adafruit-NeoKey-CHOC-Breakout-PCB-main/
+               AdafruitNeoKeyChocSocketBreakout.brd (relative to keyboardEE).
+  These Eagle .brd and .sch files contain no package3d or package3dinstance data,
+  and the supplied original project contains no STEP/WRL model files.
+  The imported values and package identifiers survived; they do not provide
+  automatic KiCad 3D model associations or a complete manufacturer-part BOM.
+  KiCad Eagle import documentation:
+    https://dev-docs.kicad.org/en/import-formats/eagle/index.html
+
+Fabrication provenance
+  No JLCPCB or PCBWay identifier was found in the supplied original project.
+  Eagle design rules are named "adafruit *", with two copper layers, minimum
+  trace/spacing of 8 mil, minimum drill of 15.5 mil, and copper-to-edge clearance
+  of 10 mil. These values do not identify a particular fabrication vendor.
+
+Validation after the FPC layout revision
+  All five soldered components have local 3D models. Top and bottom renders and
+  a STEP assembly using --subst-models were regenerated in 3d-preview.
+  ERC: zero errors/warnings. PCB: zero unconnected items, zero schematic parity
+  issues, no ground pours, and five inherited footprint-to-edge clearance errors. See FPC-drc.rpt
+  and FPC-erc.rpt for exact results. The original import had the same five
+  clearance errors plus hundreds of silkscreen warnings and three unconnected
+  items. Full pre-edit project backup is located one directory above this project:
+  chocPcb-before-fpc-20261001-082549.zip.
+
+The ground trace revision retains all component models and current placement;
+its connector datasheet is archived in ../connector-docs/.

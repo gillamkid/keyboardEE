@@ -1,38 +1,55 @@
 Project-local component models for AdafruitNeoKeyChocSocketBreakout
 
 Model assignments
-  C1: 0603 (1608 metric) capacitor package, value 1uF; generic package model.
+  C1: Murata GRM155R71C104JA88D, 100 nF, 16 V, X7R, +/-5%, 0402
+      (1005 metric); generic KiCad package model.
   D1: SOD-323 diode package, value 1N4148; generic package model.
-  LED1: SK6812MINI-E reverse-mount LED package, corresponding to the Eagle
-        WS2812B_SK6812E / NEO3535_REVERSE part. Emitting face points through
-        the PCB cutout toward the opposite side.
+  LED1: Worldsemi WS2812B-2020, conventional surface-mount 2.20 x 2.00 x
+        0.84 mm package. This is a compatible replacement, not an identified
+        Glove80 BOM part. Mounted on B.Cu with no PCB aperture.
+        Custom simplified STEP model follows datasheet outside dimensions and
+        terminals; internal chip/color details are illustrative. Reproducible
+        OpenCascade source: LED_WS2812B-2020-model-source.cpp.
   SW1: Kailh CPG135001S30 Choc hotswap socket, corresponding to the Eagle
        KAILH_CHOC_SOCKET package. This models the soldered socket only.
   J1: HC-FPC-0.5-6P-FH20, the same six-signal-contact connector used in
       ../columnBreakout. Its footprint, symbol, WRL and STEP files were copied
       from that local project into EasyEDA.pretty, EasyEDA.kicad_sym and
       EasyEDA.3dshapes. LCSC part C19273925; original model files unchanged.
-      Mechanical pads 7 and 8 are deliberately electrically unconnected.
+      Mechanical pads 7 and 8 are isolated and explicitly no-connect.
 
 The capacitor and diode models represent packages, not newly selected procurement
 part numbers. Removed JP1–JP4 headers are no longer part of this board. Their
 previous generic model files remain available but are not referenced on the PCB.
 All active model paths are project-relative and require no system 3D library.
 
-Assembly-side import correction and subsequent layout changes
-  LED1 and SW1 are on F.Cu, matching their actual solder pads. The socket's
-  project footprint has been normalized to F.Cu to make future library updates
-  preserve the placed geometry. Imported component graphics that intersected
-  copper or cutouts have been moved to fabrication layers.
-  LED1 is rotated 180 degrees from its original placement and moved 2.5489 mm
-  right. C1 is on its right, while J1 occupies the lower left on F.Cu, latch
-  toward SW1 and signal pads toward the lower board edge.
+Current assembly placement
+  LED1 and C1 are on B.Cu, their solder pads and models on the underside.
+  LED1 center: (148.5011,109.7026) mm; C1: (150.5000,109.7026) mm.
+  SW1, D1 and J1 remain on F.Cu. J1 latch faces SW1 and contacts face the
+  lower board edge. No LED aperture, LED keepout, or copper pour remains.
+  Older reverse-mount LED and 0603 models are retained as unused assets.
+
+Replacement references
+  LED datasheet: component-docs/WS2812B-2020-V1.3.pdf (one directory above).
+  https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf
+  Pinout: 1=DOUT, 2=GND, 3=DIN, 4=VDD. Supply: 3.7 to 5.3 V, GRB data,
+  800 kbit/s; reset interval >280 us. The datasheet does not require an
+  external capacitor; retained 100 nF is an optional nearby bypass capacitor.
+  Capacitor primary manufacturer specification:
+  https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM155R71C104JA88-01A-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250813144737
+  MoErgo firmware identifies WS2812-compatible GRB LEDs but no exact LED or
+  capacitor BOM. Checked glove80_lh.dts in moergo-sc/zmk commit
+  ce69e85f585c724142aae37ddf8a7e019ff19e93.
+  Replacement requires an underside optical path; light no longer passes
+  through a PCB hole. These are not reverse-mount parts.
 
 KiCad package models (unmodified)
   Repository: https://github.com/KiCad/kicad-packages3D
   Commit: b8b3cfdfad88ba66f21002b3de51dc6f7d55ba5a
   Paths:
-    Capacitor_SMD.3dshapes/C_0603_1608Metric.step
+    Capacitor_SMD.3dshapes/C_0402_1005Metric.step (active C1)
+    Capacitor_SMD.3dshapes/C_0603_1608Metric.step (unused older asset)
     Diode_SMD.3dshapes/D_SOD-323.step
     Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step
     Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.step
@@ -67,12 +84,23 @@ Fabrication provenance
   trace/spacing of 8 mil, minimum drill of 15.5 mil, and copper-to-edge clearance
   of 10 mil. These values do not identify a particular fabrication vendor.
 
-Validation after the FPC layout revision
-  All five soldered components have local 3D models. Top and bottom renders and
-  a STEP assembly using --subst-models were regenerated in 3d-preview.
-  ERC: zero errors/warnings. PCB: zero unconnected items, zero schematic parity
-  issues, and five inherited footprint-to-edge clearance errors. See FPC-drc.rpt
-  and FPC-erc.rpt for exact results. The original import had the same five
-  clearance errors plus hundreds of silkscreen warnings and three unconnected
-  items. Full pre-edit project backup is located one directory above this project:
-  chocPcb-before-fpc-20261001-082549.zip.
+Validation after manual layout edits / DRC repair, 2026-10-01
+  Current outer outline preserves the revised stepped left edge. Repaired
+  0.040024 mm gap at upper right; outline is closed and valid.
+  Current C1 position: (150.5,109.7026) mm; LED1 unchanged on B.Cu.
+  J1 remains centered beneath the center hole. Pads 7/8 are isolated (no traces), with schematic no-connect markers.
+  Row and ground routed via signal contacts 6 and 4 respectively.
+  Added TP1 is a board-only SWITCHA test pad, with a local footprint.
+  Existing socket footprint changes synced to project library. C1 silkscreen
+  outline moved to fabrication to avoid LED silkscreen overlap.
+  DRC: zero violations, zero unconnected items, zero schematic parity issues.
+  Rules/settings unchanged. Top/bottom previews and STEP assembly refreshed.
+  Backup: ../chocPcb-before-drc-fix-20261001-171822.zip.
+
+Anchor isolation revision, 2026-10-01
+  Both connector anchors 7/8 are electrically isolated. Their PCB net names
+  unconnected-(J1-Pad7/8) represent individual schematic no-connect markers;
+  neither is assigned any signal net or connected to copper traces.
+  DRC/ERC zero violations; zero unconnected items and schematic parity issues.
+  Updated top/bottom renders and STEP assembly. No rules relaxed.
+  Backup: ../chocPcb-before-disconnect-anchors-20261001-173124.zip.

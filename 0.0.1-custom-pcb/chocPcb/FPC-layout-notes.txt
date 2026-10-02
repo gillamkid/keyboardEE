@@ -6,7 +6,7 @@ five non-plated holes needed by the Choc switch and socket, and the reverse-LED
 window. Routing vias are functional inter-layer connections, not test pads.
 
 J1: HC-FPC-0.5-6P-FH20, copied from ../columnBreakout, mounted on F.Cu.
-Origin: (143.35, 110.85) mm; rotation 180 degrees. Latch faces the switch;
+Origin: (143.35, 111.80) mm; rotation 180 degrees. Latch faces the switch;
 six signal solder pads face the lower edge. Pin assignments:
   1 SWITCHA (column / S+)
   2 NEO_IN  (IN)
@@ -14,7 +14,8 @@ six signal solder pads face the lower edge. Pin assignments:
   4 GND
   5 VDD
   6 SWITCHC (row / S-)
-  7, 8: mechanical solder anchors, no electrical connection.
+  7: mechanical solder anchor, electrically unconnected.
+  8: mechanical solder anchor, connected to GND as a copper routing waypoint.
 
 LED1 origin (151.05,109.70) mm, rotation 0 degrees: rotated 180 degrees from
 its former placement, shifted approximately 2.55 mm right. C1 is at
@@ -30,7 +31,7 @@ Outline extents in mm:
   lower corner radius: 1.61894 mm (half the former measured radius)
 
 The four original electrical components and their switch/diode function are
-retained. All nets were rerouted, GND pours refilled on both copper layers, and
+retained. Ground uses copper traces only; both GND pours have been removed, and
 the schematic updated and linked to the PCB. Connector fanout is 0.127 mm wide;
 other traces are 0.2032 mm wide. Routing vias are 0.64 mm with 0.35 mm drills.
 
@@ -43,3 +44,79 @@ The board therefore does not pass full fabrication DRC. See FPC-drc.rpt.
 The entire project was backed up before editing:
 ../chocPcb-before-fpc-20261001-082549.zip
 The columnBreakout reference project and original Eagle files were not modified.
+
+Ground trace revision, 2026-10-01
+  Both PCB GND planes removed; LED cutout rule areas retained.
+  GND is explicitly routed J1 pad 4 -> J1 pad 8 -> LED1 GND, with a branch
+  from pad 8 to C1 GND. Copper traces enter and leave pad 8; this does not
+  rely on current flowing internally through the connector's metalwork.
+  Pad 8 is a side mechanical anchor, separate from the six cable contacts;
+  it is not a seventh/eighth cable conductor or a duplicate of pin 1.
+  Pin 1 remains SWITCHA and cable GND remains pin 4.
+  The manufacturer mechanical drawing is archived in connector-docs/.
+  Source: https://jlcpcb.com/partdetail/HongCheng-HC_FPC_0_5_6PFH20/C19273925
+  Datasheet part number HC-FPC-0.5-6P-FH20, revision A.
+  Current J1 position (143.35,111.80) mm was retained. IN/OUT fanout shorts
+  and VDD/row connection gaps caused by the moved connector were repaired.
+  Schematic pad 8 no-connect was replaced by a GND connection.
+  Final ERC: zero issues. PCB: zero unconnected items, zero schematic parity
+  issues, zero shorts, five inherited footprint-to-edge clearance errors.
+  Top/bottom renders and STEP assembly refreshed. Pre-edit backup:
+  ../chocPcb-before-ground-traces-20261001-092842.zip
+
+Underside LED/capacitor replacement, 2026-10-01 (supersedes earlier LED details)
+  User approved compatible replacements; exact Glove80 BOM not verified.
+  LED1: Worldsemi WS2812B-2020, 2.20 x 2.00 x 0.84 mm, B.Cu.
+  C1: Murata GRM155R71C104JA88D, 100 nF, 16 V, X7R, +/-5%, 0402, B.Cu.
+  LED1 center (149.25,110.15); C1 (147.15,110.15) mm.
+  LED pins remapped: 1 NEO_OUT, 2 GND, 3 NEO_IN, 4 VDD.
+  Removed LED aperture and its keepouts; existing outer outline unchanged.
+  Re-routed power/data traces; no ground pours. J1 remains top mounted.
+  Preserved latest user pad 7 connection to SWITCHC and synced schematic.
+  GND explicitly connects J1.4 -> J1.8 -> LED1.2/C1.2.
+  New copper is 0.2032 mm; retained connector fanout can be 0.127 mm.
+  ERC: zero; unconnected PCB items: zero; schematic parity issues: zero.
+  DRC: one inherited SW1 pad 2-to-left-edge clearance error (0 vs 0.254 mm).
+  Therefore fabrication DRC does not fully pass. The old LED edge errors are
+  eliminated by removing the aperture. Rules/settings were not relaxed.
+  All five soldered components have local models; refreshed top/bottom renders
+  and STEP assembly. Datasheet/model provenance: 3dmodels/SOURCES.txt.
+  Backup: ../chocPcb-before-small-led-20261001-144150.zip.
+
+Centering / left-edge padding revision, 2026-10-01 (current layout)
+  Added 0.50 mm to left edge: x=138.4761; radii retained.
+  Board now 17.6739 x 17.4000 mm.
+  J1 centered under the center hole: (148.5011,111.8000) mm.
+  LED1 centered at original pre-FPC location: (148.5011,109.7026) mm.
+  This matches LED1 footprint center in the pre-FPC backup.
+  C1 moved alongside to (146.4011,109.7026) mm. LED1/C1 remain B.Cu.
+  All nets rerouted, including J1.4 through mechanical pad 8 for GND and
+  J1.6/J1.7 on SWITCHC. No ground pours.
+  DRC: zero violations, zero unconnected items, zero schematic parity issues.
+  Existing socket-to-edge error resolved by the requested physical padding.
+  Project settings unchanged; top/bottom previews and STEP regenerated.
+  Backup: ../chocPcb-before-centering-20261001-150853.zip.
+
+DRC repair after manual layout edits, 2026-10-01
+  Preserved revised stepped left outline and moved capacitor (150.5,109.7026).
+  Closed right outline gap: top of right edge y=98.5 mm.
+  Restored J1.7 SWITCHC and J1.8 GND to match schematic and connected copper.
+  Reconnected row trace and capacitor/LED ground to FPC pad 8.
+  Preserved added column test pad as TP1, board-only, SWITCHA. Copied footprint
+  to local library and hid its reference to eliminate mask clipping.
+  Synced revised socket footprint to its project library. Moved capacitor
+  outline from silkscreen to fabrication to avoid LED silkscreen overlap.
+  DRC zero violations, zero unconnected items, zero schematic parity issues.
+  Rules and project settings unchanged. Refreshed 3D previews and STEP.
+  Backup: ../chocPcb-before-drc-fix-20261001-171822.zip.
+
+FPC anchor isolation revision, 2026-10-01 (supersedes anchor routing above)
+  J1 pads 7 and 8 isolated from all traces and other pads.
+  Both are explicitly no-connect in schematic; individual unconnected net
+  names on PCB maintain schematic parity without connecting them anywhere.
+  Rerouted SWITCHC from J1.6 directly to diode and GND from J1.4 to LED/C1.
+  Corrected new row routing clearance to current bottom edge.
+  DRC/ERC zero violations; zero unconnected items; zero schematic parity issues.
+  No changes to design rules, outline, or component placement.
+  Refreshed top/bottom renders and STEP assembly.
+  Backup: ../chocPcb-before-disconnect-anchors-20261001-173124.zip.

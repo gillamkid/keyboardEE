@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "AdafruitNeoKeyChocSocketBreakout-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/AdafruitNeoKeyChocSocketBreakout-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "EasyEDA")(type "KiCad")(uri "${KIPRJMOD}/EasyEDA.kicad_sym")(options "")(descr "Connector from columnBreakout"))
+  (lib (name "power")(type "KiCad")(uri "${KIPRJMOD}/power.kicad_sym")(options "")(descr "Local power flags"))
+)

@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "AdafruitNeoKeyChocSocketBreakout")(type "KiCad")(uri "$(KIPRJMOD)/AdafruitNeoKeyChocSocketBreakout.pretty")(options "")(descr ""))
   (lib (name "EasyEDA")(type "KiCad")(uri "${KIPRJMOD}/EasyEDA.pretty")(options "")(descr "FPC connector copied from columnBreakout"))
+  (lib (name "ProjectParts")(type "KiCad")(uri "${KIPRJMOD}/ProjectParts.pretty")(options "")(descr "Local small LED and decoupling capacitor replacements"))
 )
