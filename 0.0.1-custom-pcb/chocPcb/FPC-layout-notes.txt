@@ -120,3 +120,20 @@ FPC anchor isolation revision, 2026-10-01 (supersedes anchor routing above)
   No changes to design rules, outline, or component placement.
   Refreshed top/bottom renders and STEP assembly.
   Backup: ../chocPcb-before-disconnect-anchors-20261001-173124.zip.
+
+Choc identification / footprint restoration / reference labels, 2026-10-03
+  SW1 uses the existing KAILH_CHOC_SOCKET footprint and Choc model. Updated
+  PCB/schematic value from MX SOCKET to Kailh Choc socket, manufacturer Kailh,
+  MPN CPG135001S30. Restored switch symbol orientation to align its numbered
+  pins with the existing PCB nets; switch function/routing unchanged.
+  Restored J1 and TP1 geometry from their original project-library footprints,
+  eliminating both footprint mismatch warnings. Added 1.0 mm / 0.15 mm
+  silkscreen reference fields for D1, SW1, J1, TP1 on front and LED1, C1 on back.
+  Corrected SW1/D1 SMD metadata in both placed footprint and library, making
+  all five intended soldered components appear in SMD-only position export.
+  TP1 remains board-only, excluded from BOM/positions, with no paste opening.
+  J1.7 and J1.8 remain isolated with schematic no-connect nets.
+  Current component positions and all routed copper preserved.
+  DRC/ERC zero violations, zero unconnected items, zero schematic parity issues.
+  Project settings unchanged; refreshed top/bottom previews and STEP assembly.
+  Backup: ../chocPcb-before-restore-labels-20261003-133537.zip.

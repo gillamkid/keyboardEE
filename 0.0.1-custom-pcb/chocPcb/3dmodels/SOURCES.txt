@@ -104,3 +104,11 @@ Anchor isolation revision, 2026-10-01
   DRC/ERC zero violations; zero unconnected items and schematic parity issues.
   Updated top/bottom renders and STEP assembly. No rules relaxed.
   Backup: ../chocPcb-before-disconnect-anchors-20261001-173124.zip.
+
+Choc identification and original-footprint restoration, 2026-10-03
+  SW1 is Kailh Choc socket (CPG135001S30); previous MX SOCKET text was incorrect.
+  J1/TP1 restored from project libraries. Reference fields added on component
+  assembly sides. Corrected SMD attributes for SW1/D1 in board and library.
+  Original solder pad geometry/models retained; no copper/rule changes.
+  DRC/ERC zero violations and PCB parity/connectivity clean.
+  Backup: ../chocPcb-before-restore-labels-20261003-133537.zip.
