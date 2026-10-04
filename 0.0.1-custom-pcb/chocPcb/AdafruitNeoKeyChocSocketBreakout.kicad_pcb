@@ -104,7 +104,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 1.5735 0.7415 270)
 			(unlocked yes)
 			(layer "F.Fab")

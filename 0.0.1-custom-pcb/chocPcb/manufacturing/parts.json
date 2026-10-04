@@ -1,0 +1,34 @@
+{
+  "D1": {
+    "Value": "1N4148WS",
+    "MPN": "1N4148WS",
+    "Manufacturer": "Jiangsu Changjing Electronics Technology Co., Ltd.",
+    "LCSC Part": "C2128",
+    "Datasheet": "https://jlcpcb.com/partdetail/C2128"
+  },
+  "C1": {
+    "MPN": "GRM155R71C104KA88D",
+    "Manufacturer": "Murata",
+    "LCSC Part": "C71629",
+    "Datasheet": "https://jlcpcb.com/partdetail/GRM155R71C104KA88D/C71629",
+    "Tolerance": "10%",
+    "Voltage": "16V",
+    "Dielectric": "X7R"
+  },
+  "LED1": {
+    "MPN": "WS2812B-2020",
+    "Manufacturer": "Worldsemi",
+    "LCSC Part": "C965555"
+  },
+  "SW1": {
+    "MPN": "CPG135001S30",
+    "Manufacturer": "Kailh",
+    "LCSC Part": "C5333465",
+    "Datasheet": "https://jlcpcb.com/partdetail/Kailh-CPG135001S30/C5333465"
+  },
+  "J1": {
+    "MPN": "HC-FPC-0.5-6P-FH20",
+    "Manufacturer": "Hong Cheng",
+    "LCSC Part": "C19273925"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "master_copper_preserved": true,
+  "master_footprint_positions_and_pads_preserved": true,
+  "master_design_rules_preserved": true,
+  "master_schematic_connectivity_preserved": true,
+  "ground_zones": 0,
+  "J1_anchors_7_8_have_no_traces": true,
+  "panel_copies_geometry_and_pad_nets_verified": 7,
+  "matched_assembly_placements": 35,
+  "placement_layers": {
+    "bottom": 14,
+    "top": 21
+  },
+  "panel_dimensions_mm": [
+    70,
+    94
+  ],
+  "assembled_panels_for_14_boards": 2,
+  "master_tracks_including_vias": 66,
+  "master_vias": 6,
+  "master_drc": "0 violations; 0 unconnected; 0 footprint errors",
+  "master_erc": "0 errors; 0 warnings",
+  "panel_drc": "0 violations; 0 unconnected; 0 footprint errors"
+}

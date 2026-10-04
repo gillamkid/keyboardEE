@@ -137,3 +137,15 @@ Choc identification / footprint restoration / reference labels, 2026-10-03
   DRC/ERC zero violations, zero unconnected items, zero schematic parity issues.
   Project settings unchanged; refreshed top/bottom previews and STEP assembly.
   Backup: ../chocPcb-before-restore-labels-20261003-133537.zip.
+
+Final manufacturing preparation, 2026-10-03
+  User's latest rectangle, copper, placement and silk edits preserved.
+  LED symbol changes retained and synced into ProjectParts.kicad_sym.
+  Exact assembly mappings: D1 1N4148WS/C2128; C1 GRM155R71C104KA88D/C71629
+  (100 nF 16 V X7R 0402 +/-10% equivalent); SW1 CPG135001S30/C5333465;
+  LED1 WS2812B-2020/C965555; J1 HC-FPC-0.5-6P-FH20/C19273925.
+  Master PCB/schematic and new 70 x 94 mm seven-up panel pass DRC/ERC.
+  Complete panel fabrication/assembly files and ordering instructions saved
+  under manufacturing/. Two assembled panels produce 14 boards; live stock
+  and JLC polarity/CAM preview require confirmation during ordering.
+  Original backup: ../chocPcb-before-order-preparation-20261003-172009.zip.

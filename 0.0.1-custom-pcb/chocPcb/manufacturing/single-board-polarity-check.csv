@@ -1,0 +1,4 @@
+Designator,Feature,Pad,X_mm,Y_mm,View
+D1,Cathode stripe,C,150.000000,-103.000000,Front/top X-Y projection; bottom LED mirrored when viewed underneath
+J1,Pin 1 / SWITCHA,1,149.751100,-113.100000,Front/top X-Y projection; bottom LED mirrored when viewed underneath
+LED1,Pin 1 / DOUT,1,147.500000,-110.600000,Front/top X-Y projection; bottom LED mirrored when viewed underneath

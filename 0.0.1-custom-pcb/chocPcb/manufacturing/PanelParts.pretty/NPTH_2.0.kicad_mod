@@ -1,0 +1,63 @@
+(footprint "NPTH_2.0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "TOOL3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "afc4398d-a0a5-4f68-a6d4-0314f2913dee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NPTH"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c563f63-baf4-4b81-b35d-56baaf11fbc1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d31768b-d6d9-4387-b5b8-b2d5c6504c3c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "177ce142-6af6-4de6-9b21-3a22c69954f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu")
+		(uuid "1dbcbd3c-01d1-446b-9379-7317fee04af8")
+	)
+	(embedded_fonts no)
+)

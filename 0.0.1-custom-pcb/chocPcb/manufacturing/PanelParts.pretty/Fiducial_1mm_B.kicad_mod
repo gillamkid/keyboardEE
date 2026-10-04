@@ -1,0 +1,67 @@
+(footprint "Fiducial_1mm_B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "FIDB3"
+		(at 0 0 180)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "69ece679-86dd-42bc-bcd5-8cfa42bc8c4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "Fiducial"
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "077107fb-a3db-4c67-ae3e-7bb3dd96549f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "469de716-e40c-4bde-b3ce-7b249f1e92b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "4d742490-756f-4303-8f87-55c3db61dc1d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(pad "" smd circle
+		(at 0 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.5)
+		(uuid "64892ef4-4fd2-4991-bd27-a22763f29765")
+	)
+	(embedded_fonts no)
+)

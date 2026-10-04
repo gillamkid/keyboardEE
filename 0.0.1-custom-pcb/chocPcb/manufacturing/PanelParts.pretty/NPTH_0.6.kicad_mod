@@ -1,0 +1,63 @@
+(footprint "NPTH_0.6"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "MB7R5"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5ca2b9f1-a45e-4c39-b976-0c8c5ad19009")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NPTH"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75fdb6a0-9cb2-4b81-9a2c-2defb84d5730")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "daff326c-55b4-4d74-afba-c45dec1765f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d83892e-0c99-410f-b5e0-83fcac78bcb3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 0.6 0.6)
+		(drill 0.6)
+		(layers "*.Cu")
+		(uuid "eda878d9-acd8-4652-b655-43007fda7aa8")
+	)
+	(embedded_fonts no)
+)

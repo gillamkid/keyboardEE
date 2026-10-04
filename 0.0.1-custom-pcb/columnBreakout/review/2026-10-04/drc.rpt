@@ -1,0 +1,20 @@
+** Drc report for columnBreakout.kicad_pcb **
+** Created on 2026-10-04T09:55:49-0600 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 3 Footprint errors **
+[net_conflict]: Pad net (/R3) doesn't match net given by schematic (unconnected-(J5-Pad8)).
+    Local override; warning
+    @(151.0000 mm, 73.8000 mm): Pad 8 [/R3] of J5 on F.Cu
+[net_conflict]: Pad net (/R3) doesn't match net given by schematic (unconnected-(J6-Pad8)).
+    Local override; warning
+    @(151.0000 mm, 82.9000 mm): Pad 8 [/R3] of J6 on F.Cu
+[net_conflict]: Pad net (/R3) doesn't match net given by schematic (unconnected-(J7-Pad8)).
+    Local override; warning
+    @(151.0000 mm, 92.0000 mm): Pad 8 [/R3] of J7 on F.Cu
+
+** End of Report **

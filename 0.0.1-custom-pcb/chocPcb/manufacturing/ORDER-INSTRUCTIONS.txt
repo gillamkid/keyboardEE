@@ -1,0 +1,110 @@
+chocPcb fabrication and assembly package - 2026-10-03
+
+PRIMARY ORDER: SEVEN BOARDS PER PANEL, TWO ASSEMBLED PANELS = FOURTEEN BOARDS
+
+Upload these files together:
+  Fabrication: chocPcb-7up-Gerbers.zip
+  Assembly BOM: panel-BOM.csv
+  Assembly placement: panel-CPL.csv
+
+Select:
+  Panel by Customer (this panel is already constructed; do not panelize again).
+  Standard PCBA, Both Sides.
+  Complete File, just proceed with my own files (the BOM/CPL already contains
+  the entire panel). Do NOT select Single Piece, please help me repeat the data.
+  One circuit design, seven repeated boards per panel.
+  Panel dimensions 70.00 x 94.00 mm; 2 copper layers, FR4, 1.6 mm, 1 oz.
+  ENIG recommended for the fine-pitch FPC connector and flat solder pads.
+  Assemble TWO panels. Each panel has 35 components (7 of each of five parts).
+  Expected delivered assembled quantity: 14 individual chocPcb boards / 70 parts.
+
+PCB fabrication minimum quantities can exceed two panels. If the quote requires
+five fabricated panels, select assembly of TWO panels; the others can remain
+unassembled. Confirm that the quote's assembled quantity is two PANELS, not
+14 panels or two individual small boards. Do not assume all fabricated panels
+must be assembled. Request depanelization if desired; otherwise panels can be
+separated after delivery. Each board has two opposing mouse-bite tabs. Snipping
+or controlled depanelization is preferable to stressing the sockets/connectors.
+Remove remaining tab nubs without damaging copper or component joints.
+
+PANEL MECHANICS
+  Seven copies in a two-column/four-row array; the last position is support FR4.
+  Individual board: the user's latest rectangular 17.3 x 17.5 mm outline.
+  4 mm spaces between board locations, 2 mm routing to the support frame.
+  At least 6 mm top/bottom handling rail; wider side rails pad width to 70 mm.
+  Two 5 mm wide tabs per board. Five 0.6 mm NPTH mouse-bite holes per tab,
+  1.0 mm center spacing / 0.4 mm hole-edge spacing.
+  Three asymmetric 2 mm NPTH tooling holes and three 1 mm copper fiducials
+  with 2 mm mask openings on EACH side. Fiducials have no paste openings.
+  Outer contour and routed cutout channels are included in the outline Gerber.
+  Mouse bites/tooling/switch holes are in the NPTH drill file. Vias are in PTH.
+  Please have CAM review the tab-routed panel and tooling before production.
+
+ASSEMBLY PARTS
+  SW1: Kailh CPG135001S30, C5333465, Choc hot-swap socket (NOT MX socket).
+  D1: Changjing 1N4148WS, C2128, SOD-323.
+  LED1: Worldsemi WS2812B-2020, C965555, 2.2 x 2.0 mm, top-emitting.
+  C1: Murata GRM155R71C104KA88D, C71629, 100 nF / 16 V / X7R / 0402 / 10%.
+  J1: Hong Cheng HC-FPC-0.5-6P-FH20, C19273925, six cable contacts.
+
+The capacitor is an equivalent 10% version of the earlier 5% selected part;
+its package, capacitance, voltage rating and dielectric are unchanged. The
+five C-codes/MPNs/packages were checked against JLC's public catalog. Presence
+in that catalog does NOT establish live available stock or assembly allocation.
+Confirm live availability in the quote, particularly the Kailh socket and FPC
+connector. If unavailable, use JLC's sourcing/consignment workflow or choose to
+hand-solder those parts; do not accept an MX socket or a different FPC pinout.
+Nothing has been purchased, submitted to JLC, or sent to another person.
+
+POLARITY AND PLACEMENT CHECK
+  CPL rotations are the KiCad footprint rotations, normalized to 0..360 degrees.
+  They are not a guarantee of JLC library/reel rotation conventions. Check the
+  JLC assembly preview against the actual pad locations in panel-polarity-check.csv
+  before payment, and correct library rotation offsets if the preview differs.
+  For D1, its cathode stripe must sit over pad C (left on the front view).
+  For LED1, pin 1 is DOUT; pin 2 GND, pin 3 DIN and pin 4 VDD.
+  For J1, cable pin 1 is SWITCHA, 2 NEO_IN, 3 NEO_OUT, 4 GND, 5 VDD,
+  6 SWITCHC. Pin 1 is to the right in the front view, nearest the lower edge.
+  Bottom component X/Y values are in the common front/top board projection,
+  NOT a mirrored camera view. Avoid manually negating bottom-side X coordinates.
+  Panel origin is the lower-left corner; the same origin is used by Gerbers,
+  drills and CPL. Placement X/Y are in mm; positive Y points up from that corner.
+  Make sure the connector latch faces toward the switch and cable access is open.
+  SW1, D1 and J1 are top; LED1 and C1 are bottom.
+  TP1 is optional solder/test access on SWITCHA: no component, no paste, excluded
+  from BOM/CPL. J1 anchors 7 and 8 have no attached traces and stay isolated.
+  Fiducials, breakaway holes and tooling holes are not assembly components.
+
+VALIDATION
+  Master PCB: DRC zero violations, zero unconnected items and zero schematic
+  parity issues. Schematic: ERC zero violations.
+  Seven-up panel: DRC zero violations, zero unconnected items. A panel has no
+  separate schematic, so master schematic parity was checked on the single PCB.
+  BOM and CPL reference sets match: 35 unique placements, 21 top and 14 bottom,
+  seven of each assembly part. Each circuit's nets are isolated from other copies.
+  Ground planes remain absent. Copper routing/component positions of the user's
+  latest master PCB were preserved. Only part metadata and LED library sync changed.
+  DRC is a design check, not a stock guarantee, factory DFM approval or functional
+  test. The final JLC placement/CAM review still applies.
+
+OTHER FILES
+  panel-top.png / panel-bottom.png: assembly views of the completed panel.
+  chocPcb-7up.kicad_pcb / .kicad_pro: editable panel; dependent libraries/models
+    are in this project and its parent directory. Keep the project together.
+  chocPcb-7up.step: 3D mechanical assembly; fiducials/tooling have no components.
+  single-board-BOM.csv / single-board-CPL.csv / single-board-Gerbers.zip:
+    single-board alternatives, NOT to mix with the full panel upload files.
+  panel-kicad-positions.csv: unmodified KiCad position export, retained as evidence.
+  panel-drc.rpt and master FPC-drc.rpt/FPC-erc.rpt: final check reports.
+  parts.json / PART-SOURCES.csv: exact part mapping and primary catalog links.
+  build-panel.py / export-assembly.py: repeatable generation scripts using KiCad 9
+    pcbnew and sexpdata. Existing session dependencies: /tmp/chocpcb-python.
+
+JLC references checked 2026-10-03:
+  https://jlcpcb.com/capabilities/pcb-assembly-capabilities
+  https://jlcpcb.com/capabilities/pcb-capabilities/
+  https://jlcpcb.com/help/article/common-bom-and-cpl-matching-issues-and-explanations
+  https://jlcpcb.com/blog/mouse-bite-panelization-guide
+
+Pre-edit original backup:
+  ../chocPcb-before-order-preparation-20261003-172009.zip

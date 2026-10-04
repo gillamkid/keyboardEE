@@ -1,7 +1,7 @@
 Project-local component models for AdafruitNeoKeyChocSocketBreakout
 
 Model assignments
-  C1: Murata GRM155R71C104JA88D, 100 nF, 16 V, X7R, +/-5%, 0402
+  C1: Murata GRM155R71C104KA88D, 100 nF, 16 V, X7R, +/-10%, 0402
       (1005 metric); generic KiCad package model.
   D1: SOD-323 diode package, value 1N4148; generic package model.
   LED1: Worldsemi WS2812B-2020, conventional surface-mount 2.20 x 2.00 x
@@ -112,3 +112,12 @@ Choc identification and original-footprint restoration, 2026-10-03
   Original solder pad geometry/models retained; no copper/rule changes.
   DRC/ERC zero violations and PCB parity/connectivity clean.
   Backup: ../chocPcb-before-restore-labels-20261003-133537.zip.
+
+Order preparation, 2026-10-03
+  Selected JLC catalog C71629 capacitor (equivalent +/-10% version), C2128
+  SOD-323 1N4148WS diode, C5333465 Kailh Choc socket, C965555 LED, and
+  C19273925 FPC connector. Packages/models unchanged. Actual live stock must
+  be confirmed in the quote. Edited LED symbol saved to project library.
+  Master DRC/ERC clean. Seven-up 70 x 94 mm assembly panel and complete
+  Gerber/drill/BOM/CPL package in manufacturing/. Two assembled panels give
+  14 boards. Panel DRC clean; 35 matched placements per panel.
