@@ -3,6 +3,10 @@
 (generator_version "9.0")
 (uuid "b2acabc5-938f-4880-a5a5-3139adf73df1")
 (paper "A4")
+(title_block
+  (title "columnBreakout")
+  (rev "1")
+)
 (lib_symbols (symbol "EasyEDA:HC-FPC-0.5-12P-FH20" (exclude_from_sim no)
 (in_bom yes)
 (on_board yes)

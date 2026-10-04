@@ -142,6 +142,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0d06da25-0487-4c92-bde9-0807c3c04b83")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/fbc5b2de-e88a-4a0a-8f0c-1a572507251b/d43aecab-3a97-4c7c-987e-b467d24ecd60")
 		(sheetfile "AdafruitNeoKeyChocSocketBreakout.kicad_sch")
 		(attr smd)
@@ -822,7 +834,7 @@
 				(justify left bottom mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Kailh-CPG135001S30/C5333465"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -848,9 +860,45 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "CPG135001S30"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4785a82d-e854-419e-8a0e-1e84fb327278")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Kailh"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c66caf9b-e86d-40aa-aa8c-838695f4f461")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C5333465"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8a54b45c-a576-45fe-8ee9-6d2240588e43")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/fbc5b2de-e88a-4a0a-8f0c-1a572507251b/118c69f4-c69c-473a-b709-3b9d7e621b0a")
 		(sheetfile "AdafruitNeoKeyChocSocketBreakout.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 7.5 7.5)
 			(end 7.5 -7.5)
@@ -31238,6 +31286,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C52917434"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b78deca0-18e9-42b5-946f-1b45a1bdb926")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/fbc5b2de-e88a-4a0a-8f0c-1a572507251b/375e9cd5-dedc-4e77-b86f-20fd7c32ad4b")
 		(sheetfile "AdafruitNeoKeyChocSocketBreakout.kicad_sch")
 		(attr smd)
@@ -31514,6 +31574,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6bdf4cd3-3461-4745-ab0c-0d2215df7ca1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/fbc5b2de-e88a-4a0a-8f0c-1a572507251b/f7250cd6-b120-4b66-9263-9c1dc0e6a164")
 		(sheetfile "AdafruitNeoKeyChocSocketBreakout.kicad_sch")
 		(attr smd)
@@ -31620,6 +31692,17 @@
 		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c399360d-b0b5-4b74-8a84-d7b97a069b97")
+	)
+	(gr_rect
+		(start 139.2 103.4)
+		(end 141.2 113.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "b88066f6-b7ff-41d2-a2c3-11aef0c23f84")
 	)
 	(gr_circle
 		(center 146 110.6)
