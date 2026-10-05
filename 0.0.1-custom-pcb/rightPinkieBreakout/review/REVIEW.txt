@@ -1,0 +1,103 @@
+Revision after requested fixes - 2026-10-03 18:04
+
+Completed:
+- All front silkscreen reference and board labels: 1.0 mm tall, 0.15 mm stroke.
+- Four corrected 2.2 mm mounting holes converted from Edge.Cuts circles to
+  board-only NPTH footprints H1-H4, excluded from BOM and position files.
+- Hole centers exactly preserved: (148.8,51.5), (159.1,51.5),
+  (148.8,87.9), (159.1,87.9) mm.
+- Local Mechanical:MountingHole_2.2mm_M2_4.4mmHead footprint models a 4.4 mm
+  M2 screw-head outline with 0.20 mm courtyard margin. Standard KiCad's
+  0.25 mm margin overlapped connector courtyards by approximately 0.03 mm.
+  Use screw heads/washer diameters compatible with this clearance.
+- EasyEDA library synchronized to the project's saved connector symbols.
+  Redundant per-instance symbol variants consolidated after checking that all
+  pin definitions match. Schematic wires/labels remain unchanged.
+- Current DRC: zero violations, zero unconnected pads, zero footprint/parity errors.
+- Current ERC: zero errors and zero warnings.
+- Copper, connector positions/pad nets, and project rules verified unchanged
+  against the pre-edit backup. Fresh preview: top.png.
+- Backup: ../columnBreakout-before-review-fixes-20261003-180155.zip
+
+The following is the ORIGINAL REVIEW before these fixes. Its silkscreen,
+mounting-hole representation and ERC findings have been resolved as above.
+Cable-mapping/current-rating checks and order/export preparation still apply.
+
+columnBreakout pre-order review - 2026-10-03
+
+Verdict: no PCB connectivity/clearance blocker identified; assembly order is not
+fully prepared. This review does not change the PCB, schematic, or design rules.
+
+Fresh checks
+- Master DRC including schematic parity and excluded severities: zero violations,
+  zero unconnected pads, zero footprint errors, zero schematic parity issues.
+- ERC: zero errors, seven symbol/library mismatch warnings (J1-J7).
+- Both connector types have identical pin definitions in the schematic cache
+  and EasyEDA library. Differences include property formatting/placement and
+  grouping pins into sub-symbols. Synchronize deliberately, preserving wires.
+- Temporary-copy DFM DRC: 0.127 mm minimum copper clearance/width, 0.15 mm silk
+  clearance, courtyard-hole warnings enabled. No copper errors; 14 silk-to-silk
+  spacing warnings near the seven added pin-1 dots (two per connector).
+  This conservative silk-to-silk check is not itself a factory requirement.
+- Actual netclass clearance: 0.15 mm; tracks: 0.20/0.25 mm; ten vias:
+  0.45 mm diameter / 0.20 mm drill. No zones.
+
+Assembly and size
+- 14.7 x 63.3 mm rectangular board. All seven components on F.Cu, SMD attributes.
+- J1: HC-FPC-0.5-12P-FH20, C19273928, quantity 1.
+- J2-J7: HC-FPC-0.5-6P-FH20, C19273925, quantity 6.
+- Both catalog entries support Economic and Standard assembly; live stock must
+  be confirmed in the quote. Economic single-side assembly is a plausible choice.
+  Published Economic minimum: 10 x 10 mm; Standard minimum: 70 x 70 mm.
+  A Standard order requires a panel with handling rails/fiducials. This board
+  does not need a 70 mm panel solely because it has copper on both sides.
+- Generate final Gerbers, drill files, JLC BOM and CPL after any final changes.
+  No fabrication/assembly export package was present in this project at review.
+  Check JLC placement preview: all connector cable openings point toward +Y
+  (down in the top-view render), and pin 1 is left on the front projection.
+- ENIG is a reasonable choice for flat fine-pitch connector pads. Use 1 oz copper
+  unless the clearances are rechecked for heavier copper. Thickness should match
+  the keyboard mechanical design; do not assume it solely from the 3D rendering.
+
+Cable mapping: verify on real cables before power
+Row connectors J2-J7 (1..6): row, VDD, GND, downstream LED OUT,
+upstream LED IN, column. Required columnBreakout -> chocPcb pin mapping:
+1->6, 2->5, 3->4, 4->3, 5->2, 6->1.
+Both selected connectors are bottom-contact, 0.5 mm pitch, 0.3 mm cable thickness.
+Same-side vs opposite-side FFC contacts must suit the actual board/cable geometry;
+do not infer electrical mapping from the cable's advertised type alone.
+Row0 LED chain entry is J1 pin10 (/IN0); final row5 return is J1 pin9 (/IN6).
+J1 pins1..6 are rows0..5; pin7 VDD, pin8 GND, pin11 column, pin12 unused.
+J1 anchors13/14 and row connector anchors7/8 have no attached traces.
+Main-controller connector/cable compatibility was not independently verified.
+
+Power and optional improvements
+VDD and GND each have about 55.0 mm of 0.25 mm trace, all F.Cu with no vias.
+Each shared rail supplies all six LED branches. For 35 um copper, approximate
+end-to-end resistance is 0.108 ohm per rail / 0.217 ohm for the loop, excluding
+connector/cable/pad resistance. At 0.36 A, placing all load at the far end would
+produce about 0.078 V loop drop; the actual distributed six loads reduce it.
+This is an estimate, not a measured result or a guaranteed allowable LED current.
+Widen trunks where practical or add parallel B.Cu routing, with adequate vias,
+while keeping short fanouts at connector pads. Confirm actual maximum LED draw
+and connector/FFC current ratings; a ground plane is not inherently required.
+
+Mechanical and silkscreen
+Four holes are Edge.Cuts circles, not NPTH pads: three diameter2.2 mm and one
+at (148.7,88.0) diameter2.4 mm. Left column hole X varies148.8 vs148.7 mm;
+right lower Y87.9 vs left lower Y88.0 mm. Confirm intentional screw/fixture fit.
+Closed Edge.Cuts circles can fabricate as routed internal cutouts; dedicated
+NPTH hole footprints would make intended drilled screw-hole sizes explicit.
+Check screw-head/washer and installed FFC/latch clearance with the actual enclosure.
+Labels/reference text are0.8 mm tall /0.12 mm stroke. JLC publishes minimum
+1.0 mm height /0.15 mm stroke. Increase labels and clean up nearby pin1 dots;
+these are readability issues rather than electrical shorts.
+
+Files: drc.rpt, erc.rpt, dfm-drc.rpt, geometry.txt, top.png.
+The DFM report uses only a temporary copy in /tmp/columnBreakout-dfm.
+
+Primary sources checked:
+https://jlcpcb.com/capabilities/pcb-assembly-capabilities
+https://jlcpcb.com/capabilities/pcb-capabilities/
+https://jlcpcb.com/partdetail/HongCheng-HC_FPC_0_5_12PFH20/C19273928
+https://jlcpcb.com/partdetail/HongCheng-HC_FPC_0_5_6PFH20/C19273925

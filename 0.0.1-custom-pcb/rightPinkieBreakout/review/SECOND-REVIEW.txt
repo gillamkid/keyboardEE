@@ -1,0 +1,47 @@
+Second readiness review - 2026-10-03
+
+Design verdict: no fabrication or PCB-connectivity blocker found. Suitable for
+quoting fabrication and top-side Economic assembly, subject to the remaining
+physical interface checks and final order files below.
+
+Evidence:
+- Source PCB/schematic unchanged since the zero-error/zero-warning DRC and ERC
+  reports from 18:03. DRC includes schematic parity and footprint library matching.
+- Rechecked a temporary copy with 0.15 mm minimum copper clearance, 0.10 mm
+  track width, 1.0 mm text height, 0.15 mm text stroke, and 0.15 mm silk spacing.
+  No copper, hole, courtyard, text-size or footprint errors. 16 silk-to-silk
+  spacing warnings: fourteen near pin1 dots and two near the enlarged J1 label.
+  These are separated ink graphics, not copper shorts or text over exposed pads.
+  The extra silk-to-silk spacing rule is conservative. Moving dots/J1 slightly
+  would improve spacing but is not an electrical fabrication blocker.
+- Actual drill export has four 2.200 mm NPTH holes at corrected centers and
+  ten 0.200 mm PTH vias. No duplicate outline circles remain.
+- Position export includes exactly J1-J7; mounting holes are excluded.
+- Original project rules preserved and parse successfully; no review design edits.
+- Board: 14.7 x 63.3 mm, two copper layers, design thickness 1.6 mm; seven SMD
+  connectors on top. Native footprints match their project libraries.
+
+Assembly/order preparation remaining:
+- Generate final Gerbers/drills and JLC-specific BOM/CPL as a matched package.
+  review/export-check drill files and positions-check.csv are verification exports,
+  not a complete order package.
+- Use six C19273925 six-pin connectors plus one C19273928 twelve-pin connector.
+  Confirm live assembly inventory/allocation and inspect JLC placement rotations.
+- Economic top-side assembly dimensions are compatible. 1.6 mm green/ENIG is
+  an available Economic configuration per current capability table. Standard
+  assembly requires a >=70 x 70 mm panel and its handling provisions.
+- Verify actual FFC electrical continuity: breakout pins1..6 -> chocPcb6..1.
+  Selected connectors use bottom contacts and 0.3 mm cable thickness. Check J1's
+  cable/pinout against the controller too. These are unverified physical interfaces.
+- Mounting footprints assume 4.4 mm screw heads with 0.20 mm courtyard margin.
+  Verify screw/washer dimensions and case/latch/cable access physically.
+- Shared VDD/GND 0.25 mm / about55 mm each remain unchanged. Estimated 1oz
+  copper resistance is0.108 ohm per full rail; confirm worst-case combined LED
+  current and connector/cable rating. Widening is an optional improvement for
+  margin, not a demonstrated current-capacity failure.
+
+Sources:
+https://jlcpcb.com/capabilities/pcb-assembly-capabilities
+https://jlcpcb.com/capabilities/pcb-capabilities/
+
+No order submitted. No additional design modifications made in this review.
