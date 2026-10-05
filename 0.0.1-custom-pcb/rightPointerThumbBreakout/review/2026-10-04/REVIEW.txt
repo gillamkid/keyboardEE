@@ -1,0 +1,53 @@
+columnBreakout updated power-routing review - 2026-10-04
+
+Verdict: power distribution improved; resolve three PCB/schematic anchor-pad
+net mismatches before fabrication/assembly export. No PCB modifications made.
+
+Power improvement
+Previously: about55 mm of0.25 mm trace per rail on F.Cu, no power vias.
+Now: about52.2 mm of0.50 mm trace per rail on B.Cu; short0.25 mm F.Cu
+connector fanouts; seven power vias per rail (six branches plus input).
+No copper zones/planes are present: these are wider routed trunks.
+Approximate J1 to farthest J2 power-loop resistance at room temperature:
+previous0.217 ohm; now0.124 ohm, about43% lower. Assumptions:35um copper,
+18um via-wall plating,1.6 mm board thickness,0.2 mm via drill. Includes the
+input/output fanouts and four traversed vias. Excludes pad/contact/FFC resistance.
+This is a geometry estimate, not an extracted/field-solved or measured result.
+At0.3A concentrated at the far connector: estimated PCB drop changes from
+about65mV to37mV. Distributed LED loads reduce the actual drop on long segments.
+Short0.25 mm pad connections are reasonable; retain them where pitch requires.
+0.15 mm VDD segments are only about0.07 and0.125 mm and do not undo the gain.
+22 total vias, including14 power vias. No open power connections reported by DRC.
+
+Important finding
+J5 pad8 at(151,73.8), J6 pad8 at(151,82.9), and J7 pad8 at(151,92) are assigned
+/R3 and participate in its top-side route. The schematic marks all three as
+unconnected mounting anchors. DRC schematic parity reports these three conflicts.
+Prefer routing R3 around the anchors and restoring their no-connect assignments.
+If intentionally using anchors as electrical pass-throughs, establish their
+internal electrical isolation from the other mounting metal using manufacturer
+information/real part checks, then represent the connection in the schematic.
+Catalog alone does not certify the anchor-metal interconnection. Updating PCB
+from schematic could restore their no-connect nets and invalidate that R3 route.
+
+Other findings
+- Standard PCB DRC:0 physical violations,0 unconnected pads;3 parity warnings.
+- Schematic ERC:0 errors,0 warnings (schematic itself has not changed).
+- Temporary-copy DFM DRC at0.15mm copper/silk spacing,0.1mm minimum track,
+  1mm text height and0.15mm text stroke:16 silk-to-silk cosmetic warnings;
+  no copper/hole/footprint errors. Fourteen relate to pin1 marks, two to J1 text.
+- J6 VDD via at(153.128277,81.270565) has its0.45mm copper annulus touching
+  pad2's end by about0.004mm. Its0.20mm drill is outside the pad by about0.121mm;
+  this is NOT a drilled via-in-pad. Front/back via tenting is enabled. Moving
+  this via about0.1mm farther away would improve separation, but it is not
+  reported as an electrical manufacturing error and is optional cleanup.
+- Four2.2mm NPTH mounting holes and1mm/0.15mm silkscreen text remain.
+- Connector contacts/pinout and component positions remain as previously reviewed.
+  Verify actual FFC reverse mapping and controller pinout before powering.
+- Use compatible screw/washer sizes with the4.4mm-head mounting footprints.
+- Generate matched final Gerbers/drills/BOM/CPL after resolving anchor routing;
+  check JLC live inventory and placement rotations. Earlier review exports are stale.
+
+Files: drc.rpt, erc.rpt, dfm-drc.rpt, copper.svg (both layers in top projection).
+Connector catalog checked:
+https://jlcpcb.com/partdetail/HongCheng-HC_FPC_0_5_6PFH20/C19273925

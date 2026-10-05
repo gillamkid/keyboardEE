@@ -1,0 +1,19 @@
+Review of current rightPinkieBreakout design, 2026-10-04.
+
+Verdict: PCB design passes review; existing production files must be regenerated before ordering.
+
+ERC: 0 violations. DRC: 0 violations, 0 unconnected pads, 0 schematic parity issues.
+Additional check on temporary copy with minimum copper clearance 0.15 mm, track width 0.127 mm, via drill 0.20 mm, via diameter 0.45 mm, annular ring 0.125 mm, text height 1 mm and text stroke 0.15 mm: zero violations.
+Actual outline: nominal 28.7 x 63.3 mm. Two-layer board, 1.6 mm thickness. All 13 assembly components on front copper.
+Assembly: J1 = C19273928 (12-pin), J2-J13 = C19273925 (6-pin), quantity 12. Mounting holes excluded from BOM/CPL.
+Both parts listed by JLCPCB as Extended, Economic and Standard. Economic single-sided assembly fits this board size; Standard would require panelization/rails to meet its 70 x 70 mm size limit.
+
+Verified connector row ordering: J2-J7 = rows 0-5, column C5; J8-J13 = rows 0-5, column C6.
+All 6-pin connectors: 1=row, 2=VDD, 3=GND, 4=downstream LED data, 5=upstream LED data, 6=column. Anchor pads 7 and 8 individually unconnected.
+LED data chain starts at J1 pin 10, passes J2-J7, then J8-J13, and returns to J1 pin 9. Intermediate nets join correctly.
+Against chocPcb (1=column, 2=DIN, 3=DOUT, 4=GND, 5=VDD, 6=row), the physical cable connection must map pin N to pin 7-N. Actual cable construction/orientation and mechanical fit in the keyboard have not been physically tested.
+Power spines are 0.5 mm, branches mostly 0.25 mm with very short 0.15 mm necks. No via drills intersect connector solder pads. Four 2.2 mm NPTH mounting holes; mechanical footprints match local library.
+
+Ordering blocker: jlcpcb/production_files/BOM-columnBreakout.csv and CPL-columnBreakout.csv currently list only J1-J7 (7 connectors). They omit J8-J13 and contain old placement coordinates. Regenerate Gerbers, drill files, BOM and CPL together from the current board. Do not upload the existing production folder as-is.
+Check availability for both connector part numbers in the actual order, and check placement rotation, pin 1 and cable-entry direction in JLCPCB preview. Live stock not independently confirmed.
+No CAD layout changes made during this review.

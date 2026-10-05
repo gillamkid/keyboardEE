@@ -1,0 +1,32 @@
+** Drc report for columnBreakout-grid.kicad_pcb **
+** Created on 2026-09-30T19:21:31-0600 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 7 DRC violations **
+[lib_footprint_issues]: The footprint library 'EasyEDA' was not found at '/tmp/EasyEDA.pretty'.
+    Local override; warning
+    @(153.9500 mm, 54.3000 mm): Footprint U6
+[lib_footprint_issues]: The footprint library 'EasyEDA' was not found at '/tmp/EasyEDA.pretty'.
+    Local override; warning
+    @(153.9500 mm, 45.2000 mm): Footprint U7
+[lib_footprint_issues]: The footprint library 'EasyEDA' was not found at '/tmp/EasyEDA.pretty'.
+    Local override; warning
+    @(154.0000 mm, 99.8000 mm): Footprint U1
+[lib_footprint_issues]: The footprint library 'EasyEDA' was not found at '/tmp/EasyEDA.pretty'.
+    Local override; warning
+    @(153.9500 mm, 72.5000 mm): Footprint U4
+[lib_footprint_issues]: The footprint library 'EasyEDA' was not found at '/tmp/EasyEDA.pretty'.
+    Local override; warning
+    @(153.9500 mm, 63.4000 mm): Footprint U5
+[lib_footprint_issues]: The footprint library 'EasyEDA' was not found at '/tmp/EasyEDA.pretty'.
+    Local override; warning
+    @(153.9500 mm, 90.7000 mm): Footprint U2
+[lib_footprint_issues]: The footprint library 'EasyEDA' was not found at '/tmp/EasyEDA.pretty'.
+    Local override; warning
+    @(153.9500 mm, 81.6000 mm): Footprint U3
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

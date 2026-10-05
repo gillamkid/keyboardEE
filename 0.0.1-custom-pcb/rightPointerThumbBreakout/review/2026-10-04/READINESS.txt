@@ -1,0 +1,30 @@
+Current columnBreakout readiness review - 2026-10-04
+Reviewed saved PCB version with timestamp10:28:59.
+
+Verdict: design ready for fabrication and top-side assembly quoting. No remaining
+CAD issue identified that requires a layout change before export.
+
+Fresh DRC:0 violations,0 unconnected pads,0 schematic parity/footprint errors.
+Fresh ERC:0 errors,0 warnings. Silkscreen0.15mm clearance checks remain enabled,
+warning severity, no excluded violations. Previous16 silk warnings are resolved.
+All connector mounting anchors have distinct correct no-connect assignments.
+Four NPTH mounting holes remain2.2mm, excluded from BOM/positions.
+No via copper overlaps SMD pads. VDD/GND long B.Cu trunks remain0.50mm;
+short F.Cu fanouts0.25mm (very short VDD0.15mm stubs). Power-routing improvement
+retained. Seven top-side SMD FPC connectors; no component placement on bottom.
+Reviewed front assembly preview visually; references/pin1 marks are readable.
+
+Order readiness: final matched Gerber/drill ZIP, JLC BOM and CPL are still needed.
+Existing review/export-check and positions-check files predate this version.
+Economic top-side assembly is compatible with14.7x63.3mm size and1.6mm thickness.
+Green/ENIG1.6mm is an available Economic configuration per published capabilities.
+Standard assembly would require >=70x70mm panel with handling provisions.
+
+Final physical/order checks: confirm connector stock and rotations in quote;
+FFC electrical mapping1..6 breakout->6..1 chocPcb; controller pinout; screw/head
+and latch/case fit. Those cannot be established solely by PCB DRC. Actual maximum
+LED current and cable/contact current limits remain system-level checks.
+No additional design edits and no order submitted during this review.
+
+Reports: readiness-drc.rpt, readiness-erc.rpt, readiness-top.png.
+https://jlcpcb.com/capabilities/pcb-assembly-capabilities

@@ -1,0 +1,1 @@
+Restored distinct no-connect nets for pad8 of J5/J6/J7; copper and schematic preserved. Enabled minimum silkscreen item clearance0.15mm, warning severity. DRC:0 errors,16 silk warnings,0 unconnected,0 parity issues. J6 VDD via copper-to-pad gap0.175mm; drill-to-pad gap0.300mm.

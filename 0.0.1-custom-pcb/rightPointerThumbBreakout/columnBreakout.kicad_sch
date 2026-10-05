@@ -1,0 +1,3818 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b2acabc5-938f-4880-a5a5-3139adf73df1")
+	(paper "A4")
+	(title_block
+		(title "columnBreakout")
+		(rev "1")
+	)
+	(lib_symbols
+		(symbol "EasyEDA:HC-FPC-0.5-12P-FH20"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J1"
+				(at 7.62 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "HC-FPC-0.5-12P-FH20"
+				(at 7.62 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "EasyEDA:FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20"
+				(at 0 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C19273928.pdf"
+				(at 0 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HC(虹成电子)"
+				(at 0 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HC-FPC-0.5-12P-FH20"
+				(at 0 -34.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C19273928"
+				(at 0 -36.83 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "FFC/FPC Connectors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HC-FPC-0.5-12P-FH20_0_1"
+				(rectangle
+					(start -2.54 16.51)
+					(end 6.35 -16.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 15.24)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 19.05 270)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -19.05 90)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HC-FPC-0.5-12P-FH20_1_1"
+				(pin passive line
+					(at -5.08 13.97 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 11.43 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 8.89 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 6.35 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -6.35 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -8.89 0)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -11.43 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -13.97 0)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA:HC-FPC-0.5-6P-FH20"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J2"
+				(at 5.08 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "HC-FPC-0.5-6P-FH20"
+				(at 5.08 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "EasyEDA:FPC-SMD_6P-P0.50_HC-FPC-0.5-6P-FH20"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C19273925.pdf"
+				(at 0 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HC(虹成电子)"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HC-FPC-0.5-6P-FH20"
+				(at 0 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C19273925"
+				(at 0 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "FFC/FPC Connectors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HC-FPC-0.5-6P-FH20_0_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 3.81 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 7.62)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 11.43 270)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -11.43 90)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HC-FPC-0.5-6P-FH20_1_1"
+				(pin passive line
+					(at -3.81 6.35 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 3.81 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -3.81 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -6.35 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(no_connect
+		(at 38.1 135.89)
+		(uuid "10000000-0000-4000-8000-000000000011")
+	)
+	(no_connect
+		(at 48.26 102.87)
+		(uuid "10000000-0000-4000-8000-000000000048")
+	)
+	(no_connect
+		(at 48.26 140.97)
+		(uuid "10000000-0000-4000-8000-000000000049")
+	)
+	(no_connect
+		(at 104.14 29.21)
+		(uuid "10000000-0000-4000-8000-000000000050")
+	)
+	(no_connect
+		(at 104.14 52.07)
+		(uuid "10000000-0000-4000-8000-000000000051")
+	)
+	(no_connect
+		(at 137.16 27.94)
+		(uuid "10000000-0000-4000-8000-000000000052")
+	)
+	(no_connect
+		(at 137.16 50.8)
+		(uuid "10000000-0000-4000-8000-000000000053")
+	)
+	(no_connect
+		(at 167.64 27.94)
+		(uuid "10000000-0000-4000-8000-000000000054")
+	)
+	(no_connect
+		(at 167.64 50.8)
+		(uuid "10000000-0000-4000-8000-000000000055")
+	)
+	(no_connect
+		(at 199.39 27.94)
+		(uuid "10000000-0000-4000-8000-000000000056")
+	)
+	(no_connect
+		(at 199.39 50.8)
+		(uuid "10000000-0000-4000-8000-000000000057")
+	)
+	(no_connect
+		(at 231.14 26.67)
+		(uuid "10000000-0000-4000-8000-000000000058")
+	)
+	(no_connect
+		(at 231.14 49.53)
+		(uuid "10000000-0000-4000-8000-000000000059")
+	)
+	(no_connect
+		(at 262.89 26.67)
+		(uuid "10000000-0000-4000-8000-000000000060")
+	)
+	(no_connect
+		(at 262.89 49.53)
+		(uuid "10000000-0000-4000-8000-000000000061")
+	)
+	(no_connect
+		(at 264.16 133.35)
+		(uuid "1c3f8810-e492-4126-80e8-a7acc70251d5")
+	)
+	(no_connect
+		(at 232.41 133.35)
+		(uuid "5079aa6e-9278-4fde-8793-e107981cb0a7")
+	)
+	(no_connect
+		(at 200.66 132.08)
+		(uuid "59c093db-3bbb-4db7-8b5d-746dc3c33532")
+	)
+	(no_connect
+		(at 200.66 67.31)
+		(uuid "5e728a0a-6300-435c-b287-5d758095e904")
+	)
+	(no_connect
+		(at 137.16 68.58)
+		(uuid "680e78ed-4c52-408a-8541-3375abc2c7fe")
+	)
+	(no_connect
+		(at 168.91 109.22)
+		(uuid "702a2740-ed78-455b-b4a7-f1dc7352cd94")
+	)
+	(no_connect
+		(at 167.64 91.44)
+		(uuid "7571b83f-c1da-413c-bd6d-eda9b7835681")
+	)
+	(no_connect
+		(at 137.16 91.44)
+		(uuid "7a395477-9d3e-468a-ae06-1cca27f81604")
+	)
+	(no_connect
+		(at 232.41 110.49)
+		(uuid "866d4bf4-6e39-498e-b87c-dd127cfc02e5")
+	)
+	(no_connect
+		(at 200.66 109.22)
+		(uuid "88de8f08-06d7-4ec0-babc-c179ba475332")
+	)
+	(no_connect
+		(at 264.16 110.49)
+		(uuid "932e93b6-3a1c-4bda-b48e-f38d859a32f9")
+	)
+	(no_connect
+		(at 105.41 110.49)
+		(uuid "9df32e90-e2e3-4a89-b774-3a7d59c4dad5")
+	)
+	(no_connect
+		(at 168.91 132.08)
+		(uuid "aaf73256-1175-419d-8b52-ddb42f0ea952")
+	)
+	(no_connect
+		(at 232.41 67.31)
+		(uuid "bd95c87e-c088-4c03-80dc-cc2896987403")
+	)
+	(no_connect
+		(at 137.16 110.49)
+		(uuid "c63f0bf3-c970-463b-8cd2-a7e7a85a81f9")
+	)
+	(no_connect
+		(at 105.41 133.35)
+		(uuid "c69fc78a-960a-4f77-b83a-a24ae3cf2345")
+	)
+	(no_connect
+		(at 137.16 133.35)
+		(uuid "c9fbbcf3-4890-485c-af83-a2a8b22f8ca4")
+	)
+	(no_connect
+		(at 200.66 90.17)
+		(uuid "ea2f4420-9a55-4fc9-8bb1-a0b8e24f2c39")
+	)
+	(no_connect
+		(at 232.41 90.17)
+		(uuid "f49a049d-f07e-45dd-b384-4e95a483fb6a")
+	)
+	(no_connect
+		(at 167.64 68.58)
+		(uuid "f510b14b-49da-4bc0-aca8-b78ca390a776")
+	)
+	(label "IN35"
+		(at 194.31 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01abf6c7-043a-4552-a02b-568a624ec319")
+	)
+	(label "R5"
+		(at 226.06 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08403e22-f5d4-47b7-8092-da2645ff1cca")
+	)
+	(label "C2"
+		(at 130.81 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b3c7a1d-f265-4b93-aee4-73eb4cb098ab")
+	)
+	(label "R1"
+		(at 38.1 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000001")
+	)
+	(label "R2"
+		(at 38.1 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000002")
+	)
+	(label "R3"
+		(at 38.1 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000003")
+	)
+	(label "R4"
+		(at 38.1 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000004")
+	)
+	(label "R5"
+		(at 38.1 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000005")
+	)
+	(label "VDD"
+		(at 38.1 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000006")
+	)
+	(label "GND"
+		(at 38.1 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000007")
+	)
+	(label "IN40"
+		(at 38.1 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000008")
+	)
+	(label "IN28"
+		(at 38.1 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000009")
+	)
+	(label "C2"
+		(at 38.1 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000010")
+	)
+	(label "R5"
+		(at 97.79 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000012")
+	)
+	(label "C0"
+		(at 97.79 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000013")
+	)
+	(label "IN33"
+		(at 97.79 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000014")
+	)
+	(label "IN34"
+		(at 97.79 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000015")
+	)
+	(label "GND"
+		(at 97.79 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000016")
+	)
+	(label "VDD"
+		(at 97.79 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000017")
+	)
+	(label "R4"
+		(at 130.81 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000018")
+	)
+	(label "C0"
+		(at 130.81 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000019")
+	)
+	(label "IN32"
+		(at 130.81 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000020")
+	)
+	(label "IN33"
+		(at 130.81 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000021")
+	)
+	(label "GND"
+		(at 130.81 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000022")
+	)
+	(label "VDD"
+		(at 130.81 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000023")
+	)
+	(label "R3"
+		(at 161.29 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000024")
+	)
+	(label "C0"
+		(at 161.29 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000025")
+	)
+	(label "IN31"
+		(at 161.29 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000026")
+	)
+	(label "IN32"
+		(at 161.29 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000027")
+	)
+	(label "GND"
+		(at 161.29 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000028")
+	)
+	(label "VDD"
+		(at 161.29 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000029")
+	)
+	(label "R2"
+		(at 193.04 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000030")
+	)
+	(label "C0"
+		(at 193.04 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000031")
+	)
+	(label "IN30"
+		(at 193.04 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000032")
+	)
+	(label "IN31"
+		(at 193.04 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000033")
+	)
+	(label "GND"
+		(at 193.04 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000034")
+	)
+	(label "VDD"
+		(at 193.04 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000035")
+	)
+	(label "R1"
+		(at 224.79 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000036")
+	)
+	(label "C0"
+		(at 224.79 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000037")
+	)
+	(label "IN29"
+		(at 224.79 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000038")
+	)
+	(label "IN30"
+		(at 224.79 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000039")
+	)
+	(label "GND"
+		(at 224.79 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000040")
+	)
+	(label "VDD"
+		(at 224.79 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000041")
+	)
+	(label "R0"
+		(at 256.54 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000042")
+	)
+	(label "C0"
+		(at 256.54 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000043")
+	)
+	(label "IN28"
+		(at 256.54 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000044")
+	)
+	(label "IN29"
+		(at 256.54 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000045")
+	)
+	(label "GND"
+		(at 256.54 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000046")
+	)
+	(label "VDD"
+		(at 256.54 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10000000-0000-4000-8000-000000000047")
+	)
+	(label "IN34"
+		(at 226.06 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "126822a4-f4a0-465b-8b4b-3b1d17c033ee")
+	)
+	(label "C1"
+		(at 38.1 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "140dcafe-d039-47bf-adc6-84aa7292bd18")
+	)
+	(label "GND"
+		(at 194.31 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17360afe-7c83-4c3b-bcc6-79f6617b5e50")
+	)
+	(label "VDD"
+		(at 226.06 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1818094c-1808-45de-85cf-c61a9417c177")
+	)
+	(label "IN35"
+		(at 194.31 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1cd9d00b-48c4-43ae-a5b3-6bf8fc2e4889")
+	)
+	(label "GND"
+		(at 162.56 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2007456f-25b9-4a07-b9b0-78debb05adb9")
+	)
+	(label "C2"
+		(at 162.56 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "20a1c210-b1e6-4f05-9775-4af39e37ab1e")
+	)
+	(label "IN36"
+		(at 130.81 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21e42d4d-01d1-4e3e-9777-104bf9187929")
+	)
+	(label "VDD"
+		(at 161.29 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "270b9bf9-c6d9-4ac4-b9e5-f454d6a1adae")
+	)
+	(label "IN35"
+		(at 162.56 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2812c445-5a86-4116-9957-ddfac81bfcb6")
+	)
+	(label "IN37"
+		(at 130.81 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28e9a85c-d7b8-4ca0-a7bf-742029288805")
+	)
+	(label "VDD"
+		(at 99.06 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c189d48-fd95-4c44-a11d-509c7677a5b8")
+	)
+	(label "R1"
+		(at 194.31 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30351ba2-fe65-4442-9af7-a0db7441107c")
+	)
+	(label "IN37"
+		(at 130.81 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32c4238c-db10-4071-a1bb-455e8c85b030")
+	)
+	(label "IN34"
+		(at 194.31 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "34452ebe-c91e-4676-b1f6-1807795f2669")
+	)
+	(label "IN37"
+		(at 161.29 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3bf6dda6-97ad-43da-a641-1aabc17cc331")
+	)
+	(label "R2"
+		(at 130.81 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3cfe3513-4a44-4048-8634-23ace373d2ca")
+	)
+	(label "IN36"
+		(at 162.56 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d974e3c-7472-4b3f-a3b1-7c1f4771e2a8")
+	)
+	(label "C1"
+		(at 130.81 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "40e03723-e535-442c-a640-fcfc979012e5")
+	)
+	(label "R0"
+		(at 38.1 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "43e4debc-9ae9-4207-ae58-edf08964efdc")
+	)
+	(label "R0"
+		(at 194.31 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46bae5e9-2811-44cf-92f8-d36c2b991cbc")
+	)
+	(label "C1"
+		(at 194.31 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c1cff50-5db1-48e4-8433-a3ef1ef08cfb")
+	)
+	(label "VDD"
+		(at 194.31 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5cdfc861-e36f-4556-bda5-729bc96503d2")
+	)
+	(label "IN36"
+		(at 161.29 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d8ae9df-81c2-4b36-bf86-6c5095d1d4d7")
+	)
+	(label "GND"
+		(at 130.81 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ec22ce4-5a61-417b-8d43-c51dde810395")
+	)
+	(label "R0"
+		(at 226.06 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f64aa29-3dbc-416f-bc6d-06a4a55ee704")
+	)
+	(label "GND"
+		(at 226.06 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62ad0c90-0069-4993-9a8d-eec1fd592f10")
+	)
+	(label "VDD"
+		(at 130.81 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "690ecfa3-eeac-4f04-aa2e-f0befcbc4824")
+	)
+	(label "GND"
+		(at 194.31 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6bee7c5a-8086-419d-bf2c-a9457e9a75d5")
+	)
+	(label "R3"
+		(at 99.06 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6bfb2848-9441-4264-a50a-471de964f819")
+	)
+	(label "C2"
+		(at 257.81 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "71263986-cd25-44a2-8d9b-6bec771c4909")
+	)
+	(label "IN37"
+		(at 99.06 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "71c83a85-2be5-4d61-803d-3f7f5b9d1465")
+	)
+	(label "IN38"
+		(at 99.06 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e21a651-9831-4e59-b3a0-a649844d1d18")
+	)
+	(label "IN35"
+		(at 226.06 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9a577daf-cb17-4cca-a03d-3e9601129296")
+	)
+	(label "R1"
+		(at 162.56 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b451d20-bd23-4417-a36c-226b8a9aa5e8")
+	)
+	(label "IN40"
+		(at 226.06 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9c696b43-ae14-40e6-9638-a4054905ec57")
+	)
+	(label "IN36"
+		(at 194.31 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9cc74f4c-f685-4245-a779-227c94adfd80")
+	)
+	(label "IN38"
+		(at 257.81 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a1815582-6344-4c85-96a9-046fe2b73895")
+	)
+	(label "VDD"
+		(at 130.81 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a32514ae-40da-4295-b473-16b4b7c2db53")
+	)
+	(label "VDD"
+		(at 194.31 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab6b4f9a-2391-4686-96a1-0d2c2b235627")
+	)
+	(label "GND"
+		(at 161.29 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ae9cc9e1-c254-433d-838f-4c0e71dcce10")
+	)
+	(label "R2"
+		(at 161.29 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b165522e-fd15-423c-a304-9478d5c2f984")
+	)
+	(label "C2"
+		(at 99.06 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b283830f-8c77-424e-8409-2d5d8c00760c")
+	)
+	(label "C1"
+		(at 161.29 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2b139d8-947f-4760-a85c-1b9c30509e69")
+	)
+	(label "R4"
+		(at 257.81 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b67be3f1-5169-4df7-b6ab-1477d9143861")
+	)
+	(label "IN39"
+		(at 226.06 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b71633ce-bc9f-48ec-b9db-f82bc93c1028")
+	)
+	(label "GND"
+		(at 130.81 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b726f1c8-9396-48b1-90ed-f493c862f591")
+	)
+	(label "IN39"
+		(at 257.81 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b9557490-f5a3-4981-84ea-ed4ffa4fe71d")
+	)
+	(label "VDD"
+		(at 226.06 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be00c8dd-36f3-4ced-91cf-641eaef466d4")
+	)
+	(label "VDD"
+		(at 257.81 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf78d719-33f0-4985-8314-3856bd0d7dd3")
+	)
+	(label "GND"
+		(at 257.81 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4e3b5a7-6493-45ce-8d2b-229d24202036")
+	)
+	(label "GND"
+		(at 99.06 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5e0661b-6a06-4965-8132-6c18b641b0e4")
+	)
+	(label "IN38"
+		(at 130.81 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb3695cf-fae2-4ea1-bddd-2947826b2a29")
+	)
+	(label "C1"
+		(at 226.06 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cfd3f24a-8356-4695-a7fb-9fa0cc7518c3")
+	)
+	(label "C2"
+		(at 226.06 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d49c25ca-d3f2-4336-bc9f-aaf0853ed4d6")
+	)
+	(label "C2"
+		(at 194.31 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e444f3aa-cfdb-45c6-b7e7-ed6ee0b0fb4e")
+	)
+	(label "VDD"
+		(at 162.56 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e57e6b82-1a78-45d9-a234-9a04273c25e8")
+	)
+	(label "GND"
+		(at 226.06 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec0982e6-8352-49c8-a50b-20b050fa4832")
+	)
+	(label "R3"
+		(at 130.81 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f41afe65-47da-450b-b955-7eca90735307")
+	)
+	(symbol
+		(lib_id "EasyEDA:HC-FPC-0.5-6P-FH20")
+		(at 134.62 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00ac4edd-4fbe-4e89-8908-bdb006e33e38")
+		(property "Reference" "J15"
+			(at 134.366 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-FPC-0.5-6P-FH20"
+			(at 124.714 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:FPC-SMD_6P-P0.50_HC-FPC-0.5-6P-FH20"
+			(at 134.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273925.pdf"
+			(at 134.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 134.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC-FPC-0.5-6P-FH20"
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19273925"
+			(at 134.62 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d65c3619-d8e9-4646-b82e-c7bbbb93fa6e")
+		)
+		(pin "4"
+			(uuid "95623da9-d90d-4d1d-ab24-da07c06d12e5")
+		)
+		(pin "3"
+			(uuid "0f68106b-9863-4959-b5b2-adc2edb7271f")
+		)
+		(pin "2"
+			(uuid "e22b9323-5163-484c-adc1-c65b14b39068")
+		)
+		(pin "5"
+			(uuid "b5931f47-e33b-4919-9cb4-6919840a4fec")
+		)
+		(pin "7"
+			(uuid "a397ef98-aec5-4ed3-864f-1d8e7cb1b831")
+		)
+		(pin "8"
+			(uuid "bb5a2b5e-982d-4507-bb4c-d99e8a9b161c")
+		)
+		(pin "6"
+			(uuid "0f9a792e-dd11-45f1-bd79-023064dde030")
+		)
+		(instances
+			(project "columnBreakout"
+				(path "/b2acabc5-938f-4880-a5a5-3139adf73df1"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:HC-FPC-0.5-6P-FH20")
+		(at 229.87 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08b0a227-d6cf-4ecc-b4a5-a1fa5941a434")
+		(property "Reference" "J13"
+			(at 228.854 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-FPC-0.5-6P-FH20"
+			(at 219.456 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:FPC-SMD_6P-P0.50_HC-FPC-0.5-6P-FH20"
+			(at 229.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273925.pdf"
+			(at 229.87 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 229.87 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC-FPC-0.5-6P-FH20"
+			(at 229.87 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19273925"
+			(at 229.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "9229d43c-8931-4f97-a9c1-50fb209a7e14")
+		)
+		(pin "8"
+			(uuid "6761d737-b489-4b3c-983b-5152e83e5548")
+		)
+		(pin "6"
+			(uuid "7dcbc50d-97f4-440e-95b7-43ad5bb37b82")
+		)
+		(pin "5"
+			(uuid "b72d31d1-2f51-4f1b-98ef-c82535a0c914")
+		)
+		(pin "4"
+			(uuid "e6328caa-7971-44be-8463-56ca72d69f47")
+		)
+		(pin "3"
+			(uuid "cd13e701-aca5-41df-be18-cef908fb287c")
+		)
+		(pin "2"
+			(uuid "a7d7d9ee-a5a1-44bc-b7ff-abbf1a2006a0")
+		)
+		(pin "1"
+			(uuid "019d4f92-708f-48ce-a191-cbb0e3dea5b1")
+		)
+		(instances
+			(project "columnBreakout"
+				(path "/b2acabc5-938f-4880-a5a5-3139adf73df1"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:HC-FPC-0.5-6P-FH20")
+		(at 165.1 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13523933-a880-49ea-b1af-1063d46f9985")
+		(property "Reference" "J10"
+			(at 164.846 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-FPC-0.5-6P-FH20"
+			(at 155.194 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:FPC-SMD_6P-P0.50_HC-FPC-0.5-6P-FH20"
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273925.pdf"
+			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 165.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC-FPC-0.5-6P-FH20"
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19273925"
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3516c114-4cc8-4157-9015-770a5f1f4fd6")
+		)
+		(pin "4"
+			(uuid "60098177-dcc2-41ca-8864-3d7c972ffa70")
+		)
+		(pin "3"
+			(uuid "820774a1-fa52-4e9a-af4e-5e623b7bbcf9")
+		)
+		(pin "2"
+			(uuid "d2e766db-e48c-43b2-97de-5e244b42e78a")
+		)
+		(pin "5"
+			(uuid "f4742f18-0604-47cd-8a99-6f5811cca9c2")
+		)
+		(pin "7"
+			(uuid "b1a39334-f565-4627-9c87-e4a551cf6059")
+		)
+		(pin "8"
+			(uuid "0bac306e-7ca7-4462-942d-d7735bf22ee8")
+		)
+		(pin "6"
+			(uuid "e387fafe-674e-4aed-8d0c-41c9c8e38b12")
+		)
+		(instances
+			(project "columnBreakout"
+				(path "/b2acabc5-938f-4880-a5a5-3139adf73df1"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:HC-FPC-0.5-12P-FH20")
+		(at 43.18 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e75df63-f589-43c4-9fbc-bdfaefbac55d")
+		(property "Reference" "J1"
+			(at 50.8 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-FPC-0.5-12P-FH20"
+			(at 50.8 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20"
+			(at 43.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273928.pdf"
+			(at 43.18 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 43.18 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC-FPC-0.5-12P-FH20"
+			(at 43.18 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19273928"
+			(at 43.18 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "3ca5d24f-ea4c-447b-89a9-61f74cb2a955")
+		)
+		(pin "8"
+			(uuid "876fd95d-51cf-40e1-920b-0bb001103a57")
+		)
+		(pin "1"
+			(uuid "dc2d40e2-d60b-4056-9f1d-fc64eb7607f3")
+		)
+		(pin "7"
+			(uuid "60b66de2-e598-44c3-98c9-b4cbcff9b252")
+		)
+		(pin "4"
+			(uuid "73148932-d53b-4ad0-9d50-9e709925b93f")
+		)
+		(pin "6"
+			(uuid "cd884cc8-ad47-4daf-924c-0ce4ef1b295e")
+		)
+		(pin "3"
+			(uuid "c7a810f4-a636-4894-9137-6c473d99c659")
+		)
+		(pin "2"
+			(uuid "a72128cc-94a9-47c1-ba6d-ad94f6ba20a9")
+		)
+		(pin "10"
+			(uuid "61863b34-d0be-4d92-a044-ceca00749028")
+		)
+		(pin "11"
+			(uuid "49d3a9bc-da4e-47ff-8c3b-627aff192e5d")
+		)
+		(pin "9"
+			(uuid "82937945-1979-4314-9de0-33b8ef4cb483")
+		)
+		(pin "12"
+			(uuid "75d302bc-dab1-49d8-9ec6-1dc632161b27")
+		)
+		(pin "14"
+			(uuid "e5e3c7c0-0fc7-4603-8643-79bee190fb3d")
+		)
+		(pin "13"
+			(uuid "56a6447e-ad14-4dda-8b0d-2b6f29fad430")
+		)
+		(instances
+			(project "columnBreakout"
+				(path "/b2acabc5-938f-4880-a5a5-3139adf73df1"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:HC-FPC-0.5-6P-FH20")
+		(at 198.12 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f73274e-30f9-48ec-9bf2-23c5731c94b6")
+		(property "Reference" "J17"
+			(at 197.866 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-FPC-0.5-6P-FH20"
+			(at 188.722 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:FPC-SMD_6P-P0.50_HC-FPC-0.5-6P-FH20"
+			(at 198.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273925.pdf"
+			(at 198.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 198.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC-FPC-0.5-6P-FH20"
+			(at 198.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19273925"
+			(at 198.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "1d4cd7be-f7e3-4010-81d4-0b4bbd8dd715")
+		)
+		(pin "6"
+			(uuid "7f350b04-5c27-44f9-9b65-d7a707e17a43")
+		)
+		(pin "5"
+			(uuid "3e34e4b4-6a0a-44bf-9271-fb3d58272870")
+		)
+		(pin "7"
+			(uuid "719ed6b6-61c4-4f97-922c-d1e7c6ed9845")
+		)
+		(pin "1"
+			(uuid "1a7e1391-d6a9-47c3-a6d0-d1ceb6f1481e")
+		)
+		(pin "4"
+			(uuid "9a16b718-1e76-41b2-ae11-97ca8dc9357b")
+		)
+		(pin "3"
+			(uuid "d9d0b754-df34-494e-bb5e-71cfac597eba")
+		)
+		(pin "2"
+			(uuid "3d2ce43f-ee18-499a-b044-8ddb0877c036")
+		)
+		(instances
+			(project "columnBreakout"
+				(path "/b2acabc5-938f-4880-a5a5-3139adf73df1"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:HC-FPC-0.5-6P-FH20")
+		(at 261.62 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39f66a6b-2f66-4b8b-94e7-41ffa4b5a774")
+		(property "Reference" "J12"
+			(at 261.62 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-FPC-0.5-6P-FH20"
+			(at 251.206 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:FPC-SMD_6P-P0.50_HC-FPC-0.5-6P-FH20"
+			(at 261.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273925.pdf"
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC-FPC-0.5-6P-FH20"
+			(at 261.62 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19273925"
+			(at 261.62 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "994c47d4-92d0-4a60-9c14-40b288c2da93")
+		)
+		(pin "7"
+			(uuid "101b5e66-007a-4cd6-ba9e-4ba4488f2123")
+		)
+		(pin "1"
+			(uuid "5d273c10-f2da-48aa-89b4-c3359ac7d618")
+		)
+		(pin "8"
+			(uuid "010392f8-8907-4c43-a8cb-487bf435eab8")
+		)
+		(pin "4"
+			(uuid "e58976c2-5c6c-464c-b19a-de6602bf150f")
+		)
+		(pin "6"
+			(uuid "f1684602-c814-4155-947e-20aa9876731b")
+		)
+		(pin "3"
+			(uuid "d0b2708d-bb6a-476e-a943-11bc9c7cfe66")
+		)
+		(pin "2"
+			(uuid "6669b6f6-fb8b-4fb7-b257-bf20a8c1a150")
+		)
+		(instances
+			(project "columnBreakout"
+				(path "/b2acabc5-938f-4880-a5a5-3139adf73df1"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:HC-FPC-0.5-6P-FH20")
+		(at 134.62 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c97d6c7-04cc-4f42-bbbf-e0ffa51fd934")
+		(property "Reference" "J6"
+			(at 134.62 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-FPC-0.5-6P-FH20"
+			(at 124.206 25.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:FPC-SMD_6P-P0.50_HC-FPC-0.5-6P-FH20"
+			(at 134.62 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273925.pdf"
+			(at 134.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC-FPC-0.5-6P-FH20"
+			(at 134.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19273925"
+			(at 134.62 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "870ed3f8-03ad-4b6e-8b8c-efbd3221f784")
+		)
+		(pin "7"
+			(uuid "b77dd115-734d-46d7-a0fb-0785aea60bc2")
+		)
+		(pin "1"
+			(uuid "35d86a8b-a3f2-4cd3-ab55-cb80481f7737")
+		)
+		(pin "8"
+			(uuid "9d4c3646-a41d-4d1d-8d41-935982f1204e")
+		)
+		(pin "4"
+			(uuid "714997f8-cb68-4cca-902b-279368cc29f7")
+		)
+		(pin "6"
+			(uuid "6a7c7e9c-5601-4f2a-afc9-9e19e7a9da06")
+		)
+		(pin "3"
+			(uuid "7505a787-59ae-4130-a0a6-de01bed250ca")
+		)
+		(pin "2"
+			(uuid "f39248c9-1e4d-487f-a8da-25474c253daa")
+		)
+		(instances
+			(project "columnBreakout"
+				(path "/b2acabc5-938f-4880-a5a5-3139adf73df1"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:HC-FPC-0.5-6P-FH20")
+		(at 134.62 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6443e169-0b1b-4782-aee2-90ab58a7bf17")
+		(property "Reference" "J11"
+			(at 134.366 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-FPC-0.5-6P-FH20"
+			(at 124.714 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:FPC-SMD_6P-P0.50_HC-FPC-0.5-6P-FH20"
+			(at 134.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273925.pdf"
+			(at 134.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 134.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC-FPC-0.5-6P-FH20"
+			(at 134.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19273925"
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "19cfe162-6f38-41f4-9791-6c1c9125a4ad")
+		)
+		(pin "1"
+			(uuid "12709a8f-1dd7-4e6c-8e2e-a48da9695169")
+		)
+		(pin "8"
+			(uuid "647a0362-d50c-4581-95a0-fdd9ad69af98")
+		)
+		(pin "4"
+			(uuid "cbf849fe-335c-4118-8f99-45d03dff168e")
+		)
+		(pin "6"
+			(uuid "2d97f637-5c01-4041-b2ca-818fc0c5c86e")
+		)
+		(pin "3"
+			(uuid "10304db9-7fa9-43fb-9143-297665aa4b30")
+		)
+		(pin "2"
+			(uuid "e91d6292-000b-4e73-8113-cad93f456b5b")
+		)
+		(pin "5"
+			(uuid "48b16444-c8a7-465a-b8eb-eae19b353a01")
+		)
+		(instances
+			(project "columnBreakout"
+				(path "/b2acabc5-938f-4880-a5a5-3139adf73df1"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:HC-FPC-0.5-6P-FH20")
+		(at 102.87 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a2858bb-92c3-4253-acc4-25a48617c983")
+		(property "Reference" "J14"
+			(at 102.616 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-FPC-0.5-6P-FH20"
+			(at 92.964 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:FPC-SMD_6P-P0.50_HC-FPC-0.5-6P-FH20"
+			(at 102.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273925.pdf"
+			(at 102.87 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 102.87 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC-FPC-0.5-6P-FH20"
+			(at 102.87 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19273925"
+			(at 102.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "31c328ad-6cb1-4047-abbf-80488a1bc444")
+		)
+		(pin "1"
+			(uuid "d612c9e7-16fc-4e4d-8402-4348dbb00073")
+		)
+		(pin "8"
+			(uuid "f431f7e8-08a8-4d0b-bf83-616a16157367")
+		)
+		(pin "4"
+			(uuid "490f6437-bc9d-4f77-976f-63f073ffd5b1")
+		)
+		(pin "6"
+			(uuid "30fd63c8-7173-4f21-aeae-d4abc6126c37")
+		)
+		(pin "3"
+			(uuid "67508ac3-c8c8-46c4-927e-38b4c3c26d4c")
+		)
+		(pin "2"
+			(uuid "432fc44d-72f1-4e53-8134-9efa24a06dd2")
+		)
+		(pin "5"
+			(uuid "6450e366-2e4a-4bba-9d04-ced3a5ca0782")
+		)
+		(instances
+			(project "columnBreakout"
+				(path "/b2acabc5-938f-4880-a5a5-3139adf73df1"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:HC-FPC-0.5-6P-FH20")
+		(at 229.87 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76a1aa89-697e-4d22-a050-f672d8280d0b")
+		(property "Reference" "J8"
+			(at 229.616 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-FPC-0.5-6P-FH20"
+			(at 220.472 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:FPC-SMD_6P-P0.50_HC-FPC-0.5-6P-FH20"
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273925.pdf"
+			(at 229.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 229.87 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC-FPC-0.5-6P-FH20"
+			(at 229.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19273925"
+			(at 229.87 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "55ada7f6-08f0-44a4-8127-cb7d356ad97c")
+		)
+		(pin "6"
+			(uuid "193d12fb-43ba-405c-b400-1b20f0131334")
+		)
+		(pin "5"
+			(uuid "6c898d0e-25e2-4988-b208-61074d0810a2")
+		)
+		(pin "7"
+			(uuid "6f398972-6fda-49d1-8e9d-315a3b94ede2")
+		)
+		(pin "1"
+			(uuid "fd733945-3e3c-4bf1-841f-9374919ebe50")
+		)
+		(pin "4"
+			(uuid "89966660-d179-49df-8e79-0bb3b9797246")
+		)
+		(pin "3"
+			(uuid "2adc7c66-a01b-4482-9758-d3a8c6d3e23c")
+		)
+		(pin "2"
+			(uuid "32e64546-460f-4c74-87ce-6ee0dd9034c1")
+		)
+		(instances
+			(project "columnBreakout"
+				(path "/b2acabc5-938f-4880-a5a5-3139adf73df1"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:HC-FPC-0.5-6P-FH20")
+		(at 260.35 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7996299c-439e-46c3-830d-6fd619b738de")
+		(property "Reference" "J2"
+			(at 260.096 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-FPC-0.5-6P-FH20"
+			(at 250.952 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:FPC-SMD_6P-P0.50_HC-FPC-0.5-6P-FH20"
+			(at 260.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273925.pdf"
+			(at 260.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 260.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC-FPC-0.5-6P-FH20"
+			(at 260.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19273925"
+			(at 260.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "f7e95178-e576-4e64-8a1f-023a92f6acbb")
+		)
+		(pin "6"
+			(uuid "ec4b1f35-7bf8-4388-a74c-77232c5f4277")
+		)
+		(pin "5"
+			(uuid "67ab1caf-e87d-49a3-bfd9-45099d635a5e")
+		)
+		(pin "7"
+			(uuid "b79e0b51-52b8-4704-9b13-676ba110b81b")
+		)
+		(pin "1"
+			(uuid "f18efb64-863a-48d9-9c7d-811f62fdb997")
+		)
+		(pin "4"
+			(uuid "9db6fd35-6887-4e96-93db-9f477f53de36")
+		)
+		(pin "3"
+			(uuid "1d540f52-4af5-411d-b0eb-0acdbafde692")
+		)
+		(pin "2"
+			(uuid "a3d363c4-922f-4b8c-b9ce-ab739980c564")
+		)
+		(instances
+			(project "columnBreakout"
+				(path "/b2acabc5-938f-4880-a5a5-3139adf73df1"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:HC-FPC-0.5-6P-FH20")
+		(at 196.85 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a41eaec-a48f-4ec5-8952-8b38d3f0641a")
+		(property "Reference" "J4"
+			(at 196.596 20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-FPC-0.5-6P-FH20"
+			(at 186.944 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:FPC-SMD_6P-P0.50_HC-FPC-0.5-6P-FH20"
+			(at 196.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273925.pdf"
+			(at 196.85 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC-FPC-0.5-6P-FH20"
+			(at 196.85 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19273925"
+			(at 196.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4421f7e8-f241-48ef-a118-2fa6cad63228")
+		)
+		(pin "4"
+			(uuid "98e97c84-f9e9-4fd6-b93c-acd9cf9ff54e")
+		)
+		(pin "3"
+			(uuid "706e2ca6-b030-4185-8c49-723f1763dc2f")
+		)
+		(pin "2"
+			(uuid "62ac03d0-8c42-4bcf-ae43-8dffc232d90e")
+		)
+		(pin "5"
+			(uuid "0f3b608d-6ff2-4b63-94f1-9f4bbaaa070e")
+		)
+		(pin "7"
+			(uuid "19b93059-422e-4334-be4c-b5d71fd39f27")
+		)
+		(pin "8"
+			(uuid "4d811b46-7dc2-46e0-a00b-422445b6ca5b")
+		)
+		(pin "6"
+			(uuid "ffccebc2-bb33-4fba-a652-2fad379561bf")
+		)
+		(instances
+			(project "columnBreakout"
+				(path "/b2acabc5-938f-4880-a5a5-3139adf73df1"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:HC-FPC-0.5-6P-FH20")
+		(at 101.6 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abaeddee-0d5f-4178-975f-4914ae925e4c")
+		(property "Reference" "J7"
+			(at 100.584 21.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-FPC-0.5-6P-FH20"
+			(at 91.186 25.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:FPC-SMD_6P-P0.50_HC-FPC-0.5-6P-FH20"
+			(at 101.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273925.pdf"
+			(at 101.6 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC-FPC-0.5-6P-FH20"
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19273925"
+			(at 101.6 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "ffe103dc-efd4-4b19-af27-c3c6b267e0b1")
+		)
+		(pin "8"
+			(uuid "67921430-9611-4ee6-a748-25814a5bee93")
+		)
+		(pin "6"
+			(uuid "46fa2c73-e551-411f-ae05-3fbbd086a2ef")
+		)
+		(pin "5"
+			(uuid "2f4181fa-aeee-42e5-b976-f5313988b9c1")
+		)
+		(pin "4"
+			(uuid "e2285a67-ada7-469d-8cfa-9b6cee641d10")
+		)
+		(pin "3"
+			(uuid "beda7ac3-bc6c-4965-840b-9a52c6b3b5b6")
+		)
+		(pin "2"
+			(uuid "a8fd7ad1-abd0-4d9a-a987-c3130ecf62e5")
+		)
+		(pin "1"
+			(uuid "2cc383ea-1953-4c63-9624-ffae94958ad8")
+		)
+		(instances
+			(project "columnBreakout"
+				(path "/b2acabc5-938f-4880-a5a5-3139adf73df1"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:HC-FPC-0.5-6P-FH20")
+		(at 165.1 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b94a5d5b-210b-49cc-a956-38b146a105e7")
+		(property "Reference" "J5"
+			(at 164.846 20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-FPC-0.5-6P-FH20"
+			(at 155.194 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:FPC-SMD_6P-P0.50_HC-FPC-0.5-6P-FH20"
+			(at 165.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273925.pdf"
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC-FPC-0.5-6P-FH20"
+			(at 165.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19273925"
+			(at 165.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "044c4c44-6600-40df-b1b1-260e8d9dd8d5")
+		)
+		(pin "1"
+			(uuid "8bfa5b58-9757-44c5-882f-77b25ec681c8")
+		)
+		(pin "8"
+			(uuid "4f05f105-3aab-42d6-932e-8ebf43d44d2e")
+		)
+		(pin "4"
+			(uuid "5f43f204-7821-42ae-8bdb-524505275976")
+		)
+		(pin "6"
+			(uuid "7759253d-12e7-4b36-9341-c1d795db3305")
+		)
+		(pin "3"
+			(uuid "af29bfe1-88cf-44ad-ae73-f495523c6843")
+		)
+		(pin "2"
+			(uuid "0c2123fa-1df4-452e-9ade-3700f1298f64")
+		)
+		(pin "5"
+			(uuid "5f50b80b-86ad-4cf4-a2f6-5999e925b33b")
+		)
+		(instances
+			(project "columnBreakout"
+				(path "/b2acabc5-938f-4880-a5a5-3139adf73df1"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:HC-FPC-0.5-6P-FH20")
+		(at 198.12 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c473a96e-fd32-47a1-9531-3951ca8ee1c2")
+		(property "Reference" "J9"
+			(at 198.628 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-FPC-0.5-6P-FH20"
+			(at 187.96 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:FPC-SMD_6P-P0.50_HC-FPC-0.5-6P-FH20"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273925.pdf"
+			(at 198.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 198.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC-FPC-0.5-6P-FH20"
+			(at 198.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19273925"
+			(at 198.12 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "bbd4950d-3b4a-45eb-b2ef-d00c078c19f0")
+		)
+		(pin "2"
+			(uuid "5b667359-83de-4dad-bbb2-0f3f287362a2")
+		)
+		(pin "7"
+			(uuid "7760458f-ef2f-4051-b7cb-f7afdccf3548")
+		)
+		(pin "5"
+			(uuid "ded13376-1b5e-4bd8-92f4-0ba0a7019611")
+		)
+		(pin "8"
+			(uuid "761c126d-2f90-4197-ae08-88b458ac4804")
+		)
+		(pin "4"
+			(uuid "21734315-2cde-414c-a903-e76743c9073a")
+		)
+		(pin "1"
+			(uuid "9a2d2dc9-dc09-4b0f-849a-1c382e3b127e")
+		)
+		(pin "3"
+			(uuid "ddda4a7a-efc5-4bb1-8ef0-ee6ca956024e")
+		)
+		(instances
+			(project "columnBreakout"
+				(path "/b2acabc5-938f-4880-a5a5-3139adf73df1"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:HC-FPC-0.5-6P-FH20")
+		(at 228.6 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e598626b-15ba-475e-bd81-8f32ae369fbd")
+		(property "Reference" "J3"
+			(at 229.108 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-FPC-0.5-6P-FH20"
+			(at 218.44 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:FPC-SMD_6P-P0.50_HC-FPC-0.5-6P-FH20"
+			(at 228.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273925.pdf"
+			(at 228.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 228.6 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC-FPC-0.5-6P-FH20"
+			(at 228.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19273925"
+			(at 228.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "84874d6f-e195-4819-8b34-453b900e44c9")
+		)
+		(pin "2"
+			(uuid "2d328373-acc7-45af-91d5-dd29d397e4b0")
+		)
+		(pin "7"
+			(uuid "c1623be4-f744-4da8-8989-35158ca1bc86")
+		)
+		(pin "5"
+			(uuid "82ca4a2c-0b18-4c4d-9b45-0670645303bd")
+		)
+		(pin "8"
+			(uuid "2ee847ae-8ef7-41fe-b31f-41f76cad5bcf")
+		)
+		(pin "4"
+			(uuid "7e0f0461-4cab-4ba8-b48e-b526f2d7b94c")
+		)
+		(pin "1"
+			(uuid "5de6a9d6-fd49-49ba-bc68-6c1fb01a4c9a")
+		)
+		(pin "3"
+			(uuid "e14013d3-95ea-4e2b-8d66-fa2106849ae3")
+		)
+		(instances
+			(project "columnBreakout"
+				(path "/b2acabc5-938f-4880-a5a5-3139adf73df1"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:HC-FPC-0.5-6P-FH20")
+		(at 166.37 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2677cd2-096d-4670-9c81-e9e0e8c5593f")
+		(property "Reference" "J16"
+			(at 166.878 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HC-FPC-0.5-6P-FH20"
+			(at 156.21 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:FPC-SMD_6P-P0.50_HC-FPC-0.5-6P-FH20"
+			(at 166.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273925.pdf"
+			(at 166.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HC(虹成电子)"
+			(at 166.37 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC-FPC-0.5-6P-FH20"
+			(at 166.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19273925"
+			(at 166.37 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "09df2e71-c046-4284-ac13-c0c4fb04cd46")
+		)
+		(pin "2"
+			(uuid "5d3712d6-54fa-44cf-bd46-a36accf2173e")
+		)
+		(pin "7"
+			(uuid "ac2c9a7d-fe67-4348-982e-20b733d587bc")
+		)
+		(pin "5"
+			(uuid "4f9fdd49-1d54-44cc-90fc-95df2845428a")
+		)
+		(pin "8"
+			(uuid "eedef58b-e0dd-4ae4-b3f2-d2bc5eb2bff3")
+		)
+		(pin "4"
+			(uuid "7ee0bdbb-d160-4a63-b8fb-157d60a4cbfa")
+		)
+		(pin "1"
+			(uuid "7795e964-49a1-4cab-88a5-79eab2bf1216")
+		)
+		(pin "3"
+			(uuid "fafbef28-ffbe-45fe-9638-6d5e5f6bed8f")
+		)
+		(instances
+			(project "columnBreakout"
+				(path "/b2acabc5-938f-4880-a5a5-3139adf73df1"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
