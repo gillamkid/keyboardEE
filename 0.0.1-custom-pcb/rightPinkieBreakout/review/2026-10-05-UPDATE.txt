@@ -1,0 +1,5 @@
+Updated 2026-10-05. ERC: 0 errors / 0 warnings. PCB DRC: 0 violations / 0 unconnected items / 0 schematic parity issues.
+Manufacturing exports refreshed from the current PCB and verified against the assembly component count.
+The current PCB already matched its schematic; verification and manufacturing exports were refreshed without changing its layout.
+CAD filenames remain columnBreakout.kicad_sch / columnBreakout.kicad_pcb / columnBreakout.kicad_pro.
+Earlier copied review reports and manufacturing backups are historical; use reports dated 2026-10-05 and current jlcpcb/production_files.

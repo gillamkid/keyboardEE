@@ -5,7 +5,7 @@
 	(uuid "b2acabc5-938f-4880-a5a5-3139adf73df1")
 	(paper "A4")
 	(title_block
-		(title "columnBreakout")
+		(title "rightPointerThumbBreakout")
 		(rev "1")
 	)
 	(lib_symbols
@@ -374,6 +374,407 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EasyEDA:HC-FPC-0.5-14P-FH20"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J1"
+				(at 7.62 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "HC-FPC-0.5-14P-FH20"
+				(at 7.62 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "EasyEDA:FPC-SMD_14P-P0.50_HC-FPC-0.5-14P-FH20"
+				(at 0 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C19273929.pdf"
+				(at 0 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HC(虹成电子)"
+				(at 0 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HC-FPC-0.5-14P-FH20"
+				(at 0 -34.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C19273929"
+				(at 0 -36.83 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "FFC/FPC Connectors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HC-FPC-0.5-14P-FH20_0_1"
+				(rectangle
+					(start -2.54 16.51)
+					(end 6.35 -21.59)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 15.24)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 19.05 270)
+					(length 2.54)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -24.13 90)
+					(length 2.54)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HC-FPC-0.5-14P-FH20_1_1"
+				(pin passive line
+					(at -5.08 13.97 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 11.43 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 8.89 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 6.35 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -6.35 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -8.89 0)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -11.43 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -13.97 0)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -16.51 0)
+					(length 2.54)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -19.05 0)
+					(length 2.54)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyEDA:HC-FPC-0.5-6P-FH20"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -633,15 +1034,11 @@
 		)
 	)
 	(no_connect
-		(at 38.1 135.89)
-		(uuid "10000000-0000-4000-8000-000000000011")
-	)
-	(no_connect
 		(at 48.26 102.87)
 		(uuid "10000000-0000-4000-8000-000000000048")
 	)
 	(no_connect
-		(at 48.26 140.97)
+		(at 48.26 146.05)
 		(uuid "10000000-0000-4000-8000-000000000049")
 	)
 	(no_connect
@@ -725,6 +1122,10 @@
 		(uuid "7a395477-9d3e-468a-ae06-1cca27f81604")
 	)
 	(no_connect
+		(at 38.1 140.97)
+		(uuid "7f2b344b-9c40-445f-9163-c24fab7360bd")
+	)
+	(no_connect
 		(at 232.41 110.49)
 		(uuid "866d4bf4-6e39-498e-b87c-dd127cfc02e5")
 	)
@@ -772,7 +1173,17 @@
 		(at 167.64 68.58)
 		(uuid "f510b14b-49da-4bc0-aca8-b78ca390a776")
 	)
-	(label "IN35"
+	(wire
+		(pts
+			(xy 35.56 138.43) (xy 38.1 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10f6b7c-baed-4955-a3e2-577b2aa5d1dc")
+	)
+	(label "IN7"
 		(at 194.31 82.55 180)
 		(effects
 			(font
@@ -782,7 +1193,7 @@
 		)
 		(uuid "01abf6c7-043a-4552-a02b-568a624ec319")
 	)
-	(label "R5"
+	(label "R1"
 		(at 226.06 115.57 180)
 		(effects
 			(font
@@ -872,7 +1283,7 @@
 		)
 		(uuid "10000000-0000-4000-8000-000000000007")
 	)
-	(label "IN40"
+	(label "IN16"
 		(at 38.1 128.27 180)
 		(effects
 			(font
@@ -882,7 +1293,7 @@
 		)
 		(uuid "10000000-0000-4000-8000-000000000008")
 	)
-	(label "IN28"
+	(label "IN0"
 		(at 38.1 130.81 180)
 		(effects
 			(font
@@ -922,7 +1333,7 @@
 		)
 		(uuid "10000000-0000-4000-8000-000000000013")
 	)
-	(label "IN33"
+	(label "IN5"
 		(at 97.79 44.45 180)
 		(effects
 			(font
@@ -932,7 +1343,7 @@
 		)
 		(uuid "10000000-0000-4000-8000-000000000014")
 	)
-	(label "IN34"
+	(label "IN6"
 		(at 97.79 41.91 180)
 		(effects
 			(font
@@ -982,7 +1393,7 @@
 		)
 		(uuid "10000000-0000-4000-8000-000000000019")
 	)
-	(label "IN32"
+	(label "IN4"
 		(at 130.81 43.18 180)
 		(effects
 			(font
@@ -992,7 +1403,7 @@
 		)
 		(uuid "10000000-0000-4000-8000-000000000020")
 	)
-	(label "IN33"
+	(label "IN5"
 		(at 130.81 40.64 180)
 		(effects
 			(font
@@ -1042,7 +1453,7 @@
 		)
 		(uuid "10000000-0000-4000-8000-000000000025")
 	)
-	(label "IN31"
+	(label "IN3"
 		(at 161.29 43.18 180)
 		(effects
 			(font
@@ -1052,7 +1463,7 @@
 		)
 		(uuid "10000000-0000-4000-8000-000000000026")
 	)
-	(label "IN32"
+	(label "IN4"
 		(at 161.29 40.64 180)
 		(effects
 			(font
@@ -1102,7 +1513,7 @@
 		)
 		(uuid "10000000-0000-4000-8000-000000000031")
 	)
-	(label "IN30"
+	(label "IN2"
 		(at 193.04 43.18 180)
 		(effects
 			(font
@@ -1112,7 +1523,7 @@
 		)
 		(uuid "10000000-0000-4000-8000-000000000032")
 	)
-	(label "IN31"
+	(label "IN3"
 		(at 193.04 40.64 180)
 		(effects
 			(font
@@ -1162,7 +1573,7 @@
 		)
 		(uuid "10000000-0000-4000-8000-000000000037")
 	)
-	(label "IN29"
+	(label "IN1"
 		(at 224.79 41.91 180)
 		(effects
 			(font
@@ -1172,7 +1583,7 @@
 		)
 		(uuid "10000000-0000-4000-8000-000000000038")
 	)
-	(label "IN30"
+	(label "IN2"
 		(at 224.79 39.37 180)
 		(effects
 			(font
@@ -1222,7 +1633,7 @@
 		)
 		(uuid "10000000-0000-4000-8000-000000000043")
 	)
-	(label "IN28"
+	(label "IN0"
 		(at 256.54 41.91 180)
 		(effects
 			(font
@@ -1232,7 +1643,7 @@
 		)
 		(uuid "10000000-0000-4000-8000-000000000044")
 	)
-	(label "IN29"
+	(label "IN1"
 		(at 256.54 39.37 180)
 		(effects
 			(font
@@ -1262,7 +1673,7 @@
 		)
 		(uuid "10000000-0000-4000-8000-000000000047")
 	)
-	(label "IN34"
+	(label "IN6"
 		(at 226.06 82.55 180)
 		(effects
 			(font
@@ -1302,7 +1713,7 @@
 		)
 		(uuid "1818094c-1808-45de-85cf-c61a9417c177")
 	)
-	(label "IN35"
+	(label "IN13"
 		(at 194.31 121.92 180)
 		(effects
 			(font
@@ -1332,7 +1743,7 @@
 		)
 		(uuid "20a1c210-b1e6-4f05-9775-4af39e37ab1e")
 	)
-	(label "IN36"
+	(label "IN14"
 		(at 130.81 125.73 180)
 		(effects
 			(font
@@ -1352,7 +1763,7 @@
 		)
 		(uuid "270b9bf9-c6d9-4ac4-b9e5-f454d6a1adae")
 	)
-	(label "IN35"
+	(label "IN13"
 		(at 162.56 124.46 180)
 		(effects
 			(font
@@ -1362,7 +1773,7 @@
 		)
 		(uuid "2812c445-5a86-4116-9957-ddfac81bfcb6")
 	)
-	(label "IN37"
+	(label "IN15"
 		(at 130.81 123.19 180)
 		(effects
 			(font
@@ -1382,7 +1793,7 @@
 		)
 		(uuid "2c189d48-fd95-4c44-a11d-509c7677a5b8")
 	)
-	(label "R1"
+	(label "R2"
 		(at 194.31 72.39 180)
 		(effects
 			(font
@@ -1392,7 +1803,7 @@
 		)
 		(uuid "30351ba2-fe65-4442-9af7-a0db7441107c")
 	)
-	(label "IN37"
+	(label "IN9"
 		(at 130.81 83.82 180)
 		(effects
 			(font
@@ -1402,7 +1813,7 @@
 		)
 		(uuid "32c4238c-db10-4071-a1bb-455e8c85b030")
 	)
-	(label "IN34"
+	(label "IN12"
 		(at 194.31 124.46 180)
 		(effects
 			(font
@@ -1412,7 +1823,17 @@
 		)
 		(uuid "34452ebe-c91e-4676-b1f6-1807795f2669")
 	)
-	(label "IN37"
+	(label "C0"
+		(at 35.56 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "388dd260-707a-4a16-a6dc-b7174ef6e1f6")
+	)
+	(label "IN9"
 		(at 161.29 81.28 180)
 		(effects
 			(font
@@ -1422,7 +1843,7 @@
 		)
 		(uuid "3bf6dda6-97ad-43da-a641-1aabc17cc331")
 	)
-	(label "R2"
+	(label "R4"
 		(at 130.81 115.57 180)
 		(effects
 			(font
@@ -1432,7 +1853,7 @@
 		)
 		(uuid "3cfe3513-4a44-4048-8634-23ace373d2ca")
 	)
-	(label "IN36"
+	(label "IN14"
 		(at 162.56 121.92 180)
 		(effects
 			(font
@@ -1462,7 +1883,7 @@
 		)
 		(uuid "43e4debc-9ae9-4207-ae58-edf08964efdc")
 	)
-	(label "R0"
+	(label "R2"
 		(at 194.31 114.3 180)
 		(effects
 			(font
@@ -1492,7 +1913,7 @@
 		)
 		(uuid "5cdfc861-e36f-4556-bda5-729bc96503d2")
 	)
-	(label "IN36"
+	(label "IN8"
 		(at 161.29 83.82 180)
 		(effects
 			(font
@@ -1512,7 +1933,7 @@
 		)
 		(uuid "5ec22ce4-5a61-417b-8d43-c51dde810395")
 	)
-	(label "R0"
+	(label "R1"
 		(at 226.06 72.39 180)
 		(effects
 			(font
@@ -1552,7 +1973,7 @@
 		)
 		(uuid "6bee7c5a-8086-419d-bf2c-a9457e9a75d5")
 	)
-	(label "R3"
+	(label "R5"
 		(at 99.06 115.57 180)
 		(effects
 			(font
@@ -1572,7 +1993,7 @@
 		)
 		(uuid "71263986-cd25-44a2-8d9b-6bec771c4909")
 	)
-	(label "IN37"
+	(label "IN15"
 		(at 99.06 125.73 180)
 		(effects
 			(font
@@ -1582,7 +2003,7 @@
 		)
 		(uuid "71c83a85-2be5-4d61-803d-3f7f5b9d1465")
 	)
-	(label "IN38"
+	(label "IN16"
 		(at 99.06 123.19 180)
 		(effects
 			(font
@@ -1592,7 +2013,7 @@
 		)
 		(uuid "8e21a651-9831-4e59-b3a0-a649844d1d18")
 	)
-	(label "IN35"
+	(label "IN7"
 		(at 226.06 80.01 180)
 		(effects
 			(font
@@ -1602,7 +2023,7 @@
 		)
 		(uuid "9a577daf-cb17-4cca-a03d-3e9601129296")
 	)
-	(label "R1"
+	(label "R3"
 		(at 162.56 114.3 180)
 		(effects
 			(font
@@ -1612,7 +2033,7 @@
 		)
 		(uuid "9b451d20-bd23-4417-a36c-226b8a9aa5e8")
 	)
-	(label "IN40"
+	(label "IN12"
 		(at 226.06 123.19 180)
 		(effects
 			(font
@@ -1622,7 +2043,7 @@
 		)
 		(uuid "9c696b43-ae14-40e6-9638-a4054905ec57")
 	)
-	(label "IN36"
+	(label "IN8"
 		(at 194.31 80.01 180)
 		(effects
 			(font
@@ -1632,7 +2053,7 @@
 		)
 		(uuid "9cc74f4c-f685-4245-a779-227c94adfd80")
 	)
-	(label "IN38"
+	(label "IN10"
 		(at 257.81 125.73 180)
 		(effects
 			(font
@@ -1672,7 +2093,7 @@
 		)
 		(uuid "ae9cc9e1-c254-433d-838f-4c0e71dcce10")
 	)
-	(label "R2"
+	(label "R3"
 		(at 161.29 73.66 180)
 		(effects
 			(font
@@ -1702,7 +2123,7 @@
 		)
 		(uuid "b2b139d8-947f-4760-a85c-1b9c30509e69")
 	)
-	(label "R4"
+	(label "R0"
 		(at 257.81 115.57 180)
 		(effects
 			(font
@@ -1712,7 +2133,7 @@
 		)
 		(uuid "b67be3f1-5169-4df7-b6ab-1477d9143861")
 	)
-	(label "IN39"
+	(label "IN11"
 		(at 226.06 125.73 180)
 		(effects
 			(font
@@ -1732,7 +2153,7 @@
 		)
 		(uuid "b726f1c8-9396-48b1-90ed-f493c862f591")
 	)
-	(label "IN39"
+	(label "IN11"
 		(at 257.81 123.19 180)
 		(effects
 			(font
@@ -1782,7 +2203,7 @@
 		)
 		(uuid "c5e0661b-6a06-4965-8132-6c18b641b0e4")
 	)
-	(label "IN38"
+	(label "IN10"
 		(at 130.81 81.28 180)
 		(effects
 			(font
@@ -1842,7 +2263,7 @@
 		)
 		(uuid "ec0982e6-8352-49c8-a50b-20b050fa4832")
 	)
-	(label "R3"
+	(label "R4"
 		(at 130.81 73.66 180)
 		(effects
 			(font
@@ -2195,7 +2616,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:HC-FPC-0.5-12P-FH20")
+		(lib_id "EasyEDA:HC-FPC-0.5-14P-FH20")
 		(at 43.18 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2213,7 +2634,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HC-FPC-0.5-12P-FH20"
+		(property "Value" "HC-FPC-0.5-14P-FH20"
 			(at 50.8 123.1899 0)
 			(effects
 				(font
@@ -2222,7 +2643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20"
+		(property "Footprint" "EasyEDA:FPC-SMD_14P-P0.50_HC-FPC-0.5-14P-FH20"
 			(at 43.18 148.59 0)
 			(effects
 				(font
@@ -2231,7 +2652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273928.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273929.pdf"
 			(at 43.18 151.13 0)
 			(effects
 				(font
@@ -2258,7 +2679,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "HC-FPC-0.5-12P-FH20"
+		(property "MPN" "HC-FPC-0.5-14P-FH20"
 			(at 43.18 156.21 0)
 			(effects
 				(font
@@ -2267,7 +2688,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C19273928"
+		(property "LCSC Part" "C19273929"
 			(at 43.18 158.75 0)
 			(effects
 				(font
@@ -2312,11 +2733,17 @@
 		(pin "12"
 			(uuid "75d302bc-dab1-49d8-9ec6-1dc632161b27")
 		)
-		(pin "14"
+		(pin "16"
 			(uuid "e5e3c7c0-0fc7-4603-8643-79bee190fb3d")
 		)
-		(pin "13"
+		(pin "15"
 			(uuid "56a6447e-ad14-4dda-8b0d-2b6f29fad430")
+		)
+		(pin "13"
+			(uuid "86c7e7b0-8098-4336-9d10-15dd21fd6554")
+		)
+		(pin "14"
+			(uuid "0b6ce944-682d-4596-ad9b-68aac4d342d3")
 		)
 		(instances
 			(project "columnBreakout"

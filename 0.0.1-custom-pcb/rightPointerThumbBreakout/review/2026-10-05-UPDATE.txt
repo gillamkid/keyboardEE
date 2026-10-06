@@ -1,0 +1,1 @@
+All PCB traces and vias removed at user request. Component placement, board outline, schematic and pad net assignments retained. PCB is intentionally unrouted. Earlier DRC reports and manufacturing exports describe the previously routed PCB and are obsolete for this revision.
