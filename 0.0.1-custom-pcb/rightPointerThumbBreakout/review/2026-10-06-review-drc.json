@@ -1,0 +1,337 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-06T17:35:45-0600",
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [],
+    "source": "columnBreakout.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Clearance violation ( clearance 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [/VDD] on B.Cu, length 22.2000 mm",
+                    "pos": {
+                        "x": 153.2,
+                        "y": 63.8
+                    },
+                    "uuid": "04aadd8b-2c4a-4333-89aa-46d991dca0d5"
+                },
+                {
+                    "description": "Via [/R2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 166.5,
+                        "y": 63.2
+                    },
+                    "uuid": "9ef0faf5-ba34-4d09-a4c5-865e6f4f1310"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [/VDD] on B.Cu, length 27.6000 mm",
+                    "pos": {
+                        "x": 153.2,
+                        "y": 45.6
+                    },
+                    "uuid": "278ddaa1-d222-4828-838e-b88025c3a0bb"
+                },
+                {
+                    "description": "Via [/R0] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 180.3,
+                        "y": 45.0
+                    },
+                    "uuid": "ea3fbb9e-6e6a-4789-93a1-ce73e4c2e2d4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [/VDD] on B.Cu, length 27.6000 mm",
+                    "pos": {
+                        "x": 153.2,
+                        "y": 45.6
+                    },
+                    "uuid": "278ddaa1-d222-4828-838e-b88025c3a0bb"
+                },
+                {
+                    "description": "Via [/R0] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 172.2,
+                        "y": 45.0
+                    },
+                    "uuid": "d3c980ee-dc8f-4931-b89e-0177f3baf0fb"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [/VDD] on B.Cu, length 22.2000 mm",
+                    "pos": {
+                        "x": 153.2,
+                        "y": 72.9
+                    },
+                    "uuid": "38173ab6-1338-4cc2-bd87-3a4b8c215c9b"
+                },
+                {
+                    "description": "Via [/R3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 173.7,
+                        "y": 72.3
+                    },
+                    "uuid": "62294e9f-9ac8-4243-bb0a-5570a47e87b2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [/VDD] on B.Cu, length 22.2000 mm",
+                    "pos": {
+                        "x": 153.2,
+                        "y": 72.9
+                    },
+                    "uuid": "38173ab6-1338-4cc2-bd87-3a4b8c215c9b"
+                },
+                {
+                    "description": "Via [/R3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 166.5,
+                        "y": 72.3
+                    },
+                    "uuid": "e9daac34-de29-42af-8109-369ba97cb8c3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [/VDD] on B.Cu, length 22.2000 mm",
+                    "pos": {
+                        "x": 153.2,
+                        "y": 54.7
+                    },
+                    "uuid": "4afa7a98-c9d6-4fe4-bfd6-201828f182f0"
+                },
+                {
+                    "description": "Via [/R1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 166.5,
+                        "y": 54.1
+                    },
+                    "uuid": "55eb04d5-a659-4823-aec6-ac62a0c85ac9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [/VDD] on B.Cu, length 22.2000 mm",
+                    "pos": {
+                        "x": 153.2,
+                        "y": 82.0
+                    },
+                    "uuid": "59c49efd-cb12-413e-a552-40138ea185d4"
+                },
+                {
+                    "description": "Via [/R4] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 174.2,
+                        "y": 81.4
+                    },
+                    "uuid": "6a2307ff-1a89-40f7-bf4a-d0e4244fe576"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Via [/R1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 180.3,
+                        "y": 54.1
+                    },
+                    "uuid": "61c3a83b-f4d7-46a8-bb10-f7e8f5a654b2"
+                },
+                {
+                    "description": "Track [/VDD] on B.Cu, length 5.4000 mm",
+                    "pos": {
+                        "x": 175.4,
+                        "y": 54.7
+                    },
+                    "uuid": "b78cb40c-84aa-406e-a3a9-10a2ee7e167e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [/VDD] on B.Cu, length 22.2000 mm",
+                    "pos": {
+                        "x": 153.2,
+                        "y": 54.7
+                    },
+                    "uuid": "4afa7a98-c9d6-4fe4-bfd6-201828f182f0"
+                },
+                {
+                    "description": "Via [/R1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 172.7,
+                        "y": 54.1
+                    },
+                    "uuid": "78bc5d7f-f14c-49b6-a01d-7562dd74e16d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [/VDD] on B.Cu, length 5.4000 mm",
+                    "pos": {
+                        "x": 175.4,
+                        "y": 63.8
+                    },
+                    "uuid": "918140df-4633-42e3-a76b-e118d2e81ea9"
+                },
+                {
+                    "description": "Via [/R2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 180.3,
+                        "y": 63.2
+                    },
+                    "uuid": "e96db1e2-3c5d-4c5f-877c-be53815bd488"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [/VDD] on B.Cu, length 5.4000 mm",
+                    "pos": {
+                        "x": 175.4,
+                        "y": 82.0
+                    },
+                    "uuid": "1f8c767f-d3bb-431e-8913-4127d1ad9cb3"
+                },
+                {
+                    "description": "Via [/R4] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 180.3,
+                        "y": 81.4
+                    },
+                    "uuid": "7437c4a0-85fb-4fd8-804a-538d80c74cc8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [/VDD] on B.Cu, length 22.2000 mm",
+                    "pos": {
+                        "x": 153.2,
+                        "y": 82.0
+                    },
+                    "uuid": "59c49efd-cb12-413e-a552-40138ea185d4"
+                },
+                {
+                    "description": "Via [/R4] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 166.5,
+                        "y": 81.4
+                    },
+                    "uuid": "8133cf6b-ac60-4b9c-b912-7066c38df6c9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Via [/R3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 180.3,
+                        "y": 72.3
+                    },
+                    "uuid": "66e4abdd-72c4-4a74-bc31-544e0529c119"
+                },
+                {
+                    "description": "Track [/VDD] on B.Cu, length 5.4000 mm",
+                    "pos": {
+                        "x": 175.4,
+                        "y": 72.9
+                    },
+                    "uuid": "d24fceed-08c9-46d5-a0cc-81caef8d3752"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.1500 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [/VDD] on B.Cu, length 22.2000 mm",
+                    "pos": {
+                        "x": 153.2,
+                        "y": 63.8
+                    },
+                    "uuid": "04aadd8b-2c4a-4333-89aa-46d991dca0d5"
+                },
+                {
+                    "description": "Via [/R2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 173.2,
+                        "y": 63.2
+                    },
+                    "uuid": "98075a8a-6e2e-4844-8e25-3bd97c3dcccb"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        }
+    ]
+}

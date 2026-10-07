@@ -1,0 +1,11 @@
+RightPointerThumbBreakout review, 2026-10-06. CAD was reviewed without changing the design.
+Verdict: resolve clearance violations and regenerate manufacturing exports before ordering.
+KiCad 9.0.8: ERC 0 errors/warnings; PCB 0 unconnected items; 0 schematic parity issues; 14 DRC clearance errors, all row vias versus VDD tracks (actual 0.125 mm, required 0.150 mm).
+Rows affected R0-R4. Example: R0 via at (180.3,45.0) mm versus B.Cu VDD at y45.6 mm. Moving row vias farther from the VDD tracks by approximately 0.05 mm would provide clearance margin; attached routing must remain connected and DRC rerun.
+JLCPCB 1 oz minimum published track/space is 0.10/0.10 mm; 0.125 mm gaps are not automatically unmanufacturable. Preserve the project's 0.150 mm rule rather than lowering it to hide these violations. For 2 oz, published minimum track/space is 0.16/0.16 mm, exceeding this design's 0.15 mm signals.
+Power: main distribution rails 0.5 mm, J1 fanout 0.3 mm over roughly 1.1-1.3 mm. Narrow 0.15 mm segments remain in branch fanout, not as the long shared input rail. Trace topology is acceptable in principle; total LED current and FFC cable/contact current capacity still determine the operating current limit.
+82 vias are 0.45 mm diameter/0.2 mm drill. 17 front-side connectors. Mounting/unused contacts remain unrouted. No silkscreen, footprint mismatch, courtyard, drill or board-edge violations reported.
+Nominal board outline 42.5 x 63.3 mm. All assembly components are front-side. Physical dimensions fit JLC Economic PCBA minimum; Standard PCBA needs 70 x 70 mm or larger panel/rails.
+Assembly library parts: J1 C19273929 (14 contacts), J2-J17 C19273925 (6 contacts). JLC's C19273929 listing notes an assembly fixture requirement; confirm quote/service suitability.
+Existing manufacturing exports date to 2026-10-05 and do not reflect the new routing. CPL J1 x=167.75 mm while current board J1 x=175.45 mm: a 7.7 mm placement discrepancy. Regenerate Gerbers and CPL from the final saved board; BOM still requires 17 connectors.
+Sources: https://jlcpcb.com/capabilities/pcb-capabilities ; https://jlcpcb.com/capabilities/pcb-assembly-capabilities ; https://jlcpcb.com/partdetail/HongCheng-HC_FPC_0_5_14PFH20/C19273929 ; https://jlcpcb.com/partdetail/HongCheng-HC_FPC_0_5_6PFH20/C19273925
