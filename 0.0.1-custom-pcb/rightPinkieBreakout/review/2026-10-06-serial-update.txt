@@ -1,0 +1,2 @@
+Serial placeholder moved to lower right corner on bottom silkscreen. Horizontal 10 x 2 mm, clear of all trace/via bounding boxes by at least 0.5 mm.
+DRC: 0 violations, 0 unconnected items, 0 schematic parity issues. Manufacturing files refreshed.

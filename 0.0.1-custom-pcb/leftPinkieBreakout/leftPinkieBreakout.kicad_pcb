@@ -5017,8 +5017,8 @@
 		(uuid "dc0a1b3d-de2f-4a30-b474-f659feeeb5bb")
 	)
 	(gr_rect
-		(start 155.85 102.7)
-		(end 165.85 104.7)
+		(start 147.2 102.7)
+		(end 157.2 104.7)
 		(stroke
 			(width 0)
 			(type default)
