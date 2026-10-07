@@ -1,0 +1,11 @@
+Created leftPinkieBreakout from the latest rightPinkieBreakout on 2026-10-06.
+Project PCB, schematic and settings named leftPinkieBreakout; titles and board silkscreen updated. Local footprint, symbol and 3D libraries copied independently.
+Every connector position reflected horizontally about board center x=160.85 mm: x_left=321.7-x_right. Y positions, orientations, copper sides, pad numbering, relative pad geometry and all pin/net assignments retained. Mounting holes and outline unchanged.
+Left column: C6, J8/J9/J10/J11/J12/J13. Right column: C5, J2/J3/J4/J5/J6/J7. J1 moved from 160.95,99.8 mm to 160.75,99.8 mm.
+LED chain and electrical schematic unchanged. Main connector pins 1-6=R0-R5, 7=VDD, 8=GND, 9=IN40, 10=IN28, 11=C6, 12=C5. Mounting pads isolated.
+Routing adapted from the right board: vertical top-layer highways, horizontal bottom-layer row buses, 0.5 mm VDD/GND trunks and row buses. Short main fanout adapted for the reflected J1 position; column and last LED returns use bottom buses below connector rows.
+Serial placeholder remains horizontal 10 x 2 mm on bottom silkscreen near the lower edge, clear of all traces/vias. Column labels and pin-1 markers move with connectors; two reference labels adjusted to avoid overlap.
+Final PCB DRC: 0 violations, 0 unconnected items, 0 schematic parity issues. Schematic ERC: 0 violations.
+All connector geometry/pin/net comparisons verified; right source CAD/library/database hashes unchanged.
+JLCPCB files in jlcpcb/production_files: BOM-leftPinkieBreakout.csv, CPL-leftPinkieBreakout.csv, GERBER-leftPinkieBreakout.zip. 13 top-side assembly connectors; Gerber ZIP contains 9 layers plus 2 drill files.
+Routing preview: 2026-10-06-routing.png / .svg (red=top copper, blue=bottom copper).

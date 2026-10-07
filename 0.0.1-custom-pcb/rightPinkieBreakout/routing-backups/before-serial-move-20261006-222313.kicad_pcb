@@ -5014,8 +5014,8 @@
 		(uuid "54471f91-4031-4885-960c-b1be526fff76")
 	)
 	(gr_rect
-		(start 155.85 102.7)
-		(end 165.85 104.7)
+		(start 158.8 65)
+		(end 160.8 75)
 		(stroke
 			(width 0)
 			(type default)
@@ -6186,6 +6186,14 @@
 		(layer "B.Cu")
 		(net 9)
 		(uuid "e0555e37-5bd8-4917-8f8e-b8a28a16a142")
+	)
+	(segment
+		(start 169 89.4)
+		(end 169 91.9)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 14)
+		(uuid "0d0c176b-8706-4501-bbfa-5a7778c3b885")
 	)
 	(segment
 		(start 169 89.4)
