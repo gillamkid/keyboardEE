@@ -1,0 +1,169 @@
+(footprint "C11_C_0402_1005Metric"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor")
+	(property "Reference" "C11"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9a36a63d-7732-4b6b-a64c-555e2fe1c59f")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1uF"
+		(at 0 1.16 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f4914bc-4a6b-4905-9998-41a8d9947b3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5f5d66a-3131-45ce-acbd-565c729ea20f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3a01db4-0856-4aea-ad18-435d9453e576")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Confidence" "Low"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45e13a28-7210-4400-9b37-c76862ae4cb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Evidence" "Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63593e63-0f92-49fc-8504-2d787683d6a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Candidate part" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc561cd9-5278-4dd9-8d63-882fba17b3bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.86 -0.41)
+		(end 0.86 -0.41)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce05a254-240a-48cc-916d-d60ce65cca11")
+	)
+	(fp_line
+		(start -0.86 0.41)
+		(end -0.86 -0.41)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9cacfe4e-1fa5-4c25-899a-680d1a0d4eba")
+	)
+	(fp_line
+		(start 0.86 -0.41)
+		(end 0.86 0.41)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6372c8f8-fd02-4699-84b0-cf04118c99e4")
+	)
+	(fp_line
+		(start 0.86 0.41)
+		(end -0.86 0.41)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ddece0a8-9a38-4131-9c91-8cef5db8ce32")
+	)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4d52c9f8-b955-4d99-9a40-6cc34a86ab4b")
+	)
+	(pad "1" smd roundrect
+		(at -0.48 0)
+		(size 0.56 0.62)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "86d04490-5c45-40d4-93d9-f2d88cdd7a6f")
+	)
+	(pad "2" smd roundrect
+		(at 0.48 0)
+		(size 0.56 0.62)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1f29e472-e3bf-4424-9a76-e2f5b923d359")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

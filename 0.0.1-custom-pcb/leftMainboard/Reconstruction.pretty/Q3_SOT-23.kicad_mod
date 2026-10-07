@@ -1,0 +1,177 @@
+(footprint "Q3_SOT-23"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "SOT TO_SOT_SMD")
+	(property "Reference" "Q3"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e957f53e-77e9-42a1-adc0-ad65afed2172")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "P-channel MOSFET (guess)"
+		(at 0 2.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78415489-35e2-4238-8251-e4f3bee8adf2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e06c9ea-5b56-402b-95ca-4c70eb583092")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "386c8483-ea22-4e33-a190-d0471ac72040")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Confidence" "Low"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7461a702-5265-4294-a9a5-7cf12a5b1ace")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Evidence" "3-lead packages; faint SS/G marking; polarity and part number unconfirmed"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fa0c94a-c345-439e-bf36-a246f01314bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Candidate part" "AO3401A / SI2301 family"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24711489-f939-48e1-866a-87527d0da573")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.775 -1.6)
+		(end 1.775 -1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e788557-b199-4a6a-b254-f8a672876be4")
+	)
+	(fp_line
+		(start -1.775 1.6)
+		(end -1.775 -1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8438b50c-de4b-4954-aef3-80430af89925")
+	)
+	(fp_line
+		(start 1.775 -1.6)
+		(end 1.775 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0129c3ac-46e1-440a-8b8e-c7358652ccef")
+	)
+	(fp_line
+		(start 1.775 1.6)
+		(end -1.775 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "eaea4bde-b1f4-47a9-8dbc-739585c8c295")
+	)
+	(fp_poly
+		(pts
+			(xy -0.325 -1.45) (xy 0.65 -1.45) (xy 0.65 1.45) (xy -0.65 1.45) (xy -0.65 -1.125)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "138c0aff-526d-498f-a04a-099c2d5ee84c")
+	)
+	(pad "1" smd roundrect
+		(at -0.9375 -0.95)
+		(size 1.475 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8e001329-a282-452f-8c8f-90355ae717d5")
+	)
+	(pad "2" smd roundrect
+		(at -0.9375 0.95)
+		(size 1.475 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "fe5d1d40-7eb6-43c3-b3fa-6973205d55ba")
+	)
+	(pad "3" smd roundrect
+		(at 0.9375 0)
+		(size 1.475 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2e9811c0-b23f-4306-b092-7ef77452edc0")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

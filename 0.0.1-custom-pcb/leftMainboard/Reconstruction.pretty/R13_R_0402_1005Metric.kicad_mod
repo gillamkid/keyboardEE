@@ -1,0 +1,169 @@
+(footprint "R13_R_0402_1005Metric"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "resistor")
+	(property "Reference" "R13"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d4b92d7f-f565-482a-a4d3-f5e58182780f")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "10k"
+		(at 0 1.17 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9f45d05-bbbc-410c-a9d0-e1a3bda53718")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e25f94c-89fe-4fb7-9e84-4a046d063f08")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27804b4f-19a3-414c-b20b-f04a24b1168d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Confidence" "Low"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f632399-5ea6-48a7-a03f-3940f2c76088")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Evidence" "0402 package estimated; resistance not readable"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d929d917-633e-4d4d-91d9-4a486f308bc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Candidate part" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b90d15a-5bf0-49e7-98eb-d11d73b95a4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.88 -0.42)
+		(end 0.88 -0.42)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "132dd5df-362a-4105-afee-9d2ad0bb543a")
+	)
+	(fp_line
+		(start -0.88 0.42)
+		(end -0.88 -0.42)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3ace7e0-8c10-4e06-b729-48db1602b2df")
+	)
+	(fp_line
+		(start 0.88 -0.42)
+		(end 0.88 0.42)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0f6716c-5efa-47ba-86c3-e5ea87bb5400")
+	)
+	(fp_line
+		(start 0.88 0.42)
+		(end -0.88 0.42)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3133749-5795-429e-a098-6568f940fc32")
+	)
+	(fp_rect
+		(start -0.525 -0.27)
+		(end 0.525 0.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f7c914bd-079e-4e39-b65b-4b484d7139ba")
+	)
+	(pad "1" smd roundrect
+		(at -0.51 0)
+		(size 0.54 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3212283b-b863-4eb5-9e91-47317dfd4db6")
+	)
+	(pad "2" smd roundrect
+		(at 0.51 0)
+		(size 0.54 0.64)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f076a9ef-23c3-4e79-b7d1-9ba0a5225d93")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

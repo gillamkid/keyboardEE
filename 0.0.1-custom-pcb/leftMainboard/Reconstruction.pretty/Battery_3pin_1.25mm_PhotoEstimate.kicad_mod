@@ -1,0 +1,166 @@
+(footprint "Battery_3pin_1.25mm_PhotoEstimate"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "J2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1fef3825-d912-4b93-9c99-f513811b71e7")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "3-pin LiPo / NTC 1.25mm (estimate)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef26e1fe-5631-4be9-9995-cbc2567d10a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d13bdf79-6efd-4fad-99a2-3d8aea2e1f1e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ded7f6b4-4ca7-4b6d-a9c8-d02380cc6bd1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Confidence" "Low (MPN and polarity)"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "588aa3a8-8b5f-47a1-aff0-281759cec1fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Evidence" "3-pin housing and three wires visible; pitch estimated from photo. Verify actual plug and polarity!"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ebe40d8-15c9-4188-9596-5404bef98a73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Candidate part" "JST GH / Molex PicoBlade 1.25mm family"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c6ca54a-1ac7-4be6-96f6-5ab010336e80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -2.6)
+		(end 2.5 -2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ddeced0e-d72a-4bf5-9d49-dd8edfe707ad")
+	)
+	(fp_line
+		(start -2.5 2.6)
+		(end -2.5 -2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d8686256-09b8-44d6-be35-a2a2408b0aed")
+	)
+	(fp_line
+		(start 2.5 -2.6)
+		(end 2.5 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a5fe9f6a-9655-4c4a-b300-54d94673e644")
+	)
+	(fp_line
+		(start 2.5 2.6)
+		(end -2.5 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7ece98c3-d60c-4c54-b9d6-b94c9599d6ce")
+	)
+	(pad "1" smd rect
+		(at 1.35 -1.25)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "558435c2-a9ef-4c16-99d7-ad215bbdc911")
+	)
+	(pad "2" smd rect
+		(at 1.35 0)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "de0f7a91-3d44-4f74-9842-2c955ff0cbff")
+	)
+	(pad "3" smd rect
+		(at 1.35 1.25)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "3718f286-0597-4b9d-b378-773e3dd525b6")
+	)
+	(pad "MP" smd rect
+		(at -1.3 -3.45)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "5e29a9b2-8e28-4a23-b18e-6455efde3d15")
+	)
+	(pad "MP" smd rect
+		(at -1.3 3.45)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "64d48e90-5e21-4d2a-beed-e99e18d940ca")
+	)
+	(embedded_fonts no)
+)

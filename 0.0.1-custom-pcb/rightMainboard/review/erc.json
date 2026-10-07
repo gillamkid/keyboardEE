@@ -1,0 +1,94 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-07T15:03:34-0600",
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "9.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/5ac6fe17-8261-487d-9c53-41759293fff7",
+            "violations": [
+                {
+                    "description": "Global label not connected anywhere else in the schematic",
+                    "items": [
+                        {
+                            "description": "Global Label 'IN40'",
+                            "pos": {
+                                "x": 3.3782,
+                                "y": 0.5715
+                            },
+                            "uuid": "9ea1d9bb-a6ae-405a-8058-bddb06bdbd7e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "global_label_dangling"
+                },
+                {
+                    "description": "Global label not connected anywhere else in the schematic",
+                    "items": [
+                        {
+                            "description": "Global Label 'BOOST_COMP'",
+                            "pos": {
+                                "x": 0.4064,
+                                "y": 1.2827
+                            },
+                            "uuid": "4528d1f6-a139-48b0-949e-ac06124f0749"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "global_label_dangling"
+                },
+                {
+                    "description": "Global label not connected anywhere else in the schematic",
+                    "items": [
+                        {
+                            "description": "Global Label 'BOOST_SS'",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.3589
+                            },
+                            "uuid": "8af101ec-93fa-4d2a-bff6-467a4c8f36f4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "global_label_dangling"
+                },
+                {
+                    "description": "Global label not connected anywhere else in the schematic",
+                    "items": [
+                        {
+                            "description": "Global Label 'CHARGE_DONE'",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.5367
+                            },
+                            "uuid": "f1f42278-84be-41b9-b05a-86defa1c9e18"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "global_label_dangling"
+                }
+            ]
+        },
+        {
+            "path": "/Controller/",
+            "uuid_path": "/5ac6fe17-8261-487d-9c53-41759293fff7/9de8bcc4-3e84-4101-859e-9669d9c63018",
+            "violations": []
+        },
+        {
+            "path": "/KeyboardConnectors/",
+            "uuid_path": "/5ac6fe17-8261-487d-9c53-41759293fff7/f9f7add6-e71f-4288-aae5-f42e62024dd2",
+            "violations": []
+        },
+        {
+            "path": "/PowerAndUSB/",
+            "uuid_path": "/5ac6fe17-8261-487d-9c53-41759293fff7/7367478f-8049-4a46-a6a9-2f37f647d312",
+            "violations": []
+        }
+    ],
+    "source": "rightMainboard.kicad_sch"
+}

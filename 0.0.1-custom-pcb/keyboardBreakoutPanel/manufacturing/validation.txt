@@ -1,0 +1,11 @@
+leftPinkieBreakout: verified every footprint, pad/net assignment, copper trace and via preserved under translation.
+leftPointerThumbBreakout: verified every footprint, pad/net assignment, copper trace and via preserved under translation.
+rightPointerThumbBreakout: verified every footprint, pad/net assignment, copper trace and via preserved under translation.
+rightPinkieBreakout: verified every footprint, pad/net assignment, copper trace and via preserved under translation.
+Conservative minimum copper clearance from V-score centerline: 0.6500 mm (required 0.4 mm).
+Minimum NPTH edge clearance from V-score centerline: 1.2000 mm.
+BOM and CPL: 60 unique matching designators, all top side; 56 x C19273925, 2 x C19273928, 2 x C19273929.
+All CPL positions equal pad-bounding-box centers relative to the same lower-left origin as Gerbers/drills.
+Gerber ZIP: 9 fabrication layers plus V-CUT guide and 2 drill files. Seven full-span score lines.
+19 NPTH holes: 16 original mounting holes plus 3 tooling holes.
+All four source PCB/schematic/project hashes unchanged.

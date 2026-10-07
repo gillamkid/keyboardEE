@@ -1,0 +1,169 @@
+(footprint "L3_L_0603_1608Metric"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "inductor")
+	(property "Reference" "L3"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8e50b21c-32a3-4e38-b24c-9c2d04f3da37")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "10uH (guess)"
+		(at 0 1.43 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9afd27a6-9b38-4468-86c1-a5ad3fe14ae8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "772760c9-6642-4fab-8a02-c4b02ca0e945")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a1dc78e-0776-40b7-8bc9-7892f976875d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Confidence" "Low"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69d2d60d-50af-4983-bcff-380c3d0fbe78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Evidence" "L1 marked 330; L2/L3 values and exact function inferred"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15741950-1645-40b3-916b-5b22c2cea734")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Candidate part" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1caef4d7-1e65-48ed-ae7d-ab38ad5445b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.325 -0.575)
+		(end 1.325 -0.575)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0f6c2f2-9742-4d44-82a3-282940ebf0a9")
+	)
+	(fp_line
+		(start -1.325 0.575)
+		(end -1.325 -0.575)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e2183ef1-227d-493f-852d-1924cab233df")
+	)
+	(fp_line
+		(start 1.325 -0.575)
+		(end 1.325 0.575)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9ddd18fe-d4d6-4bb2-a832-7893ba98f13e")
+	)
+	(fp_line
+		(start 1.325 0.575)
+		(end -1.325 0.575)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "62f4170e-265c-474d-8507-03710ca6d42b")
+	)
+	(fp_rect
+		(start -0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "866d7b0e-e6e5-4215-8187-9215ed4447f2")
+	)
+	(pad "1" smd roundrect
+		(at -0.7875 0)
+		(size 0.875 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8dc764cd-45f5-48b8-bfc8-d0c92cc00b88")
+	)
+	(pad "2" smd roundrect
+		(at 0.7875 0)
+		(size 0.875 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "5fa52f1b-5112-4452-88d2-a61e5b2e24d2")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,139 @@
+(footprint "MountingHole_3mm_PhotoEstimate"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "H4"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4ad4c775-458a-4361-a49c-6552f23df315")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "3mm mounting hole (estimate)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb8a2378-eb72-4f8c-a869-90cb4d5e4529")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22ad63f5-120d-43b2-b4eb-d9533d9393f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7acd729e-de3a-4dde-af0c-0a20921f5bf2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Confidence" "Medium"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9b5668d-1b31-4304-97f3-83801a4e9b08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Evidence" "Four visible holes; diameter inferred from photo scale"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1e0547a-23d3-4c4a-b8a0-ded00e5e3ecd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Candidate part" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "635eeaa1-2786-4c05-92f0-aea6aad927a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -2.75 -2.75)
+		(end 2.75 -2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f1f179cd-19ac-41d6-befa-4499f2753d39")
+	)
+	(fp_line
+		(start -2.75 2.75)
+		(end -2.75 -2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "380c13f3-c7de-4c63-a324-9c14032d43ab")
+	)
+	(fp_line
+		(start 2.75 -2.75)
+		(end 2.75 2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0829e434-544c-4d68-9ed5-fdef124d1ad1")
+	)
+	(fp_line
+		(start 2.75 2.75)
+		(end -2.75 2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bdf7e26b-b5c7-4a84-976b-fc57732c15b0")
+	)
+	(pad "" thru_hole circle
+		(at 0 0)
+		(size 4.6 4.6)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dccc298e-6d0c-4e7b-9653-f86c05522509")
+	)
+	(embedded_fonts no)
+)

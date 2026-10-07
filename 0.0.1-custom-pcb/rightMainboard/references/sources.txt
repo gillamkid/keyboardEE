@@ -1,0 +1,31 @@
+Evidence sources for rightMainboard, reconstructed 2026-10-07
+
+Local photographs, original files retained in the parent directory:
+mainBoardsTop.JPG
+mainBoardsTopSanded.JPG
+mainBoardsBottomSanded.JPG
+
+Official MoErgo GPIO expansion pinout and voltage documentation:
+https://docs.moergo.com/glove80-user-guide/appendix-more-customizations/
+
+Official Glove80 ZMK firmware repository, pinned commit ce69e85f585c724142aae37ddf8a7e019ff19e93:
+https://github.com/moergo-sc/zmk/tree/ce69e85f585c724142aae37ddf8a7e019ff19e93/app/boards/arm/glove80
+Local copies of the LH/RH device trees and pin-control definitions are in references/.
+
+Manufacturer component documentation:
+https://www.raytac.com/document/
+https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf
+https://assets.nexperia.com/documents/data-sheet/74CBTLV1G125.pdf
+https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G125.pdf
+
+Power-stage functional example, not an identification of the photographed U1:
+https://www.ti.com/lit/ds/symlink/tps61085.pdf
+
+KiCad native module pin numbers: RF_Module:MDBT50Q-1MV2,
+footprint RF_Module:Raytac_MDBT50Q. Both PCB/symbol libraries are copied locally.
+
+User-authoritative connector pinouts copied from current PCB files in:
+../rightPointerThumbBreakout/columnBreakout.kicad_pcb
+../rightPinkieBreakout/columnBreakout.kicad_pcb
+../columnBreakout/columnBreakout.kicad_pcb
+The HC-FPC footprint substitutions retain these contact numbers and NC anchors.

@@ -1,0 +1,24 @@
+ERC report (2026-10-07T15:03:38-0600, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(337.82 mm, 57.15 mm): Global Label 'IN40'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(40.64 mm, 128.27 mm): Global Label 'BOOST_COMP'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(71.12 mm, 135.89 mm): Global Label 'BOOST_SS'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(71.12 mm, 153.67 mm): Global Label 'CHARGE_DONE'
+
+***** Sheet /Controller/
+
+***** Sheet /KeyboardConnectors/
+
+***** Sheet /PowerAndUSB/
+
+ ** ERC messages: 4  Errors 0  Warnings 4

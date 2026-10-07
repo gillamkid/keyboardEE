@@ -1,0 +1,303 @@
+(footprint "MSOP-8_3x3mm_P0.65mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MSOP, 8 Pin (https://www.jedec.org/system/files/docs/mo-187F.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "MSOP SO")
+	(property "Reference" "U1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2a84e734-9265-442c-8e1e-98ad975ea276")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Boost controller MSOP8 (unidentified)"
+		(at 0 2.45 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fbf4b97-9929-4aec-819e-c32521e42de0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ecc4327-0a75-4e16-b9f9-2ce4b11d59ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "313be5e3-e611-4adf-9d69-74e67cb96cf8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Confidence" "Low"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d91fd33-38d2-4374-adb6-564bebf8188c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Evidence" "Marking looks MXCEA/M1CEA, unreadable ID. Guessed functional pinout; not an identified replacement"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3217175d-c073-4bec-9c21-eb394875345d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Candidate part" "TPS61085-class MSOP8 boost; NOT confirmed pin-compatible"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74236313-1ad6-4aac-8807-c4891846e830")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.18 -1.43)
+		(end -1.75 -1.43)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6cddae94-98e5-40bb-b238-3d4da14114ea")
+	)
+	(fp_line
+		(start -3.18 1.43)
+		(end -3.18 -1.43)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e6b89d42-0147-475f-ba33-562c596d9532")
+	)
+	(fp_line
+		(start -1.75 -1.75)
+		(end 1.75 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ceba9a73-ea76-413d-a01a-acd464ffc884")
+	)
+	(fp_line
+		(start -1.75 -1.43)
+		(end -1.75 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4488906-e4fc-4e9c-b6d0-9137e2694afe")
+	)
+	(fp_line
+		(start -1.75 1.43)
+		(end -3.18 1.43)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "107bee17-fb1c-40fa-a7f3-34976872b1a0")
+	)
+	(fp_line
+		(start -1.75 1.75)
+		(end -1.75 1.43)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3da64b3a-8ad0-4243-ab21-fa8b60bdcace")
+	)
+	(fp_line
+		(start 1.75 -1.75)
+		(end 1.75 -1.43)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ebbc9ccc-f072-46a7-9417-56e6ac8b4cbc")
+	)
+	(fp_line
+		(start 1.75 -1.43)
+		(end 3.18 -1.43)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f72a3764-b040-4755-b875-e2ae6c9c1246")
+	)
+	(fp_line
+		(start 1.75 1.43)
+		(end 1.75 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1781c8f5-de73-469f-af5b-840d803e0918")
+	)
+	(fp_line
+		(start 1.75 1.75)
+		(end -1.75 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "feec15f7-8aa8-4179-8332-dc816853b6d8")
+	)
+	(fp_line
+		(start 3.18 -1.43)
+		(end 3.18 1.43)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1fe43410-6584-4f70-8c51-3cef6635b8a2")
+	)
+	(fp_line
+		(start 3.18 1.43)
+		(end 1.75 1.43)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8d6597ae-a7b0-434b-969a-1772b39914f4")
+	)
+	(fp_poly
+		(pts
+			(xy -0.75 -1.5) (xy 1.5 -1.5) (xy 1.5 1.5) (xy -1.5 1.5) (xy -1.5 -0.75)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "281565e3-87a8-4661-a931-24aefa885b7f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f015e5a7-f7a6-4539-827f-0f65cfbe60d6")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.1125 -0.975)
+		(size 1.625 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "469b6bc4-83c7-4ebb-ab61-43876ecfcdb5")
+	)
+	(pad "2" smd roundrect
+		(at -2.1125 -0.325)
+		(size 1.625 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "78024de1-f397-43f4-8e24-edb8b00c64fd")
+	)
+	(pad "3" smd roundrect
+		(at -2.1125 0.325)
+		(size 1.625 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "fa9c97f6-8c97-4037-ad67-4235c4e7b765")
+	)
+	(pad "4" smd roundrect
+		(at -2.1125 0.975)
+		(size 1.625 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "aba9c8f7-104f-4392-bec4-20d638fb7f54")
+	)
+	(pad "5" smd roundrect
+		(at 2.1125 0.975)
+		(size 1.625 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "bd744ede-28c9-47f6-965f-63512874c36f")
+	)
+	(pad "6" smd roundrect
+		(at 2.1125 0.325)
+		(size 1.625 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0386a524-c1f7-4121-afe8-534bf37bffcf")
+	)
+	(pad "7" smd roundrect
+		(at 2.1125 -0.325)
+		(size 1.625 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f1bb96bf-e7b9-486f-83b5-73e0cc710293")
+	)
+	(pad "8" smd roundrect
+		(at 2.1125 -0.975)
+		(size 1.625 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2967b37a-d8cf-47a8-a091-7dfc845ad1b0")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-8_3x3mm_P0.65mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,3223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/rightMainboard/rightMainboard.kicad_sch</source>
+    <date>2026-10-07T15:03:35-0600</date>
+    <tool>Eeschema 9.0.8-4-g1ee99dff</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>rightMainboard</title>
+        <company/>
+        <rev>1-DRAFT</rev>
+        <date/>
+        <source>rightMainboard.kicad_sch</source>
+        <comment number="1" value="Glove80 Rev J controller photo reconstruction; NOT fabrication verified"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/">
+      <title_block>
+        <title>rightMainboard - Controller</title>
+        <company/>
+        <rev>1-DRAFT</rev>
+        <date/>
+        <source>Controller.kicad_sch</source>
+        <comment number="1" value="Photo reconstruction. Guessed values/power pinouts require verification."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/">
+      <title_block>
+        <title>rightMainboard - KeyboardConnectors</title>
+        <company/>
+        <rev>1-DRAFT</rev>
+        <date/>
+        <source>KeyboardConnectors.kicad_sch</source>
+        <comment number="1" value="Photo reconstruction. Guessed values/power pinouts require verification."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/">
+      <title_block>
+        <title>rightMainboard - PowerAndUSB</title>
+        <company/>
+        <rev>1-DRAFT</rev>
+        <date/>
+        <source>PowerAndUSB.kicad_sch</source>
+        <comment number="1" value="Photo reconstruction. Guessed values/power pinouts require verification."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Reconstruction:C7_C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C7_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C7_C7_C_0402_1005Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="Controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/"/>
+      <tstamps>4844f23d-a018-4be0-8bf6-33450bab041b</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>12pF</value>
+      <footprint>Reconstruction:C8_C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C8_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C8_C8_C_0402_1005Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="Controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/"/>
+      <tstamps>f7cf4a7d-be81-4ba2-bd3a-bbab35cea4b3</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>12pF</value>
+      <footprint>Reconstruction:C9_C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C9_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C9_C9_C_0402_1005Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="Controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/"/>
+      <tstamps>1602de85-8f5b-4b07-81aa-86d2fb514acc</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>Reconstruction:C10_C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C10_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C10_C10_C_0402_1005Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="Controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/"/>
+      <tstamps>08499eff-c481-4830-becb-e8a7c8fe70c6</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>Reconstruction:C11_C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C11_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C11_C11_C_0402_1005Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="Controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/"/>
+      <tstamps>302a2789-2964-4c79-bc99-e24040f8bb4b</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Reconstruction:C12_C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C12_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C12_C12_C_0402_1005Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="Controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/"/>
+      <tstamps>e710f406-feb5-4d35-87bb-6418920e1de1</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>GPIO / SWD 2x6 1.27mm</value>
+      <footprint>Reconstruction:PinHeader_2x06_P1.27mm_Vertical_SMD</footprint>
+      <fields>
+        <field name="Confidence">High</field>
+        <field name="Evidence">Official MoErgo header schematic and GPIO mapping</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:PinHeader_2x06_P1.27mm_Vertical_SMD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="J3_PinHeader_2x06_P1.27mm_Vertical_SMD" description="Official MoErgo header schematic and GPIO mapping"/>
+      <property name="Confidence" value="High"/>
+      <property name="Evidence" value="Official MoErgo header schematic and GPIO mapping"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="Controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/"/>
+      <tstamps>affc2104-fd17-4173-8fa3-d807f7916dc6</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>10uH (guess)</value>
+      <footprint>Reconstruction:L3_L_0603_1608Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">L1 marked 330; L2/L3 values and exact function inferred</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:L3_L_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="L3_L3_L_0603_1608Metric" description="L1 marked 330; L2/L3 values and exact function inferred"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="L1 marked 330; L2/L3 values and exact function inferred"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="Controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/"/>
+      <tstamps>b6510579-9f74-4809-80da-c3ba5189795c</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS138 (guess)</value>
+      <footprint>Reconstruction:Q1_SOT-23</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">3-lead packages; faint SS/G marking; polarity and part number unconfirmed</field>
+        <field name="Candidate part">BSS138</field>
+        <field name="Footprint">Reconstruction:Q1_SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="Q1_Q1_SOT-23" description="3-lead packages; faint SS/G marking; polarity and part number unconfirmed"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="3-lead packages; faint SS/G marking; polarity and part number unconfirmed"/>
+      <property name="Candidate part" value="BSS138"/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="Controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/"/>
+      <tstamps>d0a80a77-3139-4abd-b237-c0123d5cc022</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>0R</value>
+      <footprint>Reconstruction:R8_R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">0402 package estimated; resistance not readable</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:R8_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="R8_R8_R_0402_1005Metric" description="0402 package estimated; resistance not readable"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="0402 package estimated; resistance not readable"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="Controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/"/>
+      <tstamps>41486952-5798-4b90-936a-bf4c7e98942c</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>330R</value>
+      <footprint>Reconstruction:R10_R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">0402 package estimated; resistance not readable</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:R10_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="R10_R10_R_0402_1005Metric" description="0402 package estimated; resistance not readable"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="0402 package estimated; resistance not readable"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="Controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/"/>
+      <tstamps>b89be78a-d214-46e7-a247-67c12abcad66</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Reconstruction:R13_R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">0402 package estimated; resistance not readable</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:R13_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="R13_R13_R_0402_1005Metric" description="0402 package estimated; resistance not readable"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="0402 package estimated; resistance not readable"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="Controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/"/>
+      <tstamps>1142b468-73c7-40a4-b05d-b4289dcc782a</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1M</value>
+      <footprint>Reconstruction:R14_R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">0402 package estimated; resistance not readable</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:R14_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="R14_R14_R_0402_1005Metric" description="0402 package estimated; resistance not readable"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="0402 package estimated; resistance not readable"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="Controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/"/>
+      <tstamps>82adb458-83b8-4572-a6a3-62f575006f25</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>100k</value>
+      <footprint>Reconstruction:R22_R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">0402 package estimated; resistance not readable</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:R22_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="R22_R22_R_0402_1005Metric" description="0402 package estimated; resistance not readable"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="0402 package estimated; resistance not readable"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="Controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/"/>
+      <tstamps>ece7d778-02b2-426a-8af2-c9d74730d2c8</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>Reset tactile 4x4mm (estimate)</value>
+      <footprint>Reconstruction:Reset_Tactile_4mm_PhotoEstimate</footprint>
+      <fields>
+        <field name="Confidence">Medium</field>
+        <field name="Evidence">Yellow tactile dome in photo beside module</field>
+        <field name="Candidate part">4x4mm SMT tactile switch</field>
+        <field name="Footprint">Reconstruction:Reset_Tactile_4mm_PhotoEstimate</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="SW2_Reset_Tactile_4mm_PhotoEstimate" description="Yellow tactile dome in photo beside module"/>
+      <property name="Confidence" value="Medium"/>
+      <property name="Evidence" value="Yellow tactile dome in photo beside module"/>
+      <property name="Candidate part" value="4x4mm SMT tactile switch"/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="Controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/"/>
+      <tstamps>923b6e52-f134-4546-aa4d-a08b93948fff</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>MDBT50Q-P1MV2</value>
+      <footprint>Reconstruction:Raytac_MDBT50Q</footprint>
+      <fields>
+        <field name="Confidence">High</field>
+        <field name="Evidence">Raytac MDBT50Q shield marking + PCB antenna; nRF52840 firmware; exact module suffix inferred</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:Raytac_MDBT50Q</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="U4_Raytac_MDBT50Q" description="Raytac MDBT50Q shield marking + PCB antenna; nRF52840 firmware; exact module suffix inferred"/>
+      <property name="Confidence" value="High"/>
+      <property name="Evidence" value="Raytac MDBT50Q shield marking + PCB antenna; nRF52840 firmware; exact module suffix inferred"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="Controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/"/>
+      <tstamps>03442e8c-f00a-48f2-8a15-41238339d4e1</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>74CBTLV1G125GV (probable b25 marking)</value>
+      <footprint>Reconstruction:U5_SOT-23-5</footprint>
+      <fields>
+        <field name="Confidence">Medium (marking), Low (circuit)</field>
+        <field name="Evidence">b25 marking matches Nexperia bus switch; uses 2.4V rail. Exact surrounding LED translation circuit unresolved.</field>
+        <field name="Candidate part">74CBTLV1G125GV; surrounding topology unverified</field>
+        <field name="Footprint">Reconstruction:U5_SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="U5_U5_SOT-23-5" description="b25 marking matches Nexperia bus switch; uses 2.4V rail. Exact surrounding LED translation circuit unresolved."/>
+      <property name="Confidence" value="Medium (marking), Low (circuit)"/>
+      <property name="Evidence" value="b25 marking matches Nexperia bus switch; uses 2.4V rail. Exact surrounding LED translation circuit unresolved."/>
+      <property name="Candidate part" value="74CBTLV1G125GV; surrounding topology unverified"/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="Controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/"/>
+      <tstamps>c80a3f48-0233-4f5c-b4cc-5a053322f1b0</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>32.768kHz (guess)</value>
+      <footprint>Reconstruction:Crystal_3215_2pin_PhotoEstimate</footprint>
+      <fields>
+        <field name="Confidence">Medium</field>
+        <field name="Evidence">Metal can low-frequency crystal near module; marking unreadable</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:Crystal_3215_2pin_PhotoEstimate</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="Y1_Crystal_3215_2pin_PhotoEstimate" description="Metal can low-frequency crystal near module; marking unreadable"/>
+      <property name="Confidence" value="Medium"/>
+      <property name="Evidence" value="Metal can low-frequency crystal near module; marking unreadable"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="Controller"/>
+      <property name="Sheetfile" value="Controller.kicad_sch"/>
+      <sheetpath names="/Controller/" tstamps="/9de8bcc4-3e84-4101-859e-9669d9c63018/"/>
+      <tstamps>dac9b0ba-2990-4270-8e30-0561ba786cf4</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100pF</value>
+      <footprint>Reconstruction:C13_C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C13_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C13_C13_C_0402_1005Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>b0b52fdd-d0b1-4888-bff0-0511ba5fd549</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100pF</value>
+      <footprint>Reconstruction:C14_C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C14_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C14_C14_C_0402_1005Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>250ba232-6638-489b-93a0-ea38fbb77c17</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100pF</value>
+      <footprint>Reconstruction:C15_C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C15_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C15_C15_C_0402_1005Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>25533c29-8cdc-4677-8578-4d01a01688b8</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100pF</value>
+      <footprint>Reconstruction:C16_C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C16_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C16_C16_C_0402_1005Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>a77da090-cc60-48d6-8446-4f46512688d9</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100pF</value>
+      <footprint>Reconstruction:C17_C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C17_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C17_C17_C_0402_1005Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>878fe33f-ada9-4b38-95bb-a85a4295497f</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100pF</value>
+      <footprint>Reconstruction:C18_C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C18_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C18_C18_C_0402_1005Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>cb6add05-9286-4575-bbf5-9a40fe0ea152</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100pF</value>
+      <footprint>Reconstruction:C19_C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C19_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C19_C19_C_0402_1005Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>120c4ba5-53f3-41e5-bb02-f524f581fb43</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>HC-FPC-0.5-14P-FH20</value>
+      <footprint>Reconstruction:FPC-SMD_14P-P0.50_HC-FPC-0.5-14P-FH20</footprint>
+      <fields>
+        <field name="Confidence">High (pinout), Medium (MPN)</field>
+        <field name="Evidence">Pinout copied from user breakout PCB; connector locations from photo; housing substitute</field>
+        <field name="Candidate part">C19273929</field>
+        <field name="Footprint">Reconstruction:FPC-SMD_14P-P0.50_HC-FPC-0.5-14P-FH20</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="J7_FPC-SMD_14P-P0.50_HC-FPC-0.5-14P-FH20" description="Pinout copied from user breakout PCB; connector locations from photo; housing substitute"/>
+      <property name="Confidence" value="High (pinout), Medium (MPN)"/>
+      <property name="Evidence" value="Pinout copied from user breakout PCB; connector locations from photo; housing substitute"/>
+      <property name="Candidate part" value="C19273929"/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>f03cc964-2a2c-488b-a3d8-3639dcebdc17</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>HC-FPC-0.5-12P-FH20</value>
+      <footprint>Reconstruction:FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20</footprint>
+      <fields>
+        <field name="Confidence">High (pinout), Medium (MPN)</field>
+        <field name="Evidence">Pinout copied from user breakout PCB; connector locations from photo; housing substitute</field>
+        <field name="Candidate part">C19273928</field>
+        <field name="Footprint">Reconstruction:FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="J8_FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20" description="Pinout copied from user breakout PCB; connector locations from photo; housing substitute"/>
+      <property name="Confidence" value="High (pinout), Medium (MPN)"/>
+      <property name="Evidence" value="Pinout copied from user breakout PCB; connector locations from photo; housing substitute"/>
+      <property name="Candidate part" value="C19273928"/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>55e4c31a-f65b-447c-b239-4d09eaa6eb0a</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>HC-FPC-0.5-12P-FH20</value>
+      <footprint>Reconstruction:FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20</footprint>
+      <fields>
+        <field name="Confidence">High (pinout), Medium (MPN)</field>
+        <field name="Evidence">Pinout copied from user breakout PCB; connector locations from photo; housing substitute</field>
+        <field name="Candidate part">C19273928</field>
+        <field name="Footprint">Reconstruction:FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="J9_FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20" description="Pinout copied from user breakout PCB; connector locations from photo; housing substitute"/>
+      <property name="Confidence" value="High (pinout), Medium (MPN)"/>
+      <property name="Evidence" value="Pinout copied from user breakout PCB; connector locations from photo; housing substitute"/>
+      <property name="Candidate part" value="C19273928"/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>90c1f9f5-ca0a-4c6f-aa5b-1db08e15fab3</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>HC-FPC-0.5-12P-FH20</value>
+      <footprint>Reconstruction:FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20</footprint>
+      <fields>
+        <field name="Confidence">High (pinout), Medium (MPN)</field>
+        <field name="Evidence">Pinout copied from user breakout PCB; connector locations from photo; housing substitute</field>
+        <field name="Candidate part">C19273928</field>
+        <field name="Footprint">Reconstruction:FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="J10_FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20" description="Pinout copied from user breakout PCB; connector locations from photo; housing substitute"/>
+      <property name="Confidence" value="High (pinout), Medium (MPN)"/>
+      <property name="Evidence" value="Pinout copied from user breakout PCB; connector locations from photo; housing substitute"/>
+      <property name="Candidate part" value="C19273928"/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>1385a7b8-9857-4c15-8118-483cf509fc2b</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>C0 exposed pad</value>
+      <footprint>Reconstruction:TestPad_0.55mm</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Exposed pads seen in photo; function inferred as probing pads</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="TP1_TestPad_0.55mm" description="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>b1336523-d07d-406b-a260-c48eb18a654f</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>GND exposed pad</value>
+      <footprint>Reconstruction:TestPad_0.55mm</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Exposed pads seen in photo; function inferred as probing pads</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="TP2_TestPad_0.55mm" description="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>9d8f8115-1de0-4a2e-a231-5cc54c546c5a</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>C1 exposed pad</value>
+      <footprint>Reconstruction:TestPad_0.55mm</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Exposed pads seen in photo; function inferred as probing pads</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="TP3_TestPad_0.55mm" description="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>0ea8aaac-bf01-43a9-b6dc-f0ea19e185b8</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>GND exposed pad</value>
+      <footprint>Reconstruction:TestPad_0.55mm</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Exposed pads seen in photo; function inferred as probing pads</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="TP4_TestPad_0.55mm" description="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>efc0fc9e-7787-4750-88d9-23cd081ade0e</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>C2 exposed pad</value>
+      <footprint>Reconstruction:TestPad_0.55mm</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Exposed pads seen in photo; function inferred as probing pads</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="TP5_TestPad_0.55mm" description="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>53e1d27a-3baa-4352-b757-1335a0cd2f5b</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>GND exposed pad</value>
+      <footprint>Reconstruction:TestPad_0.55mm</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Exposed pads seen in photo; function inferred as probing pads</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="TP6_TestPad_0.55mm" description="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>b3f18031-ab44-4968-be91-52c2c46cc696</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>C3 exposed pad</value>
+      <footprint>Reconstruction:TestPad_0.55mm</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Exposed pads seen in photo; function inferred as probing pads</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="TP7_TestPad_0.55mm" description="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>d1253750-fe8e-43be-98c5-f9ed9a78d80c</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>GND exposed pad</value>
+      <footprint>Reconstruction:TestPad_0.55mm</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Exposed pads seen in photo; function inferred as probing pads</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="TP8_TestPad_0.55mm" description="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>a9f3a31b-3772-4919-9d60-f8dc7f3b258c</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>C4 exposed pad</value>
+      <footprint>Reconstruction:TestPad_0.55mm</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Exposed pads seen in photo; function inferred as probing pads</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="TP9_TestPad_0.55mm" description="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>0c8c8617-bb0d-4f44-b0ee-69e86cced199</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>GND exposed pad</value>
+      <footprint>Reconstruction:TestPad_0.55mm</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Exposed pads seen in photo; function inferred as probing pads</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="TP10_TestPad_0.55mm" description="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>a1587495-cbf2-4b5f-9359-e3d5c0f058fb</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>C5 exposed pad</value>
+      <footprint>Reconstruction:TestPad_0.55mm</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Exposed pads seen in photo; function inferred as probing pads</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="TP11_TestPad_0.55mm" description="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>67f73eea-bd17-4193-885c-ad5471c7c8d5</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>GND exposed pad</value>
+      <footprint>Reconstruction:TestPad_0.55mm</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Exposed pads seen in photo; function inferred as probing pads</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="TP12_TestPad_0.55mm" description="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>68b3da07-9501-4759-a6a0-c1abf67de72f</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>C6 exposed pad</value>
+      <footprint>Reconstruction:TestPad_0.55mm</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Exposed pads seen in photo; function inferred as probing pads</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="TP13_TestPad_0.55mm" description="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>e3e86359-36b1-49ee-bc58-12d6b052d010</tstamps>
+    </comp>
+    <comp ref="TP14">
+      <value>GND exposed pad</value>
+      <footprint>Reconstruction:TestPad_0.55mm</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Exposed pads seen in photo; function inferred as probing pads</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="TP14_TestPad_0.55mm" description="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Exposed pads seen in photo; function inferred as probing pads"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="KeyboardConnectors"/>
+      <property name="Sheetfile" value="KeyboardConnectors.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/KeyboardConnectors/" tstamps="/f9f7add6-e71f-4288-aae5-f42e62024dd2/"/>
+      <tstamps>43d842e5-c971-4485-84fa-ede44eb4dabc</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Reconstruction:C1_C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C1_C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C1_C1_C_0805_2012Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>af7bd647-0dc3-4a67-84a2-06246c8376b9</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Reconstruction:C2_C2_C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C2_C2_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C2_C2_C2_C_0402_1005Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>06449157-8927-46a7-b320-97d4e9b89e62</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Reconstruction:C3_C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C3_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C3_C3_C_0402_1005Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>5d2ed8a3-7f29-449a-b928-99f98a521328</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Reconstruction:C4_C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C4_C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C4_C4_C_0603_1608Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>a428b223-9720-4ea8-8794-6317e877614d</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Reconstruction:C5_C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C5_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C5_C5_C_0402_1005Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>596a55c7-fba4-43f0-a0df-77117ca696bc</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Reconstruction:C6_C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C6_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C6_C6_C_0402_1005Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>445267d9-d9dc-47f3-a4d1-8e73c721ae06</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>10uF</value>
+      <footprint>Reconstruction:C20_C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:C20_C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="C20_C20_C_0805_2012Metric" description="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Ceramic capacitor values and voltage ratings are not readable; estimated from function/package"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>6303b07d-ea1e-4e89-824a-1b20d28087cf</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>BAT54WS (guess)</value>
+      <footprint>Reconstruction:D3_D_SOD-323</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:D3_D_SOD-323</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="D3_D3_D_SOD-323" description="D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>f3b87afa-963a-4dba-991a-e2bb9c0d339b</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>PMEG2010ER (guess)</value>
+      <footprint>Reconstruction:D4_D_SOD-123</footprint>
+      <fields>
+        <field name="Confidence">Medium</field>
+        <field name="Evidence">D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:D4_D_SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="D4_D4_D_SOD-123" description="D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined"/>
+      <property name="Confidence" value="Medium"/>
+      <property name="Evidence" value="D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>5df378b8-25d8-405c-988a-220821f6ca6f</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>Green status LED (guess)</value>
+      <footprint>Reconstruction:D5_LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:D5_LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="D5_D5_LED_0603_1608Metric" description="D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>4446f3ae-2395-47b0-b4d8-791f06593d3e</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>500mA resettable fuse (guess)</value>
+      <footprint>Reconstruction:F1_Fuse_1206_3216Metric</footprint>
+      <fields>
+        <field name="Confidence">Medium (function), Low (rating)</field>
+        <field name="Evidence">Gold B-marked rectangular part is likely PPTC USB protection</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:F1_Fuse_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="F1_F1_Fuse_1206_3216Metric" description="Gold B-marked rectangular part is likely PPTC USB protection"/>
+      <property name="Confidence" value="Medium (function), Low (rating)"/>
+      <property name="Evidence" value="Gold B-marked rectangular part is likely PPTC USB protection"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>ed551859-a989-4c4e-be0a-dc74aa68c6dd</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB-C USB2 receptacle (footprint estimate)</value>
+      <footprint>Reconstruction:J1_USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</footprint>
+      <fields>
+        <field name="Confidence">Medium</field>
+        <field name="Evidence">16 contacts, four shell anchors visible; connector mounted facing board side</field>
+        <field name="Candidate part">GCT USB4105-GF-A</field>
+        <field name="Footprint">Reconstruction:J1_USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="J1_J1_USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal" description="16 contacts, four shell anchors visible; connector mounted facing board side"/>
+      <property name="Confidence" value="Medium"/>
+      <property name="Evidence" value="16 contacts, four shell anchors visible; connector mounted facing board side"/>
+      <property name="Candidate part" value="GCT USB4105-GF-A"/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>3a55b9ab-3bb4-42d0-b875-b307cfef8f83</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>3-pin LiPo / NTC 1.25mm (estimate)</value>
+      <footprint>Reconstruction:Battery_3pin_1.25mm_PhotoEstimate</footprint>
+      <fields>
+        <field name="Confidence">Low (MPN and polarity)</field>
+        <field name="Evidence">3-pin housing and three wires visible; pitch estimated from photo. Verify actual plug and polarity!</field>
+        <field name="Candidate part">JST GH / Molex PicoBlade 1.25mm family</field>
+        <field name="Footprint">Reconstruction:Battery_3pin_1.25mm_PhotoEstimate</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="J2_Battery_3pin_1.25mm_PhotoEstimate" description="3-pin housing and three wires visible; pitch estimated from photo. Verify actual plug and polarity!"/>
+      <property name="Confidence" value="Low (MPN and polarity)"/>
+      <property name="Evidence" value="3-pin housing and three wires visible; pitch estimated from photo. Verify actual plug and polarity!"/>
+      <property name="Candidate part" value="JST GH / Molex PicoBlade 1.25mm family"/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>c47cb590-8d61-4d8b-bb02-092556199bcf</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>33uH</value>
+      <footprint>Reconstruction:L1_Inductor_6x6mm_PhotoEstimate</footprint>
+      <fields>
+        <field name="Confidence">High (33uH marking)</field>
+        <field name="Evidence">L1 marked 330; L2/L3 values and exact function inferred</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:L1_Inductor_6x6mm_PhotoEstimate</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="L1_L1_Inductor_6x6mm_PhotoEstimate" description="L1 marked 330; L2/L3 values and exact function inferred"/>
+      <property name="Confidence" value="High (33uH marking)"/>
+      <property name="Evidence" value="L1 marked 330; L2/L3 values and exact function inferred"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>38a5eaa5-6a7e-4341-85cc-4efcc99f9160</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>Ferrite bead (guess)</value>
+      <footprint>Reconstruction:L2_L_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">L1 marked 330; L2/L3 values and exact function inferred</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:L2_L_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="L2_L2_L_0402_1005Metric" description="L1 marked 330; L2/L3 values and exact function inferred"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="L1 marked 330; L2/L3 values and exact function inferred"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>53a2a9ed-dfaa-4d9f-9aac-6d30523ba6e4</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>P-channel MOSFET (guess)</value>
+      <footprint>Reconstruction:Q2_SOT-23</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">3-lead packages; faint SS/G marking; polarity and part number unconfirmed</field>
+        <field name="Candidate part">AO3401A / SI2301 family</field>
+        <field name="Footprint">Reconstruction:Q2_SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="Q2_Q2_SOT-23" description="3-lead packages; faint SS/G marking; polarity and part number unconfirmed"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="3-lead packages; faint SS/G marking; polarity and part number unconfirmed"/>
+      <property name="Candidate part" value="AO3401A / SI2301 family"/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>9791f989-9aa0-40ed-bfbe-7544ca4cf6c0</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>P-channel MOSFET (guess)</value>
+      <footprint>Reconstruction:Q3_SOT-23</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">3-lead packages; faint SS/G marking; polarity and part number unconfirmed</field>
+        <field name="Candidate part">AO3401A / SI2301 family</field>
+        <field name="Footprint">Reconstruction:Q3_SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="Q3_Q3_SOT-23" description="3-lead packages; faint SS/G marking; polarity and part number unconfirmed"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="3-lead packages; faint SS/G marking; polarity and part number unconfirmed"/>
+      <property name="Candidate part" value="AO3401A / SI2301 family"/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>ecdd9543-4298-4e2e-9545-94704fb0f530</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>30.1k</value>
+      <footprint>Reconstruction:R1_R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">0402 package estimated; resistance not readable</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:R1_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="R1_R1_R_0402_1005Metric" description="0402 package estimated; resistance not readable"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="0402 package estimated; resistance not readable"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>b9f545f8-4d27-459d-a4ab-21dd10f3fba9</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Reconstruction:R2_R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">0402 package estimated; resistance not readable</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:R2_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="R2_R2_R_0402_1005Metric" description="0402 package estimated; resistance not readable"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="0402 package estimated; resistance not readable"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>a01f548f-f985-4899-b942-531bc7d6a323</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5.1k</value>
+      <footprint>Reconstruction:R3_R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Medium (5.1k inferred)</field>
+        <field name="Evidence">0402 package estimated; resistance not readable</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:R3_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="R3_R3_R_0402_1005Metric" description="0402 package estimated; resistance not readable"/>
+      <property name="Confidence" value="Medium (5.1k inferred)"/>
+      <property name="Evidence" value="0402 package estimated; resistance not readable"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>f2b9e342-c753-4d9e-9305-0e9126500d8e</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>5.1k</value>
+      <footprint>Reconstruction:R4_R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Medium (5.1k inferred)</field>
+        <field name="Evidence">0402 package estimated; resistance not readable</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:R4_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="R4_R4_R_0402_1005Metric" description="0402 package estimated; resistance not readable"/>
+      <property name="Confidence" value="Medium (5.1k inferred)"/>
+      <property name="Evidence" value="0402 package estimated; resistance not readable"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>1b118e14-3911-4e63-9f42-4d405cc3ebc6</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Reconstruction:R5_R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">0402 package estimated; resistance not readable</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:R5_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="R5_R5_R_0402_1005Metric" description="0402 package estimated; resistance not readable"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="0402 package estimated; resistance not readable"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>211dc12c-84ab-40d4-bb4a-c4218290db67</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Reconstruction:R6_R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">0402 package estimated; resistance not readable</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:R6_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="R6_R6_R_0402_1005Metric" description="0402 package estimated; resistance not readable"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="0402 package estimated; resistance not readable"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>65d8dbd8-db06-4d5e-98d3-50002b24da67</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>12k</value>
+      <footprint>Reconstruction:R7_R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">0402 package estimated; resistance not readable</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:R7_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="R7_R7_R_0402_1005Metric" description="0402 package estimated; resistance not readable"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="0402 package estimated; resistance not readable"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>4d1c47b4-cd79-4f49-b84a-fe1cdbf9002c</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <footprint>Reconstruction:R9_R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">0402 package estimated; resistance not readable</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:R9_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="R9_R9_R_0402_1005Metric" description="0402 package estimated; resistance not readable"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="0402 package estimated; resistance not readable"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>f277ff2a-e2a2-43ea-b061-059cd5ec57c1</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Reconstruction:R11_R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">0402 package estimated; resistance not readable</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:R11_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="R11_R11_R_0402_1005Metric" description="0402 package estimated; resistance not readable"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="0402 package estimated; resistance not readable"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>a2f0b2f9-fc4a-4f42-b030-0b76daf6e0cb</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>Reconstruction:R12_R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">0402 package estimated; resistance not readable</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:R12_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="R12_R12_R_0402_1005Metric" description="0402 package estimated; resistance not readable"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="0402 package estimated; resistance not readable"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>103d787d-2016-4810-9d0a-93df388ff95d</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Latching DPDT power push switch (estimate)</value>
+      <footprint>Reconstruction:PowerSwitch_DPDT_PhotoEstimate</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Push actuator + six contacts + mechanical lugs visible; exact switch/terminal function unverified</field>
+        <field name="Candidate part">PS-22F family, verify dimensional drawing</field>
+        <field name="Footprint">Reconstruction:PowerSwitch_DPDT_PhotoEstimate</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="SW1_PowerSwitch_DPDT_PhotoEstimate" description="Push actuator + six contacts + mechanical lugs visible; exact switch/terminal function unverified"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Push actuator + six contacts + mechanical lugs visible; exact switch/terminal function unverified"/>
+      <property name="Candidate part" value="PS-22F family, verify dimensional drawing"/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>7a452a49-ec5c-4bbd-91ce-db37faa7d548</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Boost controller MSOP8 (unidentified)</value>
+      <footprint>Reconstruction:U1_MSOP-8_3x3mm_P0.65mm</footprint>
+      <fields>
+        <field name="Confidence">Low</field>
+        <field name="Evidence">Marking looks MXCEA/M1CEA, unreadable ID. Guessed functional pinout; not an identified replacement</field>
+        <field name="Candidate part">TPS61085-class MSOP8 boost; NOT confirmed pin-compatible</field>
+        <field name="Footprint">Reconstruction:U1_MSOP-8_3x3mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="U1_U1_MSOP-8_3x3mm_P0.65mm" description="Marking looks MXCEA/M1CEA, unreadable ID. Guessed functional pinout; not an identified replacement"/>
+      <property name="Confidence" value="Low"/>
+      <property name="Evidence" value="Marking looks MXCEA/M1CEA, unreadable ID. Guessed functional pinout; not an identified replacement"/>
+      <property name="Candidate part" value="TPS61085-class MSOP8 boost; NOT confirmed pin-compatible"/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>f34f2046-6716-4b32-88cf-3da176cf005f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TP4056-42-ESOP8</value>
+      <footprint>Reconstruction:U2_SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias</footprint>
+      <fields>
+        <field name="Confidence">High (family), Medium (variant)</field>
+        <field name="Evidence">TP4056 marking visible; exposed pad visible in sanded board. Exact suffix unconfirmed</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:U2_SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="U2_U2_SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias" description="TP4056 marking visible; exposed pad visible in sanded board. Exact suffix unconfirmed"/>
+      <property name="Confidence" value="High (family), Medium (variant)"/>
+      <property name="Evidence" value="TP4056 marking visible; exposed pad visible in sanded board. Exact suffix unconfirmed"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>27ef8e82-2d54-4348-a5a8-65fd33a823b2</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>PRTR5V0U2X</value>
+      <footprint>Reconstruction:U3_SOT-143</footprint>
+      <fields>
+        <field name="Confidence">High</field>
+        <field name="Evidence">WR1 marking and four-lead SOT143 match manufacturer %R1 code</field>
+        <field name="Candidate part"/>
+        <field name="Footprint">Reconstruction:U3_SOT-143</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Reconstruction" part="U3_U3_SOT-143" description="WR1 marking and four-lead SOT143 match manufacturer %R1 code"/>
+      <property name="Confidence" value="High"/>
+      <property name="Evidence" value="WR1 marking and four-lead SOT143 match manufacturer %R1 code"/>
+      <property name="Candidate part" value=""/>
+      <property name="Sheetname" value="PowerAndUSB"/>
+      <property name="Sheetfile" value="PowerAndUSB.kicad_sch"/>
+      <sheetpath names="/PowerAndUSB/" tstamps="/7367478f-8049-4a46-a6a9-2f37f647d312/"/>
+      <tstamps>ba7ee193-63bb-49ea-8a76-d76899a5c249</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Reconstruction" part="C10_C10_C_0402_1005Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF</field>
+        <field name="Footprint">Reconstruction:C10_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C11_C11_C_0402_1005Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF</field>
+        <field name="Footprint">Reconstruction:C11_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C12_C12_C_0402_1005Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">Reconstruction:C12_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C13_C13_C_0402_1005Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100pF</field>
+        <field name="Footprint">Reconstruction:C13_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C14_C14_C_0402_1005Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100pF</field>
+        <field name="Footprint">Reconstruction:C14_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C15_C15_C_0402_1005Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100pF</field>
+        <field name="Footprint">Reconstruction:C15_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C16_C16_C_0402_1005Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100pF</field>
+        <field name="Footprint">Reconstruction:C16_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C17_C17_C_0402_1005Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100pF</field>
+        <field name="Footprint">Reconstruction:C17_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C18_C18_C_0402_1005Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100pF</field>
+        <field name="Footprint">Reconstruction:C18_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C19_C19_C_0402_1005Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100pF</field>
+        <field name="Footprint">Reconstruction:C19_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C1_C1_C_0805_2012Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF</field>
+        <field name="Footprint">Reconstruction:C1_C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C20_C20_C_0805_2012Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF</field>
+        <field name="Footprint">Reconstruction:C20_C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C2_C2_C2_C_0402_1005Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF</field>
+        <field name="Footprint">Reconstruction:C2_C2_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C3_C3_C_0402_1005Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">Reconstruction:C3_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C4_C4_C_0603_1608Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF</field>
+        <field name="Footprint">Reconstruction:C4_C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C5_C5_C_0402_1005Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">Reconstruction:C5_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C6_C6_C_0402_1005Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">Reconstruction:C6_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C7_C7_C_0402_1005Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">Reconstruction:C7_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C8_C8_C_0402_1005Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">12pF</field>
+        <field name="Footprint">Reconstruction:C8_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="C9_C9_C_0402_1005Metric">
+      <description>Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">12pF</field>
+        <field name="Footprint">Reconstruction:C9_C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Ceramic capacitor values and voltage ratings are not readable; estimated from function/package</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="D3_D3_D_SOD-323">
+      <description>D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT54WS (guess)</field>
+        <field name="Footprint">Reconstruction:D3_D_SOD-323</field>
+        <field name="Datasheet"/>
+        <field name="Description">D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="D4_D4_D_SOD-123">
+      <description>D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PMEG2010ER (guess)</field>
+        <field name="Footprint">Reconstruction:D4_D_SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description">D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="D5_D5_LED_0603_1608Metric">
+      <description>D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Green status LED (guess)</field>
+        <field name="Footprint">Reconstruction:D5_LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="F1_F1_Fuse_1206_3216Metric">
+      <description>Gold B-marked rectangular part is likely PPTC USB protection</description>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">500mA resettable fuse (guess)</field>
+        <field name="Footprint">Reconstruction:F1_Fuse_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Gold B-marked rectangular part is likely PPTC USB protection</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="J10_FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20">
+      <description>Pinout copied from user breakout PCB; connector locations from photo; housing substitute</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HC-FPC-0.5-12P-FH20</field>
+        <field name="Footprint">Reconstruction:FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20</field>
+        <field name="Datasheet"/>
+        <field name="Description">Pinout copied from user breakout PCB; connector locations from photo; housing substitute</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="J1_J1_USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal">
+      <description>16 contacts, four shell anchors visible; connector mounted facing board side</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB-C USB2 receptacle (footprint estimate)</field>
+        <field name="Footprint">Reconstruction:J1_USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">16 contacts, four shell anchors visible; connector mounted facing board side</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="A1" type="passive"/>
+        <pin num="A4" name="A4" type="passive"/>
+        <pin num="A5" name="A5" type="passive"/>
+        <pin num="A6" name="A6" type="passive"/>
+        <pin num="A7" name="A7" type="passive"/>
+        <pin num="A8" name="A8" type="passive"/>
+        <pin num="A9" name="A9" type="passive"/>
+        <pin num="A12" name="A12" type="passive"/>
+        <pin num="B1" name="B1" type="passive"/>
+        <pin num="B4" name="B4" type="passive"/>
+        <pin num="B5" name="B5" type="passive"/>
+        <pin num="B6" name="B6" type="passive"/>
+        <pin num="B7" name="B7" type="passive"/>
+        <pin num="B8" name="B8" type="passive"/>
+        <pin num="B9" name="B9" type="passive"/>
+        <pin num="B12" name="B12" type="passive"/>
+        <pin num="S1" name="S1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="J2_Battery_3pin_1.25mm_PhotoEstimate">
+      <description>3-pin housing and three wires visible; pitch estimated from photo. Verify actual plug and polarity!</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">3-pin LiPo / NTC 1.25mm (estimate)</field>
+        <field name="Footprint">Reconstruction:Battery_3pin_1.25mm_PhotoEstimate</field>
+        <field name="Datasheet"/>
+        <field name="Description">3-pin housing and three wires visible; pitch estimated from photo. Verify actual plug and polarity!</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="J3_PinHeader_2x06_P1.27mm_Vertical_SMD">
+      <description>Official MoErgo header schematic and GPIO mapping</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">GPIO / SWD 2x6 1.27mm</field>
+        <field name="Footprint">Reconstruction:PinHeader_2x06_P1.27mm_Vertical_SMD</field>
+        <field name="Datasheet"/>
+        <field name="Description">Official MoErgo header schematic and GPIO mapping</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="J7_FPC-SMD_14P-P0.50_HC-FPC-0.5-14P-FH20">
+      <description>Pinout copied from user breakout PCB; connector locations from photo; housing substitute</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HC-FPC-0.5-14P-FH20</field>
+        <field name="Footprint">Reconstruction:FPC-SMD_14P-P0.50_HC-FPC-0.5-14P-FH20</field>
+        <field name="Datasheet"/>
+        <field name="Description">Pinout copied from user breakout PCB; connector locations from photo; housing substitute</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="J8_FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20">
+      <description>Pinout copied from user breakout PCB; connector locations from photo; housing substitute</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HC-FPC-0.5-12P-FH20</field>
+        <field name="Footprint">Reconstruction:FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20</field>
+        <field name="Datasheet"/>
+        <field name="Description">Pinout copied from user breakout PCB; connector locations from photo; housing substitute</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="J9_FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20">
+      <description>Pinout copied from user breakout PCB; connector locations from photo; housing substitute</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HC-FPC-0.5-12P-FH20</field>
+        <field name="Footprint">Reconstruction:FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20</field>
+        <field name="Datasheet"/>
+        <field name="Description">Pinout copied from user breakout PCB; connector locations from photo; housing substitute</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="L1_L1_Inductor_6x6mm_PhotoEstimate">
+      <description>L1 marked 330; L2/L3 values and exact function inferred</description>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">33uH</field>
+        <field name="Footprint">Reconstruction:L1_Inductor_6x6mm_PhotoEstimate</field>
+        <field name="Datasheet"/>
+        <field name="Description">L1 marked 330; L2/L3 values and exact function inferred</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="L2_L2_L_0402_1005Metric">
+      <description>L1 marked 330; L2/L3 values and exact function inferred</description>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">Ferrite bead (guess)</field>
+        <field name="Footprint">Reconstruction:L2_L_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">L1 marked 330; L2/L3 values and exact function inferred</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="L3_L3_L_0603_1608Metric">
+      <description>L1 marked 330; L2/L3 values and exact function inferred</description>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">10uH (guess)</field>
+        <field name="Footprint">Reconstruction:L3_L_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">L1 marked 330; L2/L3 values and exact function inferred</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="Q1_Q1_SOT-23">
+      <description>3-lead packages; faint SS/G marking; polarity and part number unconfirmed</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138 (guess)</field>
+        <field name="Footprint">Reconstruction:Q1_SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description">3-lead packages; faint SS/G marking; polarity and part number unconfirmed</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="Q2_Q2_SOT-23">
+      <description>3-lead packages; faint SS/G marking; polarity and part number unconfirmed</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">P-channel MOSFET (guess)</field>
+        <field name="Footprint">Reconstruction:Q2_SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description">3-lead packages; faint SS/G marking; polarity and part number unconfirmed</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="Q3_Q3_SOT-23">
+      <description>3-lead packages; faint SS/G marking; polarity and part number unconfirmed</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">P-channel MOSFET (guess)</field>
+        <field name="Footprint">Reconstruction:Q3_SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description">3-lead packages; faint SS/G marking; polarity and part number unconfirmed</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="R10_R10_R_0402_1005Metric">
+      <description>0402 package estimated; resistance not readable</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">330R</field>
+        <field name="Footprint">Reconstruction:R10_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0402 package estimated; resistance not readable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="R11_R11_R_0402_1005Metric">
+      <description>0402 package estimated; resistance not readable</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100k</field>
+        <field name="Footprint">Reconstruction:R11_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0402 package estimated; resistance not readable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="R12_R12_R_0402_1005Metric">
+      <description>0402 package estimated; resistance not readable</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">Reconstruction:R12_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0402 package estimated; resistance not readable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="R13_R13_R_0402_1005Metric">
+      <description>0402 package estimated; resistance not readable</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Reconstruction:R13_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0402 package estimated; resistance not readable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="R14_R14_R_0402_1005Metric">
+      <description>0402 package estimated; resistance not readable</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1M</field>
+        <field name="Footprint">Reconstruction:R14_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0402 package estimated; resistance not readable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="R1_R1_R_0402_1005Metric">
+      <description>0402 package estimated; resistance not readable</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">30.1k</field>
+        <field name="Footprint">Reconstruction:R1_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0402 package estimated; resistance not readable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="R22_R22_R_0402_1005Metric">
+      <description>0402 package estimated; resistance not readable</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100k</field>
+        <field name="Footprint">Reconstruction:R22_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0402 package estimated; resistance not readable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="R2_R2_R_0402_1005Metric">
+      <description>0402 package estimated; resistance not readable</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Reconstruction:R2_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0402 package estimated; resistance not readable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="R3_R3_R_0402_1005Metric">
+      <description>0402 package estimated; resistance not readable</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">5.1k</field>
+        <field name="Footprint">Reconstruction:R3_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0402 package estimated; resistance not readable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="R4_R4_R_0402_1005Metric">
+      <description>0402 package estimated; resistance not readable</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">5.1k</field>
+        <field name="Footprint">Reconstruction:R4_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0402 package estimated; resistance not readable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="R5_R5_R_0402_1005Metric">
+      <description>0402 package estimated; resistance not readable</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Reconstruction:R5_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0402 package estimated; resistance not readable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="R6_R6_R_0402_1005Metric">
+      <description>0402 package estimated; resistance not readable</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Reconstruction:R6_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0402 package estimated; resistance not readable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="R7_R7_R_0402_1005Metric">
+      <description>0402 package estimated; resistance not readable</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">12k</field>
+        <field name="Footprint">Reconstruction:R7_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0402 package estimated; resistance not readable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="R8_R8_R_0402_1005Metric">
+      <description>0402 package estimated; resistance not readable</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0R</field>
+        <field name="Footprint">Reconstruction:R8_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0402 package estimated; resistance not readable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="R9_R9_R_0402_1005Metric">
+      <description>0402 package estimated; resistance not readable</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100k</field>
+        <field name="Footprint">Reconstruction:R9_R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0402 package estimated; resistance not readable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="SW1_PowerSwitch_DPDT_PhotoEstimate">
+      <description>Push actuator + six contacts + mechanical lugs visible; exact switch/terminal function unverified</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Latching DPDT power push switch (estimate)</field>
+        <field name="Footprint">Reconstruction:PowerSwitch_DPDT_PhotoEstimate</field>
+        <field name="Datasheet"/>
+        <field name="Description">Push actuator + six contacts + mechanical lugs visible; exact switch/terminal function unverified</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="SW2_Reset_Tactile_4mm_PhotoEstimate">
+      <description>Yellow tactile dome in photo beside module</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Reset tactile 4x4mm (estimate)</field>
+        <field name="Footprint">Reconstruction:Reset_Tactile_4mm_PhotoEstimate</field>
+        <field name="Datasheet"/>
+        <field name="Description">Yellow tactile dome in photo beside module</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="TP10_TestPad_0.55mm">
+      <description>Exposed pads seen in photo; function inferred as probing pads</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">GND exposed pad</field>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Exposed pads seen in photo; function inferred as probing pads</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="TP11_TestPad_0.55mm">
+      <description>Exposed pads seen in photo; function inferred as probing pads</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">C5 exposed pad</field>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Exposed pads seen in photo; function inferred as probing pads</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="TP12_TestPad_0.55mm">
+      <description>Exposed pads seen in photo; function inferred as probing pads</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">GND exposed pad</field>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Exposed pads seen in photo; function inferred as probing pads</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="TP13_TestPad_0.55mm">
+      <description>Exposed pads seen in photo; function inferred as probing pads</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">C6 exposed pad</field>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Exposed pads seen in photo; function inferred as probing pads</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="TP14_TestPad_0.55mm">
+      <description>Exposed pads seen in photo; function inferred as probing pads</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">GND exposed pad</field>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Exposed pads seen in photo; function inferred as probing pads</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="TP1_TestPad_0.55mm">
+      <description>Exposed pads seen in photo; function inferred as probing pads</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">C0 exposed pad</field>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Exposed pads seen in photo; function inferred as probing pads</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="TP2_TestPad_0.55mm">
+      <description>Exposed pads seen in photo; function inferred as probing pads</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">GND exposed pad</field>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Exposed pads seen in photo; function inferred as probing pads</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="TP3_TestPad_0.55mm">
+      <description>Exposed pads seen in photo; function inferred as probing pads</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">C1 exposed pad</field>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Exposed pads seen in photo; function inferred as probing pads</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="TP4_TestPad_0.55mm">
+      <description>Exposed pads seen in photo; function inferred as probing pads</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">GND exposed pad</field>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Exposed pads seen in photo; function inferred as probing pads</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="TP5_TestPad_0.55mm">
+      <description>Exposed pads seen in photo; function inferred as probing pads</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">C2 exposed pad</field>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Exposed pads seen in photo; function inferred as probing pads</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="TP6_TestPad_0.55mm">
+      <description>Exposed pads seen in photo; function inferred as probing pads</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">GND exposed pad</field>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Exposed pads seen in photo; function inferred as probing pads</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="TP7_TestPad_0.55mm">
+      <description>Exposed pads seen in photo; function inferred as probing pads</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">C3 exposed pad</field>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Exposed pads seen in photo; function inferred as probing pads</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="TP8_TestPad_0.55mm">
+      <description>Exposed pads seen in photo; function inferred as probing pads</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">GND exposed pad</field>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Exposed pads seen in photo; function inferred as probing pads</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="TP9_TestPad_0.55mm">
+      <description>Exposed pads seen in photo; function inferred as probing pads</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">C4 exposed pad</field>
+        <field name="Footprint">Reconstruction:TestPad_0.55mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Exposed pads seen in photo; function inferred as probing pads</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="U1_U1_MSOP-8_3x3mm_P0.65mm">
+      <description>Marking looks MXCEA/M1CEA, unreadable ID. Guessed functional pinout; not an identified replacement</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Boost controller MSOP8 (unidentified)</field>
+        <field name="Footprint">Reconstruction:U1_MSOP-8_3x3mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Marking looks MXCEA/M1CEA, unreadable ID. Guessed functional pinout; not an identified replacement</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COMP?" type="passive"/>
+        <pin num="2" name="FB?" type="passive"/>
+        <pin num="3" name="EN?" type="passive"/>
+        <pin num="4" name="GND?" type="passive"/>
+        <pin num="5" name="SW?" type="passive"/>
+        <pin num="6" name="VIN?" type="passive"/>
+        <pin num="7" name="FREQ?" type="passive"/>
+        <pin num="8" name="SS?" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="U2_U2_SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias">
+      <description>TP4056 marking visible; exposed pad visible in sanded board. Exact suffix unconfirmed</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TP4056-42-ESOP8</field>
+        <field name="Footprint">Reconstruction:U2_SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias</field>
+        <field name="Datasheet"/>
+        <field name="Description">TP4056 marking visible; exposed pad visible in sanded board. Exact suffix unconfirmed</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEMP" type="passive"/>
+        <pin num="2" name="PROG" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="VCC" type="passive"/>
+        <pin num="5" name="BAT" type="passive"/>
+        <pin num="6" name="STDBY_N" type="passive"/>
+        <pin num="7" name="CHRG_N" type="passive"/>
+        <pin num="8" name="CE" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="U3_U3_SOT-143">
+      <description>WR1 marking and four-lead SOT143 match manufacturer %R1 code</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PRTR5V0U2X</field>
+        <field name="Footprint">Reconstruction:U3_SOT-143</field>
+        <field name="Datasheet"/>
+        <field name="Description">WR1 marking and four-lead SOT143 match manufacturer %R1 code</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="U4_Raytac_MDBT50Q">
+      <description>Raytac MDBT50Q shield marking + PCB antenna; nRF52840 firmware; exact module suffix inferred</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MDBT50Q-P1MV2</field>
+        <field name="Footprint">Reconstruction:Raytac_MDBT50Q</field>
+        <field name="Datasheet"/>
+        <field name="Description">Raytac MDBT50Q shield marking + PCB antenna; nRF52840 firmware; exact module suffix inferred</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="P1.10" type="passive"/>
+        <pin num="4" name="P1.11" type="passive"/>
+        <pin num="5" name="P1.12" type="passive"/>
+        <pin num="6" name="P1.13" type="passive"/>
+        <pin num="7" name="P1.14" type="passive"/>
+        <pin num="8" name="P1.15" type="passive"/>
+        <pin num="9" name="P0.03" type="passive"/>
+        <pin num="10" name="P0.29" type="passive"/>
+        <pin num="11" name="P0.02" type="passive"/>
+        <pin num="12" name="P0.31" type="passive"/>
+        <pin num="13" name="P0.28" type="passive"/>
+        <pin num="14" name="P0.30" type="passive"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="P0.27" type="passive"/>
+        <pin num="17" name="P0.00" type="passive"/>
+        <pin num="18" name="P0.01" type="passive"/>
+        <pin num="19" name="P0.26" type="passive"/>
+        <pin num="20" name="P0.04" type="passive"/>
+        <pin num="21" name="P0.05" type="passive"/>
+        <pin num="22" name="P0.06" type="passive"/>
+        <pin num="23" name="P0.07" type="passive"/>
+        <pin num="24" name="P0.08" type="passive"/>
+        <pin num="25" name="P1.08" type="passive"/>
+        <pin num="26" name="P1.09" type="passive"/>
+        <pin num="27" name="P0.11" type="passive"/>
+        <pin num="28" name="VDD" type="passive"/>
+        <pin num="29" name="P0.12" type="passive"/>
+        <pin num="30" name="VDDH" type="passive"/>
+        <pin num="31" name="DCCH" type="passive"/>
+        <pin num="32" name="VBUS" type="passive"/>
+        <pin num="33" name="GND" type="passive"/>
+        <pin num="34" name="D-" type="passive"/>
+        <pin num="35" name="D+" type="passive"/>
+        <pin num="36" name="P0.14" type="passive"/>
+        <pin num="37" name="P0.13" type="passive"/>
+        <pin num="38" name="P0.16" type="passive"/>
+        <pin num="39" name="P0.15" type="passive"/>
+        <pin num="40" name="P0.18" type="passive"/>
+        <pin num="41" name="P0.17" type="passive"/>
+        <pin num="42" name="P0.19" type="passive"/>
+        <pin num="43" name="P0.21" type="passive"/>
+        <pin num="44" name="P0.20" type="passive"/>
+        <pin num="45" name="P0.23" type="passive"/>
+        <pin num="46" name="P0.22" type="passive"/>
+        <pin num="47" name="P1.00" type="passive"/>
+        <pin num="48" name="P0.24" type="passive"/>
+        <pin num="49" name="P0.25" type="passive"/>
+        <pin num="50" name="P1.02" type="passive"/>
+        <pin num="51" name="SWDIO" type="passive"/>
+        <pin num="52" name="P0.09" type="passive"/>
+        <pin num="53" name="SWDCLK" type="passive"/>
+        <pin num="54" name="P0.10" type="passive"/>
+        <pin num="55" name="GND" type="passive"/>
+        <pin num="56" name="P1.04" type="passive"/>
+        <pin num="57" name="P1.06" type="passive"/>
+        <pin num="58" name="P1.07" type="passive"/>
+        <pin num="59" name="P1.05" type="passive"/>
+        <pin num="60" name="P1.03" type="passive"/>
+        <pin num="61" name="P1.01" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="U5_U5_SOT-23-5">
+      <description>b25 marking matches Nexperia bus switch; uses 2.4V rail. Exact surrounding LED translation circuit unresolved.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74CBTLV1G125GV (probable b25 marking)</field>
+        <field name="Footprint">Reconstruction:U5_SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description">b25 marking matches Nexperia bus switch; uses 2.4V rail. Exact surrounding LED translation circuit unresolved.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OE_N?" type="passive"/>
+        <pin num="2" name="A?" type="passive"/>
+        <pin num="3" name="GND?" type="passive"/>
+        <pin num="4" name="Y?" type="passive"/>
+        <pin num="5" name="VCC?" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reconstruction" part="Y1_Crystal_3215_2pin_PhotoEstimate">
+      <description>Metal can low-frequency crystal near module; marking unreadable</description>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">32.768kHz (guess)</field>
+        <field name="Footprint">Reconstruction:Crystal_3215_2pin_PhotoEstimate</field>
+        <field name="Datasheet"/>
+        <field name="Description">Metal can low-frequency crystal near module; marking unreadable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Reconstruction">
+      <uri>/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/rightMainboard/Reconstruction.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="BAT_NTC" class="Default">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="TEMP" pintype="passive"/>
+    </net>
+    <net code="2" name="BOOST_COMP" class="Default">
+      <node ref="U1" pin="1" pinfunction="COMP?" pintype="passive"/>
+    </net>
+    <net code="3" name="BOOST_FB" class="Default">
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="FB?" pintype="passive"/>
+    </net>
+    <net code="4" name="BOOST_SS" class="Default">
+      <node ref="U1" pin="8" pinfunction="SS?" pintype="passive"/>
+    </net>
+    <net code="5" name="BOOST_SW" class="Default">
+      <node ref="D4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SW?" pintype="passive"/>
+    </net>
+    <net code="6" name="C0" class="Default">
+      <node ref="C13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J7" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="57" pinfunction="P1.06" pintype="passive"/>
+    </net>
+    <net code="7" name="C1" class="Default">
+      <node ref="C14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J7" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="56" pinfunction="P1.04" pintype="passive"/>
+    </net>
+    <net code="8" name="C2" class="Default">
+      <node ref="C15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J7" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="P0.02" pintype="passive"/>
+    </net>
+    <net code="9" name="C3" class="Default">
+      <node ref="C16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J8" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="58" pinfunction="P1.07" pintype="passive"/>
+    </net>
+    <net code="10" name="C4" class="Default">
+      <node ref="C17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J9" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="59" pinfunction="P1.05" pintype="passive"/>
+    </net>
+    <net code="11" name="C5" class="Default">
+      <node ref="C18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J10" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="60" pinfunction="P1.03" pintype="passive"/>
+    </net>
+    <net code="12" name="C6" class="Default">
+      <node ref="C19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J10" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="61" pinfunction="P1.01" pintype="passive"/>
+    </net>
+    <net code="13" name="CC1" class="Default">
+      <node ref="J1" pin="A5" pinfunction="A5" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="14" name="CC2" class="Default">
+      <node ref="J1" pin="B5" pinfunction="B5" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="CHARGE_DONE" class="Default">
+      <node ref="U2" pin="6" pinfunction="STDBY_N" pintype="passive"/>
+    </net>
+    <net code="16" name="CHARGE_PROG" class="Default">
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="PROG" pintype="passive"/>
+    </net>
+    <net code="17" name="CHARGING" class="Default">
+      <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="CHRG_N" pintype="passive"/>
+    </net>
+    <net code="18" name="DCCH" class="Default">
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="31" pinfunction="DCCH" pintype="passive"/>
+    </net>
+    <net code="19" name="EXT1" class="Default">
+      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U4" pin="43" pinfunction="P0.21" pintype="passive"/>
+    </net>
+    <net code="20" name="EXT2" class="Default">
+      <node ref="J3" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U4" pin="48" pinfunction="P0.24" pintype="passive"/>
+    </net>
+    <net code="21" name="EXT3" class="Default">
+      <node ref="J3" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="U4" pin="44" pinfunction="P0.20" pintype="passive"/>
+    </net>
+    <net code="22" name="EXT4" class="Default">
+      <node ref="J3" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="U4" pin="49" pinfunction="P0.25" pintype="passive"/>
+    </net>
+    <net code="23" name="EXT5" class="Default">
+      <node ref="J3" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="U4" pin="46" pinfunction="P0.22" pintype="passive"/>
+    </net>
+    <net code="24" name="EXT6" class="Default">
+      <node ref="J3" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="U4" pin="47" pinfunction="P1.00" pintype="passive"/>
+    </net>
+    <net code="25" name="GND" class="Default">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="A1" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="A12" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="B1" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="B12" pintype="passive"/>
+      <node ref="J1" pin="S1" pinfunction="S1" pintype="passive"/>
+      <node ref="J10" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J7" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J8" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J9" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND?" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="33" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="55" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="GND?" pintype="passive"/>
+    </net>
+    <net code="26" name="IN0" class="Default">
+      <node ref="J7" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="27" name="IN16" class="Default">
+      <node ref="J7" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J8" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="28" name="IN22" class="Default">
+      <node ref="J8" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J9" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="29" name="IN28" class="Default">
+      <node ref="J10" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J9" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="30" name="IN40" class="Default">
+      <node ref="J10" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="31" name="LED_DATA_5V" class="Default">
+      <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="Y?" pintype="passive"/>
+    </net>
+    <net code="32" name="LED_DATA_MCU" class="Default">
+      <node ref="U4" pin="37" pinfunction="P0.13" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="A?" pintype="passive"/>
+    </net>
+    <net code="33" name="LED_ENABLE" class="Default">
+      <node ref="Q1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="EN?" pintype="passive"/>
+      <node ref="U4" pin="42" pinfunction="P0.19" pintype="passive"/>
+    </net>
+    <net code="34" name="LED_OE_N" class="Default">
+      <node ref="Q1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="OE_N?" pintype="passive"/>
+    </net>
+    <net code="35" name="R0" class="Default">
+      <node ref="J10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="19" pinfunction="P0.26" pintype="passive"/>
+    </net>
+    <net code="36" name="R1" class="Default">
+      <node ref="J10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U4" pin="21" pinfunction="P0.05" pintype="passive"/>
+    </net>
+    <net code="37" name="R2" class="Default">
+      <node ref="J10" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U4" pin="23" pinfunction="P0.07" pintype="passive"/>
+    </net>
+    <net code="38" name="R3" class="Default">
+      <node ref="J10" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U4" pin="25" pinfunction="P1.08" pintype="passive"/>
+    </net>
+    <net code="39" name="R4" class="Default">
+      <node ref="J10" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U4" pin="27" pinfunction="P0.11" pintype="passive"/>
+    </net>
+    <net code="40" name="R5" class="Default">
+      <node ref="J10" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J9" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="U4" pin="29" pinfunction="P0.12" pintype="passive"/>
+    </net>
+    <net code="41" name="REAR_LED_ANODE" class="Default">
+      <node ref="D5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="42" name="REAR_LED_PWM" class="Default">
+      <node ref="Q3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="38" pinfunction="P0.16" pintype="passive"/>
+    </net>
+    <net code="43" name="REAR_LED_SUPPLY" class="Default">
+      <node ref="Q3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="44" name="RESET" class="Default">
+      <node ref="J3" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="40" pinfunction="P0.18" pintype="passive"/>
+    </net>
+    <net code="45" name="SWDCLK" class="Default">
+      <node ref="J3" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="U4" pin="53" pinfunction="SWDCLK" pintype="passive"/>
+    </net>
+    <net code="46" name="SWDIO" class="Default">
+      <node ref="J3" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="U4" pin="51" pinfunction="SWDIO" pintype="passive"/>
+    </net>
+    <net code="47" name="USB_D+" class="Default">
+      <node ref="J1" pin="A6" pinfunction="A6" pintype="passive"/>
+      <node ref="J1" pin="B6" pinfunction="B6" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U4" pin="35" pinfunction="D+" pintype="passive"/>
+    </net>
+    <net code="48" name="USB_D-" class="Default">
+      <node ref="J1" pin="A7" pinfunction="A7" pintype="passive"/>
+      <node ref="J1" pin="B7" pinfunction="B7" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U4" pin="34" pinfunction="D-" pintype="passive"/>
+    </net>
+    <net code="49" name="VBAT" class="Default">
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="BAT" pintype="passive"/>
+    </net>
+    <net code="50" name="VBAT_SWITCHED" class="Default">
+      <node ref="Q2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW1" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="51" name="VBUS_FILTERED" class="Default">
+      <node ref="D3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="52" name="VBUS_FUSED" class="Default">
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="F1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="VCC" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="CE" pintype="passive"/>
+    </net>
+    <net code="53" name="VBUS_USB" class="Default">
+      <node ref="F1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="A4" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="A9" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="B4" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="B9" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U4" pin="32" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="54" name="VDD" class="Default">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C20" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J10" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J8" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J9" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R22" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="55" name="VDDH" class="Default">
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VIN?" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="FREQ?" pintype="passive"/>
+      <node ref="U4" pin="30" pinfunction="VDDH" pintype="passive"/>
+    </net>
+    <net code="56" name="VDDH_FILTERED" class="Default">
+      <node ref="C10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="57" name="VEXT_2V4" class="Default">
+      <node ref="C11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="28" pinfunction="VDD" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="VCC?" pintype="passive"/>
+    </net>
+    <net code="58" name="XL1" class="Default">
+      <node ref="C8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="17" pinfunction="P0.00" pintype="passive"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="59" name="XL2" class="Default">
+      <node ref="C9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U4" pin="18" pinfunction="P0.01" pintype="passive"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="60" name="unconnected-(J1-PadA8)" class="Default">
+      <node ref="J1" pin="A8" pinfunction="A8" pintype="passive+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(J1-PadB8)" class="Default">
+      <node ref="J1" pin="B8" pinfunction="B8" pintype="passive+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(J7-Pad14)" class="Default">
+      <node ref="J7" pin="14" pinfunction="14" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(J8-Pad12)" class="Default">
+      <node ref="J8" pin="12" pinfunction="12" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(J9-Pad12)" class="Default">
+      <node ref="J9" pin="12" pinfunction="12" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(SW1-Pad3)" class="Default">
+      <node ref="SW1" pin="3" pinfunction="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(SW1-Pad6)" class="Default">
+      <node ref="SW1" pin="6" pinfunction="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U4-P0.03-Pad9)" class="Default">
+      <node ref="U4" pin="9" pinfunction="P0.03" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U4-P0.04-Pad20)" class="Default">
+      <node ref="U4" pin="20" pinfunction="P0.04" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U4-P0.06-Pad22)" class="Default">
+      <node ref="U4" pin="22" pinfunction="P0.06" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U4-P0.08-Pad24)" class="Default">
+      <node ref="U4" pin="24" pinfunction="P0.08" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U4-P0.09-Pad52)" class="Default">
+      <node ref="U4" pin="52" pinfunction="P0.09" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U4-P0.10-Pad54)" class="Default">
+      <node ref="U4" pin="54" pinfunction="P0.10" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U4-P0.14-Pad36)" class="Default">
+      <node ref="U4" pin="36" pinfunction="P0.14" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U4-P0.15-Pad39)" class="Default">
+      <node ref="U4" pin="39" pinfunction="P0.15" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U4-P0.17-Pad41)" class="Default">
+      <node ref="U4" pin="41" pinfunction="P0.17" pintype="passive+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U4-P0.23-Pad45)" class="Default">
+      <node ref="U4" pin="45" pinfunction="P0.23" pintype="passive+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U4-P0.27-Pad16)" class="Default">
+      <node ref="U4" pin="16" pinfunction="P0.27" pintype="passive+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U4-P0.28-Pad13)" class="Default">
+      <node ref="U4" pin="13" pinfunction="P0.28" pintype="passive+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U4-P0.29-Pad10)" class="Default">
+      <node ref="U4" pin="10" pinfunction="P0.29" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U4-P0.30-Pad14)" class="Default">
+      <node ref="U4" pin="14" pinfunction="P0.30" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U4-P0.31-Pad12)" class="Default">
+      <node ref="U4" pin="12" pinfunction="P0.31" pintype="passive+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U4-P1.02-Pad50)" class="Default">
+      <node ref="U4" pin="50" pinfunction="P1.02" pintype="passive+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U4-P1.09-Pad26)" class="Default">
+      <node ref="U4" pin="26" pinfunction="P1.09" pintype="passive+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U4-P1.10-Pad3)" class="Default">
+      <node ref="U4" pin="3" pinfunction="P1.10" pintype="passive+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U4-P1.11-Pad4)" class="Default">
+      <node ref="U4" pin="4" pinfunction="P1.11" pintype="passive+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U4-P1.12-Pad5)" class="Default">
+      <node ref="U4" pin="5" pinfunction="P1.12" pintype="passive+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U4-P1.13-Pad6)" class="Default">
+      <node ref="U4" pin="6" pinfunction="P1.13" pintype="passive+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U4-P1.14-Pad7)" class="Default">
+      <node ref="U4" pin="7" pinfunction="P1.14" pintype="passive+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U4-P1.15-Pad8)" class="Default">
+      <node ref="U4" pin="8" pinfunction="P1.15" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "Reconstruction") (type "KiCad") (uri "${KIPRJMOD}/Reconstruction.pretty") (options "") (descr "Photo reconstruction; estimated parts clearly labelled")))

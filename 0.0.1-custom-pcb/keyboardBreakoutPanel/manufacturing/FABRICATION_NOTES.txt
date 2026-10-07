@@ -1,0 +1,34 @@
+FABRICATION AND ASSEMBLY NOTES — keyboardBreakoutPanel Rev 1
+
+Overall finished panel: 152.4 mm x 73.3 mm. Two copper layers, 1.6 mm FR4.
+One panel contains one of each of four different designs, in this order from left to right:
+  leftPinkieBreakout:       28.7 x 63.3 mm, x=5.0 to 33.7 mm
+  leftPointerThumbBreakout: 42.5 x 63.3 mm, x=33.7 to 76.2 mm
+  rightPointerThumbBreakout:42.5 x 63.3 mm, x=76.2 to 118.7 mm
+  rightPinkieBreakout:      28.7 x 63.3 mm, x=118.7 to 147.4 mm
+All subboards occupy y=5.0 to 68.3 mm. All coordinates in this note use
+bottom-left panel origin, +X right, +Y up, same as Gerber/drill/CPL files.
+
+5 mm removable handling rails are already included on all four sides.
+Three 2 mm NPTH tooling holes and three 1 mm copper top fiducials with
+2 mm solder-mask openings are already included. Original 16 mounting
+holes remain 2.2 mm NPTH. Assembly components are on TOP only.
+
+V-SCORING REQUIRED, double-sided, following keyboardBreakoutPanel-V-CUT.gbr.
+Vertical full-span score centerlines: x=5.0, 33.7, 76.2, 118.7, 147.4 mm.
+Horizontal full-span score centerlines: y=5.0 and 68.3 mm.
+All seven lines extend completely across the panel. Zero inter-board spacing.
+The V-CUT Gerber is a mechanical scoring guide, not a copper layer or
+through-routing layer. Edge_Cuts.gm1 contains only the outer panel rectangle.
+Do not through-route any of the seven V-score lines.
+Apply normal 25-degree double-sided V-cut process, approximately 1/3
+board thickness remaining web. Keep the panel/rails attached for assembly.
+
+BOM and CPL are complete-panel data, 60 unique assembly references J1-J60:
+  56 x HC-FPC-0.5-6P-FH20  / LCSC C19273925
+   2 x HC-FPC-0.5-12P-FH20 / LCSC C19273928
+   2 x HC-FPC-0.5-14P-FH20 / LCSC C19273929
+Mounting/tooling holes and fiducials must not be assembled.
+Original short connector names are preserved on each subboard's silkscreen;
+reference-map.csv maps those local names to the unique panel assembly refs.
+Do not multiply or replicate the BOM/CPL placement data within a panel.

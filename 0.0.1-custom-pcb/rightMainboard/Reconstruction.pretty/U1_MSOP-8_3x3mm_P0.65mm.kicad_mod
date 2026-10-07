@@ -1,0 +1,212 @@
+(footprint "U1_MSOP-8_3x3mm_P0.65mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MSOP, 8 Pin (https://www.jedec.org/system/files/docs/mo-187F.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "MSOP SO")
+	(property "Reference" "U1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6751ae66-4b26-45e6-a762-13e24012e36d")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Boost controller MSOP8 (unidentified)"
+		(at 0 2.45 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1e62343-f4ee-47c8-88b2-76485747075e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16731770-c0a1-4240-b5be-a4600d6b9c78")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65d8d712-8838-47f3-9d23-c1f5c9507382")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Confidence" "Low"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "535e4164-80c0-4d29-b602-b0e0ea93adbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Evidence" "Marking looks MXCEA/M1CEA, unreadable ID. Guessed functional pinout; not an identified replacement"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39d875a2-a397-469b-9126-e0942b873d54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Candidate part" "TPS61085-class MSOP8 boost; NOT confirmed pin-compatible"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e3d62e0-87bf-4ab0-a487-ea987d9f84a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.025 -1.65)
+		(end 3.025 -1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5672065c-06e5-49f7-b4bc-a39f71bb561e")
+	)
+	(fp_line
+		(start -3.025 1.65)
+		(end -3.025 -1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "66599202-7c14-451b-9f5b-d8aec4b53cee")
+	)
+	(fp_line
+		(start 3.025 -1.65)
+		(end 3.025 1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7684eed6-a8f5-47c9-aa8d-eaf4fb0a2019")
+	)
+	(fp_line
+		(start 3.025 1.65)
+		(end -3.025 1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4e0bc1b-a550-4052-9dc3-3df48e6a1a49")
+	)
+	(fp_poly
+		(pts
+			(xy -0.75 -1.5) (xy 1.5 -1.5) (xy 1.5 1.5) (xy -1.5 1.5) (xy -1.5 -0.75)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "db5b860e-9db0-4b31-8a18-8f8ab24e100e")
+	)
+	(pad "1" smd roundrect
+		(at -2.1125 -0.975)
+		(size 1.625 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "6f44a8e6-a3b1-4467-a930-4726b028c130")
+	)
+	(pad "2" smd roundrect
+		(at -2.1125 -0.325)
+		(size 1.625 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "29e7bb9f-da88-4545-963d-781d10a254e5")
+	)
+	(pad "3" smd roundrect
+		(at -2.1125 0.325)
+		(size 1.625 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d7f8d42b-39d6-47e3-a898-866aece0fe7b")
+	)
+	(pad "4" smd roundrect
+		(at -2.1125 0.975)
+		(size 1.625 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "64c7822a-304d-48e1-9174-fa773209f693")
+	)
+	(pad "5" smd roundrect
+		(at 2.1125 0.975)
+		(size 1.625 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "eddc3d72-ddab-45b9-a790-77682f8fd0a7")
+	)
+	(pad "6" smd roundrect
+		(at 2.1125 0.325)
+		(size 1.625 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "6aacb413-e6eb-48da-8971-5982c8ecb90c")
+	)
+	(pad "7" smd roundrect
+		(at 2.1125 -0.325)
+		(size 1.625 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9a211eb7-bec0-4bd0-a439-60b536f973bc")
+	)
+	(pad "8" smd roundrect
+		(at 2.1125 -0.975)
+		(size 1.625 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4fb1a881-ce97-4c85-bc5b-88255f9d0f5f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-8_3x3mm_P0.65mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

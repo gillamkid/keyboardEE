@@ -1,0 +1,63 @@
+(footprint "ToolingHole_2mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "TOOL3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0b3e7ba1-ddd5-4061-84b1-0027cdc362f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Tooling hole"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "397ac407-64ac-4bed-b74f-55c73277acbb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81d9ebb2-0004-4213-9b80-08931089dbb5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ca6c92c-89c0-4267-84a2-a25d1c7b731d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu")
+		(uuid "c4d4c6ca-4167-4761-b0c6-e4e68bf55099")
+	)
+	(embedded_fonts no)
+)

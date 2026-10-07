@@ -1,0 +1,38 @@
+[
+  {
+    "project": "leftPinkieBreakout",
+    "source_stem": "leftPinkieBreakout",
+    "hashes": {
+      "leftPinkieBreakout.kicad_pcb": "eecdc00073295a5829be91e6b2b9db33c5d1776314d75322e26805cf638058b0",
+      "leftPinkieBreakout.kicad_sch": "5ced563f6d13199a70904bea2bd431d06344ac9bf14befd7be5ecb59b325a2df",
+      "leftPinkieBreakout.kicad_pro": "23e90103fed7a67027728c88d4f103120f5ba8c7a2719ecc3a7a72d745ab3ef7"
+    }
+  },
+  {
+    "project": "leftPointerThumbBreakout",
+    "source_stem": "leftPointerThumbBreakout",
+    "hashes": {
+      "leftPointerThumbBreakout.kicad_pcb": "199b1e1d9d07ef9c9828df50fc993de7dd28b56871861d909a360966341f6d3a",
+      "leftPointerThumbBreakout.kicad_sch": "062f0acd7205592b0006724288ba97f384ca0d45793eb008580a85125ef1fa38",
+      "leftPointerThumbBreakout.kicad_pro": "672d43f40a52c5a6162e04108044f877d2d3dd343f7c7c03130f7ddff27d93dc"
+    }
+  },
+  {
+    "project": "rightPointerThumbBreakout",
+    "source_stem": "columnBreakout",
+    "hashes": {
+      "columnBreakout.kicad_pcb": "58403049d36d2ca361d56c79e3757d0e3cf4baab474f3357c66e30fd3610f372",
+      "columnBreakout.kicad_sch": "03fcff1fbd85ebaee3d76c82d36f3e15fe4b312774d7118592414ce78b42170a",
+      "columnBreakout.kicad_pro": "672d43f40a52c5a6162e04108044f877d2d3dd343f7c7c03130f7ddff27d93dc"
+    }
+  },
+  {
+    "project": "rightPinkieBreakout",
+    "source_stem": "columnBreakout",
+    "hashes": {
+      "columnBreakout.kicad_pcb": "5bb110ebb4e5ac7c17853f7fbc0bc86c8464a8fd4036bc87312e9a1be2c1d065",
+      "columnBreakout.kicad_sch": "04148871261beee2c50dbe89ba15442d91f06cce2b8d40db23ca11072d6c3404",
+      "columnBreakout.kicad_pro": "672d43f40a52c5a6162e04108044f877d2d3dd343f7c7c03130f7ddff27d93dc"
+    }
+  }
+]

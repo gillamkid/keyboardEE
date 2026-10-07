@@ -1,0 +1,8 @@
+<!doctype html><meta charset="utf-8"><title>rightMainboard photo comparison</title>
+<style>body{font:16px system-ui;margin:24px;background:#eee} .board{position:relative;width:min(80vw,600px);aspect-ratio:45/75;background:white} .board img{position:absolute;width:100%;height:100%;object-fit:fill} .overlay{opacity:.7} label{display:inline-block;margin:10px} button{margin:8px}p{max-width:850px}</style>
+<h1>rightMainboard: photographed board and reconstructed copper</h1><p>Draft reconstruction. Route shapes and uncertain component connections are inferred. The photo contour layers in KiCad preserve the surface-copper evidence.</p><p>Final checks: 0 unrouted connections, 0 schematic/PCB mismatches; 6 estimated-footprint courtyard overlaps remain. See <a href="../README.txt">reconstruction notes</a>, <a href="../component-confidence.csv">component confidence table</a>, and <a href="drc.rpt">DRC report</a>.</p>
+<label>Photo <select id="photo"><option value="Top">Populated top</option><option value="TopSanded">Sanded top copper</option><option value="BottomSanded">Sanded bottom copper</option></select></label>
+<label>Routing <select id="route"><option value="top-copper">Top copper</option><option value="bottom-copper">Bottom copper</option><option value="both-copper">Both copper layers</option></select></label>
+<label>Routing opacity <input id="opacity" type="range" min="0" max="1" step=".05" value=".7"></label>
+<div class="board"><img id="bg" src="../references/Top.png"><img id="fg" class="overlay" src="top-copper.svg"></div>
+<script>photo.onchange=()=>bg.src='../references/'+photo.value+'.png';route.onchange=()=>fg.src=route.value+'.svg';opacity.oninput=()=>fg.style.opacity=opacity.value;</script>

@@ -1,0 +1,235 @@
+(footprint "SOT-143"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT-143 https://www.nxp.com/docs/en/package-information/SOT143B.pdf")
+	(tags "SOT-143")
+	(property "Reference" "U3"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "323b60f8-3811-4259-b777-cacd981ffc9f")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PRTR5V0U2X"
+		(at -0.28 2.48 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a54e23e1-f8ca-4e5b-b748-d560d29b3310")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3224fbd5-ceca-400c-9c54-3a3fe41edb27")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0550d9c-26ed-44ef-8101-c38e7bc6e3e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Confidence" "High"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28a70b63-fb45-48cd-9e71-06a22e4a0df1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Evidence" "WR1 marking and four-lead SOT143 match manufacturer %R1 code"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b17e725-8832-40c5-a5f5-c086f38fdc7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Candidate part" ""
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0b10a9f-4615-4be1-a8fc-79c199dc5660")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 1.7)
+		(end -1.6 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1516e62a-0bb3-4815-b804-6d9f6fe50fcc")
+	)
+	(fp_line
+		(start -1.6 1.7)
+		(end 1.6 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8eee921b-69da-4636-9c02-d48969078a0c")
+	)
+	(fp_line
+		(start 1.6 -1.7)
+		(end -1.6 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae704026-9a15-4f24-afdb-8121d32f8693")
+	)
+	(fp_line
+		(start 1.6 -1.7)
+		(end 1.6 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4e11902-5285-4985-8d75-40c1c26c53da")
+	)
+	(fp_line
+		(start -0.65 -0.95)
+		(end -0.15 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dfa2bfd2-0ba1-4146-b52a-cf06c8bc6916")
+	)
+	(fp_line
+		(start -0.65 1.45)
+		(end -0.65 -0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "774f5958-5d35-4161-8120-af44c83e5788")
+	)
+	(fp_line
+		(start -0.15 -1.45)
+		(end 0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a1debc27-12f1-4274-85fb-9fdda66b862e")
+	)
+	(fp_line
+		(start 0.65 -1.45)
+		(end 0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5ec140f-7f20-486d-bb34-ddb8898cb2a1")
+	)
+	(fp_line
+		(start 0.65 1.45)
+		(end -0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a56d3fe1-4e26-4703-b972-a7175296d4ef")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "064ddce0-3765-48a9-b8d6-8e76bd199100")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1 -0.75)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "22920b03-6bfb-4072-84df-25e06705543e")
+	)
+	(pad "2" smd roundrect
+		(at -1 0.95)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a212aa42-69aa-4b2a-9c45-4d8aa1ed5404")
+	)
+	(pad "3" smd roundrect
+		(at 1 0.95)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d978dd53-0742-401b-8bf6-0a379138b6c5")
+	)
+	(pad "4" smd roundrect
+		(at 1 -0.95)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c3f4d986-bb17-47f5-b194-c0f72d01d967")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-143.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

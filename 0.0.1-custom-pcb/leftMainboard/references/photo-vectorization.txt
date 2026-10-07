@@ -1,0 +1,3 @@
+Copper edge contours on User.1 / User.2 are documentary photo references, not fabrication copper.
+Thresholding misses shadows and can include sanding artifacts. Original registered photos are authoritative.
+{"TopSanded": 5472, "BottomSanded": 1405}

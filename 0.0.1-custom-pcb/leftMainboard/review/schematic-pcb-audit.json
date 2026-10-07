@@ -1,0 +1,29 @@
+{
+  "project": "leftMainboard",
+  "date": "2026-10-07",
+  "status": "Photo reconstruction draft; not fabrication or functional verification",
+  "footprints": 78,
+  "schematic_components": 74,
+  "checked_physical_pad_instances": 300,
+  "pin_mapping_mismatches": [],
+  "unrouted_connections": 0,
+  "schematic_parity_issues": 0,
+  "DRC_errors": 8,
+  "DRC_error_types": {
+    "courtyards_overlap": 8
+  },
+  "DRC_warnings": 20,
+  "DRC_warning_types": {
+    "track_dangling": 13,
+    "via_dangling": 7
+  },
+  "ERC_errors": 0,
+  "ERC_warnings": 4,
+  "ERC_warning_labels": [
+    "IN40",
+    "BOOST_COMP",
+    "BOOST_SS",
+    "CHARGE_DONE"
+  ],
+  "unverified": "Semiconductor identification, guessed values/power topology, package fit, estimated dimensions, physical continuity, actual via process and layer stack."
+}

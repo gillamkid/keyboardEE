@@ -1,0 +1,28 @@
+(version 1)
+# Screw-head courtyards on separate subboards overlap before depanelization.
+# These unpopulated mounting holes receive screws only after separation.
+# Copper, drill, V-score clearance and assembly-component checks remain active.
+(rule "Separate subboard mounting-hole courtyards H2/H5"
+ (condition "(A.Reference == 'H2' && B.Reference == 'H5') || (A.Reference == 'H5' && B.Reference == 'H2')")
+ (constraint courtyard_clearance (min 0mm))
+ (severity ignore))
+(rule "Separate subboard mounting-hole courtyards H4/H7"
+ (condition "(A.Reference == 'H4' && B.Reference == 'H7') || (A.Reference == 'H7' && B.Reference == 'H4')")
+ (constraint courtyard_clearance (min 0mm))
+ (severity ignore))
+(rule "Separate subboard mounting-hole courtyards H6/H9"
+ (condition "(A.Reference == 'H6' && B.Reference == 'H9') || (A.Reference == 'H9' && B.Reference == 'H6')")
+ (constraint courtyard_clearance (min 0mm))
+ (severity ignore))
+(rule "Separate subboard mounting-hole courtyards H8/H11"
+ (condition "(A.Reference == 'H8' && B.Reference == 'H11') || (A.Reference == 'H11' && B.Reference == 'H8')")
+ (constraint courtyard_clearance (min 0mm))
+ (severity ignore))
+(rule "Separate subboard mounting-hole courtyards H10/H13"
+ (condition "(A.Reference == 'H10' && B.Reference == 'H13') || (A.Reference == 'H13' && B.Reference == 'H10')")
+ (constraint courtyard_clearance (min 0mm))
+ (severity ignore))
+(rule "Separate subboard mounting-hole courtyards H12/H15"
+ (condition "(A.Reference == 'H12' && B.Reference == 'H15') || (A.Reference == 'H15' && B.Reference == 'H12')")
+ (constraint courtyard_clearance (min 0mm))
+ (severity ignore))

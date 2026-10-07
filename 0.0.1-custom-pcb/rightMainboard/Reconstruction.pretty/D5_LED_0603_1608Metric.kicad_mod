@@ -1,0 +1,208 @@
+(footprint "D5_LED_0603_1608Metric"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "LED")
+	(property "Reference" "D5"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "dc76e634-05c9-406a-8517-9e1b743da31f")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Green status LED (guess)"
+		(at 0 1.43 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ddba69c-2a0a-4c4a-9ecf-7d898d8cb721")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bccd36ac-fe17-4f91-8246-70dd441fca8c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c4bde9d-58f9-4aef-bdad-5def45fc33ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Confidence" "Low"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07ab9c30-8667-41e1-b88b-4e110d42e004")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Evidence" "D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5b77415-ed06-4d34-a1d0-2ae324f74b03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Candidate part" ""
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79d29a2e-a90f-43a9-96c2-77766e212019")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.325 -0.575)
+		(end 1.325 -0.575)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1901d8b5-ff7d-4102-a9c5-8faec64b5749")
+	)
+	(fp_line
+		(start -1.325 0.575)
+		(end -1.325 -0.575)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b4b026f-f949-4d85-9727-e6cd6f45e3c5")
+	)
+	(fp_line
+		(start 1.325 -0.575)
+		(end 1.325 0.575)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "608fd5de-68bc-462c-9a08-9fcbb133d3cd")
+	)
+	(fp_line
+		(start 1.325 0.575)
+		(end -1.325 0.575)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "89866e05-1ee3-4d50-9330-4ffd5477e6c9")
+	)
+	(fp_line
+		(start -0.8 -0.1)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c52adbdb-2fe3-4c72-9f2b-bf3cfd7d8e6a")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29beac32-4eae-46c6-93d2-a5bab2356552")
+	)
+	(fp_line
+		(start -0.5 -0.4)
+		(end -0.8 -0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e83543e-9994-4b4b-8747-155435b45810")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end -0.5 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd26d8ad-f065-44c7-ad56-cd01d5114cc3")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "473896ea-68a1-4c81-88ef-c89423d7d1a0")
+	)
+	(pad "1" smd roundrect
+		(at -0.7875 0)
+		(size 0.875 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7bd1d090-131f-4c8c-979b-06a130f41276")
+	)
+	(pad "2" smd roundrect
+		(at 0.7875 0)
+		(size 0.875 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b05cded7-db98-450d-952b-d193631cb9bb")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,159 @@
+(footprint "Reset_Tactile_4mm_PhotoEstimate"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "SW2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bffc3a49-3f77-4f85-82ab-d5c8c7a824d4")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Reset tactile 4x4mm (estimate)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d21b304-683b-42c0-9a08-901616f47eab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f397ff8e-4fab-482d-a0a7-beb0b11da2dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35ae6f2e-a90b-467f-8217-670e16136b50")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Confidence" "Medium"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2720093e-6cd5-4054-8780-b162963457aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Evidence" "Yellow tactile dome in photo beside module"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38ec8160-9424-4bdf-a051-dc7de94079af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Candidate part" "4x4mm SMT tactile switch"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8890298d-950b-46c0-81bc-ecf6c410b380")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -2)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2f4daac6-0463-4462-9d3c-46bbb92d1ce0")
+	)
+	(fp_line
+		(start -2 2)
+		(end -2 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1ec0cf32-2e49-4afb-bb22-8a4d8b831d94")
+	)
+	(fp_line
+		(start 2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b5830086-b598-426e-8abf-afd13d6e4adc")
+	)
+	(fp_line
+		(start 2 2)
+		(end -2 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d03b2429-025a-45fc-bc3c-08589cad5f67")
+	)
+	(pad "1" smd rect
+		(at -1.55 -1.55)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "fd759c1a-d886-402d-9c9b-ad70b0e5366f")
+	)
+	(pad "1" smd rect
+		(at -1.55 1.55)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "3cb56b2a-e208-412e-8da6-ecfb9f6c3a72")
+	)
+	(pad "2" smd rect
+		(at 1.55 -1.55)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "44aa7f80-aba3-4bf2-9409-50b5df6c10e5")
+	)
+	(pad "2" smd rect
+		(at 1.55 1.55)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "c9d9c766-29e7-4d7b-aabd-fa84f74b97bc")
+	)
+	(embedded_fonts no)
+)

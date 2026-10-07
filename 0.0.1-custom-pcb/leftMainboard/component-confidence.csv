@@ -1,0 +1,79 @@
+Reference,Value / guess,Candidate MPN,Confidence,Evidence,X mm,Y mm,Rotation,DNP
+H1,3mm mounting hole (estimate),,Medium,Four visible holes; diameter inferred from photo scale,14.5,2.5,0.0,False
+H2,3mm mounting hole (estimate),,Medium,Four visible holes; diameter inferred from photo scale,42.5,2.5,0.0,False
+H3,3mm mounting hole (estimate),,Medium,Four visible holes; diameter inferred from photo scale,20.5,72.5,0.0,False
+H4,3mm mounting hole (estimate),,Medium,Four visible holes; diameter inferred from photo scale,34.5,72.5,0.0,False
+U4,MDBT50Q-P1MV2,,High,Raytac MDBT50Q shield marking + PCB antenna; nRF52840 firmware; exact module suffix inferred,32.8,8.6,0.0,False
+J7,HC-FPC-0.5-14P-FH20,C19273929,"High (pinout), Medium (MPN)",Pinout copied from user breakout PCB; connector locations from photo; housing substitute,27.0,29.95,90.0,False
+J8,HC-FPC-0.5-12P-FH20,C19273928,"High (pinout), Medium (MPN)",Pinout copied from user breakout PCB; connector locations from photo; housing substitute,27.0,43.05,90.0,False
+J9,HC-FPC-0.5-12P-FH20,C19273928,"High (pinout), Medium (MPN)",Pinout copied from user breakout PCB; connector locations from photo; housing substitute,27.0,55.05,90.0,False
+J10,HC-FPC-0.5-12P-FH20,C19273928,"High (pinout), Medium (MPN)",Pinout copied from user breakout PCB; connector locations from photo; housing substitute,27.0,68.25,90.0,False
+J1,USB-C USB2 receptacle (footprint estimate),GCT USB4105-GF-A,Medium,"16 contacts, four shell anchors visible; connector mounted facing board side",4.2,6.15,-90.0,False
+J2,3-pin LiPo / NTC 1.25mm (estimate),JST GH / Molex PicoBlade 1.25mm family,Low (MPN and polarity),3-pin housing and three wires visible; pitch estimated from photo. Verify actual plug and polarity!,20.15,65.2,180.0,False
+J3,GPIO / SWD 2x6 1.27mm,,High,Official MoErgo header schematic and GPIO mapping,21.95,3.5,90.0,False
+SW2,Reset tactile 4x4mm (estimate),4x4mm SMT tactile switch,Medium,Yellow tactile dome in photo beside module,42.45,9.75,0.0,False
+SW1,Latching DPDT power push switch (estimate),"PS-22F family, verify dimensional drawing",Low,Push actuator + six contacts + mechanical lugs visible; exact switch/terminal function unverified,4.8,19.4,0.0,False
+U1,Boost controller MSOP8 (unidentified),TPS61085-class MSOP8 boost; NOT confirmed pin-compatible,Low,"Marking looks MXCEA/M1CEA, unreadable ID. Guessed functional pinout; not an identified replacement",21.2,16.4,-90.0,False
+U2,TP4056-42-ESOP8,,"High (family), Medium (variant)",TP4056 marking visible; exposed pad visible in sanded board. Exact suffix unconfirmed,15.6,22.8,180.0,False
+U3,PRTR5V0U2X,,High,WR1 marking and four-lead SOT143 match manufacturer %R1 code,10.7,5.6,90.0,False
+U5,74CBTLV1G125GV (probable b25 marking),74CBTLV1G125GV; surrounding topology unverified,"Medium (marking), Low (circuit)",b25 marking matches Nexperia bus switch; uses 2.4V rail. Exact surrounding LED translation circuit unresolved.,20.6,32.4,180.0,False
+Q1,BSS138 (guess),BSS138,Low,3-lead packages; faint SS/G marking; polarity and part number unconfirmed,22.5,25.3,180.0,False
+Q2,P-channel MOSFET (guess),AO3401A / SI2301 family,Low,3-lead packages; faint SS/G marking; polarity and part number unconfirmed,10.45,17.9,180.0,False
+Q3,P-channel MOSFET (guess),AO3401A / SI2301 family,Low,3-lead packages; faint SS/G marking; polarity and part number unconfirmed,4.5,13.7,180.0,False
+R1,30.1k,,Low,0402 package estimated; resistance not readable,19.6,19.9,0.0,False
+R2,10k,,Low,0402 package estimated; resistance not readable,21.7,20.0,0.0,False
+R3,5.1k,,Medium (5.1k inferred),0402 package estimated; resistance not readable,9.4,2.0,90.0,False
+R4,5.1k,,Medium (5.1k inferred),0402 package estimated; resistance not readable,10.9,2.0,0.0,False
+R5,10k,,Low,0402 package estimated; resistance not readable,10.9,22.5,0.0,False
+R6,10k,,Low,0402 package estimated; resistance not readable,10.9,23.3,0.0,False
+R7,12k,,Low,0402 package estimated; resistance not readable,10.9,21.0,0.0,False
+R8,0R,,Low,0402 package estimated; resistance not readable,25.6,17.9,0.0,False
+R9,100k,,Low,0402 package estimated; resistance not readable,21.2,22.0,0.0,False
+R10,330R,,Low,0402 package estimated; resistance not readable,23.8,32.5,90.0,False
+R11,100k,,Low,0402 package estimated; resistance not readable,9.7,14.45,90.0,False
+R12,1k,,Low,0402 package estimated; resistance not readable,7.8,15.15,0.0,False
+R13,10k,,Low,0402 package estimated; resistance not readable,23.5,8.65,0.0,False
+R14,1M,,Low,0402 package estimated; resistance not readable,23.5,10.8,0.0,False
+R22,100k,,Low,0402 package estimated; resistance not readable,19.7,27.6,90.0,False
+C1,10uF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,17.1,9.5,0.0,False
+C2,1uF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,11.2,25.0,0.0,False
+C3,100nF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,23.6,16.5,90.0,False
+C4,10uF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,20.9,12.7,0.0,False
+C5,100nF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,8.4,26.5,0.0,False
+C6,100nF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,6.4,26.5,0.0,False
+C7,100nF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,23.5,9.7,0.0,False
+C8,12pF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,28.4,20.4,0.0,False
+C9,12pF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,28.7,19.3,0.0,False
+C10,1uF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,40.4,17.3,0.0,False
+C11,1uF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,40.4,20.3,0.0,False
+C12,100nF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,40.4,21.7,0.0,False
+C13,100pF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,32.7,27.25,0.0,False
+TP1,C0 exposed pad,,Low,Exposed pads seen in photo; function inferred as probing pads,36.0,27.25,0.0,False
+TP2,GND exposed pad,,Low,Exposed pads seen in photo; function inferred as probing pads,35.1,27.25,0.0,False
+C14,100pF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,32.7,28.25,0.0,False
+TP3,C1 exposed pad,,Low,Exposed pads seen in photo; function inferred as probing pads,36.0,28.25,0.0,False
+TP4,GND exposed pad,,Low,Exposed pads seen in photo; function inferred as probing pads,35.1,28.25,0.0,False
+C15,100pF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,32.7,29.25,0.0,False
+TP5,C2 exposed pad,,Low,Exposed pads seen in photo; function inferred as probing pads,36.0,29.25,0.0,False
+TP6,GND exposed pad,,Low,Exposed pads seen in photo; function inferred as probing pads,35.1,29.25,0.0,False
+C16,100pF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,32.7,40.95,0.0,False
+TP7,C3 exposed pad,,Low,Exposed pads seen in photo; function inferred as probing pads,36.0,40.95,0.0,False
+TP8,GND exposed pad,,Low,Exposed pads seen in photo; function inferred as probing pads,35.1,40.95,0.0,False
+C17,100pF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,32.7,53.25,0.0,False
+TP9,C4 exposed pad,,Low,Exposed pads seen in photo; function inferred as probing pads,36.0,53.25,0.0,False
+TP10,GND exposed pad,,Low,Exposed pads seen in photo; function inferred as probing pads,35.1,53.25,0.0,False
+C18,100pF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,32.7,65.05,0.0,False
+TP11,C5 exposed pad,,Low,Exposed pads seen in photo; function inferred as probing pads,36.0,65.05,0.0,False
+TP12,GND exposed pad,,Low,Exposed pads seen in photo; function inferred as probing pads,35.1,65.05,0.0,False
+C19,100pF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,32.7,66.1,0.0,False
+TP13,C6 exposed pad,,Low,Exposed pads seen in photo; function inferred as probing pads,36.0,66.1,0.0,False
+TP14,GND exposed pad,,Low,Exposed pads seen in photo; function inferred as probing pads,35.1,66.1,0.0,False
+C20,10uF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,17.1,11.4,0.0,False
+L1,33uH,,High (33uH marking),L1 marked 330; L2/L3 values and exact function inferred,16.1,15.55,0.0,False
+L2,Ferrite bead (guess),,Low,L1 marked 330; L2/L3 values and exact function inferred,11.3,14.85,0.0,False
+L3,10uH (guess),,Low,L1 marked 330; L2/L3 values and exact function inferred,40.4,19.0,0.0,False
+Y1,32.768kHz (guess),,Medium,Metal can low-frequency crystal near module; marking unreadable,26.7,20.7,90.0,False
+D3,BAT54WS (guess),,Low,D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined,8.0,12.1,0.0,False
+D4,PMEG2010ER (guess),,Medium,D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined,9.25,23.25,90.0,False
+D5,Green status LED (guess),,Low,D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined,1.15,13.3,90.0,False
+F1,500mA resettable fuse (guess),,"Medium (function), Low (rating)",Gold B-marked rectangular part is likely PPTC USB protection,10.7,10.35,90.0,False

@@ -1,0 +1,191 @@
+(footprint "U5_SOT-23-5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "SOT TO_SOT_SMD")
+	(property "Reference" "U5"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "75951865-4d60-401c-b539-08f609a05d40")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "74CBTLV1G125GV (probable b25 marking)"
+		(at 0 2.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd214748-2f98-4c31-a727-c4139f4cf697")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e48cffcd-df04-4168-955e-4bae72214f24")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1890e9a2-2d03-4020-9cbc-3908931c406f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Confidence" "Medium (marking), Low (circuit)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bcc5866-0d0b-44e4-b55f-5d79f5ab16ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Evidence" "b25 marking matches Nexperia bus switch; uses 2.4V rail. Exact surrounding LED translation circuit unresolved."
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c49e52e-9fee-4ed7-b5fe-6603eeb95980")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Candidate part" "74CBTLV1G125GV; surrounding topology unverified"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82a93b60-0dd0-4d2b-97b0-9f7a2d97dd7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.9 -1.6)
+		(end 1.9 -1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "410569fc-97cc-4e7f-8bd4-ace4d8b7f1a3")
+	)
+	(fp_line
+		(start -1.9 1.6)
+		(end -1.9 -1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7285b5d3-d034-488b-b021-69edfca7e751")
+	)
+	(fp_line
+		(start 1.9 -1.6)
+		(end 1.9 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9888a5a-8ef9-4d20-b403-42b69cc8b06c")
+	)
+	(fp_line
+		(start 1.9 1.6)
+		(end -1.9 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "38fd2937-4252-4652-97a3-4bcaddfc6380")
+	)
+	(fp_poly
+		(pts
+			(xy -0.4 -1.45) (xy 0.8 -1.45) (xy 0.8 1.45) (xy -0.8 1.45) (xy -0.8 -1.05)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "718d6ee8-68a4-440b-8e4a-81715942324f")
+	)
+	(pad "1" smd roundrect
+		(at -1.1375 -0.95)
+		(size 1.325 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2ad84bf9-2d69-436f-96db-2fd007161e22")
+	)
+	(pad "2" smd roundrect
+		(at -1.1375 0)
+		(size 1.325 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "18c2c004-31be-4a3b-9663-9ae23decba0b")
+	)
+	(pad "3" smd roundrect
+		(at -1.1375 0.95)
+		(size 1.325 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7074f850-b973-4d64-81ff-859eed4ff47e")
+	)
+	(pad "4" smd roundrect
+		(at 1.1375 0.95)
+		(size 1.325 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "00acba86-2058-419a-b0ff-1c7342a07021")
+	)
+	(pad "5" smd roundrect
+		(at 1.1375 -0.95)
+		(size 1.325 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f13b02ea-73b4-47f1-9bd9-4fcf00b8cf4f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,138 @@
+(footprint "TestPad_0.55mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "TP14"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "403ebcbf-63d6-4160-bb73-2f19c239e498")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "GND exposed pad"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b5b4ad0-484a-4843-8d7a-6e07351caae2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6d898f7-75d6-4127-9e13-c39a75fb1188")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0cc9abe-25b8-4a30-9dd6-5af7cae2653e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Confidence" "Low"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96b6ce18-3a85-4cfd-9402-c6fa9aaed30a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Evidence" "Exposed pads seen in photo; function inferred as probing pads"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57f795fb-f316-4516-93d8-6d6500594f51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Candidate part" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3c69f7a-176c-4861-aea5-2b1d056c34a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -0.325 -0.325)
+		(end 0.325 -0.325)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "07dc7e8e-be6f-44b6-80d0-d9853136a1f1")
+	)
+	(fp_line
+		(start -0.325 0.325)
+		(end -0.325 -0.325)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b3d5b74b-0662-4d50-a54f-99dd82657214")
+	)
+	(fp_line
+		(start 0.325 -0.325)
+		(end 0.325 0.325)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e8893647-e606-48e6-8cd7-99204d3d1618")
+	)
+	(fp_line
+		(start 0.325 0.325)
+		(end -0.325 0.325)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6a5f3279-98d2-424b-850e-b06aeb90d2f1")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "4089fb46-16b4-47ef-8310-bce77b7e0a84")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,155 @@
+** Drc report for rightMainboard.kicad_pcb **
+** Created on 2026-10-07T15:03:36-0600 **
+** Report includes: Errors, Warnings **
+
+** Found 46 DRC violations **
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(35.2000 mm, 12.8000 mm): Footprint L2
+    @(30.6000 mm, 16.1500 mm): Footprint L1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(34.8000 mm, 4.5000 mm): Footprint U3
+    @(40.5000 mm, 6.1500 mm): Footprint J1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(36.5000 mm, 15.0000 mm): Footprint R11
+    @(35.0500 mm, 16.8000 mm): Footprint D4
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(30.6000 mm, 16.1500 mm): Footprint L1
+    @(35.0500 mm, 16.8000 mm): Footprint D4
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(30.6000 mm, 16.1500 mm): Footprint L1
+    @(31.3000 mm, 11.9500 mm): Footprint U1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(40.5000 mm, 6.1500 mm): Footprint J1
+    @(36.0000 mm, 10.6000 mm): Footprint R3
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(35.6000 mm, 42.0000 mm): Via [GND] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(9.2500 mm, 18.2000 mm): Track [C2] on B.Cu, length 15.2000 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(7.6198 mm, 18.0302 mm): Via [XL2] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(12.2500 mm, 17.0000 mm): Track [R0] on B.Cu, length 53.3000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(12.8500 mm, 17.6000 mm): Track [R1] on B.Cu, length 52.7000 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(13.4500 mm, 18.2000 mm): Via [R2] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(13.4500 mm, 18.2000 mm): Track [R2] on B.Cu, length 52.1000 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(11.5651 mm, 14.2082 mm): Via [R3] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(14.0500 mm, 18.8000 mm): Via [R3] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(14.0500 mm, 18.8000 mm): Track [R3] on B.Cu, length 51.5000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(14.6500 mm, 20.8000 mm): Track [R4] on F.Cu, length 2.4500 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(14.6500 mm, 19.4000 mm): Track [R4] on B.Cu, length 50.9000 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(13.1736 mm, 16.9947 mm): Via [R5] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(15.2500 mm, 29.4000 mm): Track [R5] on B.Cu, length 40.9000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(36.2000 mm, 13.2500 mm): Track [VDDH] on F.Cu, length 0.1000 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(13.5156 mm, 16.3838 mm): Via [VDDH] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(16.2774 mm, 6.5993 mm): Via [SWDIO] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(19.8250 mm, 3.0923 mm): Via [SWDCLK] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(8.6500 mm, 17.6000 mm): Via [C1] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(8.6500 mm, 17.6000 mm): Track [C1] on B.Cu, length 15.8000 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(9.8000 mm, 9.8022 mm): Via [C0] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(9.8500 mm, 18.8000 mm): Via [C3] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(10.6000 mm, 9.1500 mm): Via [C3] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(10.4500 mm, 19.4000 mm): Via [C4] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(17.9673 mm, 71.3252 mm): Via [C5] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(8.2965 mm, 67.6286 mm): Via [C5] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(11.0500 mm, 20.0000 mm): Via [C5] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(11.0500 mm, 20.0000 mm): Track [C5] on B.Cu, length 50.0000 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(17.9651 mm, 70.6746 mm): Via [C6] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(11.6500 mm, 20.6000 mm): Via [C6] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(11.6500 mm, 32.2000 mm): Track [C6] on B.Cu, length 37.8000 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(34.3568 mm, 19.1432 mm): Via [VDD] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(20.1327 mm, 68.8252 mm): Via [VDD] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(20.1327 mm, 56.0252 mm): Via [VDD] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(28.9974 mm, 6.8926 mm): Via [VDD] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(37.7353 mm, 7.5745 mm): Via [CC1] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(26.9781 mm, 65.1986 mm): Via [BAT_NTC] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(41.2783 mm, 24.5472 mm): Via [VBAT_SWITCHED] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(30.3250 mm, 15.2101 mm): Via [BOOST_SW] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(24.1006 mm, 33.5869 mm): Via [LED_DATA_5V] on F.Cu - B.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
