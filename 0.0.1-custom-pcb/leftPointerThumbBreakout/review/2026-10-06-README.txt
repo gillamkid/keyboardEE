@@ -1,0 +1,18 @@
+Created leftPointerThumbBreakout from the completed rightPointerThumbBreakout project on 2026-10-06.
+Project files renamed leftPointerThumbBreakout.kicad_pro / .kicad_sch / .kicad_pcb. Schematic/board titles and silkscreen updated.
+Connector positions exactly reflected about the original board center x=167.75 mm (x_left=335.5-x_right). Connector Y coordinates, orientations, copper sides, local pad positions, pad numbering and net assignments preserved.
+J1 original position 175.45,99.8 mm; left position 160.05,99.8 mm. Pin 13=C0; pin 14 and mounting pads 15/16 isolated.
+Left column C2: J12/J13/J17/J16/J15/J14, rows R0-R5.
+Middle column C1: J8/J9/J10/J11, rows R1-R4.
+Right column C0: J2/J3/J4/J5/J6/J7, rows R0-R5.
+Pin-1 markers move with their connector's pin 1. Mounting holes and board outline retained.
+Schematic copied with electrical connectivity unchanged. LED chain remains J2-J13 then J17/J16/J15/J14.
+Routing revised to follow the completed right-board routing: vertical F.Cu main bundle above J1, horizontal B.Cu row buses, and copied local connector fanouts. Broad VDD/GND rails and row buses retain 0.5 mm widths. Short J1 fanout uses 0.15 mm traces to meet connector clearance; 0.5 mm power trunks start immediately above the fanout. Signal routing 0.15 mm. Via diameter 0.45 mm/drill 0.2 mm.
+The main bundle is translated into the gap between the left and middle columns. J1 pin order is unchanged, using short parallel fanout above the connector. C0 and final LED return are routed separately below the lowest row buses.
+Routing contains 221 track segments and 82 vias. Top-layer vertical trace length: 94.6%; bottom-layer horizontal trace length: 99.1%.
+Routing preview: 2026-10-06-routing.svg / .png (red=F.Cu, blue=B.Cu).
+Final ERC: 0 errors / 0 warnings. PCB DRC: 0 violations / 0 unconnected items / 0 schematic parity issues.
+Checked every connector's reflected location, unchanged orientation, unchanged relative pad locations and unchanged net/pin assignments against the right source.
+Right source PCB/schematic/project hashes verified unchanged.
+Current manufacturing files are in jlcpcb/production_files; all 17 assembly connectors included. Gerber ZIP contains 9 layers and 2 drill files.
+Copied source historical reports/exports are archived under copied-history; they are not the left board production files.
