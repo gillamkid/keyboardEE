@@ -156,3 +156,6 @@ Model assignments are updated in the PCB and Reconstruction.pretty library.
 SW1, SW2 and L1 use explicitly approximate photo-based visualization models;
 J2 and Y1 use representative library models for the estimated package.
 See 3dmodels/README.txt and review/3d-model-coverage.csv for provenance and limits.
+
+EMBEDDED SANDED-BOARD PHOTOGRAPHS 20261007-185202
+Actual full-color PNG photos are embedded directly in the PCB, at registered 45x75mm size. User.3: Sanded top photo. User.4: Sanded bottom photo (registered to the same top-view coordinates). Select one of these layers in the PCB Editor Appearance panel; show one photo at a time. User.1/User.2 remain the earlier copper contour references. Images are locked against accidental movement. Local view preferences show the top photo at full opacity and hide the other photo and contour layers. Board copper, pads, component placements, models and connections were preserved. See review/embedded-sanded-photos.json.

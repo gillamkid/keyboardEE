@@ -1,0 +1,78 @@
+{
+  "project": "rightMainboard",
+  "images": [
+    {
+      "source": "references/TopSanded.png",
+      "source_sha256": "69834c6747957fa5c3ffff3308fb69ada5c6178d423d32f545576a7a879bbaf8",
+      "embedded_image_uuid": "6d706a23-5d56-4dc1-be0c-d2f1c8a7dead",
+      "layer": "User.3",
+      "layer_name": "Sanded top photo",
+      "pixel_dimensions": [
+        1350,
+        2250
+      ],
+      "image_size_mm": [
+        45,
+        75
+      ],
+      "center_mm": [
+        22.5,
+        37.5
+      ],
+      "scale": 0.3937007874015748,
+      "locked": true,
+      "embedded_original_PNG_bytes_without_conversion": true,
+      "alignment": "Existing 30px/mm registered photo; same four mounting-hole reference points as reconstruction."
+    },
+    {
+      "source": "references/BottomSanded.png",
+      "source_sha256": "091cd2eb78d76476e6475ec26e37564cc4759dad18961e489e865070ebf57b0c",
+      "embedded_image_uuid": "c563c9da-9674-408e-b37c-07568c934996",
+      "layer": "User.4",
+      "layer_name": "Sanded bottom photo",
+      "pixel_dimensions": [
+        1350,
+        2250
+      ],
+      "image_size_mm": [
+        45,
+        75
+      ],
+      "center_mm": [
+        22.5,
+        37.5
+      ],
+      "scale": 0.3937007874015748,
+      "locked": true,
+      "embedded_original_PNG_bytes_without_conversion": true,
+      "alignment": "Existing 30px/mm registered photo; same four mounting-hole reference points as reconstruction."
+    }
+  ],
+  "embedded_image_count": 2,
+  "PCB_models_geometry_and_electrical_data_unchanged": true,
+  "non_image_PCB_sha256": "8f407e29af3c1799bb98020c4374899642000f98153572815b601a3d2a19ae3c",
+  "default_view": "User.3 Sanded top photo visible at full image opacity; User.4 and older contour reference layers hidden. Toggle layers in Appearance panel.",
+  "source_photo_note": "Actual color photographs, perspective-registered earlier; no thresholding/vectorization applied to embedded data.",
+  "native_KiCad_load_validated": true,
+  "bounds_and_locked_state_validated": [
+    {
+      "layer": "Sanded top photo",
+      "bounds_mm": [
+        0.0,
+        0.0,
+        45.0,
+        75.0
+      ]
+    },
+    {
+      "layer": "Sanded bottom photo",
+      "bounds_mm": [
+        0.0,
+        0.0,
+        45.0,
+        75.0
+      ]
+    }
+  ],
+  "embedded_PNG_bytes_match_sources": true
+}
