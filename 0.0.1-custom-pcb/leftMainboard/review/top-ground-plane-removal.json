@@ -1,0 +1,31 @@
+{
+  "removed_zone_uuid": "1cae015b-6221-4e76-a99f-52f7feef7f40",
+  "net": "GND",
+  "layer": "F.Cu",
+  "zones_removed": 1,
+  "bottom_ground_plane_preserved": true,
+  "other_PCB_content_unchanged": true,
+  "backup": "leftMainboard-backups/before-top-GND-plane-removal-20261007-191347.zip",
+  "date": "20261007-191347",
+  "DRC_before": {
+    "shorting_items:error": 2,
+    "clearance:error": 6,
+    "hole_clearance:error": 4,
+    "courtyards_overlap:error": 8,
+    "solder_mask_bridge:error": 2,
+    "track_dangling:warning": 13,
+    "via_dangling:warning": 7
+  },
+  "DRC_after": {
+    "shorting_items:error": 2,
+    "clearance:error": 2,
+    "hole_clearance:error": 2,
+    "courtyards_overlap:error": 8,
+    "solder_mask_bridge:error": 2,
+    "track_dangling:warning": 16,
+    "via_dangling:warning": 8,
+    "isolated_copper:warning": 1
+  },
+  "unconnected_before": 1,
+  "unconnected_after": 3
+}

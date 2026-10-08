@@ -159,3 +159,6 @@ See 3dmodels/README.txt and review/3d-model-coverage.csv for provenance and limi
 
 EMBEDDED SANDED-BOARD PHOTOGRAPHS 20261007-185202
 Actual full-color PNG photos are embedded directly in the PCB, at registered 45x75mm size. User.3: Sanded top photo. User.4: Sanded bottom photo (registered to the same top-view coordinates). Select one of these layers in the PCB Editor Appearance panel; show one photo at a time. User.1/User.2 remain the earlier copper contour references. Images are locked against accidental movement. Local view preferences show the top photo at full opacity and hide the other photo and contour layers. Board copper, pads, component placements, models and connections were preserved. See review/embedded-sanded-photos.json.
+
+REFERENCE LAYER CLEANUP 20261007-213601
+Removed Photo top copper (User.1) and Photo bottom copper (User.2) and their 6877 obsolete contour graphics from this PCB. Sanded top/bottom photos on User.3/User.4 remain embedded and locked. Photo centers realigned to [72.36667, 87.63333] mm, following the board translation [49.86667, 50.13333] mm measured from all four mounting holes. Earlier notes describing the contour layers and fixed origin are superseded. Existing copper, pads, holes, component positions and 3D models were preserved exactly.

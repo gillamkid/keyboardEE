@@ -1,0 +1,25 @@
+{
+  "project": "leftMainboard",
+  "removed_layers": [
+    "User.1 Photo top copper",
+    "User.2 Photo bottom copper"
+  ],
+  "removed_reference_graphics": 6877,
+  "board_translation_mm": [
+    49.86667,
+    50.13333
+  ],
+  "new_photo_center_mm": [
+    72.36667,
+    87.63333
+  ],
+  "photo_size_mm": [
+    45,
+    75
+  ],
+  "alignment_verified_using": "All four mounting-hole footprints against registered source photo positions",
+  "other_PCB_items_unchanged": true,
+  "photo_PNG_data_unchanged": true,
+  "rightMainboard_unchanged": true,
+  "backup": "leftMainboard-backups/before-reference-layer-cleanup-20261007-213601.zip"
+}

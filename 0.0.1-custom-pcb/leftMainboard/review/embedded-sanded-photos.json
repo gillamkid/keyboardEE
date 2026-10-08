@@ -16,8 +16,8 @@
         75
       ],
       "center_mm": [
-        22.5,
-        37.5
+        72.36667,
+        87.63333
       ],
       "scale": 0.3937007874015748,
       "locked": true,
@@ -39,8 +39,8 @@
         75
       ],
       "center_mm": [
-        22.5,
-        37.5
+        72.36667,
+        87.63333
       ],
       "scale": 0.3937007874015748,
       "locked": true,
@@ -51,28 +51,30 @@
   "embedded_image_count": 2,
   "PCB_models_geometry_and_electrical_data_unchanged": true,
   "non_image_PCB_sha256": "405a33b7e272d4660b7ee82d8bd04800acfdd70342c5dc94f5b26bba1554427d",
-  "default_view": "User.3 Sanded top photo visible at full image opacity; User.4 and older contour reference layers hidden. Toggle layers in Appearance panel.",
+  "default_view": "User.3 Sanded top photo; User.4 Sanded bottom photo. Select one photo layer at a time; original copper contour layers removed.",
   "source_photo_note": "Actual color photographs, perspective-registered earlier; no thresholding/vectorization applied to embedded data.",
   "native_KiCad_load_validated": true,
   "bounds_and_locked_state_validated": [
     {
       "layer": "Sanded top photo",
       "bounds_mm": [
-        0.0,
-        0.0,
-        45.0,
-        75.0
+        49.866658,
+        50.133309,
+        45.000024,
+        75.000041
       ]
     },
     {
       "layer": "Sanded bottom photo",
       "bounds_mm": [
-        0.0,
-        0.0,
-        45.0,
-        75.0
+        49.866658,
+        50.133309,
+        45.000024,
+        75.000041
       ]
     }
   ],
-  "embedded_PNG_bytes_match_sources": true
+  "embedded_PNG_bytes_match_sources": true,
+  "alignment_updated_to_current_board": true,
+  "obsolete_copper_contour_layers_removed": true
 }
