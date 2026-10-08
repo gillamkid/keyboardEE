@@ -1,0 +1,64 @@
+{
+  "part": "C5339378",
+  "MPN": "XRCD54-1R8M",
+  "value": "1.8uH",
+  "project": "leftMainboard",
+  "footprint": "L_XRCD54_5.8x5.2mm_C5339378",
+  "position_mm": [
+    65.5,
+    65.3
+  ],
+  "angle_deg": 90,
+  "pad_nets": {
+    "1": [
+      15,
+      "VDDH"
+    ],
+    "2": [
+      48,
+      "BOOST_SW"
+    ]
+  },
+  "traces_vias_zones_photos_other_footprints_unchanged": true,
+  "models": [
+    "3dmodels/EasyEDA/XRCD54_5.8x5.2x4.5mm_C5339378_EasyEDA.step",
+    "3dmodels/EasyEDA/XRCD54_5.8x5.2x4.5mm_C5339378_EasyEDA.wrl"
+  ],
+  "STEP_sha256": "175723b792248d2d311187b0f486ffca2a9a56c84e7e64cfd1b7679a788c6fd5",
+  "STEP_source": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/e715833d7af94da094ca35faf1e2bc74",
+  "OBJ_source": "https://modules.easyeda.com/3dmodel/e715833d7af94da094ca35faf1e2bc74",
+  "EasyEDA_component": "https://easyeda.com/api/products/C5339378/components",
+  "model_bbox_mm": [
+    [
+      -2.6,
+      2.6
+    ],
+    [
+      -2.837038,
+      2.838099
+    ],
+    [
+      -0.01,
+      4.51
+    ]
+  ],
+  "source": "JLCEDA/EasyEDA Official Library",
+  "source_homepages": [
+    "https://lceda.cn/",
+    "https://easyeda.com"
+  ],
+  "backup": "leftMainboard-backups/before-L1-C5339378-20261008-135743.zip",
+  "routing_not_reconnected_per_user_request": true,
+  "verified": {
+    "PCB_except_L1_unchanged": true,
+    "schematic_wires_labels_pins_UUIDs_unchanged": true,
+    "all_model_paths_exist": true,
+    "ERC_before": 4,
+    "ERC_after": 4,
+    "ERC_findings_unchanged": true,
+    "schematic_parity_violations": 0,
+    "DRC_violations": 199,
+    "unconnected_items": 43,
+    "3D_render_successful": true
+  }
+}

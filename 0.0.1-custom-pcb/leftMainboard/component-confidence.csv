@@ -12,7 +12,7 @@ J1,USB-C USB2 receptacle (footprint estimate),GCT USB4105-GF-A,Medium,"16 contac
 J2,3-pin LiPo / NTC 1.25mm (estimate),JST GH / Molex PicoBlade 1.25mm family,Low (MPN and polarity),3-pin housing and three wires visible; pitch estimated from photo. Verify actual plug and polarity!,20.15,65.2,180.0,False
 J3,GPIO / SWD 2x6 1.27mm,,High,Official MoErgo header schematic and GPIO mapping,21.95,3.5,90.0,False
 SW2,Reset tactile 4x4mm (estimate),4x4mm SMT tactile switch,Medium,Yellow tactile dome in photo beside module,42.45,9.75,0.0,False
-SW1,Latching DPDT power push switch (estimate),"PS-22F family, verify dimensional drawing",Low,Push actuator + six contacts + mechanical lugs visible; exact switch/terminal function unverified,4.8,19.4,0.0,False
+SW1,TK-6580A-1,C528770 / TK-6580A-1,User-selected replacement; original part unconfirmed,User-selected replacement; footprint and models from JLCEDA/EasyEDA Official Library; pin function checked against manufacturer drawing,4.8,19.4,0.0,False
 U1,Boost controller MSOP8 (unidentified),TPS61085-class MSOP8 boost; NOT confirmed pin-compatible,Low,"Marking looks MXCEA/M1CEA, unreadable ID. Guessed functional pinout; not an identified replacement",21.2,16.4,-90.0,False
 U2,TP4056-42-ESOP8,,"High (family), Medium (variant)",TP4056 marking visible; exposed pad visible in sanded board. Exact suffix unconfirmed,15.6,22.8,180.0,False
 U3,PRTR5V0U2X,,High,WR1 marking and four-lead SOT143 match manufacturer %R1 code,10.7,5.6,90.0,False
@@ -69,7 +69,7 @@ C19,100pF,,Low,Ceramic capacitor values and voltage ratings are not readable; es
 TP13,C6 exposed pad,,Low,Exposed pads seen in photo; function inferred as probing pads,36.0,66.1,0.0,False
 TP14,GND exposed pad,,Low,Exposed pads seen in photo; function inferred as probing pads,35.1,66.1,0.0,False
 C20,10uF,,Low,Ceramic capacitor values and voltage ratings are not readable; estimated from function/package,17.1,11.4,0.0,False
-L1,33uH,,High (33uH marking),L1 marked 330; L2/L3 values and exact function inferred,16.1,15.55,0.0,False
+L1,1.8uH,XRCD54-1R8M,User-selected replacement; original part unconfirmed,C5339378 selected by user; supersedes photo-estimated 33uH; EasyEDA footprint and 3D model imported,16.1,15.55,0.0,False
 L2,Ferrite bead (guess),,Low,L1 marked 330; L2/L3 values and exact function inferred,11.3,14.85,0.0,False
 L3,10uH (guess),,Low,L1 marked 330; L2/L3 values and exact function inferred,40.4,19.0,0.0,False
 Y1,32.768kHz (guess),,Medium,Metal can low-frequency crystal near module; marking unreadable,26.7,20.7,90.0,False

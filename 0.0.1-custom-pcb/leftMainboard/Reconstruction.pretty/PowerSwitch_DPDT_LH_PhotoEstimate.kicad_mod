@@ -62,7 +62,7 @@
 			)
 		)
 	)
-	(property "Evidence" "Push actuator + six contacts + mechanical lugs visible; exact switch/terminal function unverified"
+	(property "Evidence" "Side actuator and through holes visible; nearby resistor pads are not switch contacts; electrical pinout unverified"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -173,48 +173,12 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "f9a728ad-58a1-4975-bf67-a7e2a4083e33")
 	)
-	(pad "1" smd rect
-		(at 3.175 5.9)
-		(size 0.8 0.9)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "3fb8979c-30e1-4662-a533-fb34212de240")
-	)
-	(pad "2" smd rect
-		(at 1.905 5.9)
-		(size 0.8 0.9)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "4840c070-1c0a-43f1-bcc5-a5c548ca4e8f")
-	)
-	(pad "3" smd rect
-		(at 0.635 5.9)
-		(size 0.8 0.9)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "ba2508f6-103a-4f6b-8b20-2c82d9165d2a")
-	)
-	(pad "4" smd rect
-		(at -0.635 5.9)
-		(size 0.8 0.9)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "abd62b0d-e8a7-4ac8-8af4-7339c3489d2e")
-	)
-	(pad "5" smd rect
-		(at -1.905 5.9)
-		(size 0.8 0.9)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "9191f6cc-f3e4-415a-b76c-abf512726378")
-	)
-	(pad "6" smd rect
-		(at -3.175 5.9)
-		(size 0.8 0.9)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "2acf368d-42f1-4efc-9b2c-2c908a71378e")
-	)
+	
+	
+	
+	
+	
+	
 	(embedded_fonts no)
 
 (model "${KIPRJMOD}/3dmodels/PhotoEstimates/PowerSwitch_DPDT_LH_PhotoEstimate.wrl"

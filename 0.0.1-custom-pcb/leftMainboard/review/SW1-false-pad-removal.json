@@ -1,0 +1,11 @@
+{
+  "change": "Removed the six falsely attributed SMD electrical pads from SW1 and the six matching model primitives.",
+  "project": "/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard",
+  "backup": "/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-SW1-false-pad-removal-20261008-150238.zip",
+  "remaining_holes": {
+    "plated_unnumbered": 4,
+    "nonplated": 2
+  },
+  "validation": "All board objects outside SW1 are unchanged; PCB and local footprint parse correctly.",
+  "limitation": "SW1 schematic terminal count and through-hole electrical assignments remain unverified pending exact part identification."
+}

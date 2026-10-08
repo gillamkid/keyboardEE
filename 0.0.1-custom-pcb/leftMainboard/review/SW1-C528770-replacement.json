@@ -1,0 +1,72 @@
+{
+  "part": "C528770",
+  "mpn": "TK-6580A-1",
+  "project": "/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard",
+  "backup": "/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-SW1-C528770-20261008-152253.zip",
+  "model_uuid": "b0bada8f8748472091d08ab2de7a970d",
+  "model_source": "JLCEDA/EasyEDA Official Library",
+  "footprint": "SW_TK6580A1_C528770",
+  "model": "${KIPRJMOD}/3dmodels/EasyEDA/TK-6580A-1_C528770_EasyEDA.step",
+  "model_offset_mm": [
+    0.0,
+    -1.1291716000000402,
+    0.005076999999999998
+  ],
+  "placement_mm": [
+    55.81667,
+    69.53333,
+    -90
+  ],
+  "pad_nets": {
+    "1": [
+      43,
+      "VBAT"
+    ],
+    "2": [
+      43,
+      "VBAT"
+    ],
+    "3": [
+      65,
+      "unconnected-(SW1-NC_A-Pad3)"
+    ],
+    "4": [
+      45,
+      "VBAT_SWITCHED"
+    ],
+    "5": [
+      66,
+      "unconnected-(SW1-NC_B-Pad5)"
+    ],
+    "6": [
+      45,
+      "VBAT_SWITCHED"
+    ]
+  },
+  "schematic_pin_remap": {
+    "1": "1",
+    "2": "4",
+    "3": "3",
+    "4": "2",
+    "5": "6",
+    "6": "5"
+  },
+  "validation": {
+    "all_other_footprints_unchanged": true,
+    "tracks_vias_zones_and_graphics_unchanged": true,
+    "all_other_schematic_connections_unchanged": true,
+    "switch_netlist_matches_manufacturer_pin_function": true,
+    "six_electrical_through_hole_pads": true,
+    "native_STEP_identical_to_EasyEDA_source": true,
+    "all_SW1_models_project_local": true,
+    "switch_schematic_PCB_parity_clean": true,
+    "ERC_unchanged_four_existing_warnings": true,
+    "3D_render_inspected": true
+  },
+  "routing": "Existing tracks, vias, and zones unchanged. The moved/new electrical switch pads still require routing; board DRC is not clean.",
+  "DRC": {
+    "violations": 228,
+    "unconnected_items": 47,
+    "remaining_preexisting_schematic_parity_issues": 3
+  }
+}
