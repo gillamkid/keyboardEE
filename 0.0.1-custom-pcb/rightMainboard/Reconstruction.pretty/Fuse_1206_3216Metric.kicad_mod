@@ -137,7 +137,7 @@
 		(uuid "c082b90d-9ebe-4ce0-bff6-513e821d4eaf")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1206_3216Metric.step"
+	(model "${KIPRJMOD}/3dmodels/KiCad/Fuse.3dshapes/Fuse_1206_3216Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

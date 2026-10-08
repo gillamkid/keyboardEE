@@ -1,0 +1,6 @@
+Detailed HC-FPC-0.5-14P-FH20 / C19273929 STEP model.
+Source: JLCEDA/EasyEDA Official Library (https://lceda.cn/ and https://easyeda.com).
+https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/93a531ee7c4948b48f4bb060f02c7727
+Model file: HC-FPC-0.5-14P-FH20_C19273929_EasyEDA.step
+Offset (-0.25, -1.375, 1.02) mm; unit scale; zero model rotation.
+See review/14pin-model-source.json.

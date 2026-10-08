@@ -149,3 +149,10 @@ FINAL CHECK RESULTS (KiCad 9.0.8, 2026-10-07)
 The latter reflect an unused final LED return and unresolved/unused power-stage terminals.
 Detailed counts and component pairs are in review/drc.rpt and schematic-pcb-audit.json.
 These checks establish internal net consistency, not a verified working circuit.
+
+PROJECT-LOCAL 3D MODELS
+All 60 fitted component footprints now have local 3D models under 3dmodels/.
+Model assignments are updated in the PCB and Reconstruction.pretty library.
+SW1, SW2 and L1 use explicitly approximate photo-based visualization models;
+J2 and Y1 use representative library models for the estimated package.
+See 3dmodels/README.txt and review/3d-model-coverage.csv for provenance and limits.

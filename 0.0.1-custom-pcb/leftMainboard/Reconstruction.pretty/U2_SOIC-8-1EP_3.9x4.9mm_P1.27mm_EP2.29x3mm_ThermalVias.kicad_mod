@@ -296,15 +296,5 @@
 		(uuid "993dff03-840f-43fd-b215-1611291c75d3")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
+	(model "${KIPRJMOD}/3dmodels/EasyEDA/ESOP-8_L4.9-W3.9-H1.6-LS6.0-P1.27_C16581_EasyEDA.step" (offset (xyz -0.0 0.0 0.099425)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0.0)))
 )

@@ -155,15 +155,5 @@
 		(uuid "64f80cc2-c397-4d90-b81b-da62c11de426")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
+	(model "${KIPRJMOD}/3dmodels/EasyEDA/R0402_L1.0-W0.5-H0.4_C25744_EasyEDA.step" (offset (xyz 0.0 0.0 0.0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0.0)))
 )

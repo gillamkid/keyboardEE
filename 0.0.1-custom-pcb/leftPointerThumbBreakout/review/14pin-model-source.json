@@ -1,0 +1,35 @@
+{
+  "connector": "J1",
+  "part": "HC-FPC-0.5-14P-FH20",
+  "LCSC": "C19273929",
+  "source": "JLCEDA/EasyEDA Official Library",
+  "source_homepages": [
+    "https://lceda.cn/",
+    "https://easyeda.com"
+  ],
+  "component_api": "https://easyeda.com/api/products/C19273929/components",
+  "model_uuid": "93a531ee7c4948b48f4bb060f02c7727",
+  "STEP_source": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/93a531ee7c4948b48f4bb060f02c7727",
+  "project_local_model": "${KIPRJMOD}/EasyEDA.3dshapes/HC-FPC-0.5-14P-FH20_C19273929_EasyEDA.step",
+  "sha256": "48284dfe01985bcc639cfc2716175c8c25bc2a2956d30b98dbd564b00224771a",
+  "offset_mm": [
+    -0.25,
+    -1.375,
+    1.02
+  ],
+  "scale": [
+    1,
+    1,
+    1
+  ],
+  "rotation_degrees": [
+    0,
+    0,
+    0
+  ],
+  "PCB_geometry_and_routing_unchanged": true,
+  "source_model_is_approximate": false,
+  "note": "Exact component-linked detailed STEP replaces the previously generated approximate boxes; native STEP placement aligned to the existing pad row and PCB surface.",
+  "non_model_PCB_sha256": "c62d740153d773c7d83b3faa2cabedfb4fe12f2642f33a1c8fb852c5b5cba299",
+  "source_project": "leftMainboard"
+}

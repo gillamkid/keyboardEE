@@ -156,4 +156,9 @@
 		(uuid "f6aa3628-51f5-45dc-b766-dbc585ed0116")
 	)
 	(embedded_fonts no)
+
+(model "${KIPRJMOD}/3dmodels/PhotoEstimates/Reset_Tactile_4mm_PhotoEstimate.wrl"
+(offset (xyz 0 0 0))
+(scale (xyz 1 1 1))
+(rotate (xyz 0 0 0)))
 )

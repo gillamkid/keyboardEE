@@ -216,4 +216,9 @@
 		(uuid "2acf368d-42f1-4efc-9b2c-2c908a71378e")
 	)
 	(embedded_fonts no)
+
+(model "${KIPRJMOD}/3dmodels/PhotoEstimates/PowerSwitch_DPDT_LH_PhotoEstimate.wrl"
+(offset (xyz 0 0 0))
+(scale (xyz 1 1 1))
+(rotate (xyz 0 0 0)))
 )

@@ -182,4 +182,9 @@
 		(uuid "e6373e34-dd59-4781-a360-5a1155858a90")
 	)
 	(embedded_fonts no)
+
+(model "${KIPRJMOD}/3dmodels/PhotoEstimates/Inductor_6x6mm_PhotoEstimate.wrl"
+(offset (xyz 0 0 0))
+(scale (xyz 1 1 1))
+(rotate (xyz 0 0 0)))
 )

@@ -312,7 +312,7 @@
 		(uuid "1d62cbaf-a7df-45af-9fe2-46791ca628a6")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
+	(model "${KIPRJMOD}/3dmodels/KiCad/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

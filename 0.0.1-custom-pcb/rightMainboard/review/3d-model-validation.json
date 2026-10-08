@@ -1,0 +1,44 @@
+{
+  "project": "rightMainboard",
+  "mounted_components_modeled": 60,
+  "missing_model_paths": 0,
+  "model_paths": "All ${KIPRJMOD}/3dmodels/...; no global directory dependencies or symlinks",
+  "unmodeled_non_components": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "TP1",
+    "TP10",
+    "TP11",
+    "TP12",
+    "TP13",
+    "TP14",
+    "TP2",
+    "TP3",
+    "TP4",
+    "TP5",
+    "TP6",
+    "TP7",
+    "TP8",
+    "TP9"
+  ],
+  "non_model_PCB_data_unchanged": true,
+  "DRC_counts_unchanged": true,
+  "DRC_counts": {
+    "courtyards_overlap:error": 6,
+    "via_dangling:warning": 28,
+    "track_dangling:warning": 12
+  },
+  "unrouted_connections": 0,
+  "schematic_parity_issues": 0,
+  "approximate_photo_models": [
+    "SW1",
+    "SW2",
+    "L1"
+  ],
+  "representative_package_models": [
+    "J2",
+    "Y1"
+  ]
+}

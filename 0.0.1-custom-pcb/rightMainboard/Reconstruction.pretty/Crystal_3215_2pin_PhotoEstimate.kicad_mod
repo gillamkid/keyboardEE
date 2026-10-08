@@ -142,4 +142,6 @@
 		(uuid "13187995-4549-49f3-bfc8-1aadc8be0b4f")
 	)
 	(embedded_fonts no)
+
+(model "${KIPRJMOD}/3dmodels/EasyEDA/OSC-SMD_L3.2-W1.5-H0.8_C70509_EasyEDA.step" (offset (xyz 0.0 0.0 0.0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0.0)))
 )

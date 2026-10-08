@@ -177,15 +177,5 @@
 		(uuid "f13b02ea-73b4-47f1-9bd9-4fcf00b8cf4f")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
+	(model "${KIPRJMOD}/3dmodels/EasyEDA/SC-74A-5_L2.9-W1.5-H1.1-LS2.8-P0.98_C546430_EasyEDA.step" (offset (xyz -0.008501 1.3e-05 0.049083)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0.0)))
 )

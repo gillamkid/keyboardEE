@@ -155,15 +155,5 @@
 		(uuid "eb9eca18-89d1-4406-9910-7c36f7ef4669")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1206_3216Metric.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
+	(model "${KIPRJMOD}/3dmodels/EasyEDA/F1206_L3.2-W1.7-H0.6_C43379_EasyEDA.step" (offset (xyz 0.0 0.0 0.0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0.0)))
 )

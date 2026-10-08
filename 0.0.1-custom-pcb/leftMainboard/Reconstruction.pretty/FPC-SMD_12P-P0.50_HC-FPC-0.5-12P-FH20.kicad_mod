@@ -235,7 +235,7 @@
 		(uuid "ae0e4f54-01fa-41f6-a64e-83ff1d614cce")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EasyEDA.3dshapes/FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20.wrl"
+	(model "${KIPRJMOD}/3dmodels/EasyEDA/FPC-SMD_12P-P0.50_HC-FPC-0.5-12P-FH20.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -155,15 +155,5 @@
 		(uuid "6a257042-c82e-4ffa-8411-4754cd08cb18")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
+	(model "${KIPRJMOD}/3dmodels/EasyEDA/L0402_L1.0-W0.5-H0.5_BEAD_C14182_EasyEDA.step" (offset (xyz 0.0 1.3e-05 0.25)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0.0)))
 )

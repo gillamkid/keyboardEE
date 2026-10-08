@@ -4197,17 +4197,7 @@
 			(uuid "8859ab5b-c953-46ad-8cc0-e51b8dd5b172")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/EasyEDA.3dshapes/FPC-SMD_14P-P0.50_HC-FPC-0.5-14P-FH20.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
+		(model "${KIPRJMOD}/EasyEDA.3dshapes/HC-FPC-0.5-14P-FH20_C19273929_EasyEDA.step" (offset (xyz -0.25 -1.375 1.02)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
 	)
 	(footprint "Mechanical:MountingHole_2.2mm_M2_4.4mmHead"
 		(layer "F.Cu")

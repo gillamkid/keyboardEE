@@ -1,0 +1,499 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-07T16:49:18-0600",
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [],
+    "source": "leftMainboard.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 11.2,
+                        "y": 25.0
+                    },
+                    "uuid": "12403488-7b25-4914-98ba-d20880cb1cc3"
+                },
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 15.6,
+                        "y": 22.8
+                    },
+                    "uuid": "b6e9c9a5-e2df-4536-83c7-cbb9c4ba30da"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R6",
+                    "pos": {
+                        "x": 10.9,
+                        "y": 23.3
+                    },
+                    "uuid": "335678e7-45d6-4bae-aa84-8cffdf7a009c"
+                },
+                {
+                    "description": "Footprint R5",
+                    "pos": {
+                        "x": 10.9,
+                        "y": 22.5
+                    },
+                    "uuid": "6caf8dc8-fe41-4500-a1d9-08c06a82287a"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R6",
+                    "pos": {
+                        "x": 10.9,
+                        "y": 23.3
+                    },
+                    "uuid": "335678e7-45d6-4bae-aa84-8cffdf7a009c"
+                },
+                {
+                    "description": "Footprint D4",
+                    "pos": {
+                        "x": 9.25,
+                        "y": 23.25
+                    },
+                    "uuid": "fff61c9d-92b6-4c45-bc09-bf78869df9e1"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint L1",
+                    "pos": {
+                        "x": 16.1,
+                        "y": 15.55
+                    },
+                    "uuid": "3f12072b-65f8-4dc4-a0e5-6260097c7dad"
+                },
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 21.2,
+                        "y": 16.4
+                    },
+                    "uuid": "bc45d03d-8d50-40c4-90a9-c2b1d7a4c5e7"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint L1",
+                    "pos": {
+                        "x": 16.1,
+                        "y": 15.55
+                    },
+                    "uuid": "3f12072b-65f8-4dc4-a0e5-6260097c7dad"
+                },
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 20.9,
+                        "y": 12.7
+                    },
+                    "uuid": "f850a6e9-565e-4a6b-8dec-dc0587f9c643"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R7",
+                    "pos": {
+                        "x": 10.9,
+                        "y": 21.0
+                    },
+                    "uuid": "63ec8194-8459-4066-ab04-9f4c82514d62"
+                },
+                {
+                    "description": "Footprint D4",
+                    "pos": {
+                        "x": 9.25,
+                        "y": 23.25
+                    },
+                    "uuid": "fff61c9d-92b6-4c45-bc09-bf78869df9e1"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint R5",
+                    "pos": {
+                        "x": 10.9,
+                        "y": 22.5
+                    },
+                    "uuid": "6caf8dc8-fe41-4500-a1d9-08c06a82287a"
+                },
+                {
+                    "description": "Footprint D4",
+                    "pos": {
+                        "x": 9.25,
+                        "y": 23.25
+                    },
+                    "uuid": "fff61c9d-92b6-4c45-bc09-bf78869df9e1"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 15.6,
+                        "y": 22.8
+                    },
+                    "uuid": "b6e9c9a5-e2df-4536-83c7-cbb9c4ba30da"
+                },
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 19.6,
+                        "y": 19.9
+                    },
+                    "uuid": "f7df2a16-6bec-4070-8e9d-683709ec3139"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 1.1000 mm",
+                    "pos": {
+                        "x": 8.6,
+                        "y": 27.4
+                    },
+                    "uuid": "84dbbe91-dc76-452a-8e77-4a3726dfc7b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.6,
+                        "y": 42.0
+                    },
+                    "uuid": "73d8fd4a-2225-48bc-a375-81365de506e5"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [R0] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 32.75,
+                        "y": 17.0
+                    },
+                    "uuid": "675a28ce-bffb-4ba5-996a-6472298dbb68"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [R1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 32.15,
+                        "y": 17.6
+                    },
+                    "uuid": "36d3757d-2ca5-4460-b087-3898d6936298"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [R4] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 30.35,
+                        "y": 19.4
+                    },
+                    "uuid": "4287e00c-8fd2-4fb2-806a-a3389ef7be00"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [R4] on B.Cu, length 50.9000 mm",
+                    "pos": {
+                        "x": 30.35,
+                        "y": 19.4
+                    },
+                    "uuid": "b597cc5f-2e70-4ed9-8a1d-6224c407cb94"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [R3] on B.Cu, length 51.5000 mm",
+                    "pos": {
+                        "x": 30.95,
+                        "y": 18.8
+                    },
+                    "uuid": "ace93361-ce00-4459-b622-ae9b9f6bfd70"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [C6] on B.Cu, length 49.4000 mm",
+                    "pos": {
+                        "x": 33.35,
+                        "y": 20.6
+                    },
+                    "uuid": "e1202c0a-f6bd-4f3c-8855-b16e0025ce08"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [R5] on B.Cu, length 50.3000 mm",
+                    "pos": {
+                        "x": 29.75,
+                        "y": 20.0
+                    },
+                    "uuid": "e0420bb4-08b6-4618-855d-26548c840fc3"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [C5] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 33.95,
+                        "y": 20.0
+                    },
+                    "uuid": "e0a19607-ade4-426a-9939-9403e83f9897"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [C5] on B.Cu, length 50.0000 mm",
+                    "pos": {
+                        "x": 33.95,
+                        "y": 20.0
+                    },
+                    "uuid": "e5e49087-861c-4890-93ff-3b53e36ce32d"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [C4] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 34.55,
+                        "y": 19.4
+                    },
+                    "uuid": "ed5b0fc4-b267-4155-92c9-6af515562994"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [C4] on B.Cu, length 38.1000 mm",
+                    "pos": {
+                        "x": 34.55,
+                        "y": 19.4
+                    },
+                    "uuid": "e58faf2f-42ce-49af-931f-0e6c2341ff8c"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [C3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 35.15,
+                        "y": 18.8
+                    },
+                    "uuid": "8568874f-1927-4c01-990a-83e2c2b79ec0"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [C3] on B.Cu, length 26.2000 mm",
+                    "pos": {
+                        "x": 35.15,
+                        "y": 18.8
+                    },
+                    "uuid": "cdc3911c-399f-4fff-925a-09ec85136efe"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [C2] on B.Cu, length 15.2000 mm",
+                    "pos": {
+                        "x": 35.75,
+                        "y": 18.2
+                    },
+                    "uuid": "d47d94dd-3ca1-480a-b58b-cbf5871f4cf5"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [C1] on F.Cu, length 0.2889 mm",
+                    "pos": {
+                        "x": 36.2541,
+                        "y": 27.7983
+                    },
+                    "uuid": "023aa329-45dc-4c85-8ae6-900dec236af9"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [C1] on F.Cu, length 5.2910 mm",
+                    "pos": {
+                        "x": 36.4584,
+                        "y": 26.8934
+                    },
+                    "uuid": "ae56bb33-72d1-493b-baf3-be2d7936a8de"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [C1] on B.Cu, length 15.8000 mm",
+                    "pos": {
+                        "x": 36.35,
+                        "y": 17.6
+                    },
+                    "uuid": "c1b16924-710f-48d4-a414-c842a4f7dba4"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [C0] on B.Cu, length 16.4000 mm",
+                    "pos": {
+                        "x": 36.95,
+                        "y": 17.0
+                    },
+                    "uuid": "21b2a239-ef76-453f-b7e8-0965e63b11ed"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        }
+    ]
+}

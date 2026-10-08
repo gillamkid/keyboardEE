@@ -247,15 +247,5 @@
 		(uuid "09cfd73f-8602-4610-a241-cfc6a67c0f20")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EasyEDA.3dshapes/FPC-SMD_14P-P0.50_HC-FPC-0.5-14P-FH20.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
+	(model "${KIPRJMOD}/3dmodels/EasyEDA/HC-FPC-0.5-14P-FH20_C19273929_EasyEDA.step" (offset (xyz -0.25 -1.375 1.02)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
 )

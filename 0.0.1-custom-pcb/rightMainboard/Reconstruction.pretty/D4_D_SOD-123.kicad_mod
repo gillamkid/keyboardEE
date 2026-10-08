@@ -256,15 +256,5 @@
 		(uuid "fdac1fb8-1221-4bd0-a972-d92a28d4c179")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
+	(model "${KIPRJMOD}/3dmodels/EasyEDA/SOD-123_L2.6-W1.7-LS3.5-RD_C82288_EasyEDA.step" (offset (xyz 0.0 0.0 0.16)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0.0)))
 )

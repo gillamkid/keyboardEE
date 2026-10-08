@@ -155,15 +155,5 @@
 		(uuid "7a2bafce-e2d9-43c5-9b71-e63f808e8d1c")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
+	(model "${KIPRJMOD}/3dmodels/EasyEDA/C0402_L1.0-W0.5-H0.5_C1525_EasyEDA.step" (offset (xyz 0.0 0.0 0.25)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0.0)))
 )

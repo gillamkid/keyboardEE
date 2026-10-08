@@ -1,0 +1,52 @@
+{
+  "project": "leftMainboard",
+  "date": "20261007-183932",
+  "components_checked": 60,
+  "models_updated": 52,
+  "models_retained": 8,
+  "global_libraries_modified": false,
+  "all_models_project_local": true,
+  "PCB_geometry_routing_and_electrical_data_unchanged": true,
+  "non_model_PCB_sha256": "e0bf21a4a63393e4e6f3a3205423cd699b6181411e619952d56b1a530f46f15f",
+  "schematic_and_BOM_changed": false,
+  "source": "JLCEDA/EasyEDA Official Library",
+  "source_homepages": [
+    "https://lceda.cn/",
+    "https://easyeda.com"
+  ],
+  "retained_references": {
+    "J7": [
+      "C19273929",
+      "Already uses exact component-linked detailed EasyEDA STEP model; no additional detail found."
+    ],
+    "J8": [
+      "C19273928",
+      "Existing detailed EasyEDA geometry matches the available 12-pin model; retained."
+    ],
+    "J9": [
+      "C19273928",
+      "Existing detailed EasyEDA geometry matches the available 12-pin model; retained."
+    ],
+    "J10": [
+      "C19273928",
+      "Existing detailed EasyEDA geometry matches the available 12-pin model; retained."
+    ],
+    "J3": [
+      "C41783877;C22390544",
+      "Searched 1.27mm dual-row 12-pin SMT header alternatives; candidates had no linked 3D model. Existing KiCad model has shaped contacts and housing; retained."
+    ],
+    "SW1": [
+      "C2848938;C2848951",
+      "Downloaded detailed PS-22F models, but their through-hole terminals, housing size and actuator arrangements do not match the estimated SMT footprint. Retained explicitly photo-estimated visualization."
+    ],
+    "SW2": [
+      "C10852;C51927153;C49023394",
+      "Checked 4x4 tactile candidates: detailed models use 4.8/5.2mm housings and different pad spans; closest other candidate has no linked 3D model. Retained photo-estimated visualization."
+    ],
+    "L1": [
+      "C20445049;C19424284;C2050573",
+      "Checked 33uH candidates: downloaded model is 6.7x6.7mm and 2.8mm high with different body/terminal form; other candidate unavailable. No confirmed match for estimated 6mm round-body inductor; retained photo-estimated visualization."
+    ]
+  },
+  "important_limit": "Generic/package models and source MPNs do not confirm original component identities or validate mechanical fit or circuit correctness."
+}

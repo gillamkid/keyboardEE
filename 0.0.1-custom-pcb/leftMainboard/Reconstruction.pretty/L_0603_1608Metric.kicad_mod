@@ -137,7 +137,7 @@
 		(uuid "a9459137-25b8-4ab0-8e03-16620abec9fe")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.step"
+	(model "${KIPRJMOD}/3dmodels/KiCad/Inductor_SMD.3dshapes/L_0603_1608Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

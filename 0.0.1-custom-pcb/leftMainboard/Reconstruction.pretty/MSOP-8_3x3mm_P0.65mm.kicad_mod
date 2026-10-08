@@ -289,7 +289,7 @@
 		(uuid "1470ed77-7c62-4af0-b7ef-dab59d1b7a9c")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-8_3x3mm_P0.65mm.step"
+	(model "${KIPRJMOD}/3dmodels/KiCad/Package_SO.3dshapes/MSOP-8_3x3mm_P0.65mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

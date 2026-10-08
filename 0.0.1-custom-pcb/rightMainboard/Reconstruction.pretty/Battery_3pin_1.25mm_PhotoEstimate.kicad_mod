@@ -163,4 +163,6 @@
 		(uuid "1c6a43b1-14e0-4418-a106-e8d405955751")
 	)
 	(embedded_fonts no)
+
+(model "${KIPRJMOD}/3dmodels/EasyEDA/CONN-TH_SM03B-GHS-TB-LF-SN_C514175_EasyEDA.step" (offset (xyz -1.246084 -4.2e-05 0.15)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 90.0)))
 )

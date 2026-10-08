@@ -198,15 +198,5 @@
 		(uuid "4fb1a881-ce97-4c85-bc5b-88255f9d0f5f")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-8_3x3mm_P0.65mm.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
+	(model "${KIPRJMOD}/3dmodels/EasyEDA/VSSOP-8_L3.0-W3.0-H1.1-LS4.9-P0.65_C113659_EasyEDA.step" (offset (xyz 1.3e-05 6.4e-05 0.149083)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0.0)))
 )
