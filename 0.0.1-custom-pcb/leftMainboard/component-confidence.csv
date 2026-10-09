@@ -9,11 +9,11 @@ J8,HC-FPC-0.5-12P-FH20,C19273928,"High (pinout), Medium (MPN)",Pinout copied fro
 J9,HC-FPC-0.5-12P-FH20,C19273928,"High (pinout), Medium (MPN)",Pinout copied from user breakout PCB; connector locations from photo; housing substitute,27.0,55.05,90.0,False
 J10,HC-FPC-0.5-12P-FH20,C19273928,"High (pinout), Medium (MPN)",Pinout copied from user breakout PCB; connector locations from photo; housing substitute,27.0,68.25,90.0,False
 J1,USB-C USB2 receptacle (footprint estimate),GCT USB4105-GF-A,Medium,"16 contacts, four shell anchors visible; connector mounted facing board side",4.2,6.15,-90.0,False
-J2,3-pin LiPo / NTC 1.25mm (estimate),JST GH / Molex PicoBlade 1.25mm family,Low (MPN and polarity),3-pin housing and three wires visible; pitch estimated from photo. Verify actual plug and polarity!,20.15,65.2,180.0,False
+J2,53398-0371,C293633 / 53398-0371,User-selected replacement; original part unconfirmed,User-selected C293633 replacement; Molex PicoBlade 53398-0371 vertical 3-pin 1.25 mm SMT; exact-part KiCad footprint and detailed EasyEDA model,20.15,65.2,180.0,False
 J3,GPIO / SWD 2x6 1.27mm,,High,Official MoErgo header schematic and GPIO mapping,21.95,3.5,90.0,False
 SW2,Reset tactile 4x4mm (estimate),4x4mm SMT tactile switch,Medium,Yellow tactile dome in photo beside module,42.45,9.75,0.0,False
 SW1,TK-6580A-1,C528770 / TK-6580A-1,User-selected replacement; original part unconfirmed,User-selected replacement; footprint and models from JLCEDA/EasyEDA Official Library; pin function checked against manufacturer drawing,4.8,19.4,0.0,False
-U1,Boost controller MSOP8 (unidentified),TPS61085-class MSOP8 boost; NOT confirmed pin-compatible,Low,"Marking looks MXCEA/M1CEA, unreadable ID. Guessed functional pinout; not an identified replacement",21.2,16.4,-90.0,False
+U1,SY7088DGC,C178240 / SY7088DGC,High: marking and body size match; selected replacement,User-reported VTGEA marking and approximately 2.1x3 mm body match Silergy VTxyz marking and DFN2x3-8; selected C178240; pinout checked against manufacturer datasheet,21.2,16.4,-90.0,False
 U2,TP4056-42-ESOP8,,"High (family), Medium (variant)",TP4056 marking visible; exposed pad visible in sanded board. Exact suffix unconfirmed,15.6,22.8,180.0,False
 U3,PRTR5V0U2X,,High,WR1 marking and four-lead SOT143 match manufacturer %R1 code,10.7,5.6,90.0,False
 U5,74CBTLV1G125GV (probable b25 marking),74CBTLV1G125GV; surrounding topology unverified,"Medium (marking), Low (circuit)",b25 marking matches Nexperia bus switch; uses 2.4V rail. Exact surrounding LED translation circuit unresolved.,20.6,32.4,180.0,False

@@ -1,0 +1,71 @@
+{
+  "part": "C178240",
+  "mpn": "SY7088DGC",
+  "project": "/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard",
+  "backup": "/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-U1-C178240-20261008-174243.zip",
+  "model_uuid": "8b668c87635a4eb1a2b9b0749b2a08a1",
+  "footprint": "DFN8_SY7088DGC_2x3mm_C178240",
+  "model": "${KIPRJMOD}/3dmodels/EasyEDA/SY7088DGC_C178240_EasyEDA.step",
+  "placement_mm": [
+    68.8875,
+    66.425,
+    -90
+  ],
+  "pad_nets": {
+    "1": [
+      48,
+      "BOOST_SW"
+    ],
+    "2": [
+      48,
+      "BOOST_SW"
+    ],
+    "3": [
+      3,
+      "LED_ENABLE"
+    ],
+    "4": [
+      1,
+      "GND"
+    ],
+    "5": [
+      47,
+      "BOOST_FB"
+    ],
+    "6": [
+      15,
+      "VDDH"
+    ],
+    "7": [
+      35,
+      "VDD"
+    ],
+    "8": [
+      35,
+      "VDD"
+    ],
+    "9": [
+      1,
+      "GND"
+    ]
+  },
+  "schematic_pin_remap": {
+    "1": "2",
+    "2": "5",
+    "3": "3",
+    "4": "4",
+    "5": "1",
+    "6": "6",
+    "7": "7",
+    "8": "8"
+  },
+  "validation": "All non-U1 PCB objects preserved exactly. Tracks, vias, zones, and photos unchanged.",
+  "routing": "User explicitly requested placement without fixing traces; rerouting is outstanding.",
+  "schematic_power_flags": "Added virtual flags on externally supplied VDDH and GND, for the actual IC power-input pin types; no PCB objects affected.",
+  "checks": {
+    "PCB": "All non-U1 PCB objects exactly match backup, including every trace, via, zone and photo.",
+    "netlist": "Nine U1 pads match manufacturer pin functions and schematic connections; other existing component nets unchanged.",
+    "ERC": "No errors; two existing dangling global-label warnings (IN40 and CHARGE_DONE).",
+    "3D": "Local native STEP and colored VRML; native KiCad render visually checked."
+  }
+}
