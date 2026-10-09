@@ -1,0 +1,28 @@
+{
+  "project": "leftMainboard",
+  "component": "L1",
+  "marking": "1R8",
+  "rotation_change_deg_counterclockwise": 90,
+  "font": "DejaVu Sans regular",
+  "text_length_mm": 3.735,
+  "glyph_height_mm": 1.98,
+  "ink": "dark",
+  "model_files": [
+    "3dmodels/EasyEDA/XRCD54_5.8x5.2x4.5mm_C5339378_EasyEDA.step",
+    "3dmodels/EasyEDA/XRCD54_5.8x5.2x4.5mm_C5339378_EasyEDA.wrl"
+  ],
+  "model_sha256": {
+    "step": "a986a75bdafa288067664df8755890ce153e8358c1c46eaacdbbf26d6e2b9f17",
+    "wrl": "06076d28f6e7ee9fcb515f78eb816bad509dc1238987974e320ca6ef9cc695ed"
+  },
+  "backup": "leftMainboard-backups/before-L1-1R8-smaller-20261009-084437.zip",
+  "verified": {
+    "CAD_body_valid": true,
+    "CAD_marking_valid": true,
+    "STEP_render_inspected": true,
+    "VRML_render_inspected": true,
+    "board_and_schematic_bytes_unchanged": true
+  },
+  "stretch_reference": "Characters read upright, before the existing 90-degree rotation",
+  "scale_relative_to_previous": 0.9
+}
