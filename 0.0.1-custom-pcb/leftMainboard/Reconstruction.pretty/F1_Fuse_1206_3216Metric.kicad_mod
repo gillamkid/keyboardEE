@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "500mA resettable fuse (guess)"
+	(property "Value" "MF-NSMF150-2"
 		(at 0 1.83 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mf-nsmf.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Bourns MF-NSMF150-2 resettable PPTC fuse; 1.5A hold, 3A trip, 6V; 1206 package; marking 8"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -52,7 +52,7 @@
 			)
 		)
 	)
-	(property "Confidence" "Medium (function), Low (rating)"
+	(property "Confidence" "User selected"
 		(at 0 0 270)
 		(layer "F.Fab")
 		(hide yes)
@@ -64,7 +64,7 @@
 			)
 		)
 	)
-	(property "Evidence" "Gold B-marked rectangular part is likely PPTC USB protection"
+	(property "Evidence" "Selected by user from the 8 marking and measured 3.4 x 1.8 mm package"
 		(at 0 0 270)
 		(layer "F.Fab")
 		(hide yes)
@@ -76,7 +76,7 @@
 			)
 		)
 	)
-	(property "Candidate part" ""
+	(property "MPN" "MF-NSMF150-2"
 		(at 0 0 270)
 		(layer "F.Fab")
 		(hide yes)
@@ -156,4 +156,10 @@
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dmodels/EasyEDA/F1206_L3.2-W1.7-H0.6_C43379_EasyEDA.step" (offset (xyz 0.0 0.0 0.0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0.0)))
+
+(property "Manufacturer" "Bourns" (at 0 0 0) (layer "F.Fab") (hide yes) (effects (font (size 1 1) (thickness 0.15))))
+
+(property "LCSC" "C89655" (at 0 0 0) (layer "F.Fab") (hide yes) (effects (font (size 1 1) (thickness 0.15))))
+
+(property "LCSC Part" "C89655" (at 0 0 0) (layer "F.Fab") (hide yes) (effects (font (size 1 1) (thickness 0.15))))
 )

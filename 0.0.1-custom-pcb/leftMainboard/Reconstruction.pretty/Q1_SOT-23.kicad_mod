@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "BSS138 (guess)"
+	(property "Value" "BSS138 N-channel"
 		(at 0 2.4 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C7420339.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -40,7 +40,19 @@
 			)
 		)
 	)
-	(property "Description" ""
+(property "LCSC" "C7420339"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "307df6d5-78ee-411e-aa7e-0e046693a4c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "R+O BSS138 N-channel MOSFET; selected LCSC C7420339; pins 1 G, 2 S, 3 D"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -52,7 +64,7 @@
 			)
 		)
 	)
-	(property "Confidence" "Low"
+	(property "Confidence" "Medium"
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
@@ -64,7 +76,7 @@
 			)
 		)
 	)
-	(property "Evidence" "3-lead packages; faint SS/G marking; polarity and part number unconfirmed"
+	(property "Evidence" "User measured body about 3x1.3 mm, marking SS; diode-mode display 414 (about 0.414 V), pins 1/2 shorted, red 2 black 3; supports N-channel; reverse reading and isolated-device test not reported; exact MPN unconfirmed"
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
@@ -163,5 +175,5 @@
 		(uuid "22926e89-f5f7-45bd-940d-4eded49d807f")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/EasyEDA/SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95_C75547_EasyEDA.step" (offset (xyz 0 0 0.0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 90.0)))
+	(model "${KIPRJMOD}/3dmodels/EasyEDA/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95_C7420339_EasyEDA.step" (offset (xyz 0 0 -0.050795)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
 )

@@ -1,0 +1,42 @@
+{
+  "part": "F1",
+  "ordering_part": "C89655",
+  "marking": "Squared 8 with underline",
+  "marking_bbox_mm": [
+    -0.3800001000000002,
+    -0.4200001000000002,
+    0.5799998999999998,
+    0.2600001000000002,
+    0.48000010000000015,
+    0.5940001000000003
+  ],
+  "body_bbox_mm": [
+    -1.6002518333646716,
+    -0.8502518333646715,
+    -0.00025183336467145663,
+    1.6002518333646716,
+    0.8502518333646715,
+    0.6002518333646715
+  ],
+  "dot_present": false,
+  "colors_sRGB": {
+    "terminals_and_marking": "#A4824D",
+    "body": "#535952",
+    "sides": "#634A43",
+    "edge_layers": "#A77358",
+    "dot": null
+  },
+  "valid_geometry": true,
+  "body_faces_before": 318,
+  "body_faces_after": 100,
+  "gray_center_width_mm": 1.66,
+  "objects": 9,
+  "date": "20261009-152905",
+  "backup": "/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-F1-custom-model-20261009-152905.zip",
+  "pcb_schematic_and_footprints_byte_unchanged": true,
+  "step_and_vrml_rendered_and_visually_checked": true,
+  "sha256": {
+    "3dmodels/EasyEDA/F1206_L3.2-W1.7-H0.6_C43379_EasyEDA.step": "6f2c915b0bb52a92d847bc9bee154e0c80987bc41d4010ca9364bb514466aa73",
+    "3dmodels/EasyEDA/F1206_L3.2-W1.7-H0.6_C43379_EasyEDA.wrl": "83ae20ce19f860acaea2c44011858f25fcb3fac9290e3170c01ca6a9b61d8f75"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "stamp": "20261009-121635",
+  "filename": "SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95_C7420339_EasyEDA",
+  "model": "${KIPRJMOD}/3dmodels/EasyEDA/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95_C7420339_EasyEDA.step",
+  "metadata": {
+    "part": "C7420339",
+    "title": "BSS138_C7420339",
+    "name": "SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95",
+    "uuid": "d777607a152f4f3aac9bb0d0c14ed6fd",
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 180.0
+    },
+    "translation": {
+      "x": 1.2699999967891173e-05,
+      "y": -1.270000002562277e-05,
+      "z": 0.0
+    },
+    "bbox": [
+      [
+        -1.25279,
+        1.25279
+      ],
+      [
+        -1.45,
+        1.45
+      ],
+      [
+        0.050795,
+        1.1
+      ]
+    ],
+    "STEP_bytes": 2773949
+  },
+  "counts": {
+    "leftMainboard.kicad_pcb": 2,
+    "Controller.kicad_sch": 2,
+    "PowerAndUSB.kicad_sch": 2,
+    "Reconstruction.kicad_sym": 2,
+    "Reconstruction.pretty/Q1_SOT-23.kicad_mod": 1,
+    "Reconstruction.pretty/Q3_SOT-23.kicad_mod": 1
+  },
+  "files": [
+    "leftMainboard.kicad_pcb",
+    "Controller.kicad_sch",
+    "PowerAndUSB.kicad_sch",
+    "Reconstruction.kicad_sym",
+    "Reconstruction.pretty/Q1_SOT-23.kicad_mod",
+    "Reconstruction.pretty/Q3_SOT-23.kicad_mod",
+    "component-confidence.csv",
+    "reconstruction.json",
+    "README.txt",
+    "3dmodels/README.txt",
+    "3dmodels/sources.json",
+    "review/3d-model-coverage.csv",
+    "review/easyeda-model-audit.csv"
+  ],
+  "stepurl": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/d777607a152f4f3aac9bb0d0c14ed6fd",
+  "sha256": "5a73368c37bcbd94e8f3ef10d521f3e60487eedc263dca72269d30003aa435e1",
+  "pcb_geometry_and_nets_preserved": true,
+  "pad_alignment_rms_mm": 0.062498008533580035,
+  "backup": "/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-Q1-Q3-C7420339-model-20261009-121635.zip",
+  "STEP_and_VRML_render_alignment_verified": true,
+  "refs": [
+    "Q1",
+    "Q3"
+  ],
+  "routing_and_placement_unchanged": true,
+  "validation": {
+    "ERC_errors": 0,
+    "ERC_existing_warnings": 2,
+    "schematic_net_pin_connections_unchanged": true
+  },
+  "custom_marking": "S S",
+  "custom_marking_audit": "review/Q1-Q3-C7420339-SS-marking.json"
+}

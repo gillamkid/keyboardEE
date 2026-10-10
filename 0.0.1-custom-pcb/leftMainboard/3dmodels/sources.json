@@ -21,7 +21,11 @@
   "Connector_JST.3dshapes/JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal.step": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/8d4070daa0fa3f7a7f3c176f4ca7bffc4df392be/Connector_JST.3dshapes/JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal.step",
   "Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/8d4070daa0fa3f7a7f3c176f4ca7bffc4df392be/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step",
   "EasyEDA/HC-FPC-0.5-14P-FH20_C19273929_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/93a531ee7c4948b48f4bb060f02c7727",
-  "EasyEDA/COMM-SMD_MDBT50Q-1MV2_C5119772_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/883dbb19241645b4936208aa67b2992f",
+  "EasyEDA/COMM-SMD_MDBT50Q-1MV2_C5119772_EasyEDA.step": {
+    "source": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/883dbb19241645b4936208aa67b2992f",
+    "modified": "Antenna trace darkened to #806600; blue PCB #005580 and grey shield #808080 retained. Raytac label rotated 90 degrees clockwise with 0.85 mm line pitch and anchored 0.70 mm from the physical top and right shield edges. Module contacts and package geometry unchanged.",
+    "date": "20261009-133555"
+  },
   "EasyEDA/TYPE-C-SMD_SBC-160S1A-20-S412_C3020560_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/b568c80088e44e7787ac98e18b16aaa3",
   "EasyEDA/CONN-TH_SM03B-GHS-TB-LF-SN_C514175_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/ba81ba49d02c4afc8b60ad6f6ca61812",
   "EasyEDA/VSSOP-8_L3.0-W3.0-H1.1-LS4.9-P0.65_C113659_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/745f4a63f92f44b78c4ba3925feaa542",
@@ -34,7 +38,12 @@
   "EasyEDA/SOD-123_L2.6-W1.7-LS3.5-RD_C82288_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/46d0d6a9f1554021bcac5f0d7e2cba9d",
   "EasyEDA/LED0603-RD_C72043_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/3c2caa1a3e7d4a5a87f46b87d898ef41",
   "EasyEDA/OSC-SMD_L3.2-W1.5-H0.8_C70509_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/b374b09d4a6d4557b2ff8af51e7e333f",
-  "EasyEDA/F1206_L3.2-W1.7-H0.6_C43379_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/7dbd95a5ee9a45949b72cb8147e267ff",
+  "EasyEDA/F1206_L3.2-W1.7-H0.6_C43379_EasyEDA.step": {
+    "source": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/7dbd95a5ee9a45949b72cb8147e267ff",
+    "modified": "Custom F1 model for Bourns MF-NSMF150-2 (C89655), based on supplied product photo: darker bronze terminals and marking (#A4824D), narrower 1.66 mm charcoal center, squared 8 with underline, terminal dot removed at user request. EasyEDA lettering removed. Derived from the existing project-local 1206 model.",
+    "date": "20261009-152905",
+    "reference_image": "/tmp/codex-clipboard-3SiDY9.png"
+  },
   "EasyEDA/L0402_L1.0-W0.5-H0.5_BEAD_C14182_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/c498e8771bc24312a11c6413631665a8",
   "EasyEDA/L0603_L1.6-W0.8-H0.5_BEAD_C1035_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/a7f84688c5004aa68dbcbddc99bd5473",
   "EasyEDA/R0402_L1.0-W0.5-H0.4_C25744_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/026a4a15ab5c4a92ac0e421d6d013717",
@@ -48,5 +57,20 @@
   "EasyEDA/Molex_53398-0371_C293633_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/c08d1616c3c0494abcf70397badd0eef",
   "EasyEDA/Molex_53398-0371_C293633_EasyEDA.wrl": "OBJ-to-VRML conversion: https://modules.easyeda.com/3dmodel/c08d1616c3c0494abcf70397badd0eef",
   "EasyEDA/SY7088DGC_C178240_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/8b668c87635a4eb1a2b9b0749b2a08a1",
-  "EasyEDA/SY7088DGC_C178240_EasyEDA.wrl": "OBJ-to-VRML conversion: https://modules.easyeda.com/3dmodel/8b668c87635a4eb1a2b9b0749b2a08a1"
+  "EasyEDA/SY7088DGC_C178240_EasyEDA.wrl": "OBJ-to-VRML conversion: https://modules.easyeda.com/3dmodel/8b668c87635a4eb1a2b9b0749b2a08a1",
+  "EasyEDA/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95_C7420339_EasyEDA.step": {
+    "source": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/d777607a152f4f3aac9bb0d0c14ed6fd",
+    "modified": "Centered S S marking uses DejaVu Sans Regular, same as L1 1R8; reduced by 5% to 1.5675x0.57 mm. Original package lettering removed; body and terminals retained.",
+    "date": "20261009-123006"
+  },
+  "EasyEDA/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95_C7420339_EasyEDA.wrl": {
+    "source": "OBJ-to-VRML in native STEP coordinates: https://modules.easyeda.com/3dmodel/d777607a152f4f3aac9bb0d0c14ed6fd",
+    "modified": "Centered S S marking uses DejaVu Sans Regular, same as L1 1R8; reduced by 5% to 1.5675x0.57 mm. Original package lettering removed; body and terminals retained.",
+    "date": "20261009-123006"
+  },
+  "EasyEDA/COMM-SMD_MDBT50Q-1MV2_C5119772_EasyEDA.wrl": {
+    "source": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/883dbb19241645b4936208aa67b2992f",
+    "modified": "Antenna trace darkened to #806600; blue PCB #005580 and grey shield #808080 retained. Raytac label rotated 90 degrees clockwise with 0.85 mm line pitch and anchored 0.70 mm from the physical top and right shield edges. Module contacts and package geometry unchanged.",
+    "date": "20261009-133555"
+  }
 }

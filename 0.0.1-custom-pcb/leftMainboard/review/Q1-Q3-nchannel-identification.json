@@ -1,0 +1,43 @@
+{
+  "date": "20261009-115006",
+  "project": "leftMainboard",
+  "backup": "/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-Q1-Q3-nchannel-20261009-115006.zip",
+  "measurements_mV": {
+    "Q1": 414,
+    "Q3": 440
+  },
+  "value": "BSS138 N-channel (candidate)",
+  "candidate": "BSS138",
+  "pin_names": {
+    "1": "G",
+    "2": "S",
+    "3": "D"
+  },
+  "notes": "N-channel supported; exact MPN unconfirmed. Q2 untouched. Q3 source net unchanged and requires continuity verification.",
+  "pcb_non_identification_data_unchanged": true,
+  "edited_blocks": {
+    "leftMainboard.kicad_pcb": 2,
+    "Controller.kicad_sch": 2,
+    "PowerAndUSB.kicad_sch": 2,
+    "Reconstruction.kicad_sym": 2,
+    "Reconstruction.pretty/Q1_SOT-23.kicad_mod": 1,
+    "Reconstruction.pretty/Q3_SOT-23.kicad_mod": 1
+  },
+  "sha256": {
+    "leftMainboard.kicad_pcb": "02fc0704cec0a587112043e0a70ec3390f885ff2faa586ea1e395e719ce596ef",
+    "Controller.kicad_sch": "2aabc6c241386ab4f5695ff6d7e8b7cc8c2a299523a3e5720923e71f29472fa9",
+    "PowerAndUSB.kicad_sch": "af897b2744dba4591da52ad6a77283945ff57fbdbf722aadf8131fda7d891842",
+    "Reconstruction.kicad_sym": "9509d2dada39d75ae62df12a46d7e3fba0665f621cb602a9c11f52241d6cb629",
+    "Reconstruction.pretty/Q1_SOT-23.kicad_mod": "eb37367342fc38e29404e55d9fdc981f59a7a8435c0232d11a534ff977fdbf25",
+    "Reconstruction.pretty/Q3_SOT-23.kicad_mod": "9f012d3b17209bb75e842a6a6d76f8f64ee00091ab95657b5d309c1bf6cb965f",
+    "reconstruction.json": "aece843649dff90d88266717ac5ab10e7b3526975ce4a7bd29b6286f153ab16b",
+    "component-confidence.csv": "e6d2a679f4ce97e128fcec35536df385fc9bf2b427508c79985625c68967eb2b",
+    "README.txt": "d4015f32b4a6607ab49ce71d9245bed7cb3d906d29b516ed19a7b5ba0a0aaaf1"
+  },
+  "validation": {
+    "erc_errors": 0,
+    "erc_warnings": 2,
+    "erc_violations_unchanged": true,
+    "schematic_net_pin_connections_unchanged": true
+  }
+}

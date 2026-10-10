@@ -1,0 +1,19 @@
+{
+  "date": "20261009-141901",
+  "reference": "F1",
+  "manufacturer": "Bourns",
+  "mpn": "MF-NSMF150-2",
+  "lcsc": "C89655",
+  "selection": "User selected",
+  "backup": "/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-F1-C89655-20261009-141901.zip",
+  "hold_current_A": 1.5,
+  "trip_current_A": 3,
+  "maximum_voltage_V": 6,
+  "layout_connections_and_models_unchanged": true,
+  "edited_blocks": {
+    "leftMainboard.kicad_pcb": 1,
+    "PowerAndUSB.kicad_sch": 2,
+    "Reconstruction.kicad_sym": 1,
+    "Reconstruction.pretty/F1_Fuse_1206_3216Metric.kicad_mod": 1
+  }
+}

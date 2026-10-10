@@ -114,10 +114,12 @@ and LED-enable behavior must be checked. Do not order U1 based on this guess.
 U5: b25 marking suggests 74CBTLV1G125GV. That device is a 2.3--3.6 V bus switch;
 it is not a generic 5 V buffer. The draft uses VEXT_2V4 for its supply, but the
 photographed LED voltage-translation topology is unresolved.
-Q1/Q2/Q3: three-terminal devices; MOSFET/BJT type, polarity and pin function uncertain.
+Q1/Q3: N-channel MOSFETs supported by user diode measurements and SS marking;
+BSS138 remains a candidate, with exact manufacturer/MPN unconfirmed.
+Q2: three-terminal device; MOSFET/BJT type, polarity and pin function uncertain.
 D3/D4: likely Schottky diodes; BAT54WS and PMEG2010ER are estimates, not verified.
 D5: status LED package/colour/current rating inferred.
-F1: likely a USB resettable fuse; 500 mA is a placeholder estimate.
+F1: Bourns MF-NSMF150-2, LCSC C89655; 1.5 A hold, 3 A trip, 6 V, 1206 resettable fuse. Selected by user from the marking and measured package dimensions.
 Y1: likely a 32.768 kHz crystal; load capacitance and exact package unverified.
 L2/L3: ferrite/filter and 10 uH MCU power inductor estimates.
 Every resistor/capacitor value, rating and package is inferred. Even apparently
@@ -165,3 +167,9 @@ Removed Photo top copper (User.1) and Photo bottom copper (User.2) and their 687
 
 L1 REPLACEMENT 20261008-135743
 Left mainboard L1 now uses user-selected XRCD54-1R8M / LCSC C5339378, 1.8uH +/-20%, 4A, DCR 30mOhm max. This supersedes the former photo-estimated 33uH value. The schematic, PCB, local footprint and local symbol defaults have been updated; pin 1 remains VDDH and pin 2 BOOST_SW. Position is unchanged; the footprint angle is now 90 degrees to preserve the upper/lower net arrangement with EasyEDA native pad numbering. Source pad positions +/-2.33mm and sizes 3x5.5mm imported; body contour is F.Fab and a bounding courtyard enclosing pads has been added. Both STEP and colored VRML are stored inside this project; STEP is active. User explicitly requested leaving all tracks and vias unchanged, so connections/DRC are not repaired. Original part identification and suitability for unidentified U1 remain unverified.
+
+Q1/Q3 N-CHANNEL IDENTIFICATION 20261009-115006
+Q1 diode display 414 (~0.414 V), Q3 440 (~0.440 V), gate/source pins 1/2 shorted, red on source 2 and black on drain 3. Both bear SS and measure about 3x1.3 mm. Q3 is changed from a P-channel guess to a BSS138 N-channel candidate; Q1 identification is reinforced. Schematic pin names are G/S/D for 1/2/3. Exact manufacturer/MPN remains unconfirmed; no LCSC ordering number was assigned from these readings. Measurements were not reported as isolated-device tests and no reverse reading was supplied. Existing nets, routing, placement and models were preserved. Q3 source remains on the inferred VEXT_2V4 connection, which requires separate continuity verification against the original board; this part identification does not validate that connection.
+
+Q1/Q3 SELECTED PART AND MODEL 20261009-121635
+Both Q1 and Q3 now use user-selected LCSC C7420339, R+O BSS138. Component values are BSS138 N-channel with the candidate suffix removed. Schematic, PCB and local library LCSC fields match. Project-local EasyEDA STEP and VRML imported; native 3D model is shared with other SOT-23 parts and does not verify original manufacturer or circuit connectivity. Routing, pads and positions preserved.

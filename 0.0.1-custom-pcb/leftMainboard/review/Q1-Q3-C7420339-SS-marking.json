@@ -1,0 +1,50 @@
+{
+  "date": "20261009-123006",
+  "marking": "S S",
+  "references": [
+    "Q1",
+    "Q3"
+  ],
+  "part": "C7420339",
+  "backup": "/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-Q1-Q3-SS-smaller-20261009-123006.zip",
+  "geometry": {
+    "marking": "S S",
+    "marking_bbox_mm": [
+      -0.28652811521246835,
+      -0.7852780994251972,
+      1.0984718471064523,
+      0.28652811521246835,
+      0.7852780994251971,
+      1.111528152893548
+    ],
+    "body_bbox_mm": [
+      -1.25329719198395,
+      -1.4504825735367837,
+      0.05031242919026527,
+      1.2532971919839497,
+      1.4504825735367828,
+      1.1004825735367834
+    ],
+    "body_faces_before": 598,
+    "body_faces_after": 255,
+    "preserved_face_color_counts": {
+      "(0.0513, 0.0513, 0.0513)": 45,
+      "(1.0, 1.0, 1.0)": 57,
+      "(0.552, 0.552, 0.552)": 153
+    },
+    "body_valid": true,
+    "marking_valid": true
+  },
+  "nominal_text_dimensions_mm": [
+    1.5675,
+    0.57
+  ],
+  "STEP_and_VRML_visually_verified": true,
+  "project_and_footprint_files_byte_unchanged": true,
+  "model_sha256": {
+    "3dmodels/EasyEDA/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95_C7420339_EasyEDA.step": "5a73368c37bcbd94e8f3ef10d521f3e60487eedc263dca72269d30003aa435e1",
+    "3dmodels/EasyEDA/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95_C7420339_EasyEDA.wrl": "8203103a2e64b14661111804d9e4c1eb2959fd2491e0d21b4e453c86812168b4"
+  },
+  "font": "DejaVu Sans Regular; same font file as L1 1R8",
+  "scale_relative_to_previous": 0.95
+}

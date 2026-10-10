@@ -1,0 +1,72 @@
+{
+  "date": "20261009-133555",
+  "project": "leftMainboard",
+  "reference": "U4",
+  "backup": "/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-U4-Raytac-dark-trace-top-right-20261009-133555.zip",
+  "geometry": {
+    "marking": [
+      "Raytac Corporation",
+      "FCC ID: SH6MDBT50Q",
+      "IC: 8017A-MDBT50Q",
+      "CMIIT ID: 2018DJ5128",
+      "Model No.: MDBT50Q"
+    ],
+    "font": "DejaVu Sans Regular",
+    "font_scale": 0.671644664427016,
+    "label_width_mm": 7.2988886360318945,
+    "antenna_sRGB": "#005580",
+    "shield_sRGB": "#808080",
+    "label_rotation_degrees": -90,
+    "line_pitch_mm": 0.85,
+    "top_edge_inset_mm": 0.7,
+    "right_edge_inset_mm": 0.7,
+    "antenna_trace_sRGB": "#806600",
+    "marking_bbox_mm": [
+      -0.38464600207344884,
+      -4.460098709305826,
+      1.988789892397137,
+      3.6612100076028615,
+      2.861210007602863,
+      2.021210107602863
+    ],
+    "body_bbox_mm": [
+      -5.250993532438096,
+      -7.750993532438096,
+      -0.02099353243809645,
+      5.250993532438099,
+      7.750993532438097,
+      2.0008935324380963
+    ],
+    "body_faces_before": 606,
+    "body_faces_after": 382,
+    "preserved_face_color_counts": {
+      "(0.2159, 0.2159, 0.2159)": 3,
+      "(0.0, 0.09084171118340768, 0.21586050011389926)": 6,
+      "(0.21586050011389926, 0.21586050011389926, 0.21586050011389926)": 17,
+      "(1.0, 1.0, 0.0)": 305,
+      "(0.21586050011389926, 0.13286832155381798, 0.0)": 51
+    },
+    "body_valid": true,
+    "marking_valid": true
+  },
+  "label": [
+    "Raytac Corporation",
+    "FCC ID: SH6MDBT50Q",
+    "IC: 8017A-MDBT50Q",
+    "CMIIT ID: 2018DJ5128",
+    "Model No.: MDBT50Q"
+  ],
+  "antenna_PCB_sRGB": "#005580",
+  "shield_sRGB": "#808080",
+  "STEP_and_VRML_visually_verified": true,
+  "project_and_footprint_files_byte_unchanged": true,
+  "model_sha256": {
+    "3dmodels/EasyEDA/COMM-SMD_MDBT50Q-1MV2_C5119772_EasyEDA.step": "ad1b748cf4efeaf1f9b7079fecb95fbe938a5babfc7299b543a576b65ddb7ea1",
+    "3dmodels/EasyEDA/COMM-SMD_MDBT50Q-1MV2_C5119772_EasyEDA.wrl": "cc5b9b04fb9cbc5dc614a2506b05713edfdc706eaf287e3d91bde39ef4f8719e"
+  },
+  "label_rotation_degrees": -90,
+  "line_pitch_mm": 0.85,
+  "top_edge_inset_mm": 0.7,
+  "antenna_trace_sRGB": "#806600",
+  "right_edge_inset_mm": 0.7
+}

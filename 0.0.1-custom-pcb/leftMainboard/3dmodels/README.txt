@@ -39,3 +39,33 @@ L1 marking updated 20261009-083307: changed the 1R8 font from regular to ExtraLi
 L1 marking updated 20261009-084100: restored the approved regular-weight DejaVu Sans font, undoing ExtraLight. Stretched character height when read upright from 1.85 to 2.20 mm (about 19%) without changing the 4.15 mm text width. Existing 90-degree counterclockwise orientation and dark ink retained. Both STEP and VRML verified in KiCad renders. Backup: leftMainboard-backups/before-L1-1R8-taller-20261009-084100.zip.
 
 L1 marking updated 20261009-084437: reduced the 1R8 lettering by 10% in both planar dimensions: upright text width 3.735 mm and character height 1.98 mm. Font weight, aspect ratio, dark ink, centering and rotation retained. STEP and VRML renders verified. Backup: leftMainboard-backups/before-L1-1R8-smaller-20261009-084437.zip.
+
+Q1/Q3 model update 20261009-121635: selected C7420339 / R+O BSS138. Source: JLCEDA/EasyEDA Official Library, https://lceda.cn/ and https://easyeda.com. UUID d777607a152f4f3aac9bb0d0c14ed6fd. Local STEP SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95_C7420339_EasyEDA.step and colored VRML SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95_C7420339_EasyEDA.wrl. VRML shares native STEP coordinate system. Both Q1/Q3 use scale 1, rotation 0, offset (0,0,-0.050795) mm. Q3 previous C15127 package has identical geometry; Q1 previous package model is replaced. Footprint geometry and routing remain unchanged.
+
+Q1/Q3 custom marking 20261009-122546: removed the EasyEDA top logo, SOT-23-3P lettering and the dot so the only top marking is centered S S. Regular DejaVu Sans, light grey ink, upright marking dimensions 1.65x0.60 mm, aligned along the long housing axis. Both local C7420339 STEP/VRML are customized derivatives of JLCEDA/EasyEDA Official Library geometry (https://lceda.cn/ and https://easyeda.com), superseding native-source byte identity. Outer molded housing, chamfers, terminals, seating plane and model transforms retained. STEP/VRML rendered and inspected in KiCad; CAD validity checks passed. Backup leftMainboard-backups/before-Q1-Q3-SS-marking-20261009-122546.zip.
+
+Q1/Q3 S S marking resized 20261009-123006: DejaVu Sans Regular, using the same font file as the L1 1R8 marking (the S S model already used this font). Reduced planar dimensions by 5%, from 1.65x0.60 to 1.5675x0.57 mm. Centering, rotation, font weight, light grey color and package preserved. Both STEP and VRML validated and visually inspected in KiCad. Backup leftMainboard-backups/before-Q1-Q3-SS-smaller-20261009-123006.zip.
+
+U4 Raytac model customized 20261009-132540: project-local COMM-SMD_MDBT50Q-1MV2_C5119772_EasyEDA.step and .wrl. Antenna PCB changed from green to sRGB #006699; metal antenna traces/contacts preserved. Shield changed from near-white to grey #808080. Raised EasyEDA top logo removed; five-line DejaVu Sans Regular dark label added, as requested:
+Raytac Corporation
+FCC ID: SH6MDBT50Q
+IC: 8017A-MDBT50Q
+CMIIT ID: 2018DJ5128
+Model No.: MDBT50Q
+Original package dimensions, chamfers, leads and model placement retained. Native STEP and VRML are customized derivatives of JLCEDA/EasyEDA Official Library (https://lceda.cn/ and https://easyeda.com), rather than byte-identical source copies. STEP/VRML renders inspected, CAD bodies valid. PCB/schematic/footprint files unchanged. Backup leftMainboard-backups/before-U4-Raytac-custom-model-20261009-132540.zip.
+
+U4 Raytac model style updated 20261009-133050: antenna PCB darkened from #006699 to #005580. Label rotated 90 degrees clockwise in top view; line pitch reduced from 1.30 to 0.85 mm (about 35%); rotated block is horizontally centered and its start is anchored 0.70 mm below the physical top edge of the shield. Text content, font size/weight and grey shield retained. STEP/VRML render alignment inspected; CAD valid. No PCB/schematic/footprint edits. Backup leftMainboard-backups/before-U4-Raytac-style-20261009-133050.zip.
+
+U4 Raytac model style updated 20261009-133555: Antenna trace darkened to #806600; blue PCB #005580 and grey shield #808080 retained. Raytac label rotated 90 degrees clockwise with 0.85 mm line pitch and anchored 0.70 mm from the physical top and right shield edges. Module contacts and package geometry unchanged. Only the 51 antenna copper faces were recolored; all 305 original yellow contact/underside faces remain unchanged. Both STEP and VRML render checks passed, CAD valid, and all PCB/schematic/footprint files preserved. Backup leftMainboard-backups/before-U4-Raytac-dark-trace-top-right-20261009-133555.zip.
+
+F1 custom appearance 20261009-142945
+Custom F1 model for Bourns MF-NSMF150-2 (C89655), based on supplied product photo: gold terminals, charcoal body, squared gold 8 with underline, dot on positive-X terminal toward positive Y. EasyEDA lettering removed. Derived from the existing project-local 1206 model.
+Source credit: JLCEDA/EasyEDA Official Library (https://lceda.cn/ and https://easyeda.com). Both STEP and VRML are customized derivatives. Backup: /home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-F1-custom-model-20261009-142945.zip
+
+F1 custom appearance 20261009-152544
+Custom F1 model for Bourns MF-NSMF150-2 (C89655), based on supplied product photo: darker bronze terminals and marking (#A4824D), narrower 1.86 mm charcoal center, squared 8 with underline, dot on positive-X terminal toward positive Y. EasyEDA lettering removed. Derived from the existing project-local 1206 model.
+Source credit: JLCEDA/EasyEDA Official Library (https://lceda.cn/ and https://easyeda.com). Both STEP and VRML are customized derivatives. Backup: /home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-F1-custom-model-20261009-152544.zip
+
+F1 custom appearance 20261009-152905
+Custom F1 model for Bourns MF-NSMF150-2 (C89655), based on supplied product photo: darker bronze terminals and marking (#A4824D), narrower 1.66 mm charcoal center, squared 8 with underline, terminal dot removed at user request. EasyEDA lettering removed. Derived from the existing project-local 1206 model.
+Source credit: JLCEDA/EasyEDA Official Library (https://lceda.cn/ and https://easyeda.com). Both STEP and VRML are customized derivatives. Backup: /home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-F1-custom-model-20261009-152905.zip

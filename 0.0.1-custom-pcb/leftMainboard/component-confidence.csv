@@ -17,9 +17,9 @@ U1,SY7088DGC,C178240 / SY7088DGC,High: marking and body size match; selected rep
 U2,TP4056-42-ESOP8,,"High (family), Medium (variant)",TP4056 marking visible; exposed pad visible in sanded board. Exact suffix unconfirmed,15.6,22.8,180.0,False
 U3,PRTR5V0U2X,,High,WR1 marking and four-lead SOT143 match manufacturer %R1 code,10.7,5.6,90.0,False
 U5,74CBTLV1G125GV (probable b25 marking),74CBTLV1G125GV; surrounding topology unverified,"Medium (marking), Low (circuit)",b25 marking matches Nexperia bus switch; uses 2.4V rail. Exact surrounding LED translation circuit unresolved.,20.6,32.4,180.0,False
-Q1,BSS138 (guess),BSS138,Low,3-lead packages; faint SS/G marking; polarity and part number unconfirmed,22.5,25.3,180.0,False
+Q1,BSS138 N-channel,BSS138; selected LCSC C7420339,Medium,"User measured body about 3x1.3 mm, marking SS; diode-mode display 414 (about 0.414 V), pins 1/2 shorted, red 2 black 3; supports N-channel; reverse reading and isolated-device test not reported; exact MPN unconfirmed",22.5,25.3,180.0,False
 Q2,P-channel MOSFET (guess),AO3401A / SI2301 family,Low,3-lead packages; faint SS/G marking; polarity and part number unconfirmed,10.45,17.9,180.0,False
-Q3,P-channel MOSFET (guess),AO3401A / SI2301 family,Low,3-lead packages; faint SS/G marking; polarity and part number unconfirmed,4.5,13.7,180.0,False
+Q3,BSS138 N-channel,BSS138; selected LCSC C7420339,Medium,"User measured body about 3x1.3 mm, marking SS; diode-mode display 440 (about 0.440 V), pins 1/2 shorted, red 2 black 3; supports N-channel; reverse reading and isolated-device test not reported; exact MPN unconfirmed",4.5,13.7,180.0,False
 R1,30.1k,,Low,0402 package estimated; resistance not readable,19.6,19.9,0.0,False
 R2,10k,,Low,0402 package estimated; resistance not readable,21.7,20.0,0.0,False
 R3,5.1k,,Medium (5.1k inferred),0402 package estimated; resistance not readable,9.4,2.0,90.0,False
@@ -76,4 +76,4 @@ Y1,32.768kHz (guess),,Medium,Metal can low-frequency crystal near module; markin
 D3,BAT54WS (guess),,Low,D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined,8.0,12.1,0.0,False
 D4,PMEG2010ER (guess),,Medium,D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined,9.25,23.25,90.0,False
 D5,Green status LED (guess),,Low,D4 marked L2L/G8; D3 marked 05B; D5 LED color/MPN not determined,1.15,13.3,90.0,False
-F1,500mA resettable fuse (guess),,"Medium (function), Low (rating)",Gold B-marked rectangular part is likely PPTC USB protection,10.7,10.35,90.0,False
+F1,MF-NSMF150-2,MF-NSMF150-2,User selected,Selected by user from the 8 marking and measured 3.4 x 1.8 mm package,10.7,10.35,90.0,False

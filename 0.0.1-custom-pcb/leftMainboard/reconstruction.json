@@ -654,7 +654,7 @@
     },
     {
       "reference": "Q1",
-      "value": "BSS138 (guess)",
+      "value": "BSS138 N-channel",
       "footprint": "Q1_SOT-23",
       "x": 22.5,
       "y": 25.3,
@@ -664,15 +664,22 @@
         "2": "GND",
         "3": "LED_OE_N"
       },
-      "confidence": "Low",
-      "evidence": "3-lead packages; faint SS/G marking; polarity and part number unconfirmed",
+      "confidence": "Medium",
+      "evidence": "User measured body about 3x1.3 mm, marking SS; diode-mode display 414 (about 0.414 V), pins 1/2 shorted, red 2 black 3; supports N-channel; reverse reading and isolated-device test not reported; exact MPN unconfirmed",
       "candidate": "BSS138",
       "dnp": false,
       "sheet": "Controller",
       "uuid": "8e78b173-5389-4b7f-8201-724ef1eae0c6",
-      "pinnames": {},
+      "pinnames": {
+        "1": "G",
+        "2": "S",
+        "3": "D"
+      },
       "symbol_name": "Q1_Q1_SOT-23",
-      "sheet_uuid": "2e843c11-c64d-453b-b36a-ba1514fd61ab"
+      "sheet_uuid": "2e843c11-c64d-453b-b36a-ba1514fd61ab",
+      "lcsc": "C7420339",
+      "manufacturer": "R+O",
+      "mpn": "BSS138"
     },
     {
       "reference": "Q2",
@@ -698,7 +705,7 @@
     },
     {
       "reference": "Q3",
-      "value": "P-channel MOSFET (guess)",
+      "value": "BSS138 N-channel",
       "footprint": "Q3_SOT-23",
       "x": 4.5,
       "y": 13.7,
@@ -708,15 +715,22 @@
         "2": "VEXT_2V4",
         "3": "REAR_LED_SUPPLY"
       },
-      "confidence": "Low",
-      "evidence": "3-lead packages; faint SS/G marking; polarity and part number unconfirmed",
-      "candidate": "AO3401A / SI2301 family",
+      "confidence": "Medium",
+      "evidence": "User measured body about 3x1.3 mm, marking SS; diode-mode display 440 (about 0.440 V), pins 1/2 shorted, red 2 black 3; supports N-channel; reverse reading and isolated-device test not reported; exact MPN unconfirmed",
+      "candidate": "BSS138",
       "dnp": false,
       "sheet": "PowerAndUSB",
       "uuid": "f5dbdc2a-ab8e-4038-bd2f-2b0f541aba7d",
-      "pinnames": {},
+      "pinnames": {
+        "1": "G",
+        "2": "S",
+        "3": "D"
+      },
       "symbol_name": "Q3_Q3_SOT-23",
-      "sheet_uuid": "3d4a4145-dfbf-4d53-839d-da2f670b524e"
+      "sheet_uuid": "3d4a4145-dfbf-4d53-839d-da2f670b524e",
+      "lcsc": "C7420339",
+      "manufacturer": "R+O",
+      "mpn": "BSS138"
     },
     {
       "reference": "R1",
@@ -1882,7 +1896,7 @@
     },
     {
       "reference": "F1",
-      "value": "500mA resettable fuse (guess)",
+      "value": "MF-NSMF150-2",
       "footprint": "F1_Fuse_1206_3216Metric",
       "x": 10.7,
       "y": 10.35,
@@ -1891,15 +1905,18 @@
         "1": "VBUS_USB",
         "2": "VBUS_FUSED"
       },
-      "confidence": "Medium (function), Low (rating)",
-      "evidence": "Gold B-marked rectangular part is likely PPTC USB protection",
-      "candidate": "",
+      "confidence": "User selected",
+      "evidence": "Selected by user from the 8 marking and measured 3.4 x 1.8 mm package",
       "dnp": false,
       "sheet": "PowerAndUSB",
       "uuid": "24e8d47e-dc5a-4949-b848-0465d88d2bf9",
       "pinnames": {},
       "symbol_name": "F1_F1_Fuse_1206_3216Metric",
-      "sheet_uuid": "3d4a4145-dfbf-4d53-839d-da2f670b524e"
+      "sheet_uuid": "3d4a4145-dfbf-4d53-839d-da2f670b524e",
+      "manufacturer": "Bourns",
+      "mpn": "MF-NSMF150-2",
+      "lcsc": "C89655",
+      "datasheet": "https://www.bourns.com/docs/product-datasheets/mf-nsmf.pdf"
     }
   ],
   "bus_info": [

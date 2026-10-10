@@ -1,0 +1,64 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-09T11:50:22-0600",
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "9.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/eac6e0a1-0901-4c4d-b0b4-c941afc6d33b",
+            "violations": [
+                {
+                    "description": "Global label not connected anywhere else in the schematic",
+                    "items": [
+                        {
+                            "description": "Global Label 'IN40'",
+                            "pos": {
+                                "x": 3.3782,
+                                "y": 0.5715
+                            },
+                            "uuid": "dedd84b4-b73e-4e6e-87cd-b8b5a3885b95"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "global_label_dangling"
+                },
+                {
+                    "description": "Global label not connected anywhere else in the schematic",
+                    "items": [
+                        {
+                            "description": "Global Label 'CHARGE_DONE'",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.5367
+                            },
+                            "uuid": "56e48e9c-ad2f-4cab-8809-c58ee3765a8b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "global_label_dangling"
+                }
+            ]
+        },
+        {
+            "path": "/Controller/",
+            "uuid_path": "/eac6e0a1-0901-4c4d-b0b4-c941afc6d33b/2e843c11-c64d-453b-b36a-ba1514fd61ab",
+            "violations": []
+        },
+        {
+            "path": "/KeyboardConnectors/",
+            "uuid_path": "/eac6e0a1-0901-4c4d-b0b4-c941afc6d33b/e07daa8d-abc0-4bac-bc0f-148a20de6467",
+            "violations": []
+        },
+        {
+            "path": "/PowerAndUSB/",
+            "uuid_path": "/eac6e0a1-0901-4c4d-b0b4-c941afc6d33b/3d4a4145-dfbf-4d53-839d-da2f670b524e",
+            "violations": []
+        }
+    ],
+    "source": "leftMainboard.kicad_sch"
+}
