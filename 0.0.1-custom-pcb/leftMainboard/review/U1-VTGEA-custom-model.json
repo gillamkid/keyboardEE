@@ -1,0 +1,46 @@
+{
+  "reference": "U1",
+  "marking": "VTGEA",
+  "font": "DejaVu Sans Regular",
+  "text_size_upright_mm": [
+    1.755,
+    0.324
+  ],
+  "text_bbox_mm": [
+    -0.8779010106357877,
+    -0.16240101988123895,
+    0.8095989372813289,
+    0.8779010106357877,
+    0.16240101988123892,
+    0.8184010627186712
+  ],
+  "text_rotation_clockwise_degrees": 0,
+  "pin_1_dot_native_mm": [
+    -0.7,
+    -1.2,
+    0.81
+  ],
+  "pin_1_dot_diameter_mm": 0.25,
+  "dot_position_verified_against_pad_1": true,
+  "old_dot_removed": true,
+  "body_bbox_mm": [
+    -1.0101172843340018,
+    -1.5001172843340014,
+    -0.00011728433400176587,
+    1.0101172843340018,
+    1.500117284334002,
+    0.8101172843340018
+  ],
+  "body_faces_before": 350,
+  "body_faces_after": 124,
+  "all_shapes_valid": true,
+  "top_original_lettering_removed": true,
+  "date": "20261009-222832",
+  "backup": "/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-U1-VTGEA-marking-20261009-222832.zip",
+  "PCB_schematic_and_footprints_byte_unchanged": true,
+  "step_and_vrml_rendered_and_visually_checked": true,
+  "sha256": {
+    "3dmodels/EasyEDA/SY7088DGC_C178240_EasyEDA.step": "e04495ea0457dd7abd93768c15247dcc84ace1cdee88a7aa5e0b6efe4d8272a4",
+    "3dmodels/EasyEDA/SY7088DGC_C178240_EasyEDA.wrl": "9f0ba1778aea225705473b14e20f83f8ef26350a611f86ac35795e99ca97b6a5"
+  }
+}

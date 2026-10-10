@@ -69,3 +69,31 @@ Source credit: JLCEDA/EasyEDA Official Library (https://lceda.cn/ and https://ea
 F1 custom appearance 20261009-152905
 Custom F1 model for Bourns MF-NSMF150-2 (C89655), based on supplied product photo: darker bronze terminals and marking (#A4824D), narrower 1.66 mm charcoal center, squared 8 with underline, terminal dot removed at user request. EasyEDA lettering removed. Derived from the existing project-local 1206 model.
 Source credit: JLCEDA/EasyEDA Official Library (https://lceda.cn/ and https://easyeda.com). Both STEP and VRML are customized derivatives. Backup: /home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-F1-custom-model-20261009-152905.zip
+
+U2 custom TP4056 marking 20261009-220904
+Custom model top marking: original ESOP8 and EasyEDA lettering removed, replaced with centered TP4056 in DejaVu Sans Regular; light-gray dot in the existing pin-1 recess. Package, leads, exposed pad, model transform and PCB footprint unchanged.
+Both STEP and VRML are customized derivatives of JLCEDA/EasyEDA Official Library (https://lceda.cn/ and https://easyeda.com). Backup: /home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-U2-TP4056-marking-20261009-220904.zip
+
+U2 custom TP4056 marking 20261009-221213
+Custom model top marking: original ESOP8 and EasyEDA lettering removed, replaced with TP4056 in DejaVu Sans Regular, rotated 90 degrees clockwise and anchored 0.25 mm from the flat top edges at text-upright top/left; light-gray dot in the existing pin-1 recess. Package, leads, exposed pad, model transform and PCB footprint unchanged.
+Both STEP and VRML are customized derivatives of JLCEDA/EasyEDA Official Library (https://lceda.cn/ and https://easyeda.com). Backup: /home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-U2-TP4056-marking-20261009-221213.zip
+
+U1 custom VTGEA marking 20261009-222217
+Custom U1 top marking: EasyEDA logo and original misplaced dot removed; centered VTGEA in DejaVu Sans Regular, rotated 90 degrees clockwise; light-gray pin-1 dot moved to native (-X,-Y), verified against footprint pad 1. Package outline, leads, exposed pad, model transform and PCB footprint unchanged.
+Both STEP and VRML are customized derivatives of JLCEDA/EasyEDA Official Library (https://lceda.cn/ and https://easyeda.com). Backup: /home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-U1-VTGEA-marking-20261009-222217.zip
+
+U1 custom VTGEA marking 20261009-222541
+Custom U1 top marking: EasyEDA logo and original misplaced dot removed; centered VTGEA in DejaVu Sans Regular, rotated 90 degrees counterclockwise from its previous position (now upright); light-gray pin-1 dot moved to native (-X,-Y), verified against footprint pad 1. Package outline, leads, exposed pad, model transform and PCB footprint unchanged.
+Both STEP and VRML are customized derivatives of JLCEDA/EasyEDA Official Library (https://lceda.cn/ and https://easyeda.com). Backup: /home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-U1-VTGEA-marking-20261009-222541.zip
+
+U2 custom TP4056 marking 20261009-222541
+Custom model top marking: original ESOP8 and EasyEDA lettering removed, replaced with TP4056 in DejaVu Sans Regular, rotated 90 degrees clockwise and anchored 0.40 mm from the flat top edges at text-upright top/left (shifted 0.15 mm down and right from prior position); light-gray dot in the existing pin-1 recess. Package, leads, exposed pad, model transform and PCB footprint unchanged.
+Both STEP and VRML are customized derivatives of JLCEDA/EasyEDA Official Library (https://lceda.cn/ and https://easyeda.com). Backup: /home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-U2-TP4056-marking-20261009-222541.zip
+
+U1 custom VTGEA marking 20261009-222832
+Custom U1 top marking: EasyEDA logo and original misplaced dot removed; centered VTGEA in DejaVu Sans Regular, reduced 10 percent to 1.755 x 0.324 mm, rotated 90 degrees counterclockwise from its previous position (now upright); light-gray pin-1 dot moved to native (-X,-Y), verified against footprint pad 1. Package outline, leads, exposed pad, model transform and PCB footprint unchanged.
+Both STEP and VRML are customized derivatives of JLCEDA/EasyEDA Official Library (https://lceda.cn/ and https://easyeda.com). Backup: /home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-U1-VTGEA-marking-20261009-222832.zip
+
+U2 custom TP4056 marking 20261009-222832
+Custom model top marking: original ESOP8 and EasyEDA lettering removed, replaced with TP4056 in DejaVu Sans Regular, rotated 90 degrees clockwise and anchored 0.60 mm from the flat top edges at text-upright top/left (shifted another 0.20 mm down and right; cumulative shift 0.35 mm on each axis); light-gray dot in the existing pin-1 recess. Package, leads, exposed pad, model transform and PCB footprint unchanged.
+Both STEP and VRML are customized derivatives of JLCEDA/EasyEDA Official Library (https://lceda.cn/ and https://easyeda.com). Backup: /home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-U2-TP4056-marking-20261009-222832.zip

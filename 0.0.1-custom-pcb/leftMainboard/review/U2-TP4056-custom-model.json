@@ -1,0 +1,55 @@
+{
+  "reference": "U2",
+  "marking": "TP4056",
+  "font": "DejaVu Sans Regular",
+  "text_size_mm": [
+    2.85,
+    0.58
+  ],
+  "text_bbox_mm": [
+    0.5308385021522445,
+    -1.2391614971094178,
+    1.5985384487836605,
+    1.1137614512163396,
+    1.6137614512163396,
+    1.6114615512163397
+  ],
+  "text_rotation_clockwise_degrees": 90,
+  "anchor": "Top and left from perspective of upright text; native +X and +Y edges",
+  "flat_top_edge_margin_mm": 0.6,
+  "total_text_shift_upright_mm": {
+    "right": 0.35,
+    "down": 0.35
+  },
+  "latest_text_shift_upright_mm": {
+    "right": 0.2,
+    "down": 0.2
+  },
+  "pin_1_dot_native_mm": [
+    -0.9604,
+    1.4604,
+    1.5502
+  ],
+  "pin_1_dot_diameter_mm": 0.4,
+  "dot_position_verified_against_pad_1": true,
+  "body_bbox_mm": [
+    -3.0535271738480136,
+    -2.4505515790335886,
+    -0.09997630687967479,
+    3.0535271738480136,
+    2.4505515790335886,
+    1.6005515790335885
+  ],
+  "body_faces_before": 822,
+  "body_faces_after": 521,
+  "all_shapes_valid": true,
+  "top_original_lettering_removed": true,
+  "date": "20261009-222832",
+  "backup": "/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-U2-TP4056-marking-20261009-222832.zip",
+  "PCB_schematic_and_footprints_byte_unchanged": true,
+  "step_and_vrml_rendered_and_visually_checked": true,
+  "sha256": {
+    "3dmodels/EasyEDA/ESOP-8_L4.9-W3.9-H1.6-LS6.0-P1.27_C16581_EasyEDA.step": "f70188131454258a773cb353dd8346c29a8b5d213a402e92cb815bcae5be9989",
+    "3dmodels/EasyEDA/ESOP-8_L4.9-W3.9-H1.6-LS6.0-P1.27_C16581_EasyEDA.wrl": "20296961277a5605e6c67475b0a7eb8dc9694310c1f86459b025eadcf5a358bb"
+  }
+}

@@ -29,7 +29,12 @@
   "EasyEDA/TYPE-C-SMD_SBC-160S1A-20-S412_C3020560_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/b568c80088e44e7787ac98e18b16aaa3",
   "EasyEDA/CONN-TH_SM03B-GHS-TB-LF-SN_C514175_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/ba81ba49d02c4afc8b60ad6f6ca61812",
   "EasyEDA/VSSOP-8_L3.0-W3.0-H1.1-LS4.9-P0.65_C113659_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/745f4a63f92f44b78c4ba3925feaa542",
-  "EasyEDA/ESOP-8_L4.9-W3.9-H1.6-LS6.0-P1.27_C16581_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/9e2b03dd4dce46a190ce3fa245369fb2",
+  "EasyEDA/ESOP-8_L4.9-W3.9-H1.6-LS6.0-P1.27_C16581_EasyEDA.step": {
+    "source": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/9e2b03dd4dce46a190ce3fa245369fb2",
+    "modified": "Custom model top marking: original ESOP8 and EasyEDA lettering removed, replaced with TP4056 in DejaVu Sans Regular, rotated 90 degrees clockwise and anchored 0.60 mm from the flat top edges at text-upright top/left (shifted another 0.20 mm down and right; cumulative shift 0.35 mm on each axis); light-gray dot in the existing pin-1 recess. Package, leads, exposed pad, model transform and PCB footprint unchanged.",
+    "date": "20261009-222832",
+    "source_credit": "JLCEDA/EasyEDA Official Library; https://lceda.cn/ ; https://easyeda.com"
+  },
   "EasyEDA/SOT-143-4P_L3.0-W1.3-H1.0-LS2.3-P1.70_C12333_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/499fe0b8a844428c9e2aff62131a11f8",
   "EasyEDA/SC-74A-5_L2.9-W1.5-H1.1-LS2.8-P0.98_C546430_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/de52ee41f1704af4a9ee75c4c80c4e82",
   "EasyEDA/SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95_C75547_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/cefd4596db214da394d9632b2b88f8f2",
@@ -56,8 +61,18 @@
   "EasyEDA/TK-6580A-1_C528770_EasyEDA.wrl": "OBJ-to-VRML conversion: https://modules.easyeda.com/3dmodel/b0bada8f8748472091d08ab2de7a970d",
   "EasyEDA/Molex_53398-0371_C293633_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/c08d1616c3c0494abcf70397badd0eef",
   "EasyEDA/Molex_53398-0371_C293633_EasyEDA.wrl": "OBJ-to-VRML conversion: https://modules.easyeda.com/3dmodel/c08d1616c3c0494abcf70397badd0eef",
-  "EasyEDA/SY7088DGC_C178240_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/8b668c87635a4eb1a2b9b0749b2a08a1",
-  "EasyEDA/SY7088DGC_C178240_EasyEDA.wrl": "OBJ-to-VRML conversion: https://modules.easyeda.com/3dmodel/8b668c87635a4eb1a2b9b0749b2a08a1",
+  "EasyEDA/SY7088DGC_C178240_EasyEDA.step": {
+    "source": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/8b668c87635a4eb1a2b9b0749b2a08a1",
+    "modified": "Custom U1 top marking: EasyEDA logo and original misplaced dot removed; centered VTGEA in DejaVu Sans Regular, reduced 10 percent to 1.755 x 0.324 mm, rotated 90 degrees counterclockwise from its previous position (now upright); light-gray pin-1 dot moved to native (-X,-Y), verified against footprint pad 1. Package outline, leads, exposed pad, model transform and PCB footprint unchanged.",
+    "date": "20261009-222832",
+    "source_credit": "JLCEDA/EasyEDA Official Library; https://lceda.cn/ ; https://easyeda.com"
+  },
+  "EasyEDA/SY7088DGC_C178240_EasyEDA.wrl": {
+    "source": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/8b668c87635a4eb1a2b9b0749b2a08a1",
+    "modified": "Custom U1 top marking: EasyEDA logo and original misplaced dot removed; centered VTGEA in DejaVu Sans Regular, reduced 10 percent to 1.755 x 0.324 mm, rotated 90 degrees counterclockwise from its previous position (now upright); light-gray pin-1 dot moved to native (-X,-Y), verified against footprint pad 1. Package outline, leads, exposed pad, model transform and PCB footprint unchanged.",
+    "date": "20261009-222832",
+    "source_credit": "JLCEDA/EasyEDA Official Library; https://lceda.cn/ ; https://easyeda.com"
+  },
   "EasyEDA/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95_C7420339_EasyEDA.step": {
     "source": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/d777607a152f4f3aac9bb0d0c14ed6fd",
     "modified": "Centered S S marking uses DejaVu Sans Regular, same as L1 1R8; reduced by 5% to 1.5675x0.57 mm. Original package lettering removed; body and terminals retained.",
@@ -72,5 +87,11 @@
     "source": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/883dbb19241645b4936208aa67b2992f",
     "modified": "Antenna trace darkened to #806600; blue PCB #005580 and grey shield #808080 retained. Raytac label rotated 90 degrees clockwise with 0.85 mm line pitch and anchored 0.70 mm from the physical top and right shield edges. Module contacts and package geometry unchanged.",
     "date": "20261009-133555"
+  },
+  "EasyEDA/ESOP-8_L4.9-W3.9-H1.6-LS6.0-P1.27_C16581_EasyEDA.wrl": {
+    "source": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/9e2b03dd4dce46a190ce3fa245369fb2",
+    "modified": "Custom model top marking: original ESOP8 and EasyEDA lettering removed, replaced with TP4056 in DejaVu Sans Regular, rotated 90 degrees clockwise and anchored 0.60 mm from the flat top edges at text-upright top/left (shifted another 0.20 mm down and right; cumulative shift 0.35 mm on each axis); light-gray dot in the existing pin-1 recess. Package, leads, exposed pad, model transform and PCB footprint unchanged.",
+    "date": "20261009-222832",
+    "source_credit": "JLCEDA/EasyEDA Official Library; https://lceda.cn/ ; https://easyeda.com"
   }
 }
