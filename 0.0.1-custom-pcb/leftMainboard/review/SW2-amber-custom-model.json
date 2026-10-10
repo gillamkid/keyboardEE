@@ -1,0 +1,43 @@
+{
+  "reference": "SW2",
+  "button_diameter_original_mm": 3.0,
+  "button_diameter_mm": 2.7,
+  "button_colour": "#946900",
+  "rectangle_colour": "#946900",
+  "rectangle_size_mm": [
+    1.2,
+    3.2
+  ],
+  "rectangle_orientation": "Vertical in the currently placed PCB top view; native X long axis",
+  "rectangle_edge_margin_mm": 0.25,
+  "body_and_terminals_geometry_unchanged": true,
+  "all_shapes_valid": true,
+  "body_bbox_mm": [
+    -1.8500000000000003,
+    -1.85,
+    0.0,
+    1.8500000000000003,
+    1.8500000000000008,
+    0.28000000000000025
+  ],
+  "button_bbox_mm": [
+    -1.3500001000000004,
+    -1.3500001000000001,
+    0.1999998999999993,
+    1.3500001000000001,
+    1.3500001000000001,
+    0.35000009999999965
+  ],
+  "rectangle_bbox_mm": [
+    -1.6,
+    -0.6,
+    0.2701,
+    1.6,
+    0.6,
+    0.2811
+  ],
+  "date": "20261010-135326",
+  "backup": "/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-SW2-amber-model-20261010-135326.zip",
+  "PCB_schematic_and_footprints_byte_unchanged": true,
+  "STEP_and_VRML_rendered_and_visually_checked": true
+}

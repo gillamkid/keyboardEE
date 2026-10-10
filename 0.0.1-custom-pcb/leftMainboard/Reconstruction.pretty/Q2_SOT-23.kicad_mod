@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "P-channel MOSFET (guess)"
+	(property "Value" "DMG2305UX"
 		(at 0 2.4 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C2940629.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "TECH PUBLIC DMG2305UX P-channel MOSFET, SOT-23, selected replacement C2940629"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -52,7 +52,7 @@
 			)
 		)
 	)
-	(property "Confidence" "Low"
+	(property "Confidence" "User-selected replacement; P-channel confirmed by user"
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
@@ -64,7 +64,7 @@
 			)
 		)
 	)
-	(property "Evidence" "3-lead packages; faint SS/G marking; polarity and part number unconfirmed"
+	(property "Evidence" "User confirmed P-channel by multimeter; reported 5PEY marking matches manufacturer 5Pxx marking format; user-selected C2940629"
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
@@ -76,7 +76,7 @@
 			)
 		)
 	)
-	(property "Candidate part" "AO3401A / SI2301 family"
+	(property "Candidate part" "C2940629 / DMG2305UX"
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
@@ -164,4 +164,53 @@
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dmodels/EasyEDA/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95_C15127_EasyEDA.step" (offset (xyz 0 0 -0.050795)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0.0)))
+
+(property "Manufacturer" "TECH PUBLIC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c84ed9b-6c21-483d-8e88-1f121b9de08b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+(property "MPN" "DMG2305UX"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a9bb93e-57a2-49cf-b16a-78c9af30bfbc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+(property "LCSC" "C2940629"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55f0dcec-13f5-4250-b3fa-82d2750d951f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+(property "LCSC Part" "C2940629"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "022b58be-0f9b-4d3d-9029-5a28e32d6fd6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 )

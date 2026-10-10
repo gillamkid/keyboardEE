@@ -38,7 +38,12 @@
   "EasyEDA/SOT-143-4P_L3.0-W1.3-H1.0-LS2.3-P1.70_C12333_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/499fe0b8a844428c9e2aff62131a11f8",
   "EasyEDA/SC-74A-5_L2.9-W1.5-H1.1-LS2.8-P0.98_C546430_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/de52ee41f1704af4a9ee75c4c80c4e82",
   "EasyEDA/SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95_C75547_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/cefd4596db214da394d9632b2b88f8f2",
-  "EasyEDA/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95_C15127_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/d777607a152f4f3aac9bb0d0c14ed6fd",
+  "EasyEDA/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95_C15127_EasyEDA.step": {
+    "source": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/d777607a152f4f3aac9bb0d0c14ed6fd",
+    "modified": "Custom Q2 model top: original EasyEDA logo, package text and pin-1 dot removed; 5PEY in DejaVu Sans Regular reduced 10 percent to 1.8 x 0.432 mm, rotated 180 degrees from previous marking (native -90 degrees), and anchored 0.20 mm from the right flat-top edge as read upright, with vertical centering retained. Existing SOT-23 package visualization retained for selected TECH PUBLIC DMG2305UX C2940629. Model transform, package outline, terminals, manually sized PCB pads, footprint, placement and routing unchanged.",
+    "date": "20261010-142521",
+    "source_credit": "JLCEDA/EasyEDA Official Library; https://lceda.cn/ ; https://easyeda.com"
+  },
   "EasyEDA/SOD-323_L1.8-W1.3-LS2.5-RD_C124205_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/7459fe65e23146c0a8d836e46a0add72",
   "EasyEDA/SOD-123_L2.6-W1.7-LS3.5-RD_C82288_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/46d0d6a9f1554021bcac5f0d7e2cba9d",
   "EasyEDA/LED0603-RD_C72043_EasyEDA.step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/3c2caa1a3e7d4a5a87f46b87d898ef41",
@@ -92,6 +97,24 @@
     "source": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/9e2b03dd4dce46a190ce3fa245369fb2",
     "modified": "Custom model top marking: original ESOP8 and EasyEDA lettering removed, replaced with TP4056 in DejaVu Sans Regular, rotated 90 degrees clockwise and anchored 0.60 mm from the flat top edges at text-upright top/left (shifted another 0.20 mm down and right; cumulative shift 0.35 mm on each axis); light-gray dot in the existing pin-1 recess. Package, leads, exposed pad, model transform and PCB footprint unchanged.",
     "date": "20261009-222832",
+    "source_credit": "JLCEDA/EasyEDA Official Library; https://lceda.cn/ ; https://easyeda.com"
+  },
+  "EasyEDA/TS3735A_250gf_030_C2906282_EasyEDA.step": {
+    "source": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/c36bae7e99004b83bd4fdc1d298f3360",
+    "modified": "Custom SW2 appearance based on supplied photograph: circular button reduced 10% from 3.0 to 2.7 mm, recoloured amber (#946900), with matching vertical amber rectangle 1.20 x 3.20 mm stopping 0.25 mm from body edges. Body, terminals, footprint, placement and routing unchanged.",
+    "date": "20261010-135326",
+    "source_credit": "JLCEDA/EasyEDA Official Library; https://lceda.cn/ ; https://easyeda.com"
+  },
+  "EasyEDA/TS3735A_250gf_030_C2906282_EasyEDA.wrl": {
+    "source": "https://modules.easyeda.com/3dmodel/c36bae7e99004b83bd4fdc1d298f3360",
+    "modified": "Custom SW2 appearance based on supplied photograph: circular button reduced 10% from 3.0 to 2.7 mm, recoloured amber (#946900), with matching vertical amber rectangle 1.20 x 3.20 mm stopping 0.25 mm from body edges. Body, terminals, footprint, placement and routing unchanged.",
+    "date": "20261010-135326",
+    "source_credit": "JLCEDA/EasyEDA Official Library; https://lceda.cn/ ; https://easyeda.com"
+  },
+  "EasyEDA/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95_C15127_EasyEDA.wrl": {
+    "source": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/d777607a152f4f3aac9bb0d0c14ed6fd",
+    "modified": "Custom Q2 model top: original EasyEDA logo, package text and pin-1 dot removed; 5PEY in DejaVu Sans Regular reduced 10 percent to 1.8 x 0.432 mm, rotated 180 degrees from previous marking (native -90 degrees), and anchored 0.20 mm from the right flat-top edge as read upright, with vertical centering retained. Existing SOT-23 package visualization retained for selected TECH PUBLIC DMG2305UX C2940629. Model transform, package outline, terminals, manually sized PCB pads, footprint, placement and routing unchanged.",
+    "date": "20261010-142521",
     "source_credit": "JLCEDA/EasyEDA Official Library; https://lceda.cn/ ; https://easyeda.com"
   }
 }

@@ -1,0 +1,39 @@
+{
+  "reference": "Q2",
+  "marking": "5PEY",
+  "font": "DejaVu Sans Regular",
+  "text_size_upright_mm": [
+    1.8,
+    0.432
+  ],
+  "text_bbox_mm": [
+    -0.21600004187018657,
+    -1.1290000000000002,
+    1.0999999,
+    0.2160000418701866,
+    0.6710001252099848,
+    1.1080001000000002
+  ],
+  "native_text_rotation_degrees": -90,
+  "rotation_from_previous_degrees": 180,
+  "anchor": "Right edge from perspective of upright text, native -Y, vertically centered",
+  "right_flat_top_edge_margin_mm": 0.2,
+  "old_dot_removed": true,
+  "top_original_lettering_removed": true,
+  "body_bbox_mm": [
+    -1.2528146184471667,
+    -1.4500001000000005,
+    0.05079500272704858,
+    1.2528146184471665,
+    1.4500000999999996,
+    1.1
+  ],
+  "body_faces_before": 598,
+  "body_faces_after": 255,
+  "all_shapes_valid": true,
+  "date": "20261010-142521",
+  "backup": "/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-Q2-5PEY-marking-20261010-142521.zip",
+  "PCB_schematic_and_footprints_byte_unchanged": true,
+  "manually_sized_pads_byte_unchanged": true,
+  "STEP_and_VRML_rendered_and_visually_checked": true
+}

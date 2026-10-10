@@ -116,7 +116,7 @@ it is not a generic 5 V buffer. The draft uses VEXT_2V4 for its supply, but the
 photographed LED voltage-translation topology is unresolved.
 Q1/Q3: N-channel MOSFETs supported by user diode measurements and SS marking;
 BSS138 remains a candidate, with exact manufacturer/MPN unconfirmed.
-Q2: three-terminal device; MOSFET/BJT type, polarity and pin function uncertain.
+Q2: user-selected TECH PUBLIC DMG2305UX, LCSC C2940629; P-channel confirmed by user multimeter test, 5PEY marking matches manufacturer 5Pxx format. Manually sized footprint pads retained.
 D3/D4: likely Schottky diodes; BAT54WS and PMEG2010ER are estimates, not verified.
 D5: status LED package/colour/current rating inferred.
 F1: Bourns MF-NSMF150-2, LCSC C89655; 1.5 A hold, 3 A trip, 6 V, 1206 resettable fuse. Selected by user from the marking and measured package dimensions.
@@ -125,7 +125,7 @@ L2/L3: ferrite/filter and 10 uH MCU power inductor estimates.
 Every resistor/capacitor value, rating and package is inferred. Even apparently
 standard 5.1k USB CC resistors should be confirmed on the actual board.
 SW1: latching DPDT-style power switch; footprint and terminal assignment estimated.
-SW2: tactile reset switch; exact vendor/mechanical dimensions unverified.
+SW2: user-selected SHOU HAN TS3735A 250gf 030, LCSC C2906282. Project-local EasyEDA footprint and STEP/VRML models. Common pairs 1/2 = RESET and 3/4 = GND; footprint rotated 90 degrees to preserve left/right net sides.
 J1: generic 16-contact USB-C footprint; compare shell lands with the factory part.
 J2: estimated 1.25 mm three-wire LiPo connector; verify family AND BATTERY POLARITY.
 TP1..TP14: exposed small lands beside the column-filter components; their probing
@@ -155,7 +155,7 @@ These checks establish internal net consistency, not a verified working circuit.
 PROJECT-LOCAL 3D MODELS
 All 60 fitted component footprints now have local 3D models under 3dmodels/.
 Model assignments are updated in the PCB and Reconstruction.pretty library.
-SW1, SW2 and L1 use explicitly approximate photo-based visualization models;
+SW1, SW2 and L1 now use project-local EasyEDA models for their selected parts;
 J2 and Y1 use representative library models for the estimated package.
 See 3dmodels/README.txt and review/3d-model-coverage.csv for provenance and limits.
 

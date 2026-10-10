@@ -1,0 +1,20 @@
+{
+  "reference": "Q2",
+  "value": "DMG2305UX",
+  "LCSC": "C2940629",
+  "manufacturer": "TECH PUBLIC",
+  "backup": "/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-Q2-C2940629-20261010-141330.zip",
+  "PCB_and_library_pad_blocks_byte_unchanged": true,
+  "footprint_geometry_models_placement_routing_unchanged": true,
+  "updated_files": [
+    "leftMainboard.kicad_pcb",
+    "PowerAndUSB.kicad_sch",
+    "Reconstruction.kicad_sym",
+    "Reconstruction.pretty/Q2_SOT-23.kicad_mod",
+    "reconstruction.json",
+    "component-confidence.csv",
+    "review/easyeda-model-audit.csv",
+    "README.txt"
+  ],
+  "all_schematic_pin_nets_unchanged": true
+}

@@ -97,3 +97,21 @@ Both STEP and VRML are customized derivatives of JLCEDA/EasyEDA Official Library
 U2 custom TP4056 marking 20261009-222832
 Custom model top marking: original ESOP8 and EasyEDA lettering removed, replaced with TP4056 in DejaVu Sans Regular, rotated 90 degrees clockwise and anchored 0.60 mm from the flat top edges at text-upright top/left (shifted another 0.20 mm down and right; cumulative shift 0.35 mm on each axis); light-gray dot in the existing pin-1 recess. Package, leads, exposed pad, model transform and PCB footprint unchanged.
 Both STEP and VRML are customized derivatives of JLCEDA/EasyEDA Official Library (https://lceda.cn/ and https://easyeda.com). Backup: /home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-U2-TP4056-marking-20261009-222832.zip
+
+SW2: C2906282 / SHOU HAN TS3735A 250gf 030. Footprint and STEP/VRML models imported from JLCEDA/EasyEDA Official Library (https://lceda.cn/ and https://easyeda.com). Source: https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/c36bae7e99004b83bd4fdc1d298f3360
+
+SW2 custom amber model 20261010-134504
+Custom SW2 appearance based on supplied photograph: circular button reduced 10% from 3.0 to 2.7 mm, recoloured amber (#805900), with matching vertical amber rectangle 1.20 x 3.20 mm stopping 0.25 mm from body edges. Body, terminals, footprint, placement and routing unchanged.
+Backup: /home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-SW2-amber-model-20261010-134504.zip
+
+SW2 custom amber model 20261010-135326
+Custom SW2 appearance based on supplied photograph: circular button reduced 10% from 3.0 to 2.7 mm, recoloured amber (#946900), with matching vertical amber rectangle 1.20 x 3.20 mm stopping 0.25 mm from body edges. Body, terminals, footprint, placement and routing unchanged.
+Backup: /home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-SW2-amber-model-20261010-135326.zip
+
+Q2 custom 5PEY marking 20261010-142226
+Custom Q2 model top: original EasyEDA logo, package text and pin-1 dot removed; centered 5PEY in DejaVu Sans Regular, 2.0 x 0.48 mm, oriented along the package long axis. Existing SOT-23 package visualization retained for selected TECH PUBLIC DMG2305UX C2940629. Model transform, package outline, terminals, manually sized PCB pads, footprint, placement and routing unchanged.
+Backup: /home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-Q2-5PEY-marking-20261010-142226.zip
+
+Q2 custom 5PEY marking 20261010-142521
+Custom Q2 model top: original EasyEDA logo, package text and pin-1 dot removed; 5PEY in DejaVu Sans Regular reduced 10 percent to 1.8 x 0.432 mm, rotated 180 degrees from previous marking (native -90 degrees), and anchored 0.20 mm from the right flat-top edge as read upright, with vertical centering retained. Existing SOT-23 package visualization retained for selected TECH PUBLIC DMG2305UX C2940629. Model transform, package outline, terminals, manually sized PCB pads, footprint, placement and routing unchanged.
+Backup: /home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-Q2-5PEY-marking-20261010-142521.zip

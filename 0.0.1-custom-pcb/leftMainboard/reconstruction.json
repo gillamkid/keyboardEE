@@ -482,23 +482,25 @@
     },
     {
       "reference": "SW2",
-      "value": "Reset tactile 4x4mm (estimate)",
-      "footprint": "Reset_Tactile_4mm_PhotoEstimate",
+      "value": "TS3735A 250gf 030",
+      "footprint": "SW_TS3735A_C2906282_EasyEDA",
       "x": 42.45,
       "y": 9.75,
-      "rotation": 0.0,
+      "rotation": 90.0,
       "nets": {
         "1": "RESET",
-        "2": "GND"
+        "2": "RESET",
+        "3": "GND",
+        "4": "GND"
       },
-      "confidence": "Medium",
-      "evidence": "Yellow tactile dome in photo beside module",
-      "candidate": "4x4mm SMT tactile switch",
+      "confidence": "User-selected replacement; original part unconfirmed",
+      "evidence": "User-selected C2906282; footprint and 3D models imported from JLCEDA/EasyEDA Official Library; common pin pairs 1/2 and 3/4 checked against manufacturer drawing",
+      "candidate": "C2906282 / TS3735A 250gf 030",
       "dnp": false,
       "sheet": "Controller",
       "uuid": "9b28f32c-df81-4ab4-9e1f-05afca3c13f9",
       "pinnames": {},
-      "symbol_name": "SW2_Reset_Tactile_4mm_PhotoEstimate",
+      "symbol_name": "SW2_TS3735A_C2906282",
       "sheet_uuid": "2e843c11-c64d-453b-b36a-ba1514fd61ab"
     },
     {
@@ -510,10 +512,10 @@
       "rotation": 0.0,
       "nets": {
         "1": "VBAT",
-        "2": "VBAT_SWITCHED",
+        "2": "SW1_ON_VDDH",
         "3": "",
         "4": "VBAT",
-        "5": "VBAT_SWITCHED",
+        "5": "SW1_ON_VDDH",
         "6": ""
       },
       "confidence": "Low",
@@ -683,25 +685,28 @@
     },
     {
       "reference": "Q2",
-      "value": "P-channel MOSFET (guess)",
+      "value": "DMG2305UX",
       "footprint": "Q2_SOT-23",
       "x": 10.45,
       "y": 17.9,
       "rotation": 180.0,
       "nets": {
         "1": "VBUS_USB",
-        "2": "VBAT_SWITCHED",
+        "2": "SW1_ON_VDDH",
         "3": "VDDH"
       },
-      "confidence": "Low",
-      "evidence": "3-lead packages; faint SS/G marking; polarity and part number unconfirmed",
-      "candidate": "AO3401A / SI2301 family",
+      "confidence": "User-selected replacement; P-channel confirmed by user",
+      "evidence": "User confirmed P-channel by multimeter; reported 5PEY marking matches manufacturer 5Pxx marking format; user-selected C2940629",
+      "candidate": "C2940629 / DMG2305UX",
       "dnp": false,
       "sheet": "PowerAndUSB",
       "uuid": "9ec78dbf-1091-4a2e-a858-cfdf7cd3d1e7",
       "pinnames": {},
       "symbol_name": "Q2_Q2_SOT-23",
-      "sheet_uuid": "3d4a4145-dfbf-4d53-839d-da2f670b524e"
+      "sheet_uuid": "3d4a4145-dfbf-4d53-839d-da2f670b524e",
+      "lcsc": "C2940629",
+      "manufacturer": "TECH PUBLIC",
+      "mpn": "DMG2305UX"
     },
     {
       "reference": "Q3",

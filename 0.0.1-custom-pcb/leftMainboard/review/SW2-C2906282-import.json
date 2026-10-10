@@ -1,0 +1,42 @@
+{
+  "files": [
+    "Reconstruction.pretty/SW_TS3735A_C2906282_EasyEDA.kicad_mod",
+    "3dmodels/EasyEDA/TS3735A_250gf_030_C2906282_EasyEDA.step",
+    "3dmodels/EasyEDA/TS3735A_250gf_030_C2906282_EasyEDA.wrl",
+    "leftMainboard.kicad_pcb",
+    "Reconstruction.kicad_sym",
+    "Controller.kicad_sch",
+    "reconstruction.json",
+    "component-confidence.csv",
+    "review/easyeda-model-audit.csv",
+    "review/3d-model-coverage.csv",
+    "3dmodels/sources.json",
+    "README.txt",
+    "3dmodels/README.txt"
+  ],
+  "position": [
+    91.11667,
+    60.28333
+  ],
+  "rotation": 90,
+  "nets": {
+    "1": "RESET",
+    "2": "RESET",
+    "3": "GND",
+    "4": "GND"
+  },
+  "model_source": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/c36bae7e99004b83bd4fdc1d298f3360",
+  "footprint": "Reconstruction:SW_TS3735A_C2906282_EasyEDA",
+  "date": "20261010-133019",
+  "backup": "/home/sam.gillam/keyboardEE/0.0.1-custom-pcb/leftMainboard/leftMainboard-backups/before-SW2-C2906282-20261010-133019.zip",
+  "pin_pairing_source": "https://evelta.com/content/datasheets/336-TS3735A%20250gf.pdf",
+  "schematic_nets_for_other_components_unchanged": true,
+  "PCB_bytes_outside_SW2_unchanged": true,
+  "DRC_violations_identical_to_before": true,
+  "unconnected_count_unchanged": true,
+  "SW2_unconnected_items": 0,
+  "existing_DRC_violations": 39,
+  "existing_unconnected_items": 22,
+  "STEP_and_VRML_rendered_and_visually_checked": true,
+  "model_colour_note": "Unmodified EasyEDA models; source uses a white top instead of the amber film seen in the original photograph."
+}

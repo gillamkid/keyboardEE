@@ -11,14 +11,14 @@ J10,HC-FPC-0.5-12P-FH20,C19273928,"High (pinout), Medium (MPN)",Pinout copied fr
 J1,USB-C USB2 receptacle (footprint estimate),GCT USB4105-GF-A,Medium,"16 contacts, four shell anchors visible; connector mounted facing board side",4.2,6.15,-90.0,False
 J2,53398-0371,C293633 / 53398-0371,User-selected replacement; original part unconfirmed,User-selected C293633 replacement; Molex PicoBlade 53398-0371 vertical 3-pin 1.25 mm SMT; exact-part KiCad footprint and detailed EasyEDA model,20.15,65.2,180.0,False
 J3,GPIO / SWD 2x6 1.27mm,,High,Official MoErgo header schematic and GPIO mapping,21.95,3.5,90.0,False
-SW2,Reset tactile 4x4mm (estimate),4x4mm SMT tactile switch,Medium,Yellow tactile dome in photo beside module,42.45,9.75,0.0,False
+SW2,Reset tactile 4x4mm (estimate),4x4mm SMT tactile switch,User-selected replacement; original part unconfirmed,User-selected C2906282; footprint and 3D models imported from JLCEDA/EasyEDA Official Library; common pin pairs 1/2 and 3/4 checked against manufacturer drawing,42.45,9.75,90.0,False
 SW1,TK-6580A-1,C528770 / TK-6580A-1,User-selected replacement; original part unconfirmed,User-selected replacement; footprint and models from JLCEDA/EasyEDA Official Library; pin function checked against manufacturer drawing,4.8,19.4,0.0,False
 U1,SY7088DGC,C178240 / SY7088DGC,High: marking and body size match; selected replacement,User-reported VTGEA marking and approximately 2.1x3 mm body match Silergy VTxyz marking and DFN2x3-8; selected C178240; pinout checked against manufacturer datasheet,21.2,16.4,-90.0,False
 U2,TP4056-42-ESOP8,,"High (family), Medium (variant)",TP4056 marking visible; exposed pad visible in sanded board. Exact suffix unconfirmed,15.6,22.8,180.0,False
 U3,PRTR5V0U2X,,High,WR1 marking and four-lead SOT143 match manufacturer %R1 code,10.7,5.6,90.0,False
 U5,74CBTLV1G125GV (probable b25 marking),74CBTLV1G125GV; surrounding topology unverified,"Medium (marking), Low (circuit)",b25 marking matches Nexperia bus switch; uses 2.4V rail. Exact surrounding LED translation circuit unresolved.,20.6,32.4,180.0,False
 Q1,BSS138 N-channel,BSS138; selected LCSC C7420339,Medium,"User measured body about 3x1.3 mm, marking SS; diode-mode display 414 (about 0.414 V), pins 1/2 shorted, red 2 black 3; supports N-channel; reverse reading and isolated-device test not reported; exact MPN unconfirmed",22.5,25.3,180.0,False
-Q2,P-channel MOSFET (guess),AO3401A / SI2301 family,Low,3-lead packages; faint SS/G marking; polarity and part number unconfirmed,10.45,17.9,180.0,False
+Q2,DMG2305UX,C2940629 / DMG2305UX,User-selected replacement; P-channel confirmed by user,User confirmed P-channel by multimeter; reported 5PEY marking matches manufacturer 5Pxx marking format; user-selected C2940629,10.45,17.9,180.0,False
 Q3,BSS138 N-channel,BSS138; selected LCSC C7420339,Medium,"User measured body about 3x1.3 mm, marking SS; diode-mode display 440 (about 0.440 V), pins 1/2 shorted, red 2 black 3; supports N-channel; reverse reading and isolated-device test not reported; exact MPN unconfirmed",4.5,13.7,180.0,False
 R1,30.1k,,Low,0402 package estimated; resistance not readable,19.6,19.9,0.0,False
 R2,10k,,Low,0402 package estimated; resistance not readable,21.7,20.0,0.0,False
